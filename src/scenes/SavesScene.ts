@@ -79,6 +79,13 @@ export class SavesScene extends Phaser.Scene {
     text(this, x, top + 370, `${r.score.toLocaleString('es-PE')} PTS`, { size: 34, weight: '900', color: CSS.lime, origin: [0.5, 0.5] });
     const zone = this.add.zone(x, CARD_Y, CARD_W, CARD_H).setInteractive({ useHandCursor: true });
     zone.on('pointerover', () => this.pickSlot(i));
+    // Clic en la tarjeta: la elige y hace su primera acción (CONTINUAR; en una completada, REINICIAR pide confirmación).
+    zone.on('pointerdown', (p: Phaser.Input.Pointer) => {
+      if (p.rightButtonDown() || this.ask) return;
+      this.pickSlot(i);
+      this.pickAction(0);
+      this.confirm();
+    });
     const items = this.optionsOf(r).map((a, k) => {
       const t = text(this, x, top + 430 + k * 50, LABEL[a], { size: 34, italic: true, weight: '900', origin: [0.5, 0.5] });
       t.setInteractive({ useHandCursor: true });
@@ -86,7 +93,8 @@ export class SavesScene extends Phaser.Scene {
         this.pickSlot(i);
         this.pickAction(k);
       });
-      t.on('pointerdown', () => {
+      t.on('pointerdown', (p: Phaser.Input.Pointer) => {
+        if (p.rightButtonDown()) return;
         this.pickSlot(i);
         this.pickAction(k);
         this.confirm();

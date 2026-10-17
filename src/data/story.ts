@@ -19,18 +19,21 @@ export const STORY_RIVALS = 12;
 
 /** Pistas sobre la entidad, en orden de avance (la n-ésima victoria da la pista n). Una por rival. */
 export const CLUES: string[] = [
-  "Todo empezó la misma noche. Todos estábamos ensayando con los amplis prendidos.",
-  "Antes de mi primer comentario de odio escuché un zumbido agudo. Como un acople.",
-  "Todos los comentarios salieron a las 3:33 de la madrugada. Dicen que en la selva, a esa misma hora, el agua del río empezó a vibrar.",
-  "Mientras más criticábamos, más fuerte sonaba el zumbido. Como si se alimentara.",
-  "La envidia no era nuestra. Era como si alguien la subiera de volumen dentro de la cabeza.",
-  "Hasta los instrumentos lo sintieron. Una guitarra vendida al peso en Marketplace despertó esa misma noche… odiando.",
-  "Esa misma noche se cortaron todas las transmisiones en vivo a la vez. En todas quedó el mismo pitido.",
-  "El zumbido no viene de un ampli. Viene de todos los amplis a la vez.",
-  "En un foro viejo hablan de una entidad que nace del feedback y vive del odio. La llaman El Acople.",
-  "Cada amigo que liberas lo debilita. Ya se dio cuenta. Está nervioso.",
-  "El viejo depósito de equipos de sonido. Nadie lo usa hace años… pero tiene luz.",
-  "Está ahí, dentro del ampli más grande. Te está esperando.",
+  // Acto 1: ¿qué nos pasó?
+  "Perdón por lo que te escribí. Ni sé qué significa «sobrevalorado»… y te lo puse cuarenta veces.",
+  "Todos comentamos a las 3:33 de la madrugada. Yo a esa hora duermo. O eso creía.",
+  "Antes de comentar sonaba un zumbido, como un acople. Culpé al vecino. Él también estaba comentando.",
+  "Mientras más criticábamos, más fuerte zumbaba. No era ruido: era algo comiendo.",
+  // Acto 2: ¿de dónde salió?
+  "Todo empezó en el Gran Jam Online: toda la escena en vivo, cada uno desde su cuarto, con los amplis al máximo.",
+  "A las 3:33 un micrófono quedó pegado a un parlante. El acople pasó por todas las transmisiones y las cortó.",
+  "El pitido se quedó en los cables. Hasta una guitarra de Marketplace amaneció odiando: estaba enchufada.",
+  "No inventó la envidia: ya la teníamos, bajita. Solo encontró la perilla y le subió el volumen.",
+  // Acto 3: ¿dónde está?
+  "Un foro de sonidistas de 2009 lo describe: un feedback que vive del odio. Le dicen El Acople.",
+  "Cada amigo que liberas le baja el volumen. Ya se dio cuenta: anoche el zumbido desafinaba.",
+  "Todos los cables terminan en el viejo depósito de equipos de sonido. Nadie lo usa hace años… pero paga luz.",
+  "Está dentro del ampli más grande, con la perilla en 11. Te está esperando.",
 ];
 
 export interface StoryLine {
@@ -47,11 +50,11 @@ export const REVEAL: StoryLine[] = [
   },
   {
     speaker: "boss",
-    text: "¿Creíste que la envidia era de ellos? Yo solo le subí el volumen.",
+    text: "¿Nunca te preguntaste de quién era el micrófono pegado al parlante esa noche, {name}?",
   },
   {
     speaker: "boss",
-    text: "Cada crítica a las 3:33 me hizo más grande. Y tú me los estás quitando.",
+    text: "Era el tuyo. Tú me diste la voz. Ellos me dieron el hambre. Y ahora me los estás quitando.",
   },
   { speaker: "player", text: "{quote}" },
 ];
@@ -60,6 +63,7 @@ export const REVEAL: StoryLine[] = [
 export const FINALE: string[] = [
   "El chillido se apaga.",
   "Por toda Lima, los amplis se quedan en silencio… y luego vuelven a sonar. Esta vez, juntos.",
+  "{name} desenchufa su micrófono. Esta vez lo guarda lejos del parlante.",
 ];
 
 /** Epílogo de cada luchador elegible. */

@@ -124,6 +124,14 @@ export const Ranking = {
     }
   },
 
+  /** Cierra la sesión del navegador (la cuenta y su progreso quedan en Firebase). La próxima conexión crea una anónima nueva. */
+  async signOut(): Promise<void> {
+    const { am, auth } = await connect();
+    await am.signOut(auth);
+    user = null;
+    taken = null;
+  },
+
   /** Cambia a la cuenta de Google que ya existía (la anónima de este navegador se abandona). */
   async useGoogle(): Promise<Player> {
     const { am, auth } = loaded ?? (await connect());

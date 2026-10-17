@@ -106,6 +106,7 @@ export class TitleScene extends Phaser.Scene {
     const x = GAME_WIDTH - 24;
     if (Ranking.user?.google) {
       text(this, x, 30, `✓ ${StoryRun.name}  ·  GOOGLE`, { size: 24, weight: '800', color: CSS.lime, origin: [1, 0.5], spacing: 2 });
+      this.signOutButton(x, 66);
       return;
     }
     text(this, x, 30, `JUGANDO COMO  ${StoryRun.name}`, { size: 24, weight: '800', color: CSS.lime, origin: [1, 0.5], spacing: 2 });
@@ -158,6 +159,46 @@ export class TitleScene extends Phaser.Scene {
     const onKey = (e: KeyboardEvent) => e.code === 'KeyG' && !e.repeat && go();
     window.addEventListener('keydown', onKey);
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => window.removeEventListener('keydown', onKey));
+  }
+
+  /** "SALIR" de la cuenta de Google: la primera X pide confirmar y la segunda cierra la sesión. Al volver se crea una anónima nueva con otro nickname. */
+  private signOutButton(x: number, y: number): void {
+    const idle = '[X] CERRAR SESIÓN';
+    const btn = text(this, x, y, idle, { size: 22, weight: '800', color: CSS.grey, origin: [1, 0.5], spacing: 2 });
+    let armed: Phaser.Time.TimerEvent | null = null;
+    let busy = false;
+    const go = () => {
+      if (busy || this.leaving) return;
+      Audio.blip(this, true);
+      if (!armed) {
+        btn.setText('¿CERRAR SESIÓN? TU PROGRESO QUEDA EN GOOGLE  ·  [X] SÍ').setColor(CSS.red);
+        armed = this.time.delayedCall(4000, () => {
+          armed = null;
+          btn.setText(idle).setColor(CSS.grey);
+        });
+        return;
+      }
+      armed.remove();
+      busy = true;
+      btn.setText('CERRANDO SESIÓN…').setColor(CSS.grey);
+      Ranking.signOut().then(
+        () => {
+          StoryRun.reset();
+          Profile.guest = false;
+          if (!this.sys.isActive()) return;
+          this.leaving = true;
+          connectProfile(this);
+        },
+        (e) => {
+          console.warn('[cuenta] cerrar sesión', e);
+          busy = false;
+          armed = null;
+          if (this.sys.isActive()) btn.setText('NO SE PUDO CERRAR SESIÓN  ·  [X] REINTENTAR').setColor(CSS.red);
+        },
+      );
+    };
+    btn.setInteractive({ useHandCursor: true }).on(Phaser.Input.Events.POINTER_DOWN, (p: Phaser.Input.Pointer) => !p.rightButtonDown() && go());
+    this.input.keyboard?.on('keydown-X', go);
   }
 
   update() {

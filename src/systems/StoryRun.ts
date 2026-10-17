@@ -248,4 +248,12 @@ export const StoryRun = {
   clear(): void {
     this.state = null;
   },
+
+  /** Sesión cerrada: olvida el perfil en memoria (en la cuenta queda todo guardado). */
+  reset(): void {
+    this.state = null;
+    this.name = '';
+    this.runs = {};
+    this.loaded = false;
+  },
 };
