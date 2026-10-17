@@ -37,6 +37,15 @@ const restore = (raw: StoryState | null): StoryState | null => {
   if (!raw || typeof raw !== 'object' || !Array.isArray(raw.rivals)) return null;
   if (!ROSTER.includes(raw.player) || !(raw.index >= 0 && raw.index <= raw.rivals.length)) return null;
   raw.score ??= 0;
+  // Rivales que ya no están en el roster (personaje renombrado o quitado): se cambian por otro, también en `freed`.
+  const lost = raw.rivals.filter((id) => !ROSTER.includes(id));
+  if (lost.length) {
+    const fresh = ROSTER.filter((id) => id !== raw.player && !raw.rivals.includes(id));
+    const swap = new Map(lost.map((id, i) => [id, fresh[i]]));
+    raw.rivals = raw.rivals.map((id) => swap.get(id) ?? id).filter((id): id is FighterId => !!id);
+    raw.freed = (raw.freed ?? []).map((id) => swap.get(id) ?? id).filter((id): id is FighterId => ROSTER.includes(id));
+    raw.index = Math.min(raw.index, raw.rivals.length);
+  }
   return raw;
 };
 
