@@ -51,10 +51,18 @@ interface Firebase {
 
 export interface Player {
   uid: string;
+  /** Cuenta vinculada a Google (si no, es anónima y vive solo en este navegador). */
+  google: boolean;
 }
 
 let ready: Promise<Firebase> | null = null;
+/** Firebase ya cargado: el popup de Google se abre sin esperas, dentro del gesto del jugador (si no, el navegador lo bloquea). */
+let loaded: Firebase | null = null;
 let user: Player | null = null;
+/** Credencial de Google que ya tenía cuenta propia (para `useGoogle`). */
+let taken: import('firebase/auth').OAuthCredential | null = null;
+
+const toPlayer = (u: import('firebase/auth').User): Player => ({ uid: u.uid, google: u.providerData.some((p) => p.providerId === 'google.com') });
 
 /** Firebase se carga recién la primera vez que se usa (no pesa en el arranque del juego). */
 const connect = () => {
@@ -62,9 +70,9 @@ const connect = () => {
     const fb = app.initializeApp(FIREBASE_CONFIG);
     const auth = am.getAuth(fb);
     am.onAuthStateChanged(auth, (u) => {
-      user = u ? { uid: u.uid } : null;
+      user = u ? toPlayer(u) : null;
     });
-    return { fs, db: fs.getFirestore(fb), am, auth };
+    return (loaded = { fs, db: fs.getFirestore(fb), am, auth });
   });
   return ready;
 };
@@ -91,7 +99,38 @@ export const Ranking = {
     const { am, auth } = await connect();
     if (await this.init()) return user!;
     const cred = await am.signInAnonymously(auth);
-    user = { uid: cred.user.uid };
+    user = toPlayer(cred.user);
+    return user;
+  },
+
+  /**
+   * Guarda la cuenta con Google: vincula la anónima (mismo uid, no se pierde nada). Si ese Google ya tiene su propia
+   * cuenta, devuelve 'taken' y `useGoogle` entra a esa. Llamar dentro del gesto del jugador (tecla o clic).
+   */
+  async linkGoogle(): Promise<'linked' | 'taken'> {
+    const { am, auth } = loaded ?? (await connect());
+    const current = auth.currentUser;
+    if (!current) throw new Error('sin sesión');
+    try {
+      const cred = await am.linkWithPopup(current, new am.GoogleAuthProvider());
+      await cred.user.reload();
+      user = toPlayer(auth.currentUser ?? cred.user);
+      return 'linked';
+    } catch (e) {
+      if ((e as { code?: string }).code !== 'auth/credential-already-in-use') throw e;
+      taken = am.GoogleAuthProvider.credentialFromError(e as import('firebase/app').FirebaseError);
+      if (!taken) throw e;
+      return 'taken';
+    }
+  },
+
+  /** Cambia a la cuenta de Google que ya existía (la anónima de este navegador se abandona). */
+  async useGoogle(): Promise<Player> {
+    const { am, auth } = loaded ?? (await connect());
+    if (!taken) throw new Error('sin credencial');
+    const cred = await am.signInWithCredential(auth, taken);
+    taken = null;
+    user = toPlayer(cred.user);
     return user;
   },
 

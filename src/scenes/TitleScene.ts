@@ -78,9 +78,7 @@ export class TitleScene extends Phaser.Scene {
     }
     Audio.blip(this, true);
     this.press.destroy();
-    if (StoryRun.ready) {
-      text(this, GAME_WIDTH - 24, 30, `JUGANDO COMO  ${StoryRun.name}`, { size: 24, weight: '800', color: CSS.lime, origin: [1, 0.5], spacing: 2 });
-    }
+    if (StoryRun.ready) this.account();
     const saved = StoryRun.ready && StoryRun.saved.length > 0;
     // Sin perfil, la historia vuelve a pedir la conexión. CONTINUAR abre las partidas guardadas; NUEVA HISTORIA
     // elige luchador y queda deshabilitada con todos los espacios ocupados.
@@ -101,6 +99,65 @@ export class TitleScene extends Phaser.Scene {
       { label: 'CRÉDITOS', onSelect: () => goTo(this, SCENES.Credits) },
     ], GAME_WIDTH / 2, 672, saved ? 46 : 52, 38);
     footer(this, 'W S  ELEGIR      A D  CAMBIAR      ENTER  CONFIRMAR');
+  }
+
+  /** Esquina superior: la cuenta. Anónima → "GUARDAR CON GOOGLE" (G o clic); con Google, solo la confirma. */
+  private account(): void {
+    const x = GAME_WIDTH - 24;
+    if (Ranking.user?.google) {
+      text(this, x, 30, `✓ ${StoryRun.name}  ·  GOOGLE`, { size: 24, weight: '800', color: CSS.lime, origin: [1, 0.5], spacing: 2 });
+      return;
+    }
+    text(this, x, 30, `JUGANDO COMO  ${StoryRun.name}`, { size: 24, weight: '800', color: CSS.lime, origin: [1, 0.5], spacing: 2 });
+    const idle = '☁ GUARDAR CON GOOGLE  [G]';
+    const link = text(this, x, 66, idle, { size: 24, weight: '800', color: CSS.cream, origin: [1, 0.5], spacing: 2 });
+    const pulse = this.tweens.add({ targets: link, alpha: 0.45, duration: 700, yoyo: true, repeat: -1 });
+    const say = (str: string, color: string = CSS.cream) => link.setText(str).setColor(color).setAlpha(1);
+    let busy = false;
+    let taken = false;
+    const fail = (e: unknown) => {
+      busy = false;
+      const code = (e as { code?: string }).code ?? '';
+      console.warn('[cuenta] google', e);
+      if (!this.sys.isActive()) return;
+      say(/popup-closed|cancelled-popup/.test(code) ? idle : 'NO SE PUDO CONECTAR  ·  [G] REINTENTAR', CSS.red);
+    };
+    // Se llama desde el evento de la tecla o del clic: el popup tiene que abrirse dentro del gesto.
+    const go = () => {
+      if (busy || this.leaving) return;
+      busy = true;
+      pulse.pause();
+      Audio.blip(this, true);
+      if (taken) {
+        say('ENTRANDO…', CSS.grey);
+        Ranking.useGoogle()
+          .then(() => StoryRun.sync())
+          .then(() => {
+            if (!this.sys.isActive()) return;
+            this.leaving = true;
+            goTo(this, SCENES.Title, { skipPress: true });
+          }, fail);
+        return;
+      }
+      say('CONECTANDO CON GOOGLE…', CSS.grey);
+      Ranking.linkGoogle().then((r) => {
+        busy = false;
+        if (!this.sys.isActive()) return;
+        if (r === 'linked') {
+          window.removeEventListener('keydown', onKey);
+          link.disableInteractive();
+          say(`✓ GUARDADO EN GOOGLE`, CSS.lime);
+          return;
+        }
+        taken = true;
+        say('ESA CUENTA YA TIENE PROGRESO  ·  [G] USARLA', CSS.red);
+      }, fail);
+    };
+    link.setInteractive({ useHandCursor: true }).on(Phaser.Input.Events.POINTER_DOWN, go);
+    // La tecla se escucha en el DOM (Phaser la procesa un frame después, fuera del gesto, y Safari bloquearía el popup).
+    const onKey = (e: KeyboardEvent) => e.code === 'KeyG' && !e.repeat && go();
+    window.addEventListener('keydown', onKey);
+    this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => window.removeEventListener('keydown', onKey));
   }
 
   update() {
