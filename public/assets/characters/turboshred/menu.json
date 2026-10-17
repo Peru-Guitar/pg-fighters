@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "turboshred-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 246,
+    "h": 306
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 246,
+    "h": 306
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 246,
+    "h": 306
+   },
+   "pivot": {
+    "x": 0.5667381399088717,
+    "y": 0.9901960784313726
+   }
+  },
+  "turboshred-portrait": {
+   "frame": {
+    "x": 248,
+    "y": 0,
+    "w": 239,
+    "h": 283
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 239,
+    "h": 283
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 239,
+    "h": 283
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9893992932862191
+   }
+  },
+  "turboshred-win": {
+   "frame": {
+    "x": 489,
+    "y": 0,
+    "w": 222,
+    "h": 311
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 222,
+    "h": 311
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 222,
+    "h": 311
+   },
+   "pivot": {
+    "x": 0.5067444493674002,
+    "y": 0.9903536977491961
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 713,
+   "h": 311
+  },
+  "scale": "1"
+ }
+}

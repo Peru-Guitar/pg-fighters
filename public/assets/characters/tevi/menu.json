@@ -1,0 +1,61 @@
+{
+ "frames": {
+  "tevi-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 323,
+    "h": 489
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 323,
+    "h": 489
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 323,
+    "h": 489
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9938650306748467
+   }
+  },
+  "tevi-win": {
+   "frame": {
+    "x": 325,
+    "y": 0,
+    "w": 351,
+    "h": 469
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 351,
+    "h": 469
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 351,
+    "h": 469
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9936034115138592
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 678,
+   "h": 489
+  },
+  "scale": "1"
+ }
+}

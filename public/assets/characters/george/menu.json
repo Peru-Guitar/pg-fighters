@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "george-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 205,
+    "h": 257
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 205,
+    "h": 257
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 205,
+    "h": 257
+   },
+   "pivot": {
+    "x": 0.5299988760256266,
+    "y": 0.9883268482490273
+   }
+  },
+  "george-portrait": {
+   "frame": {
+    "x": 207,
+    "y": 0,
+    "w": 252,
+    "h": 280
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 252,
+    "h": 280
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 252,
+    "h": 280
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9892857142857143
+   }
+  },
+  "george-win": {
+   "frame": {
+    "x": 461,
+    "y": 0,
+    "w": 181,
+    "h": 351
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 181,
+    "h": 351
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 181,
+    "h": 351
+   },
+   "pivot": {
+    "x": 0.1040424484437394,
+    "y": 0.9914529914529915
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 644,
+   "h": 351
+  },
+  "scale": "1"
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "chantal-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 256,
+    "h": 317
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 256,
+    "h": 317
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 256,
+    "h": 317
+   },
+   "pivot": {
+    "x": 0.06354775828460038,
+    "y": 0.9972247918593895
+   }
+  },
+  "chantal-portrait": {
+   "frame": {
+    "x": 258,
+    "y": 0,
+    "w": 250,
+    "h": 287
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 250,
+    "h": 287
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 250,
+    "h": 287
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9895470383275261
+   }
+  },
+  "chantal-win": {
+   "frame": {
+    "x": 510,
+    "y": 0,
+    "w": 164,
+    "h": 292
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 164,
+    "h": 292
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 164,
+    "h": 292
+   },
+   "pivot": {
+    "x": 0.5023278437912584,
+    "y": 0.9897260273972602
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 676,
+   "h": 317
+  },
+  "scale": "1"
+ }
+}

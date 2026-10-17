@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "ferdex-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 241,
+    "h": 293
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 241,
+    "h": 293
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 241,
+    "h": 293
+   },
+   "pivot": {
+    "x": 0.5799130696006459,
+    "y": 0.9897610921501706
+   }
+  },
+  "ferdex-portrait": {
+   "frame": {
+    "x": 243,
+    "y": 0,
+    "w": 225,
+    "h": 316
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 225,
+    "h": 316
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 225,
+    "h": 316
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.990506329113924
+   }
+  },
+  "ferdex-win": {
+   "frame": {
+    "x": 470,
+    "y": 0,
+    "w": 284,
+    "h": 315
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 284,
+    "h": 315
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 284,
+    "h": 315
+   },
+   "pivot": {
+    "x": 0.5105633802816901,
+    "y": 0.9904761904761905
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 756,
+   "h": 316
+  },
+  "scale": "1"
+ }
+}

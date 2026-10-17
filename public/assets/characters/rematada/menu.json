@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "rematada-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 198,
+    "h": 257
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 198,
+    "h": 257
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 198,
+    "h": 257
+   },
+   "pivot": {
+    "x": 0.5111270495885881,
+    "y": 0.9883268482490273
+   }
+  },
+  "rematada-portrait": {
+   "frame": {
+    "x": 200,
+    "y": 0,
+    "w": 272,
+    "h": 268
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 272,
+    "h": 268
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 272,
+    "h": 268
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9888059701492538
+   }
+  },
+  "rematada-win": {
+   "frame": {
+    "x": 474,
+    "y": 0,
+    "w": 212,
+    "h": 264
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 212,
+    "h": 264
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 212,
+    "h": 264
+   },
+   "pivot": {
+    "x": 0.27296749975303763,
+    "y": 0.9886363636363636
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 688,
+   "h": 268
+  },
+  "scale": "1"
+ }
+}

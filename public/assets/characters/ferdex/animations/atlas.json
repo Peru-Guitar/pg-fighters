@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1994,
+        "h": 784
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-airKick-0",
+          "frame": {
+            "x": 313,
+            "y": 8,
+            "w": 272,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 272,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 272,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.375,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "ferdex-airKick-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 289,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 289,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 289,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.4844290657439446,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "ferdex-airKick-2",
+          "frame": {
+            "x": 979,
+            "y": 8,
+            "w": 427,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 427,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 427,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.36533957845433257,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "ferdex-airKick-3",
+          "frame": {
+            "x": 8,
+            "y": 416,
+            "w": 387,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.268733850129199,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "ferdex-airKick-4",
+          "frame": {
+            "x": 601,
+            "y": 8,
+            "w": 362,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.4419889502762431,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "ferdex-airKick-5",
+          "frame": {
+            "x": 1422,
+            "y": 8,
+            "w": 281,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.5338078291814946,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "ferdex-airKick-6",
+          "frame": {
+            "x": 411,
+            "y": 416,
+            "w": 278,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 278,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.42805755395683454,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "ferdex-airKick-7",
+          "frame": {
+            "x": 1719,
+            "y": 8,
+            "w": 267,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 267,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 267,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.42696629213483145,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "ferdex-airKick",
+          "frame": {
+            "x": 313,
+            "y": 8,
+            "w": 272,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 272,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 272,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.375,
+            "y": 0.9923076923076923
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1996,
+        "h": 788
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-airPunch-0",
+          "frame": {
+            "x": 1454,
+            "y": 8,
+            "w": 260,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 260,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 260,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.4153846153846154,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "ferdex-airPunch-1",
+          "frame": {
+            "x": 1158,
+            "y": 8,
+            "w": 280,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 280,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 280,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.44285714285714284,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "ferdex-airPunch-2",
+          "frame": {
+            "x": 710,
+            "y": 8,
+            "w": 432,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 432,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 432,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.1724537037037037,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "ferdex-airPunch-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 414,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 414,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 414,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.19927536231884058,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "ferdex-airPunch-4",
+          "frame": {
+            "x": 8,
+            "y": 413,
+            "w": 272,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 272,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 272,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.3952205882352941,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "ferdex-airPunch-5",
+          "frame": {
+            "x": 1730,
+            "y": 8,
+            "w": 258,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 258,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 258,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.4689922480620155,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "ferdex-airPunch-6",
+          "frame": {
+            "x": 438,
+            "y": 8,
+            "w": 256,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.3984375,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "ferdex-airPunch-7",
+          "frame": {
+            "x": 296,
+            "y": 413,
+            "w": 255,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 255,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 255,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.4411764705882353,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "ferdex-airPunch",
+          "frame": {
+            "x": 1454,
+            "y": 8,
+            "w": 260,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 260,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 260,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.4153846153846154,
+            "y": 0.9918918918918919
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1709,
+        "h": 859
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-backdash-0",
+          "frame": {
+            "x": 316,
+            "y": 8,
+            "w": 359,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "ferdex-backdash-1",
+          "frame": {
+            "x": 691,
+            "y": 8,
+            "w": 332,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5617469879518072,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "ferdex-backdash-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 292,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.7654109589041096,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "ferdex-backdash-3",
+          "frame": {
+            "x": 383,
+            "y": 452,
+            "w": 247,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 247,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 247,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.39068825910931176,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "ferdex-backdash-4",
+          "frame": {
+            "x": 1393,
+            "y": 8,
+            "w": 308,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 308,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 308,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "ferdex-backdash-5",
+          "frame": {
+            "x": 646,
+            "y": 452,
+            "w": 337,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.5385756676557863,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "ferdex-backdash-6",
+          "frame": {
+            "x": 8,
+            "y": 452,
+            "w": 359,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "ferdex-backdash-7",
+          "frame": {
+            "x": 1039,
+            "y": 8,
+            "w": 338,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "ferdex-backdash",
+          "frame": {
+            "x": 316,
+            "y": 8,
+            "w": 359,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2012,
+        "h": 817
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-special-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 374,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "ferdex-special-1",
+          "frame": {
+            "x": 903,
+            "y": 426,
+            "w": 396,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.4356060606060606,
+            "y": 0.9911504424778761
+          }
+        },
+        {
+          "filename": "ferdex-special-2",
+          "frame": {
+            "x": 398,
+            "y": 8,
+            "w": 396,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "ferdex-special-3",
+          "frame": {
+            "x": 810,
+            "y": 8,
+            "w": 427,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 427,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 427,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.4882903981264637,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "ferdex-special-4",
+          "frame": {
+            "x": 8,
+            "y": 426,
+            "w": 473,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 473,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 473,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.4260042283298097,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "ferdex-special-5",
+          "frame": {
+            "x": 497,
+            "y": 426,
+            "w": 390,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.4935897435897436,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "ferdex-special-6",
+          "frame": {
+            "x": 1632,
+            "y": 8,
+            "w": 372,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "ferdex-special-7",
+          "frame": {
+            "x": 1253,
+            "y": 8,
+            "w": 363,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "ferdex-special",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 374,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1844,
+        "h": 801
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-block-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 349,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "ferdex-block-1",
+          "frame": {
+            "x": 736,
+            "y": 413,
+            "w": 344,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "ferdex-block-2",
+          "frame": {
+            "x": 1110,
+            "y": 8,
+            "w": 353,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "ferdex-block-3",
+          "frame": {
+            "x": 373,
+            "y": 8,
+            "w": 357,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "ferdex-block-4",
+          "frame": {
+            "x": 1479,
+            "y": 8,
+            "w": 357,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "ferdex-block-5",
+          "frame": {
+            "x": 746,
+            "y": 8,
+            "w": 348,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "ferdex-block-6",
+          "frame": {
+            "x": 374,
+            "y": 413,
+            "w": 346,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "ferdex-block-7",
+          "frame": {
+            "x": 8,
+            "y": 413,
+            "w": 350,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "ferdex-block",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 349,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1882,
+        "h": 742
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-crouch-0",
+          "frame": {
+            "x": 759,
+            "y": 8,
+            "w": 361,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "ferdex-crouch-1",
+          "frame": {
+            "x": 347,
+            "y": 389,
+            "w": 320,
+            "h": 341
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 341
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 341
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9912023460410557
+          }
+        },
+        {
+          "filename": "ferdex-crouch-2",
+          "frame": {
+            "x": 383,
+            "y": 8,
+            "w": 360,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "ferdex-crouch-3",
+          "frame": {
+            "x": 8,
+            "y": 389,
+            "w": 323,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "ferdex-crouch-4",
+          "frame": {
+            "x": 1136,
+            "y": 8,
+            "w": 361,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "ferdex-crouch-5",
+          "frame": {
+            "x": 683,
+            "y": 389,
+            "w": 326,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.4938650306748466,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "ferdex-crouch-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 359,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "ferdex-crouch-7",
+          "frame": {
+            "x": 1513,
+            "y": 8,
+            "w": 361,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "ferdex-crouch",
+          "frame": {
+            "x": 759,
+            "y": 8,
+            "w": 361,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914529914529915
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1969,
+        "h": 765
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-crouchBlock-0",
+          "frame": {
+            "x": 792,
+            "y": 402,
+            "w": 384,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "ferdex-crouchBlock-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 378,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "ferdex-crouchBlock-2",
+          "frame": {
+            "x": 402,
+            "y": 8,
+            "w": 378,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "ferdex-crouchBlock-3",
+          "frame": {
+            "x": 796,
+            "y": 8,
+            "w": 375,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "ferdex-crouchBlock-4",
+          "frame": {
+            "x": 1579,
+            "y": 8,
+            "w": 382,
+            "h": 357
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 357
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 357
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915966386554622
+          }
+        },
+        {
+          "filename": "ferdex-crouchBlock-5",
+          "frame": {
+            "x": 8,
+            "y": 402,
+            "w": 374,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "ferdex-crouchBlock-6",
+          "frame": {
+            "x": 398,
+            "y": 402,
+            "w": 378,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "ferdex-crouchBlock-7",
+          "frame": {
+            "x": 1187,
+            "y": 8,
+            "w": 376,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "ferdex-crouchBlock",
+          "frame": {
+            "x": 792,
+            "y": 402,
+            "w": 384,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914529914529915
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1846,
+        "h": 769
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-crouchHurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 343,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "ferdex-crouchHurt-1",
+          "frame": {
+            "x": 367,
+            "y": 8,
+            "w": 360,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "ferdex-crouchHurt-2",
+          "frame": {
+            "x": 745,
+            "y": 398,
+            "w": 344,
+            "h": 354
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 354
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 354
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915254237288136
+          }
+        },
+        {
+          "filename": "ferdex-crouchHurt-3",
+          "frame": {
+            "x": 743,
+            "y": 8,
+            "w": 345,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "ferdex-crouchHurt-4",
+          "frame": {
+            "x": 1104,
+            "y": 8,
+            "w": 351,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "ferdex-crouchHurt-5",
+          "frame": {
+            "x": 1471,
+            "y": 8,
+            "w": 367,
+            "h": 363
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 363
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 363
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917355371900827
+          }
+        },
+        {
+          "filename": "ferdex-crouchHurt-6",
+          "frame": {
+            "x": 376,
+            "y": 398,
+            "w": 353,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "ferdex-crouchHurt-7",
+          "frame": {
+            "x": 8,
+            "y": 398,
+            "w": 352,
+            "h": 363
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 363
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 363
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917355371900827
+          }
+        },
+        {
+          "filename": "ferdex-crouchHurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 343,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919786096256684
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1690,
+        "h": 740
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-crouchPunch-0",
+          "frame": {
+            "x": 845,
+            "y": 8,
+            "w": 389,
+            "h": 354
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 354
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 354
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915254237288136
+          }
+        },
+        {
+          "filename": "ferdex-crouchPunch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 383,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 383,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 383,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "ferdex-crouchPunch-2",
+          "frame": {
+            "x": 1235,
+            "y": 380,
+            "w": 409,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.4792176039119804,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "ferdex-crouchPunch-3",
+          "frame": {
+            "x": 407,
+            "y": 8,
+            "w": 422,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 422,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.46208530805687204,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "ferdex-crouchPunch-4",
+          "frame": {
+            "x": 1250,
+            "y": 8,
+            "w": 432,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 432,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 432,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.4537037037037037,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "ferdex-crouchPunch-5",
+          "frame": {
+            "x": 418,
+            "y": 380,
+            "w": 397,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "ferdex-crouchPunch-6",
+          "frame": {
+            "x": 831,
+            "y": 380,
+            "w": 388,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "ferdex-crouchPunch-7",
+          "frame": {
+            "x": 8,
+            "y": 380,
+            "w": 394,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "ferdex-crouchPunch",
+          "frame": {
+            "x": 845,
+            "y": 8,
+            "w": 389,
+            "h": 354
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 354
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 354
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915254237288136
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1851,
+        "h": 823
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-dash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 344,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "ferdex-dash-1",
+          "frame": {
+            "x": 1503,
+            "y": 8,
+            "w": 340,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.4573529411764706,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "ferdex-dash-2",
+          "frame": {
+            "x": 804,
+            "y": 443,
+            "w": 399,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.2644110275689223,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "ferdex-dash-3",
+          "frame": {
+            "x": 368,
+            "y": 8,
+            "w": 393,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5063613231552163,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "ferdex-dash-4",
+          "frame": {
+            "x": 426,
+            "y": 443,
+            "w": 362,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.4046961325966851,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "ferdex-dash-5",
+          "frame": {
+            "x": 8,
+            "y": 443,
+            "w": 402,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.5012437810945274,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "ferdex-dash-6",
+          "frame": {
+            "x": 1144,
+            "y": 8,
+            "w": 343,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.5233236151603499,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "ferdex-dash-7",
+          "frame": {
+            "x": 777,
+            "y": 8,
+            "w": 351,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "ferdex-dash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 344,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1846,
+        "h": 644
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 327,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "ferdex-ko-1",
+          "frame": {
+            "x": 351,
+            "y": 8,
+            "w": 295,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.48983050847457626,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "ferdex-ko-2",
+          "frame": {
+            "x": 662,
+            "y": 8,
+            "w": 349,
+            "h": 325
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 325
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 325
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9907692307692307
+          }
+        },
+        {
+          "filename": "ferdex-ko-3",
+          "frame": {
+            "x": 1027,
+            "y": 8,
+            "w": 370,
+            "h": 286
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 286
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 286
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9895104895104895
+          }
+        },
+        {
+          "filename": "ferdex-ko-4",
+          "frame": {
+            "x": 1413,
+            "y": 8,
+            "w": 425,
+            "h": 259
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 425,
+            "h": 259
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 425,
+            "h": 259
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9884169884169884
+          }
+        },
+        {
+          "filename": "ferdex-ko-5",
+          "frame": {
+            "x": 8,
+            "y": 447,
+            "w": 401,
+            "h": 189
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 401,
+            "h": 189
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 401,
+            "h": 189
+          },
+          "pivot": {
+            "x": 0.48877805486284287,
+            "y": 0.9841269841269841
+          }
+        },
+        {
+          "filename": "ferdex-ko-6",
+          "frame": {
+            "x": 425,
+            "y": 447,
+            "w": 397,
+            "h": 167
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 167
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 167
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9820359281437125
+          }
+        },
+        {
+          "filename": "ferdex-ko-7",
+          "frame": {
+            "x": 838,
+            "y": 447,
+            "w": 409,
+            "h": 153
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 153
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 153
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9803921568627451
+          }
+        },
+        {
+          "filename": "ferdex-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 327,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2037,
+        "h": 573
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-down-0",
+          "frame": {
+            "x": 1227,
+            "y": 8,
+            "w": 385,
+            "h": 271
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 271
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 271
+          },
+          "pivot": {
+            "x": 0.4623376623376623,
+            "y": 0.988929889298893
+          }
+        },
+        {
+          "filename": "ferdex-down-1",
+          "frame": {
+            "x": 1628,
+            "y": 8,
+            "w": 401,
+            "h": 271
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 401,
+            "h": 271
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 401,
+            "h": 271
+          },
+          "pivot": {
+            "x": 0.4389027431421446,
+            "y": 0.988929889298893
+          }
+        },
+        {
+          "filename": "ferdex-down-2",
+          "frame": {
+            "x": 823,
+            "y": 8,
+            "w": 388,
+            "h": 272
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 272
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 272
+          },
+          "pivot": {
+            "x": 0.4497422680412371,
+            "y": 0.9889705882352942
+          }
+        },
+        {
+          "filename": "ferdex-down-3",
+          "frame": {
+            "x": 809,
+            "y": 301,
+            "w": 390,
+            "h": 261
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 261
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 261
+          },
+          "pivot": {
+            "x": 0.47435897435897434,
+            "y": 0.9885057471264368
+          }
+        },
+        {
+          "filename": "ferdex-down-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 391,
+            "h": 277
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 277
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 277
+          },
+          "pivot": {
+            "x": 0.46675191815856776,
+            "y": 0.9891696750902527
+          }
+        },
+        {
+          "filename": "ferdex-down-5",
+          "frame": {
+            "x": 415,
+            "y": 8,
+            "w": 392,
+            "h": 273
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 273
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 273
+          },
+          "pivot": {
+            "x": 0.4655612244897959,
+            "y": 0.989010989010989
+          }
+        },
+        {
+          "filename": "ferdex-down-6",
+          "frame": {
+            "x": 8,
+            "y": 301,
+            "w": 384,
+            "h": 264
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 264
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 264
+          },
+          "pivot": {
+            "x": 0.4739583333333333,
+            "y": 0.9886363636363636
+          }
+        },
+        {
+          "filename": "ferdex-down-7",
+          "frame": {
+            "x": 408,
+            "y": 301,
+            "w": 385,
+            "h": 262
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 262
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 262
+          },
+          "pivot": {
+            "x": 0.4779220779220779,
+            "y": 0.9885496183206107
+          }
+        },
+        {
+          "filename": "ferdex-down",
+          "frame": {
+            "x": 1227,
+            "y": 8,
+            "w": 385,
+            "h": 271
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 271
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 271
+          },
+          "pivot": {
+            "x": 0.4623376623376623,
+            "y": 0.988929889298893
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1967,
+        "h": 803
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-fall-0",
+          "frame": {
+            "x": 288,
+            "y": 437,
+            "w": 251,
+            "h": 335
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 251,
+            "h": 335
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 251,
+            "h": 335
+          },
+          "pivot": {
+            "x": 0.4581673306772908,
+            "y": 0.991044776119403
+          }
+        },
+        {
+          "filename": "ferdex-fall-1",
+          "frame": {
+            "x": 8,
+            "y": 437,
+            "w": 264,
+            "h": 358
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 264,
+            "h": 358
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 264,
+            "h": 358
+          },
+          "pivot": {
+            "x": 0.4034090909090909,
+            "y": 0.9916201117318436
+          }
+        },
+        {
+          "filename": "ferdex-fall-2",
+          "frame": {
+            "x": 332,
+            "y": 8,
+            "w": 339,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.612094395280236,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "ferdex-fall-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 308,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 308,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 308,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.560064935064935,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "ferdex-fall-4",
+          "frame": {
+            "x": 687,
+            "y": 8,
+            "w": 378,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "ferdex-fall-5",
+          "frame": {
+            "x": 1360,
+            "y": 8,
+            "w": 265,
+            "h": 363
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 265,
+            "h": 363
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 265,
+            "h": 363
+          },
+          "pivot": {
+            "x": 0.5188679245283019,
+            "y": 0.9917355371900827
+          }
+        },
+        {
+          "filename": "ferdex-fall-6",
+          "frame": {
+            "x": 1081,
+            "y": 8,
+            "w": 263,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 263,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 263,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.4828897338403042,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "ferdex-fall-7",
+          "frame": {
+            "x": 1641,
+            "y": 8,
+            "w": 318,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "ferdex-fall",
+          "frame": {
+            "x": 288,
+            "y": 437,
+            "w": 251,
+            "h": 335
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 251,
+            "h": 335
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 251,
+            "h": 335
+          },
+          "pivot": {
+            "x": 0.4581673306772908,
+            "y": 0.991044776119403
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1782,
+        "h": 718
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-getup-0",
+          "frame": {
+            "x": 813,
+            "y": 416,
+            "w": 423,
+            "h": 155
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 423,
+            "h": 155
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 423,
+            "h": 155
+          },
+          "pivot": {
+            "x": 0.49527186761229314,
+            "y": 0.9806451612903225
+          }
+        },
+        {
+          "filename": "ferdex-getup-1",
+          "frame": {
+            "x": 373,
+            "y": 416,
+            "w": 424,
+            "h": 255
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 424,
+            "h": 255
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 424,
+            "h": 255
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9882352941176471
+          }
+        },
+        {
+          "filename": "ferdex-getup-2",
+          "frame": {
+            "x": 8,
+            "y": 416,
+            "w": 349,
+            "h": 294
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 294
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 294
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9897959183673469
+          }
+        },
+        {
+          "filename": "ferdex-getup-3",
+          "frame": {
+            "x": 1450,
+            "y": 8,
+            "w": 324,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.45524691358024694,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "ferdex-getup-4",
+          "frame": {
+            "x": 1079,
+            "y": 8,
+            "w": 355,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "ferdex-getup-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 321,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "ferdex-getup-6",
+          "frame": {
+            "x": 714,
+            "y": 8,
+            "w": 349,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "ferdex-getup-7",
+          "frame": {
+            "x": 345,
+            "y": 8,
+            "w": 353,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "ferdex-getup",
+          "frame": {
+            "x": 813,
+            "y": 416,
+            "w": 423,
+            "h": 155
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 423,
+            "h": 155
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 423,
+            "h": 155
+          },
+          "pivot": {
+            "x": 0.49527186761229314,
+            "y": 0.9806451612903225
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1826,
+        "h": 816
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-hurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 353,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "ferdex-hurt-1",
+          "frame": {
+            "x": 377,
+            "y": 8,
+            "w": 350,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "ferdex-hurt-2",
+          "frame": {
+            "x": 743,
+            "y": 8,
+            "w": 340,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "ferdex-hurt-3",
+          "frame": {
+            "x": 1099,
+            "y": 8,
+            "w": 350,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "ferdex-hurt-4",
+          "frame": {
+            "x": 701,
+            "y": 433,
+            "w": 357,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.47198879551820727,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "ferdex-hurt-5",
+          "frame": {
+            "x": 362,
+            "y": 433,
+            "w": 323,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "ferdex-hurt-6",
+          "frame": {
+            "x": 8,
+            "y": 433,
+            "w": 338,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "ferdex-hurt-7",
+          "frame": {
+            "x": 1465,
+            "y": 8,
+            "w": 353,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "ferdex-hurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 353,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1813,
+        "h": 879
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-idle-0",
+          "frame": {
+            "x": 374,
+            "y": 8,
+            "w": 348,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "ferdex-idle-1",
+          "frame": {
+            "x": 738,
+            "y": 8,
+            "w": 345,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "ferdex-idle-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 350,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "ferdex-idle-3",
+          "frame": {
+            "x": 1099,
+            "y": 8,
+            "w": 346,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "ferdex-idle-4",
+          "frame": {
+            "x": 8,
+            "y": 458,
+            "w": 348,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "ferdex-idle-5",
+          "frame": {
+            "x": 739,
+            "y": 458,
+            "w": 347,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "ferdex-idle-6",
+          "frame": {
+            "x": 372,
+            "y": 458,
+            "w": 351,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "ferdex-idle-7",
+          "frame": {
+            "x": 1461,
+            "y": 8,
+            "w": 344,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "ferdex-idle",
+          "frame": {
+            "x": 374,
+            "y": 8,
+            "w": 348,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1942,
+        "h": 845
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-intro-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 243,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 243,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 243,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "ferdex-intro-1",
+          "frame": {
+            "x": 267,
+            "y": 8,
+            "w": 285,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 285,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 285,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.4263157894736842,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "ferdex-intro-2",
+          "frame": {
+            "x": 568,
+            "y": 8,
+            "w": 317,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.43217665615141954,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "ferdex-intro-3",
+          "frame": {
+            "x": 8,
+            "y": 461,
+            "w": 295,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "ferdex-intro-4",
+          "frame": {
+            "x": 901,
+            "y": 8,
+            "w": 333,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "ferdex-intro-5",
+          "frame": {
+            "x": 319,
+            "y": 461,
+            "w": 337,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "ferdex-intro-6",
+          "frame": {
+            "x": 1601,
+            "y": 8,
+            "w": 333,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "ferdex-intro-7",
+          "frame": {
+            "x": 1250,
+            "y": 8,
+            "w": 335,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "ferdex-intro",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 243,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 243,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 243,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1899,
+        "h": 753
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-jump-0",
+          "frame": {
+            "x": 347,
+            "y": 8,
+            "w": 331,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "ferdex-jump-1",
+          "frame": {
+            "x": 289,
+            "y": 449,
+            "w": 243,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 243,
+            "h": 288
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 243,
+            "h": 288
+          },
+          "pivot": {
+            "x": 0.4444444444444444,
+            "y": 0.9895833333333334
+          }
+        },
+        {
+          "filename": "ferdex-jump-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 323,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.18421052631578946,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "ferdex-jump-3",
+          "frame": {
+            "x": 1334,
+            "y": 8,
+            "w": 283,
+            "h": 323
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 283,
+            "h": 323
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 283,
+            "h": 323
+          },
+          "pivot": {
+            "x": 0.549469964664311,
+            "y": 0.9907120743034056
+          }
+        },
+        {
+          "filename": "ferdex-jump-4",
+          "frame": {
+            "x": 1633,
+            "y": 8,
+            "w": 258,
+            "h": 297
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 258,
+            "h": 297
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 258,
+            "h": 297
+          },
+          "pivot": {
+            "x": 0.4069767441860465,
+            "y": 0.98989898989899
+          }
+        },
+        {
+          "filename": "ferdex-jump-5",
+          "frame": {
+            "x": 1044,
+            "y": 8,
+            "w": 274,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 274,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 274,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.4306569343065693,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "ferdex-jump-6",
+          "frame": {
+            "x": 8,
+            "y": 449,
+            "w": 265,
+            "h": 296
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 265,
+            "h": 296
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 265,
+            "h": 296
+          },
+          "pivot": {
+            "x": 0.45849056603773586,
+            "y": 0.9898648648648649
+          }
+        },
+        {
+          "filename": "ferdex-jump-7",
+          "frame": {
+            "x": 694,
+            "y": 8,
+            "w": 334,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "ferdex-jump",
+          "frame": {
+            "x": 347,
+            "y": 8,
+            "w": 331,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1805,
+        "h": 822
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-kick-0",
+          "frame": {
+            "x": 1469,
+            "y": 8,
+            "w": 328,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "ferdex-kick-1",
+          "frame": {
+            "x": 235,
+            "y": 8,
+            "w": 241,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 241,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 241,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.3921161825726141,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "ferdex-kick-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 211,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 211,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 211,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.6208530805687204,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "ferdex-kick-3",
+          "frame": {
+            "x": 8,
+            "y": 424,
+            "w": 404,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 404,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 404,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.16955445544554457,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "ferdex-kick-4",
+          "frame": {
+            "x": 737,
+            "y": 8,
+            "w": 436,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 436,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 436,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.21330275229357798,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "ferdex-kick-5",
+          "frame": {
+            "x": 492,
+            "y": 8,
+            "w": 229,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 229,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 229,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.42139737991266374,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "ferdex-kick-6",
+          "frame": {
+            "x": 1189,
+            "y": 8,
+            "w": 264,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 264,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 264,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5587121212121212,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "ferdex-kick-7",
+          "frame": {
+            "x": 428,
+            "y": 424,
+            "w": 343,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "ferdex-kick",
+          "frame": {
+            "x": 1469,
+            "y": 8,
+            "w": 328,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923273657289002
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2046,
+        "h": 603
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-knockdown-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 353,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5184135977337111,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "ferdex-knockdown-1",
+          "frame": {
+            "x": 377,
+            "y": 8,
+            "w": 331,
+            "h": 354
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 354
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 354
+          },
+          "pivot": {
+            "x": 0.6555891238670695,
+            "y": 0.9915254237288136
+          }
+        },
+        {
+          "filename": "ferdex-knockdown-2",
+          "frame": {
+            "x": 724,
+            "y": 8,
+            "w": 440,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 440,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 440,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.6988636363636364,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "ferdex-knockdown-3",
+          "frame": {
+            "x": 1180,
+            "y": 8,
+            "w": 429,
+            "h": 301
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 429,
+            "h": 301
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 429,
+            "h": 301
+          },
+          "pivot": {
+            "x": 0.38461538461538464,
+            "y": 0.9900332225913622
+          }
+        },
+        {
+          "filename": "ferdex-knockdown-4",
+          "frame": {
+            "x": 1625,
+            "y": 8,
+            "w": 413,
+            "h": 236
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 236
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 236
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9872881355932204
+          }
+        },
+        {
+          "filename": "ferdex-knockdown-5",
+          "frame": {
+            "x": 8,
+            "y": 420,
+            "w": 402,
+            "h": 175
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 175
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 175
+          },
+          "pivot": {
+            "x": 0.5410447761194029,
+            "y": 0.9828571428571429
+          }
+        },
+        {
+          "filename": "ferdex-knockdown-6",
+          "frame": {
+            "x": 426,
+            "y": 420,
+            "w": 412,
+            "h": 169
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 169
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 169
+          },
+          "pivot": {
+            "x": 0.5388349514563107,
+            "y": 0.9822485207100592
+          }
+        },
+        {
+          "filename": "ferdex-knockdown-7",
+          "frame": {
+            "x": 854,
+            "y": 420,
+            "w": 456,
+            "h": 125
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 456,
+            "h": 125
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 456,
+            "h": 125
+          },
+          "pivot": {
+            "x": 0.506578947368421,
+            "y": 0.976
+          }
+        },
+        {
+          "filename": "ferdex-knockdown",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 353,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5184135977337111,
+            "y": 0.9924242424242424
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1944,
+        "h": 828
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-punch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "ferdex-punch-1",
+          "frame": {
+            "x": 376,
+            "y": 8,
+            "w": 365,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "ferdex-punch-2",
+          "frame": {
+            "x": 1184,
+            "y": 8,
+            "w": 375,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.4866666666666667,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "ferdex-punch-3",
+          "frame": {
+            "x": 757,
+            "y": 8,
+            "w": 411,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.4610705596107056,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "ferdex-punch-4",
+          "frame": {
+            "x": 1575,
+            "y": 8,
+            "w": 361,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "ferdex-punch-5",
+          "frame": {
+            "x": 8,
+            "y": 434,
+            "w": 370,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "ferdex-punch-6",
+          "frame": {
+            "x": 394,
+            "y": 434,
+            "w": 350,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "ferdex-punch-7",
+          "frame": {
+            "x": 760,
+            "y": 434,
+            "w": 350,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "ferdex-punch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2012,
+        "h": 809
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-super-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 386,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.4844559585492228,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "ferdex-super-1",
+          "frame": {
+            "x": 824,
+            "y": 8,
+            "w": 397,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.473551637279597,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "ferdex-super-2",
+          "frame": {
+            "x": 410,
+            "y": 8,
+            "w": 398,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 398,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 398,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.46733668341708545,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "ferdex-super-3",
+          "frame": {
+            "x": 1629,
+            "y": 8,
+            "w": 375,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "ferdex-super-4",
+          "frame": {
+            "x": 8,
+            "y": 430,
+            "w": 383,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 383,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 383,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.48825065274151436,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "ferdex-super-5",
+          "frame": {
+            "x": 407,
+            "y": 430,
+            "w": 394,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.47081218274111675,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "ferdex-super-6",
+          "frame": {
+            "x": 1237,
+            "y": 8,
+            "w": 376,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.4920212765957447,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "ferdex-super-7",
+          "frame": {
+            "x": 817,
+            "y": 430,
+            "w": 380,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.4921052631578947,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "ferdex-super",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 386,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.4844559585492228,
+            "y": 0.9926108374384236
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1989,
+        "h": 733
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-sweep-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 355,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "ferdex-sweep-1",
+          "frame": {
+            "x": 1474,
+            "y": 8,
+            "w": 226,
+            "h": 333
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 226,
+            "h": 333
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 226,
+            "h": 333
+          },
+          "pivot": {
+            "x": 0.5199115044247787,
+            "y": 0.990990990990991
+          }
+        },
+        {
+          "filename": "ferdex-sweep-2",
+          "frame": {
+            "x": 8,
+            "y": 397,
+            "w": 409,
+            "h": 328
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 328
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 328
+          },
+          "pivot": {
+            "x": 0.5256723716381418,
+            "y": 0.9908536585365854
+          }
+        },
+        {
+          "filename": "ferdex-sweep-3",
+          "frame": {
+            "x": 1093,
+            "y": 8,
+            "w": 365,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.5534246575342465,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "ferdex-sweep-4",
+          "frame": {
+            "x": 433,
+            "y": 397,
+            "w": 380,
+            "h": 312
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 312
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5092105263157894,
+            "y": 0.9903846153846154
+          }
+        },
+        {
+          "filename": "ferdex-sweep-5",
+          "frame": {
+            "x": 1716,
+            "y": 8,
+            "w": 265,
+            "h": 329
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 265,
+            "h": 329
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 265,
+            "h": 329
+          },
+          "pivot": {
+            "x": 0.5264150943396226,
+            "y": 0.9908814589665653
+          }
+        },
+        {
+          "filename": "ferdex-sweep-6",
+          "frame": {
+            "x": 752,
+            "y": 8,
+            "w": 325,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "ferdex-sweep-7",
+          "frame": {
+            "x": 379,
+            "y": 8,
+            "w": 357,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "ferdex-sweep",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 355,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1829,
+        "h": 851
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-uppercut-0",
+          "frame": {
+            "x": 570,
+            "y": 8,
+            "w": 334,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "ferdex-uppercut-1",
+          "frame": {
+            "x": 1198,
+            "y": 8,
+            "w": 286,
+            "h": 320
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 320
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 320
+          },
+          "pivot": {
+            "x": 0.46503496503496505,
+            "y": 0.990625
+          }
+        },
+        {
+          "filename": "ferdex-uppercut-2",
+          "frame": {
+            "x": 243,
+            "y": 8,
+            "w": 311,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "ferdex-uppercut-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 219,
+            "h": 509
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 219,
+            "h": 509
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 219,
+            "h": 509
+          },
+          "pivot": {
+            "x": 0.4863013698630137,
+            "y": 0.9941060903732809
+          }
+        },
+        {
+          "filename": "ferdex-uppercut-4",
+          "frame": {
+            "x": 920,
+            "y": 8,
+            "w": 262,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 262,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 262,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.4580152671755725,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "ferdex-uppercut-5",
+          "frame": {
+            "x": 8,
+            "y": 533,
+            "w": 254,
+            "h": 310
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 254,
+            "h": 310
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 254,
+            "h": 310
+          },
+          "pivot": {
+            "x": 0.452755905511811,
+            "y": 0.9903225806451613
+          }
+        },
+        {
+          "filename": "ferdex-uppercut-6",
+          "frame": {
+            "x": 278,
+            "y": 533,
+            "w": 284,
+            "h": 301
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 284,
+            "h": 301
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 284,
+            "h": 301
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9900332225913622
+          }
+        },
+        {
+          "filename": "ferdex-uppercut-7",
+          "frame": {
+            "x": 1500,
+            "y": 8,
+            "w": 321,
+            "h": 318
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 318
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 318
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9905660377358491
+          }
+        },
+        {
+          "filename": "ferdex-uppercut",
+          "frame": {
+            "x": 570,
+            "y": 8,
+            "w": 334,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920424403183024
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2037,
+        "h": 863
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-win-0",
+          "frame": {
+            "x": 1078,
+            "y": 8,
+            "w": 255,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 255,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 255,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "ferdex-win-1",
+          "frame": {
+            "x": 1349,
+            "y": 8,
+            "w": 272,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 272,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 272,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "ferdex-win-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 275,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 275,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 275,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "ferdex-win-3",
+          "frame": {
+            "x": 299,
+            "y": 8,
+            "w": 372,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.46639784946236557,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "ferdex-win-4",
+          "frame": {
+            "x": 687,
+            "y": 8,
+            "w": 375,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.4866666666666667,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "ferdex-win-5",
+          "frame": {
+            "x": 413,
+            "y": 466,
+            "w": 392,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5267857142857143,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "ferdex-win-6",
+          "frame": {
+            "x": 8,
+            "y": 466,
+            "w": 389,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5269922879177378,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "ferdex-win-7",
+          "frame": {
+            "x": 1637,
+            "y": 8,
+            "w": 392,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5102040816326531,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "ferdex-win",
+          "frame": {
+            "x": 1078,
+            "y": 8,
+            "w": 255,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 255,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 255,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2020,
+        "h": 819
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-walk-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 349,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "ferdex-walk-1",
+          "frame": {
+            "x": 966,
+            "y": 8,
+            "w": 295,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "ferdex-walk-2",
+          "frame": {
+            "x": 373,
+            "y": 8,
+            "w": 227,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 227,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 227,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.43392070484581496,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "ferdex-walk-3",
+          "frame": {
+            "x": 616,
+            "y": 8,
+            "w": 334,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "ferdex-walk-4",
+          "frame": {
+            "x": 1277,
+            "y": 8,
+            "w": 352,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "ferdex-walk-5",
+          "frame": {
+            "x": 8,
+            "y": 427,
+            "w": 266,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 266,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 266,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.4830827067669173,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "ferdex-walk-6",
+          "frame": {
+            "x": 290,
+            "y": 427,
+            "w": 240,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 240,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 240,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.48125,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "ferdex-walk-7",
+          "frame": {
+            "x": 1645,
+            "y": 8,
+            "w": 367,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "ferdex-walk",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 349,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925558312655087
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1697,
+        "h": 891
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ferdex-walkBack-0",
+          "frame": {
+            "x": 712,
+            "y": 8,
+            "w": 351,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "ferdex-walkBack-1",
+          "frame": {
+            "x": 1353,
+            "y": 8,
+            "w": 336,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5074404761904762,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "ferdex-walkBack-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 418,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 418,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 418,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "ferdex-walkBack-3",
+          "frame": {
+            "x": 442,
+            "y": 8,
+            "w": 254,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 254,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 254,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.36220472440944884,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "ferdex-walkBack-4",
+          "frame": {
+            "x": 1079,
+            "y": 8,
+            "w": 258,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 258,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 258,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.44573643410852715,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "ferdex-walkBack-5",
+          "frame": {
+            "x": 439,
+            "y": 455,
+            "w": 312,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 312,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5256410256410257,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "ferdex-walkBack-6",
+          "frame": {
+            "x": 8,
+            "y": 455,
+            "w": 415,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 415,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 415,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "ferdex-walkBack-7",
+          "frame": {
+            "x": 767,
+            "y": 455,
+            "w": 252,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 252,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 252,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.4722222222222222,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "ferdex-walkBack",
+          "frame": {
+            "x": 712,
+            "y": 8,
+            "w": 351,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

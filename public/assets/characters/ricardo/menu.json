@@ -1,0 +1,61 @@
+{
+ "frames": {
+  "ricardo-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 190,
+    "h": 300
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 190,
+    "h": 300
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 190,
+    "h": 300
+   },
+   "pivot": {
+    "x": 0.3338722983006105,
+    "y": 1
+   }
+  },
+  "ricardo-win": {
+   "frame": {
+    "x": 192,
+    "y": 0,
+    "w": 174,
+    "h": 300
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 174,
+    "h": 300
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 174,
+    "h": 300
+   },
+   "pivot": {
+    "x": 0.30148999574286933,
+    "y": 1
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 368,
+   "h": 300
+  },
+  "scale": "1"
+ }
+}

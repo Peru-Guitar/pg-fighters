@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "jeanpierre-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 238,
+    "h": 329
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 238,
+    "h": 329
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 238,
+    "h": 329
+   },
+   "pivot": {
+    "x": 0.06637949297366005,
+    "y": 0.9908814589665653
+   }
+  },
+  "jeanpierre-portrait": {
+   "frame": {
+    "x": 240,
+    "y": 0,
+    "w": 233,
+    "h": 267
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 233,
+    "h": 267
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 233,
+    "h": 267
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9887640449438202
+   }
+  },
+  "jeanpierre-win": {
+   "frame": {
+    "x": 475,
+    "y": 0,
+    "w": 211,
+    "h": 275
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 211,
+    "h": 275
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 211,
+    "h": 275
+   },
+   "pivot": {
+    "x": 0.2590348691389391,
+    "y": 0.9890909090909091
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 688,
+   "h": 329
+  },
+  "scale": "1"
+ }
+}

@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1951,
+        "h": 805
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-airKick-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 311,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.1977491961414791,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "turboshred-airKick-1",
+          "frame": {
+            "x": 8,
+            "y": 446,
+            "w": 326,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.7484662576687117,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "turboshred-airKick-2",
+          "frame": {
+            "x": 1014,
+            "y": 8,
+            "w": 472,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 472,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 472,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.2468220338983051,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "turboshred-airKick-3",
+          "frame": {
+            "x": 1502,
+            "y": 8,
+            "w": 441,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 441,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 441,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.3866213151927438,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "turboshred-airKick-4",
+          "frame": {
+            "x": 696,
+            "y": 446,
+            "w": 354,
+            "h": 333
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 333
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 333
+          },
+          "pivot": {
+            "x": 0.6581920903954802,
+            "y": 0.990990990990991
+          }
+        },
+        {
+          "filename": "turboshred-airKick-5",
+          "frame": {
+            "x": 350,
+            "y": 446,
+            "w": 330,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.7318181818181818,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "turboshred-airKick-6",
+          "frame": {
+            "x": 335,
+            "y": 8,
+            "w": 328,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.6509146341463414,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "turboshred-airKick-7",
+          "frame": {
+            "x": 679,
+            "y": 8,
+            "w": 319,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.6818181818181818,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "turboshred-airKick",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 311,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.1977491961414791,
+            "y": 0.9928909952606635
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1786,
+        "h": 855
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-airPunch-0",
+          "frame": {
+            "x": 340,
+            "y": 445,
+            "w": 299,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 299,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 299,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.3963210702341137,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "turboshred-airPunch-1",
+          "frame": {
+            "x": 324,
+            "y": 8,
+            "w": 303,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.39933993399339934,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "turboshred-airPunch-2",
+          "frame": {
+            "x": 643,
+            "y": 8,
+            "w": 431,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 431,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 431,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.29582366589327147,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "turboshred-airPunch-3",
+          "frame": {
+            "x": 1090,
+            "y": 8,
+            "w": 382,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.38089005235602097,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "turboshred-airPunch-4",
+          "frame": {
+            "x": 655,
+            "y": 445,
+            "w": 318,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.38522012578616355,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "turboshred-airPunch-5",
+          "frame": {
+            "x": 1488,
+            "y": 8,
+            "w": 290,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 290,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 290,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.40344827586206894,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "turboshred-airPunch-6",
+          "frame": {
+            "x": 8,
+            "y": 445,
+            "w": 316,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.4129746835443038,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "turboshred-airPunch-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 300,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 300,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.4166666666666667,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "turboshred-airPunch",
+          "frame": {
+            "x": 340,
+            "y": 445,
+            "w": 299,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 299,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 299,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.3963210702341137,
+            "y": 0.9925187032418953
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2010,
+        "h": 841
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-backdash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 390,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "turboshred-backdash-1",
+          "frame": {
+            "x": 784,
+            "y": 8,
+            "w": 450,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 450,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 450,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.7066666666666667,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "turboshred-backdash-2",
+          "frame": {
+            "x": 414,
+            "y": 8,
+            "w": 354,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.7768361581920904,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "turboshred-backdash-3",
+          "frame": {
+            "x": 778,
+            "y": 440,
+            "w": 360,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5861111111111111,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "turboshred-backdash-4",
+          "frame": {
+            "x": 1621,
+            "y": 8,
+            "w": 381,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5275590551181102,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "turboshred-backdash-5",
+          "frame": {
+            "x": 368,
+            "y": 440,
+            "w": 394,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5558375634517766,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "turboshred-backdash-6",
+          "frame": {
+            "x": 8,
+            "y": 440,
+            "w": 344,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5058139534883721,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "turboshred-backdash-7",
+          "frame": {
+            "x": 1250,
+            "y": 8,
+            "w": 355,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "turboshred-backdash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 390,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1929,
+        "h": 852
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-special-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 357,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "turboshred-special-1",
+          "frame": {
+            "x": 818,
+            "y": 454,
+            "w": 377,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.48938992042440316,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "turboshred-special-2",
+          "frame": {
+            "x": 381,
+            "y": 8,
+            "w": 376,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "turboshred-special-3",
+          "frame": {
+            "x": 1511,
+            "y": 8,
+            "w": 410,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 410,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 410,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.4219512195121951,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "turboshred-special-4",
+          "frame": {
+            "x": 8,
+            "y": 454,
+            "w": 403,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.45905707196029777,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "turboshred-special-5",
+          "frame": {
+            "x": 427,
+            "y": 454,
+            "w": 375,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "turboshred-special-6",
+          "frame": {
+            "x": 773,
+            "y": 8,
+            "w": 359,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "turboshred-special-7",
+          "frame": {
+            "x": 1148,
+            "y": 8,
+            "w": 347,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "turboshred-special",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 357,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1704,
+        "h": 825
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-block-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 347,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "turboshred-block-1",
+          "frame": {
+            "x": 371,
+            "y": 8,
+            "w": 332,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "turboshred-block-2",
+          "frame": {
+            "x": 719,
+            "y": 8,
+            "w": 346,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "turboshred-block-3",
+          "frame": {
+            "x": 1081,
+            "y": 8,
+            "w": 302,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5082781456953642,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "turboshred-block-4",
+          "frame": {
+            "x": 1399,
+            "y": 8,
+            "w": 297,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 297,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 297,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "turboshred-block-5",
+          "frame": {
+            "x": 8,
+            "y": 437,
+            "w": 368,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.4891304347826087,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "turboshred-block-6",
+          "frame": {
+            "x": 392,
+            "y": 437,
+            "w": 331,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "turboshred-block-7",
+          "frame": {
+            "x": 739,
+            "y": 437,
+            "w": 326,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "turboshred-block",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 347,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927360774818402
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1934,
+        "h": 775
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-crouch-0",
+          "frame": {
+            "x": 786,
+            "y": 8,
+            "w": 369,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5284552845528455,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "turboshred-crouch-1",
+          "frame": {
+            "x": 781,
+            "y": 400,
+            "w": 375,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.5386666666666666,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "turboshred-crouch-2",
+          "frame": {
+            "x": 1171,
+            "y": 8,
+            "w": 369,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.532520325203252,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "turboshred-crouch-3",
+          "frame": {
+            "x": 398,
+            "y": 400,
+            "w": 367,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.5299727520435967,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "turboshred-crouch-4",
+          "frame": {
+            "x": 398,
+            "y": 8,
+            "w": 372,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5336021505376344,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "turboshred-crouch-5",
+          "frame": {
+            "x": 8,
+            "y": 400,
+            "w": 374,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5414438502673797,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "turboshred-crouch-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 374,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5280748663101604,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "turboshred-crouch-7",
+          "frame": {
+            "x": 1556,
+            "y": 8,
+            "w": 370,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.5297297297297298,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "turboshred-crouch",
+          "frame": {
+            "x": 786,
+            "y": 8,
+            "w": 369,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5284552845528455,
+            "y": 0.9919786096256684
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1954,
+        "h": 760
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-crouchBlock-0",
+          "frame": {
+            "x": 798,
+            "y": 396,
+            "w": 360,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.5277777777777778,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "turboshred-crouchBlock-1",
+          "frame": {
+            "x": 1577,
+            "y": 8,
+            "w": 369,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.5284552845528455,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "turboshred-crouchBlock-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 394,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.5406091370558376,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "turboshred-crouchBlock-3",
+          "frame": {
+            "x": 400,
+            "y": 396,
+            "w": 382,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.5130890052356021,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "turboshred-crouchBlock-4",
+          "frame": {
+            "x": 418,
+            "y": 8,
+            "w": 368,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.5176630434782609,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "turboshred-crouchBlock-5",
+          "frame": {
+            "x": 802,
+            "y": 8,
+            "w": 371,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.5175202156334232,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "turboshred-crouchBlock-6",
+          "frame": {
+            "x": 1189,
+            "y": 8,
+            "w": 372,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5094086021505376,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "turboshred-crouchBlock-7",
+          "frame": {
+            "x": 8,
+            "y": 396,
+            "w": 376,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.5159574468085106,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "turboshred-crouchBlock",
+          "frame": {
+            "x": 798,
+            "y": 396,
+            "w": 360,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.5277777777777778,
+            "y": 0.9915014164305949
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1657,
+        "h": 777
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-crouchHurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 396,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.5189393939393939,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "turboshred-crouchHurt-1",
+          "frame": {
+            "x": 821,
+            "y": 402,
+            "w": 395,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.5215189873417722,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "turboshred-crouchHurt-2",
+          "frame": {
+            "x": 1250,
+            "y": 8,
+            "w": 399,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5363408521303258,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "turboshred-crouchHurt-3",
+          "frame": {
+            "x": 1232,
+            "y": 402,
+            "w": 375,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.508,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "turboshred-crouchHurt-4",
+          "frame": {
+            "x": 8,
+            "y": 402,
+            "w": 395,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5189873417721519,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "turboshred-crouchHurt-5",
+          "frame": {
+            "x": 420,
+            "y": 8,
+            "w": 401,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 401,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 401,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5286783042394015,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "turboshred-crouchHurt-6",
+          "frame": {
+            "x": 837,
+            "y": 8,
+            "w": 397,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.5264483627204031,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "turboshred-crouchHurt-7",
+          "frame": {
+            "x": 419,
+            "y": 402,
+            "w": 386,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5142487046632125,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "turboshred-crouchHurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 396,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.5189393939393939,
+            "y": 0.9920634920634921
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1840,
+        "h": 546
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-crouchPunch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 273,
+            "h": 263
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 273,
+            "h": 263
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 273,
+            "h": 263
+          },
+          "pivot": {
+            "x": 0.5274725274725275,
+            "y": 0.9885931558935361
+          }
+        },
+        {
+          "filename": "turboshred-crouchPunch-1",
+          "frame": {
+            "x": 871,
+            "y": 8,
+            "w": 269,
+            "h": 253
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 269,
+            "h": 253
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 269,
+            "h": 253
+          },
+          "pivot": {
+            "x": 0.5204460966542751,
+            "y": 0.9881422924901185
+          }
+        },
+        {
+          "filename": "turboshred-crouchPunch-2",
+          "frame": {
+            "x": 1156,
+            "y": 8,
+            "w": 328,
+            "h": 253
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 253
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 253
+          },
+          "pivot": {
+            "x": 0.4771341463414634,
+            "y": 0.9881422924901185
+          }
+        },
+        {
+          "filename": "turboshred-crouchPunch-3",
+          "frame": {
+            "x": 8,
+            "y": 287,
+            "w": 323,
+            "h": 251
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 251
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 251
+          },
+          "pivot": {
+            "x": 0.456656346749226,
+            "y": 0.9880478087649402
+          }
+        },
+        {
+          "filename": "turboshred-crouchPunch-4",
+          "frame": {
+            "x": 1500,
+            "y": 8,
+            "w": 332,
+            "h": 252
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 252
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 252
+          },
+          "pivot": {
+            "x": 0.4397590361445783,
+            "y": 0.9880952380952381
+          }
+        },
+        {
+          "filename": "turboshred-crouchPunch-5",
+          "frame": {
+            "x": 297,
+            "y": 8,
+            "w": 268,
+            "h": 258
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 268,
+            "h": 258
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 268,
+            "h": 258
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9883720930232558
+          }
+        },
+        {
+          "filename": "turboshred-crouchPunch-6",
+          "frame": {
+            "x": 581,
+            "y": 8,
+            "w": 274,
+            "h": 254
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 274,
+            "h": 254
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 274,
+            "h": 254
+          },
+          "pivot": {
+            "x": 0.531021897810219,
+            "y": 0.9881889763779528
+          }
+        },
+        {
+          "filename": "turboshred-crouchPunch-7",
+          "frame": {
+            "x": 347,
+            "y": 287,
+            "w": 275,
+            "h": 249
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 275,
+            "h": 249
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 275,
+            "h": 249
+          },
+          "pivot": {
+            "x": 0.5309090909090909,
+            "y": 0.9879518072289156
+          }
+        },
+        {
+          "filename": "turboshred-crouchPunch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 273,
+            "h": 263
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 273,
+            "h": 263
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 273,
+            "h": 263
+          },
+          "pivot": {
+            "x": 0.5274725274725275,
+            "y": 0.9885931558935361
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1703,
+        "h": 861
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-dash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 387,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "turboshred-dash-1",
+          "frame": {
+            "x": 1362,
+            "y": 450,
+            "w": 333,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.45495495495495497,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "turboshred-dash-2",
+          "frame": {
+            "x": 921,
+            "y": 450,
+            "w": 425,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 425,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 425,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.32941176470588235,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "turboshred-dash-3",
+          "frame": {
+            "x": 789,
+            "y": 8,
+            "w": 398,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 398,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 398,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.28015075376884424,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "turboshred-dash-4",
+          "frame": {
+            "x": 460,
+            "y": 450,
+            "w": 445,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 445,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 445,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.3,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "turboshred-dash-5",
+          "frame": {
+            "x": 8,
+            "y": 450,
+            "w": 436,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 436,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 436,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.42775229357798167,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "turboshred-dash-6",
+          "frame": {
+            "x": 1203,
+            "y": 8,
+            "w": 402,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "turboshred-dash-7",
+          "frame": {
+            "x": 411,
+            "y": 8,
+            "w": 362,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "turboshred-dash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 387,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1933,
+        "h": 751
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 368,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99375
+          }
+        },
+        {
+          "filename": "turboshred-ko-1",
+          "frame": {
+            "x": 392,
+            "y": 8,
+            "w": 311,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.4630225080385852,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "turboshred-ko-2",
+          "frame": {
+            "x": 719,
+            "y": 8,
+            "w": 390,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "turboshred-ko-3",
+          "frame": {
+            "x": 1125,
+            "y": 8,
+            "w": 373,
+            "h": 301
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 301
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 301
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9900332225913622
+          }
+        },
+        {
+          "filename": "turboshred-ko-4",
+          "frame": {
+            "x": 1514,
+            "y": 8,
+            "w": 411,
+            "h": 278
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 278
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 278
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9892086330935251
+          }
+        },
+        {
+          "filename": "turboshred-ko-5",
+          "frame": {
+            "x": 8,
+            "y": 504,
+            "w": 458,
+            "h": 239
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 458,
+            "h": 239
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 458,
+            "h": 239
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9874476987447699
+          }
+        },
+        {
+          "filename": "turboshred-ko-6",
+          "frame": {
+            "x": 482,
+            "y": 504,
+            "w": 427,
+            "h": 197
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 427,
+            "h": 197
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 427,
+            "h": 197
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9847715736040609
+          }
+        },
+        {
+          "filename": "turboshred-ko-7",
+          "frame": {
+            "x": 925,
+            "y": 504,
+            "w": 352,
+            "h": 170
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 170
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 170
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9823529411764705
+          }
+        },
+        {
+          "filename": "turboshred-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 368,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99375
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1777,
+        "h": 668
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-down-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 428,
+            "h": 319
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 319
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 319
+          },
+          "pivot": {
+            "x": 0.3399532710280374,
+            "y": 0.9905956112852664
+          }
+        },
+        {
+          "filename": "turboshred-down-1",
+          "frame": {
+            "x": 452,
+            "y": 8,
+            "w": 428,
+            "h": 319
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 319
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 319
+          },
+          "pivot": {
+            "x": 0.3399532710280374,
+            "y": 0.9905956112852664
+          }
+        },
+        {
+          "filename": "turboshred-down-2",
+          "frame": {
+            "x": 1340,
+            "y": 8,
+            "w": 428,
+            "h": 318
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 318
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 318
+          },
+          "pivot": {
+            "x": 0.3399532710280374,
+            "y": 0.9905660377358491
+          }
+        },
+        {
+          "filename": "turboshred-down-3",
+          "frame": {
+            "x": 896,
+            "y": 8,
+            "w": 428,
+            "h": 319
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 319
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 319
+          },
+          "pivot": {
+            "x": 0.3411214953271028,
+            "y": 0.9905956112852664
+          }
+        },
+        {
+          "filename": "turboshred-down-4",
+          "frame": {
+            "x": 896,
+            "y": 343,
+            "w": 429,
+            "h": 315
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 429,
+            "h": 315
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 429,
+            "h": 315
+          },
+          "pivot": {
+            "x": 0.34032634032634035,
+            "y": 0.9904761904761905
+          }
+        },
+        {
+          "filename": "turboshred-down-5",
+          "frame": {
+            "x": 452,
+            "y": 343,
+            "w": 428,
+            "h": 316
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 316
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 316
+          },
+          "pivot": {
+            "x": 0.3411214953271028,
+            "y": 0.990506329113924
+          }
+        },
+        {
+          "filename": "turboshred-down-6",
+          "frame": {
+            "x": 1341,
+            "y": 343,
+            "w": 428,
+            "h": 315
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 315
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 315
+          },
+          "pivot": {
+            "x": 0.3411214953271028,
+            "y": 0.9904761904761905
+          }
+        },
+        {
+          "filename": "turboshred-down-7",
+          "frame": {
+            "x": 8,
+            "y": 343,
+            "w": 428,
+            "h": 317
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 317
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 317
+          },
+          "pivot": {
+            "x": 0.3411214953271028,
+            "y": 0.9905362776025236
+          }
+        },
+        {
+          "filename": "turboshred-down",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 428,
+            "h": 319
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 319
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 319
+          },
+          "pivot": {
+            "x": 0.3399532710280374,
+            "y": 0.9905956112852664
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1942,
+        "h": 848
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-fall-0",
+          "frame": {
+            "x": 327,
+            "y": 455,
+            "w": 286,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.5576923076923077,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "turboshred-fall-1",
+          "frame": {
+            "x": 358,
+            "y": 8,
+            "w": 288,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 288,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 288,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5868055555555556,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "turboshred-fall-2",
+          "frame": {
+            "x": 662,
+            "y": 8,
+            "w": 295,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5949152542372881,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "turboshred-fall-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 334,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5374251497005988,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "turboshred-fall-4",
+          "frame": {
+            "x": 8,
+            "y": 455,
+            "w": 303,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.6105610561056105,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "turboshred-fall-5",
+          "frame": {
+            "x": 1647,
+            "y": 8,
+            "w": 287,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 287,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 287,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5174216027874564,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "turboshred-fall-6",
+          "frame": {
+            "x": 1335,
+            "y": 8,
+            "w": 296,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.4847972972972973,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "turboshred-fall-7",
+          "frame": {
+            "x": 973,
+            "y": 8,
+            "w": 346,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "turboshred-fall",
+          "frame": {
+            "x": 327,
+            "y": 455,
+            "w": 286,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.5576923076923077,
+            "y": 0.9914285714285714
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1909,
+        "h": 713
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-getup-0",
+          "frame": {
+            "x": 412,
+            "y": 437,
+            "w": 499,
+            "h": 166
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 499,
+            "h": 166
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 499,
+            "h": 166
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9819277108433735
+          }
+        },
+        {
+          "filename": "turboshred-getup-1",
+          "frame": {
+            "x": 8,
+            "y": 437,
+            "w": 388,
+            "h": 268
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 268
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 268
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9888059701492538
+          }
+        },
+        {
+          "filename": "turboshred-getup-2",
+          "frame": {
+            "x": 1591,
+            "y": 8,
+            "w": 310,
+            "h": 319
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 319
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 319
+          },
+          "pivot": {
+            "x": 0.5096774193548387,
+            "y": 0.9905956112852664
+          }
+        },
+        {
+          "filename": "turboshred-getup-3",
+          "frame": {
+            "x": 1299,
+            "y": 8,
+            "w": 276,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.49818840579710144,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "turboshred-getup-4",
+          "frame": {
+            "x": 298,
+            "y": 8,
+            "w": 315,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 315,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 315,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "turboshred-getup-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 274,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 274,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 274,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5018248175182481,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "turboshred-getup-6",
+          "frame": {
+            "x": 973,
+            "y": 8,
+            "w": 310,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "turboshred-getup-7",
+          "frame": {
+            "x": 629,
+            "y": 8,
+            "w": 328,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "turboshred-getup",
+          "frame": {
+            "x": 412,
+            "y": 437,
+            "w": 499,
+            "h": 166
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 499,
+            "h": 166
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 499,
+            "h": 166
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9819277108433735
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1877,
+        "h": 876
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-hurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 370,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "turboshred-hurt-1",
+          "frame": {
+            "x": 394,
+            "y": 8,
+            "w": 349,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5501432664756447,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "turboshred-hurt-2",
+          "frame": {
+            "x": 1515,
+            "y": 8,
+            "w": 354,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5127118644067796,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "turboshred-hurt-3",
+          "frame": {
+            "x": 385,
+            "y": 458,
+            "w": 330,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "turboshred-hurt-4",
+          "frame": {
+            "x": 731,
+            "y": 458,
+            "w": 363,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "turboshred-hurt-5",
+          "frame": {
+            "x": 8,
+            "y": 458,
+            "w": 361,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "turboshred-hurt-6",
+          "frame": {
+            "x": 1138,
+            "y": 8,
+            "w": 361,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "turboshred-hurt-7",
+          "frame": {
+            "x": 759,
+            "y": 8,
+            "w": 363,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "turboshred-hurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 370,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1895,
+        "h": 887
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-idle-0",
+          "frame": {
+            "x": 1141,
+            "y": 8,
+            "w": 365,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "turboshred-idle-1",
+          "frame": {
+            "x": 386,
+            "y": 8,
+            "w": 362,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "turboshred-idle-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 362,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "turboshred-idle-3",
+          "frame": {
+            "x": 764,
+            "y": 8,
+            "w": 361,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "turboshred-idle-4",
+          "frame": {
+            "x": 1522,
+            "y": 8,
+            "w": 365,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "turboshred-idle-5",
+          "frame": {
+            "x": 8,
+            "y": 462,
+            "w": 363,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "turboshred-idle-6",
+          "frame": {
+            "x": 765,
+            "y": 462,
+            "w": 364,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "turboshred-idle-7",
+          "frame": {
+            "x": 387,
+            "y": 462,
+            "w": 362,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "turboshred-idle",
+          "frame": {
+            "x": 1141,
+            "y": 8,
+            "w": 365,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2026,
+        "h": 885
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-intro-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 278,
+            "h": 456
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 278,
+            "h": 456
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 456
+          },
+          "pivot": {
+            "x": 0.5305755395683454,
+            "y": 0.993421052631579
+          }
+        },
+        {
+          "filename": "turboshred-intro-1",
+          "frame": {
+            "x": 302,
+            "y": 8,
+            "w": 317,
+            "h": 456
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 456
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 456
+          },
+          "pivot": {
+            "x": 0.5141955835962145,
+            "y": 0.993421052631579
+          }
+        },
+        {
+          "filename": "turboshred-intro-2",
+          "frame": {
+            "x": 635,
+            "y": 8,
+            "w": 317,
+            "h": 447
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 447
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 447
+          },
+          "pivot": {
+            "x": 0.49369085173501576,
+            "y": 0.9932885906040269
+          }
+        },
+        {
+          "filename": "turboshred-intro-3",
+          "frame": {
+            "x": 968,
+            "y": 8,
+            "w": 331,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "turboshred-intro-4",
+          "frame": {
+            "x": 1673,
+            "y": 8,
+            "w": 345,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "turboshred-intro-5",
+          "frame": {
+            "x": 1315,
+            "y": 8,
+            "w": 342,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "turboshred-intro-6",
+          "frame": {
+            "x": 8,
+            "y": 480,
+            "w": 342,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "turboshred-intro-7",
+          "frame": {
+            "x": 366,
+            "y": 480,
+            "w": 352,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "turboshred-intro",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 278,
+            "h": 456
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 278,
+            "h": 456
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 456
+          },
+          "pivot": {
+            "x": 0.5305755395683454,
+            "y": 0.993421052631579
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1985,
+        "h": 797
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-jump-0",
+          "frame": {
+            "x": 871,
+            "y": 8,
+            "w": 314,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "turboshred-jump-1",
+          "frame": {
+            "x": 1454,
+            "y": 8,
+            "w": 254,
+            "h": 335
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 254,
+            "h": 335
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 254,
+            "h": 335
+          },
+          "pivot": {
+            "x": 0.5059055118110236,
+            "y": 0.991044776119403
+          }
+        },
+        {
+          "filename": "turboshred-jump-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 262,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 262,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 262,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.3568702290076336,
+            "y": 0.9933774834437086
+          }
+        },
+        {
+          "filename": "turboshred-jump-3",
+          "frame": {
+            "x": 1201,
+            "y": 8,
+            "w": 237,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 237,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 237,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5864978902953587,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "turboshred-jump-4",
+          "frame": {
+            "x": 1724,
+            "y": 8,
+            "w": 253,
+            "h": 322
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 253,
+            "h": 322
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 253,
+            "h": 322
+          },
+          "pivot": {
+            "x": 0.5237154150197628,
+            "y": 0.9906832298136646
+          }
+        },
+        {
+          "filename": "turboshred-jump-5",
+          "frame": {
+            "x": 286,
+            "y": 8,
+            "w": 246,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 246,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 246,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.49390243902439024,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "turboshred-jump-6",
+          "frame": {
+            "x": 8,
+            "y": 477,
+            "w": 251,
+            "h": 312
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 251,
+            "h": 312
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 251,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5039840637450199,
+            "y": 0.9903846153846154
+          }
+        },
+        {
+          "filename": "turboshred-jump-7",
+          "frame": {
+            "x": 548,
+            "y": 8,
+            "w": 307,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "turboshred-jump",
+          "frame": {
+            "x": 871,
+            "y": 8,
+            "w": 314,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1971,
+        "h": 812
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-kick-0",
+          "frame": {
+            "x": 281,
+            "y": 8,
+            "w": 358,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "turboshred-kick-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 257,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 257,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 257,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5077821011673151,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "turboshred-kick-2",
+          "frame": {
+            "x": 655,
+            "y": 8,
+            "w": 247,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 247,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 247,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5991902834008097,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "turboshred-kick-3",
+          "frame": {
+            "x": 918,
+            "y": 8,
+            "w": 417,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 417,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 417,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.27697841726618705,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "turboshred-kick-4",
+          "frame": {
+            "x": 8,
+            "y": 432,
+            "w": 278,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 278,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.32014388489208634,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "turboshred-kick-5",
+          "frame": {
+            "x": 1713,
+            "y": 8,
+            "w": 250,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 250,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 250,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.254,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "turboshred-kick-6",
+          "frame": {
+            "x": 1351,
+            "y": 8,
+            "w": 346,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "turboshred-kick-7",
+          "frame": {
+            "x": 302,
+            "y": 432,
+            "w": 331,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "turboshred-kick",
+          "frame": {
+            "x": 281,
+            "y": 8,
+            "w": 358,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1804,
+        "h": 697
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-knockdown-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 371,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "turboshred-knockdown-1",
+          "frame": {
+            "x": 395,
+            "y": 8,
+            "w": 462,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 462,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 462,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.6255411255411255,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "turboshred-knockdown-2",
+          "frame": {
+            "x": 873,
+            "y": 8,
+            "w": 474,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 474,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 474,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.7573839662447257,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "turboshred-knockdown-3",
+          "frame": {
+            "x": 1363,
+            "y": 8,
+            "w": 424,
+            "h": 292
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 424,
+            "h": 292
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 424,
+            "h": 292
+          },
+          "pivot": {
+            "x": 0.6344339622641509,
+            "y": 0.9897260273972602
+          }
+        },
+        {
+          "filename": "turboshred-knockdown-4",
+          "frame": {
+            "x": 432,
+            "y": 438,
+            "w": 503,
+            "h": 233
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 503,
+            "h": 233
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 503,
+            "h": 233
+          },
+          "pivot": {
+            "x": 0.5059642147117296,
+            "y": 0.9871244635193133
+          }
+        },
+        {
+          "filename": "turboshred-knockdown-5",
+          "frame": {
+            "x": 8,
+            "y": 438,
+            "w": 408,
+            "h": 251
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 408,
+            "h": 251
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 408,
+            "h": 251
+          },
+          "pivot": {
+            "x": 0.5318627450980392,
+            "y": 0.9880478087649402
+          }
+        },
+        {
+          "filename": "turboshred-knockdown-6",
+          "frame": {
+            "x": 951,
+            "y": 438,
+            "w": 433,
+            "h": 204
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 433,
+            "h": 204
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 433,
+            "h": 204
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9852941176470589
+          }
+        },
+        {
+          "filename": "turboshred-knockdown-7",
+          "frame": {
+            "x": 1400,
+            "y": 438,
+            "w": 396,
+            "h": 171
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 171
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 171
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9824561403508771
+          }
+        },
+        {
+          "filename": "turboshred-knockdown",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 371,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927536231884058
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2033,
+        "h": 883
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-punch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 369,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "turboshred-punch-1",
+          "frame": {
+            "x": 393,
+            "y": 8,
+            "w": 376,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "turboshred-punch-2",
+          "frame": {
+            "x": 785,
+            "y": 8,
+            "w": 436,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 436,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 436,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.44954128440366975,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "turboshred-punch-3",
+          "frame": {
+            "x": 1237,
+            "y": 8,
+            "w": 401,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 401,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 401,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.4763092269326683,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "turboshred-punch-4",
+          "frame": {
+            "x": 1654,
+            "y": 8,
+            "w": 371,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "turboshred-punch-5",
+          "frame": {
+            "x": 780,
+            "y": 458,
+            "w": 368,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "turboshred-punch-6",
+          "frame": {
+            "x": 8,
+            "y": 458,
+            "w": 371,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "turboshred-punch-7",
+          "frame": {
+            "x": 395,
+            "y": 458,
+            "w": 369,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "turboshred-punch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 369,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2007,
+        "h": 866
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-super-0",
+          "frame": {
+            "x": 395,
+            "y": 8,
+            "w": 393,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.47455470737913485,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "turboshred-super-1",
+          "frame": {
+            "x": 424,
+            "y": 454,
+            "w": 396,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.4772727272727273,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "turboshred-super-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 371,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5040431266846361,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "turboshred-super-3",
+          "frame": {
+            "x": 804,
+            "y": 8,
+            "w": 384,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5052083333333334,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "turboshred-super-4",
+          "frame": {
+            "x": 1204,
+            "y": 8,
+            "w": 395,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5063291139240507,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "turboshred-super-5",
+          "frame": {
+            "x": 836,
+            "y": 454,
+            "w": 404,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 404,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 404,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.4715346534653465,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "turboshred-super-6",
+          "frame": {
+            "x": 8,
+            "y": 454,
+            "w": 400,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 400,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.4775,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "turboshred-super-7",
+          "frame": {
+            "x": 1615,
+            "y": 8,
+            "w": 384,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.4869791666666667,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "turboshred-super",
+          "frame": {
+            "x": 395,
+            "y": 8,
+            "w": 393,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.47455470737913485,
+            "y": 0.9929411764705882
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1691,
+        "h": 697
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-sweep-0",
+          "frame": {
+            "x": 1379,
+            "y": 8,
+            "w": 304,
+            "h": 326
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 326
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 326
+          },
+          "pivot": {
+            "x": 0.5345394736842105,
+            "y": 0.99079754601227
+          }
+        },
+        {
+          "filename": "turboshred-sweep-1",
+          "frame": {
+            "x": 8,
+            "y": 363,
+            "w": 454,
+            "h": 326
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 454,
+            "h": 326
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 454,
+            "h": 326
+          },
+          "pivot": {
+            "x": 0.5110132158590308,
+            "y": 0.99079754601227
+          }
+        },
+        {
+          "filename": "turboshred-sweep-2",
+          "frame": {
+            "x": 478,
+            "y": 363,
+            "w": 536,
+            "h": 323
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 536,
+            "h": 323
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 536,
+            "h": 323
+          },
+          "pivot": {
+            "x": 0.5326492537313433,
+            "y": 0.9907120743034056
+          }
+        },
+        {
+          "filename": "turboshred-sweep-3",
+          "frame": {
+            "x": 1030,
+            "y": 363,
+            "w": 371,
+            "h": 311
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 311
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.545822102425876,
+            "y": 0.9903536977491961
+          }
+        },
+        {
+          "filename": "turboshred-sweep-4",
+          "frame": {
+            "x": 977,
+            "y": 8,
+            "w": 386,
+            "h": 328
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 328
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 328
+          },
+          "pivot": {
+            "x": 0.5997409326424871,
+            "y": 0.9908536585365854
+          }
+        },
+        {
+          "filename": "turboshred-sweep-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 302,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.6158940397350994,
+            "y": 0.9911504424778761
+          }
+        },
+        {
+          "filename": "turboshred-sweep-6",
+          "frame": {
+            "x": 326,
+            "y": 8,
+            "w": 308,
+            "h": 333
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 308,
+            "h": 333
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 308,
+            "h": 333
+          },
+          "pivot": {
+            "x": 0.5064935064935064,
+            "y": 0.990990990990991
+          }
+        },
+        {
+          "filename": "turboshred-sweep-7",
+          "frame": {
+            "x": 650,
+            "y": 8,
+            "w": 311,
+            "h": 332
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 332
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 332
+          },
+          "pivot": {
+            "x": 0.5176848874598071,
+            "y": 0.9909638554216867
+          }
+        },
+        {
+          "filename": "turboshred-sweep",
+          "frame": {
+            "x": 1379,
+            "y": 8,
+            "w": 304,
+            "h": 326
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 326
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 326
+          },
+          "pivot": {
+            "x": 0.5345394736842105,
+            "y": 0.99079754601227
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1879,
+        "h": 859
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-uppercut-0",
+          "frame": {
+            "x": 602,
+            "y": 8,
+            "w": 333,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "turboshred-uppercut-1",
+          "frame": {
+            "x": 8,
+            "y": 523,
+            "w": 290,
+            "h": 328
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 290,
+            "h": 328
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 290,
+            "h": 328
+          },
+          "pivot": {
+            "x": 0.5310344827586206,
+            "y": 0.9908536585365854
+          }
+        },
+        {
+          "filename": "turboshred-uppercut-2",
+          "frame": {
+            "x": 273,
+            "y": 8,
+            "w": 313,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "turboshred-uppercut-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 249,
+            "h": 499
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 249,
+            "h": 499
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 249,
+            "h": 499
+          },
+          "pivot": {
+            "x": 0.40763052208835343,
+            "y": 0.9939879759519038
+          }
+        },
+        {
+          "filename": "turboshred-uppercut-4",
+          "frame": {
+            "x": 951,
+            "y": 8,
+            "w": 281,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.41637010676156583,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "turboshred-uppercut-5",
+          "frame": {
+            "x": 1248,
+            "y": 8,
+            "w": 294,
+            "h": 329
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 294,
+            "h": 329
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 294,
+            "h": 329
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9908814589665653
+          }
+        },
+        {
+          "filename": "turboshred-uppercut-6",
+          "frame": {
+            "x": 314,
+            "y": 523,
+            "w": 314,
+            "h": 328
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 328
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 328
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9908536585365854
+          }
+        },
+        {
+          "filename": "turboshred-uppercut-7",
+          "frame": {
+            "x": 1558,
+            "y": 8,
+            "w": 313,
+            "h": 329
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 329
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 329
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9908814589665653
+          }
+        },
+        {
+          "filename": "turboshred-uppercut",
+          "frame": {
+            "x": 602,
+            "y": 8,
+            "w": 333,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1954,
+        "h": 896
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-win-0",
+          "frame": {
+            "x": 1142,
+            "y": 8,
+            "w": 364,
+            "h": 439
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 439
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 439
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931662870159453
+          }
+        },
+        {
+          "filename": "turboshred-win-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 359,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932279909706546
+          }
+        },
+        {
+          "filename": "turboshred-win-2",
+          "frame": {
+            "x": 383,
+            "y": 8,
+            "w": 367,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "turboshred-win-3",
+          "frame": {
+            "x": 766,
+            "y": 8,
+            "w": 360,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "turboshred-win-4",
+          "frame": {
+            "x": 8,
+            "y": 467,
+            "w": 359,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5069637883008357,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "turboshred-win-5",
+          "frame": {
+            "x": 830,
+            "y": 467,
+            "w": 416,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 416,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 416,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5540865384615384,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "turboshred-win-6",
+          "frame": {
+            "x": 383,
+            "y": 467,
+            "w": 431,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 431,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 431,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5638051044083526,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "turboshred-win-7",
+          "frame": {
+            "x": 1522,
+            "y": 8,
+            "w": 424,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 424,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 424,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5483490566037735,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "turboshred-win",
+          "frame": {
+            "x": 1142,
+            "y": 8,
+            "w": 364,
+            "h": 439
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 439
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 439
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931662870159453
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1874,
+        "h": 877
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-walk-0",
+          "frame": {
+            "x": 1527,
+            "y": 8,
+            "w": 339,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "turboshred-walk-1",
+          "frame": {
+            "x": 635,
+            "y": 8,
+            "w": 233,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 233,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 233,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.51931330472103,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "turboshred-walk-2",
+          "frame": {
+            "x": 248,
+            "y": 8,
+            "w": 371,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "turboshred-walk-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 224,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 224,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 224,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5714285714285714,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "turboshred-walk-4",
+          "frame": {
+            "x": 309,
+            "y": 449,
+            "w": 353,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "turboshred-walk-5",
+          "frame": {
+            "x": 8,
+            "y": 449,
+            "w": 285,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 285,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 285,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5228070175438596,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "turboshred-walk-6",
+          "frame": {
+            "x": 884,
+            "y": 8,
+            "w": 387,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "turboshred-walk-7",
+          "frame": {
+            "x": 1287,
+            "y": 8,
+            "w": 224,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 224,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 224,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.6049107142857143,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "turboshred-walk",
+          "frame": {
+            "x": 1527,
+            "y": 8,
+            "w": 339,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1834,
+        "h": 898
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "turboshred-walkBack-0",
+          "frame": {
+            "x": 264,
+            "y": 8,
+            "w": 343,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "turboshred-walkBack-1",
+          "frame": {
+            "x": 8,
+            "y": 459,
+            "w": 345,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5028985507246376,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "turboshred-walkBack-2",
+          "frame": {
+            "x": 623,
+            "y": 8,
+            "w": 370,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "turboshred-walkBack-3",
+          "frame": {
+            "x": 1009,
+            "y": 8,
+            "w": 259,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 259,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 259,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5038610038610039,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "turboshred-walkBack-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 240,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 240,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 240,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.5875,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "turboshred-walkBack-5",
+          "frame": {
+            "x": 369,
+            "y": 459,
+            "w": 321,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5109034267912772,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "turboshred-walkBack-6",
+          "frame": {
+            "x": 1284,
+            "y": 8,
+            "w": 247,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 247,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 247,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5263157894736842,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "turboshred-walkBack-7",
+          "frame": {
+            "x": 1547,
+            "y": 8,
+            "w": 279,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 279,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 279,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "turboshred-walkBack",
+          "frame": {
+            "x": 264,
+            "y": 8,
+            "w": 343,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

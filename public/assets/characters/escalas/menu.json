@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "escalas-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 266,
+    "h": 316
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 266,
+    "h": 316
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 266,
+    "h": 316
+   },
+   "pivot": {
+    "x": 0.12646101234394397,
+    "y": 0.990506329113924
+   }
+  },
+  "escalas-portrait": {
+   "frame": {
+    "x": 268,
+    "y": 0,
+    "w": 241,
+    "h": 288
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 241,
+    "h": 288
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 241,
+    "h": 288
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9895833333333334
+   }
+  },
+  "escalas-win": {
+   "frame": {
+    "x": 511,
+    "y": 0,
+    "w": 199,
+    "h": 299
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 199,
+    "h": 299
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 199,
+    "h": 299
+   },
+   "pivot": {
+    "x": 0.19520109773962063,
+    "y": 0.9899665551839465
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 712,
+   "h": 316
+  },
+  "scale": "1"
+ }
+}

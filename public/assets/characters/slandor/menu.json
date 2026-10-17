@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "slandor-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 221,
+    "h": 274
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 221,
+    "h": 274
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 221,
+    "h": 274
+   },
+   "pivot": {
+    "x": 0.5651233529480428,
+    "y": 0.9890510948905109
+   }
+  },
+  "slandor-portrait": {
+   "frame": {
+    "x": 223,
+    "y": 0,
+    "w": 255,
+    "h": 339
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 255,
+    "h": 339
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 255,
+    "h": 339
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9911504424778761
+   }
+  },
+  "slandor-win": {
+   "frame": {
+    "x": 480,
+    "y": 0,
+    "w": 177,
+    "h": 346
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 177,
+    "h": 346
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 177,
+    "h": 346
+   },
+   "pivot": {
+    "x": 0.19382604537484727,
+    "y": 0.9913294797687862
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 659,
+   "h": 346
+  },
+  "scale": "1"
+ }
+}

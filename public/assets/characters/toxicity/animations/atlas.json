@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1781,
+        "h": 795
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-airKick-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 300,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 300,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.415,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "toxicity-airKick-1",
+          "frame": {
+            "x": 767,
+            "y": 8,
+            "w": 332,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.4864457831325301,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "toxicity-airKick-2",
+          "frame": {
+            "x": 324,
+            "y": 8,
+            "w": 427,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 427,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 427,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.3758782201405152,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "toxicity-airKick-3",
+          "frame": {
+            "x": 687,
+            "y": 429,
+            "w": 453,
+            "h": 330
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 453,
+            "h": 330
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 453,
+            "h": 330
+          },
+          "pivot": {
+            "x": 0.3609271523178808,
+            "y": 0.990909090909091
+          }
+        },
+        {
+          "filename": "toxicity-airKick-4",
+          "frame": {
+            "x": 1115,
+            "y": 8,
+            "w": 322,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.4720496894409938,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "toxicity-airKick-5",
+          "frame": {
+            "x": 8,
+            "y": 429,
+            "w": 329,
+            "h": 358
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 358
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 358
+          },
+          "pivot": {
+            "x": 0.4574468085106383,
+            "y": 0.9916201117318436
+          }
+        },
+        {
+          "filename": "toxicity-airKick-6",
+          "frame": {
+            "x": 353,
+            "y": 429,
+            "w": 318,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.4418238993710692,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "toxicity-airKick-7",
+          "frame": {
+            "x": 1453,
+            "y": 8,
+            "w": 320,
+            "h": 363
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 363
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 363
+          },
+          "pivot": {
+            "x": 0.4515625,
+            "y": 0.9917355371900827
+          }
+        },
+        {
+          "filename": "toxicity-airKick",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 300,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 300,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.415,
+            "y": 0.9925925925925926
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1759,
+        "h": 822
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-airPunch-0",
+          "frame": {
+            "x": 1411,
+            "y": 8,
+            "w": 340,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5264705882352941,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "toxicity-airPunch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 342,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.2573099415204678,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "toxicity-airPunch-2",
+          "frame": {
+            "x": 701,
+            "y": 428,
+            "w": 513,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 513,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 513,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.39473684210526316,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "toxicity-airPunch-3",
+          "frame": {
+            "x": 8,
+            "y": 428,
+            "w": 320,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.4703125,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "toxicity-airPunch-4",
+          "frame": {
+            "x": 366,
+            "y": 8,
+            "w": 336,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.49107142857142855,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "toxicity-airPunch-5",
+          "frame": {
+            "x": 1066,
+            "y": 8,
+            "w": 329,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.43617021276595747,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "toxicity-airPunch-6",
+          "frame": {
+            "x": 718,
+            "y": 8,
+            "w": 332,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.4743975903614458,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "toxicity-airPunch-7",
+          "frame": {
+            "x": 344,
+            "y": 428,
+            "w": 341,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.4868035190615836,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "toxicity-airPunch",
+          "frame": {
+            "x": 1411,
+            "y": 8,
+            "w": 340,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5264705882352941,
+            "y": 0.9922680412371134
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1776,
+        "h": 827
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-backdash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 346,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5202312138728323,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "toxicity-backdash-1",
+          "frame": {
+            "x": 8,
+            "y": 432,
+            "w": 358,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5195530726256983,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "toxicity-backdash-2",
+          "frame": {
+            "x": 370,
+            "y": 8,
+            "w": 367,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.7070844686648501,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "toxicity-backdash-3",
+          "frame": {
+            "x": 753,
+            "y": 8,
+            "w": 320,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.4421875,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "toxicity-backdash-4",
+          "frame": {
+            "x": 719,
+            "y": 432,
+            "w": 367,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.5504087193460491,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "toxicity-backdash-5",
+          "frame": {
+            "x": 1089,
+            "y": 8,
+            "w": 329,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5288753799392097,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "toxicity-backdash-6",
+          "frame": {
+            "x": 382,
+            "y": 432,
+            "w": 321,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.5015576323987538,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "toxicity-backdash-7",
+          "frame": {
+            "x": 1434,
+            "y": 8,
+            "w": 334,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5014970059880239,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "toxicity-backdash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 346,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5202312138728323,
+            "y": 0.9926470588235294
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1983,
+        "h": 842
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-special-0",
+          "frame": {
+            "x": 415,
+            "y": 8,
+            "w": 359,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "toxicity-special-1",
+          "frame": {
+            "x": 877,
+            "y": 447,
+            "w": 377,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "toxicity-special-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 391,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "toxicity-special-3",
+          "frame": {
+            "x": 412,
+            "y": 447,
+            "w": 449,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 449,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 449,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.4977728285077951,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "toxicity-special-4",
+          "frame": {
+            "x": 1534,
+            "y": 8,
+            "w": 441,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 441,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 441,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.49206349206349204,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "toxicity-special-5",
+          "frame": {
+            "x": 8,
+            "y": 447,
+            "w": 388,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "toxicity-special-6",
+          "frame": {
+            "x": 790,
+            "y": 8,
+            "w": 361,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "toxicity-special-7",
+          "frame": {
+            "x": 1167,
+            "y": 8,
+            "w": 351,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "toxicity-special",
+          "frame": {
+            "x": 415,
+            "y": 8,
+            "w": 359,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1833,
+        "h": 852
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-block-0",
+          "frame": {
+            "x": 746,
+            "y": 8,
+            "w": 348,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "toxicity-block-1",
+          "frame": {
+            "x": 1110,
+            "y": 8,
+            "w": 357,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5070028011204482,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "toxicity-block-2",
+          "frame": {
+            "x": 739,
+            "y": 439,
+            "w": 355,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5014084507042254,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "toxicity-block-3",
+          "frame": {
+            "x": 379,
+            "y": 439,
+            "w": 344,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "toxicity-block-4",
+          "frame": {
+            "x": 8,
+            "y": 439,
+            "w": 355,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "toxicity-block-5",
+          "frame": {
+            "x": 375,
+            "y": 8,
+            "w": 355,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5084507042253521,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "toxicity-block-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 351,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "toxicity-block-7",
+          "frame": {
+            "x": 1483,
+            "y": 8,
+            "w": 342,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "toxicity-block",
+          "frame": {
+            "x": 746,
+            "y": 8,
+            "w": 348,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1950,
+        "h": 794
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-crouch-0",
+          "frame": {
+            "x": 780,
+            "y": 8,
+            "w": 376,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5305851063829787,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "toxicity-crouch-1",
+          "frame": {
+            "x": 1172,
+            "y": 8,
+            "w": 381,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5393700787401575,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "toxicity-crouch-2",
+          "frame": {
+            "x": 8,
+            "y": 409,
+            "w": 378,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.5291005291005291,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "toxicity-crouch-3",
+          "frame": {
+            "x": 1569,
+            "y": 8,
+            "w": 373,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5268096514745308,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "toxicity-crouch-4",
+          "frame": {
+            "x": 402,
+            "y": 409,
+            "w": 370,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5175675675675676,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "toxicity-crouch-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 371,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5188679245283019,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "toxicity-crouch-6",
+          "frame": {
+            "x": 788,
+            "y": 409,
+            "w": 379,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5237467018469657,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "toxicity-crouch-7",
+          "frame": {
+            "x": 395,
+            "y": 8,
+            "w": 369,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.5149051490514905,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "toxicity-crouch",
+          "frame": {
+            "x": 780,
+            "y": 8,
+            "w": 376,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5305851063829787,
+            "y": 0.9920844327176781
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1986,
+        "h": 768
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-crouchBlock-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 382,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5091623036649214,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "toxicity-crouchBlock-1",
+          "frame": {
+            "x": 8,
+            "y": 395,
+            "w": 367,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5054495912806539,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "toxicity-crouchBlock-2",
+          "frame": {
+            "x": 391,
+            "y": 395,
+            "w": 380,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5197368421052632,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "toxicity-crouchBlock-3",
+          "frame": {
+            "x": 406,
+            "y": 8,
+            "w": 388,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.5244845360824743,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "toxicity-crouchBlock-4",
+          "frame": {
+            "x": 810,
+            "y": 8,
+            "w": 382,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.5091623036649214,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "toxicity-crouchBlock-5",
+          "frame": {
+            "x": 1612,
+            "y": 8,
+            "w": 366,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.5040983606557377,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "toxicity-crouchBlock-6",
+          "frame": {
+            "x": 787,
+            "y": 395,
+            "w": 379,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.5184696569920845,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "toxicity-crouchBlock-7",
+          "frame": {
+            "x": 1208,
+            "y": 8,
+            "w": 388,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5231958762886598,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "toxicity-crouchBlock",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 382,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5091623036649214,
+            "y": 0.9919137466307277
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2018,
+        "h": 777
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-crouchHurt-0",
+          "frame": {
+            "x": 411,
+            "y": 8,
+            "w": 392,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "toxicity-crouchHurt-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 387,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "toxicity-crouchHurt-2",
+          "frame": {
+            "x": 805,
+            "y": 402,
+            "w": 389,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "toxicity-crouchHurt-3",
+          "frame": {
+            "x": 8,
+            "y": 402,
+            "w": 381,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "toxicity-crouchHurt-4",
+          "frame": {
+            "x": 405,
+            "y": 402,
+            "w": 384,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "toxicity-crouchHurt-5",
+          "frame": {
+            "x": 819,
+            "y": 8,
+            "w": 387,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "toxicity-crouchHurt-6",
+          "frame": {
+            "x": 1222,
+            "y": 8,
+            "w": 391,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "toxicity-crouchHurt-7",
+          "frame": {
+            "x": 1629,
+            "y": 8,
+            "w": 381,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "toxicity-crouchHurt",
+          "frame": {
+            "x": 411,
+            "y": 8,
+            "w": 392,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1683,
+        "h": 763
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-crouchPunch-0",
+          "frame": {
+            "x": 433,
+            "y": 8,
+            "w": 382,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5117801047120419,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "toxicity-crouchPunch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 409,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.5244498777506112,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "toxicity-crouchPunch-2",
+          "frame": {
+            "x": 831,
+            "y": 8,
+            "w": 426,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 426,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 426,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.4953051643192488,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "toxicity-crouchPunch-3",
+          "frame": {
+            "x": 1273,
+            "y": 8,
+            "w": 402,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.5099502487562189,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "toxicity-crouchPunch-4",
+          "frame": {
+            "x": 8,
+            "y": 401,
+            "w": 396,
+            "h": 354
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 354
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 354
+          },
+          "pivot": {
+            "x": 0.5113636363636364,
+            "y": 0.9915254237288136
+          }
+        },
+        {
+          "filename": "toxicity-crouchPunch-5",
+          "frame": {
+            "x": 1241,
+            "y": 401,
+            "w": 390,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5076923076923077,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "toxicity-crouchPunch-6",
+          "frame": {
+            "x": 830,
+            "y": 401,
+            "w": 395,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.5088607594936709,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "toxicity-crouchPunch-7",
+          "frame": {
+            "x": 420,
+            "y": 401,
+            "w": 394,
+            "h": 354
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 354
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 354
+          },
+          "pivot": {
+            "x": 0.5101522842639594,
+            "y": 0.9915254237288136
+          }
+        },
+        {
+          "filename": "toxicity-crouchPunch",
+          "frame": {
+            "x": 433,
+            "y": 8,
+            "w": 382,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5117801047120419,
+            "y": 0.9920212765957447
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1976,
+        "h": 829
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-dash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 351,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5128205128205128,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "toxicity-dash-1",
+          "frame": {
+            "x": 871,
+            "y": 434,
+            "w": 335,
+            "h": 331
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 331
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 331
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9909365558912386
+          }
+        },
+        {
+          "filename": "toxicity-dash-2",
+          "frame": {
+            "x": 443,
+            "y": 434,
+            "w": 412,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.39684466019417475,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "toxicity-dash-3",
+          "frame": {
+            "x": 1557,
+            "y": 8,
+            "w": 411,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.38321167883211676,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "toxicity-dash-4",
+          "frame": {
+            "x": 8,
+            "y": 434,
+            "w": 419,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 419,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 419,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.32100238663484487,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "toxicity-dash-5",
+          "frame": {
+            "x": 743,
+            "y": 8,
+            "w": 392,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "toxicity-dash-6",
+          "frame": {
+            "x": 1151,
+            "y": 8,
+            "w": 390,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5102564102564102,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "toxicity-dash-7",
+          "frame": {
+            "x": 375,
+            "y": 8,
+            "w": 352,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5113636363636364,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "toxicity-dash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 351,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5128205128205128,
+            "y": 0.9926829268292683
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1798,
+        "h": 785
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 360,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.475,
+            "y": 0.9938271604938271
+          }
+        },
+        {
+          "filename": "toxicity-ko-1",
+          "frame": {
+            "x": 384,
+            "y": 8,
+            "w": 340,
+            "h": 447
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 447
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 447
+          },
+          "pivot": {
+            "x": 0.40294117647058825,
+            "y": 0.9932885906040269
+          }
+        },
+        {
+          "filename": "toxicity-ko-2",
+          "frame": {
+            "x": 740,
+            "y": 8,
+            "w": 409,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "toxicity-ko-3",
+          "frame": {
+            "x": 1165,
+            "y": 8,
+            "w": 432,
+            "h": 320
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 432,
+            "h": 320
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 432,
+            "h": 320
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.990625
+          }
+        },
+        {
+          "filename": "toxicity-ko-4",
+          "frame": {
+            "x": 8,
+            "y": 510,
+            "w": 447,
+            "h": 267
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 447,
+            "h": 267
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 447,
+            "h": 267
+          },
+          "pivot": {
+            "x": 0.47762863534675615,
+            "y": 0.9887640449438202
+          }
+        },
+        {
+          "filename": "toxicity-ko-5",
+          "frame": {
+            "x": 471,
+            "y": 510,
+            "w": 449,
+            "h": 229
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 449,
+            "h": 229
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 449,
+            "h": 229
+          },
+          "pivot": {
+            "x": 0.4799554565701559,
+            "y": 0.9868995633187773
+          }
+        },
+        {
+          "filename": "toxicity-ko-6",
+          "frame": {
+            "x": 936,
+            "y": 510,
+            "w": 400,
+            "h": 212
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 400,
+            "h": 212
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 212
+          },
+          "pivot": {
+            "x": 0.49625,
+            "y": 0.9858490566037735
+          }
+        },
+        {
+          "filename": "toxicity-ko-7",
+          "frame": {
+            "x": 1352,
+            "y": 510,
+            "w": 438,
+            "h": 189
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 438,
+            "h": 189
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 438,
+            "h": 189
+          },
+          "pivot": {
+            "x": 0.4977168949771689,
+            "y": 0.9841269841269841
+          }
+        },
+        {
+          "filename": "toxicity-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 360,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.475,
+            "y": 0.9938271604938271
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1788,
+        "h": 634
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-down-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 412,
+            "h": 317
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 317
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 317
+          },
+          "pivot": {
+            "x": 0.38228155339805825,
+            "y": 0.9905362776025236
+          }
+        },
+        {
+          "filename": "toxicity-down-1",
+          "frame": {
+            "x": 436,
+            "y": 8,
+            "w": 427,
+            "h": 311
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 427,
+            "h": 311
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 427,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.36768149882903983,
+            "y": 0.9903536977491961
+          }
+        },
+        {
+          "filename": "toxicity-down-2",
+          "frame": {
+            "x": 879,
+            "y": 8,
+            "w": 421,
+            "h": 304
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 421,
+            "h": 304
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 421,
+            "h": 304
+          },
+          "pivot": {
+            "x": 0.37173396674584325,
+            "y": 0.9901315789473685
+          }
+        },
+        {
+          "filename": "toxicity-down-3",
+          "frame": {
+            "x": 8,
+            "y": 341,
+            "w": 433,
+            "h": 285
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 433,
+            "h": 285
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 433,
+            "h": 285
+          },
+          "pivot": {
+            "x": 0.3695150115473441,
+            "y": 0.9894736842105263
+          }
+        },
+        {
+          "filename": "toxicity-down-4",
+          "frame": {
+            "x": 1345,
+            "y": 341,
+            "w": 435,
+            "h": 279
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 279
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 279
+          },
+          "pivot": {
+            "x": 0.35977011494252875,
+            "y": 0.989247311827957
+          }
+        },
+        {
+          "filename": "toxicity-down-5",
+          "frame": {
+            "x": 900,
+            "y": 341,
+            "w": 429,
+            "h": 280
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 429,
+            "h": 280
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 429,
+            "h": 280
+          },
+          "pivot": {
+            "x": 0.372960372960373,
+            "y": 0.9892857142857143
+          }
+        },
+        {
+          "filename": "toxicity-down-6",
+          "frame": {
+            "x": 457,
+            "y": 341,
+            "w": 427,
+            "h": 283
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 427,
+            "h": 283
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 427,
+            "h": 283
+          },
+          "pivot": {
+            "x": 0.3747072599531616,
+            "y": 0.9893992932862191
+          }
+        },
+        {
+          "filename": "toxicity-down-7",
+          "frame": {
+            "x": 1316,
+            "y": 8,
+            "w": 420,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 288
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 288
+          },
+          "pivot": {
+            "x": 0.3773809523809524,
+            "y": 0.9895833333333334
+          }
+        },
+        {
+          "filename": "toxicity-down",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 412,
+            "h": 317
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 317
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 317
+          },
+          "pivot": {
+            "x": 0.38228155339805825,
+            "y": 0.9905362776025236
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2009,
+        "h": 848
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-fall-0",
+          "frame": {
+            "x": 376,
+            "y": 456,
+            "w": 351,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.6809116809116809,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "toxicity-fall-1",
+          "frame": {
+            "x": 645,
+            "y": 8,
+            "w": 313,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.6805111821086262,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "toxicity-fall-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 318,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.6383647798742138,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "toxicity-fall-3",
+          "frame": {
+            "x": 342,
+            "y": 8,
+            "w": 287,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 287,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 287,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5156794425087108,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "toxicity-fall-4",
+          "frame": {
+            "x": 1326,
+            "y": 8,
+            "w": 327,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5688073394495413,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "toxicity-fall-5",
+          "frame": {
+            "x": 974,
+            "y": 8,
+            "w": 336,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5863095238095238,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "toxicity-fall-6",
+          "frame": {
+            "x": 1669,
+            "y": 8,
+            "w": 332,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.5707831325301205,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "toxicity-fall-7",
+          "frame": {
+            "x": 8,
+            "y": 456,
+            "w": 352,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.5894886363636364,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "toxicity-fall",
+          "frame": {
+            "x": 376,
+            "y": 456,
+            "w": 351,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.6809116809116809,
+            "y": 0.9911764705882353
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1837,
+        "h": 615
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-getup-0",
+          "frame": {
+            "x": 335,
+            "y": 399,
+            "w": 392,
+            "h": 163
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 163
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 163
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9815950920245399
+          }
+        },
+        {
+          "filename": "toxicity-getup-1",
+          "frame": {
+            "x": 8,
+            "y": 399,
+            "w": 311,
+            "h": 208
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 208
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 208
+          },
+          "pivot": {
+            "x": 0.46141479099678456,
+            "y": 0.9855769230769231
+          }
+        },
+        {
+          "filename": "toxicity-getup-2",
+          "frame": {
+            "x": 1533,
+            "y": 8,
+            "w": 296,
+            "h": 259
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 259
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 259
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9884169884169884
+          }
+        },
+        {
+          "filename": "toxicity-getup-3",
+          "frame": {
+            "x": 1234,
+            "y": 8,
+            "w": 283,
+            "h": 302
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 283,
+            "h": 302
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 283,
+            "h": 302
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9900662251655629
+          }
+        },
+        {
+          "filename": "toxicity-getup-4",
+          "frame": {
+            "x": 945,
+            "y": 8,
+            "w": 273,
+            "h": 346
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 273,
+            "h": 346
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 273,
+            "h": 346
+          },
+          "pivot": {
+            "x": 0.4597069597069597,
+            "y": 0.9913294797687862
+          }
+        },
+        {
+          "filename": "toxicity-getup-5",
+          "frame": {
+            "x": 647,
+            "y": 8,
+            "w": 282,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 282,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 282,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5195035460992907,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "toxicity-getup-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 300,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 300,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5183333333333333,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "toxicity-getup-7",
+          "frame": {
+            "x": 324,
+            "y": 8,
+            "w": 307,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.509771986970684,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "toxicity-getup",
+          "frame": {
+            "x": 335,
+            "y": 399,
+            "w": 392,
+            "h": 163
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 163
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 163
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9815950920245399
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1855,
+        "h": 844
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-hurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 346,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5115606936416185,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "toxicity-hurt-1",
+          "frame": {
+            "x": 1460,
+            "y": 8,
+            "w": 387,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.5310077519379846,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "toxicity-hurt-2",
+          "frame": {
+            "x": 366,
+            "y": 438,
+            "w": 313,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.4952076677316294,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "toxicity-hurt-3",
+          "frame": {
+            "x": 695,
+            "y": 438,
+            "w": 328,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "toxicity-hurt-4",
+          "frame": {
+            "x": 8,
+            "y": 438,
+            "w": 342,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "toxicity-hurt-5",
+          "frame": {
+            "x": 737,
+            "y": 8,
+            "w": 346,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5028901734104047,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "toxicity-hurt-6",
+          "frame": {
+            "x": 1099,
+            "y": 8,
+            "w": 345,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5043478260869565,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "toxicity-hurt-7",
+          "frame": {
+            "x": 370,
+            "y": 8,
+            "w": 351,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5156695156695157,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "toxicity-hurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 346,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5115606936416185,
+            "y": 0.9927536231884058
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1752,
+        "h": 844
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-idle-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 335,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5104477611940299,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "toxicity-idle-1",
+          "frame": {
+            "x": 359,
+            "y": 8,
+            "w": 334,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5134730538922155,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "toxicity-idle-2",
+          "frame": {
+            "x": 709,
+            "y": 8,
+            "w": 335,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5029850746268657,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "toxicity-idle-3",
+          "frame": {
+            "x": 1060,
+            "y": 8,
+            "w": 335,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5059701492537313,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "toxicity-idle-4",
+          "frame": {
+            "x": 712,
+            "y": 435,
+            "w": 332,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5090361445783133,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "toxicity-idle-5",
+          "frame": {
+            "x": 1411,
+            "y": 8,
+            "w": 333,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.506006006006006,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "toxicity-idle-6",
+          "frame": {
+            "x": 8,
+            "y": 435,
+            "w": 336,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5044642857142857,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "toxicity-idle-7",
+          "frame": {
+            "x": 360,
+            "y": 435,
+            "w": 336,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5074404761904762,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "toxicity-idle",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 335,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5104477611940299,
+            "y": 0.9927007299270073
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1736,
+        "h": 874
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-intro-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 325,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5446153846153846,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "toxicity-intro-1",
+          "frame": {
+            "x": 349,
+            "y": 8,
+            "w": 331,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.554380664652568,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "toxicity-intro-2",
+          "frame": {
+            "x": 696,
+            "y": 8,
+            "w": 326,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5322085889570553,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "toxicity-intro-3",
+          "frame": {
+            "x": 725,
+            "y": 462,
+            "w": 323,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5309597523219814,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "toxicity-intro-4",
+          "frame": {
+            "x": 364,
+            "y": 462,
+            "w": 345,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5173913043478261,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "toxicity-intro-5",
+          "frame": {
+            "x": 1038,
+            "y": 8,
+            "w": 338,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5133136094674556,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "toxicity-intro-6",
+          "frame": {
+            "x": 8,
+            "y": 462,
+            "w": 340,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.5117647058823529,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "toxicity-intro-7",
+          "frame": {
+            "x": 1392,
+            "y": 8,
+            "w": 336,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5074404761904762,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "toxicity-intro",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 325,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5446153846153846,
+            "y": 0.9931506849315068
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1950,
+        "h": 810
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-jump-0",
+          "frame": {
+            "x": 327,
+            "y": 8,
+            "w": 333,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "toxicity-jump-1",
+          "frame": {
+            "x": 1644,
+            "y": 8,
+            "w": 298,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 298,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 298,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.49161073825503354,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "toxicity-jump-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 303,
+            "h": 454
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 454
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 454
+          },
+          "pivot": {
+            "x": 0.3201320132013201,
+            "y": 0.9933920704845814
+          }
+        },
+        {
+          "filename": "toxicity-jump-3",
+          "frame": {
+            "x": 1014,
+            "y": 8,
+            "w": 296,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.6165540540540541,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "toxicity-jump-4",
+          "frame": {
+            "x": 8,
+            "y": 478,
+            "w": 286,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.42832167832167833,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "toxicity-jump-5",
+          "frame": {
+            "x": 1326,
+            "y": 8,
+            "w": 302,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.6341059602649006,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "toxicity-jump-6",
+          "frame": {
+            "x": 310,
+            "y": 478,
+            "w": 300,
+            "h": 303
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 300,
+            "h": 303
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 303
+          },
+          "pivot": {
+            "x": 0.48,
+            "y": 0.9900990099009901
+          }
+        },
+        {
+          "filename": "toxicity-jump-7",
+          "frame": {
+            "x": 676,
+            "y": 8,
+            "w": 322,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "toxicity-jump",
+          "frame": {
+            "x": 327,
+            "y": 8,
+            "w": 333,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1800,
+        "h": 856
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-kick-0",
+          "frame": {
+            "x": 785,
+            "y": 8,
+            "w": 350,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.55,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "toxicity-kick-1",
+          "frame": {
+            "x": 1151,
+            "y": 8,
+            "w": 313,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.41054313099041534,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "toxicity-kick-2",
+          "frame": {
+            "x": 339,
+            "y": 438,
+            "w": 464,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 464,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 464,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.23275862068965517,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "toxicity-kick-3",
+          "frame": {
+            "x": 819,
+            "y": 438,
+            "w": 446,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 446,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 446,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.2163677130044843,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "toxicity-kick-4",
+          "frame": {
+            "x": 366,
+            "y": 8,
+            "w": 403,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.29156327543424315,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "toxicity-kick-5",
+          "frame": {
+            "x": 1480,
+            "y": 8,
+            "w": 312,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 312,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.4439102564102564,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "toxicity-kick-6",
+          "frame": {
+            "x": 8,
+            "y": 438,
+            "w": 315,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 315,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 315,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.4,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "toxicity-kick-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 342,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.543859649122807,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "toxicity-kick",
+          "frame": {
+            "x": 785,
+            "y": 8,
+            "w": 350,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.55,
+            "y": 0.9927007299270073
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1787,
+        "h": 700
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-knockdown-0",
+          "frame": {
+            "x": 469,
+            "y": 8,
+            "w": 366,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5314207650273224,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "toxicity-knockdown-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 445,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 445,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 445,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.401123595505618,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "toxicity-knockdown-2",
+          "frame": {
+            "x": 851,
+            "y": 8,
+            "w": 442,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 442,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 442,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.7058823529411765,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "toxicity-knockdown-3",
+          "frame": {
+            "x": 8,
+            "y": 428,
+            "w": 429,
+            "h": 264
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 429,
+            "h": 264
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 429,
+            "h": 264
+          },
+          "pivot": {
+            "x": 0.43123543123543123,
+            "y": 0.9886363636363636
+          }
+        },
+        {
+          "filename": "toxicity-knockdown-4",
+          "frame": {
+            "x": 1309,
+            "y": 8,
+            "w": 470,
+            "h": 303
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 470,
+            "h": 303
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 470,
+            "h": 303
+          },
+          "pivot": {
+            "x": 0.4765957446808511,
+            "y": 0.9900990099009901
+          }
+        },
+        {
+          "filename": "toxicity-knockdown-5",
+          "frame": {
+            "x": 453,
+            "y": 428,
+            "w": 413,
+            "h": 246
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 246
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 246
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9878048780487805
+          }
+        },
+        {
+          "filename": "toxicity-knockdown-6",
+          "frame": {
+            "x": 882,
+            "y": 428,
+            "w": 409,
+            "h": 191
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 191
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 191
+          },
+          "pivot": {
+            "x": 0.49877750611246946,
+            "y": 0.9842931937172775
+          }
+        },
+        {
+          "filename": "toxicity-knockdown-7",
+          "frame": {
+            "x": 1307,
+            "y": 428,
+            "w": 422,
+            "h": 160
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 422,
+            "h": 160
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 160
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.98125
+          }
+        },
+        {
+          "filename": "toxicity-knockdown",
+          "frame": {
+            "x": 469,
+            "y": 8,
+            "w": 366,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5314207650273224,
+            "y": 0.9923469387755102
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1944,
+        "h": 846
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-punch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 339,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5014749262536873,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "toxicity-punch-1",
+          "frame": {
+            "x": 363,
+            "y": 8,
+            "w": 364,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "toxicity-punch-2",
+          "frame": {
+            "x": 1156,
+            "y": 8,
+            "w": 419,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 419,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 419,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.4451073985680191,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "toxicity-punch-3",
+          "frame": {
+            "x": 743,
+            "y": 8,
+            "w": 397,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.4811083123425693,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "toxicity-punch-4",
+          "frame": {
+            "x": 373,
+            "y": 438,
+            "w": 415,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 415,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 415,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.42048192771084336,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "toxicity-punch-5",
+          "frame": {
+            "x": 804,
+            "y": 438,
+            "w": 364,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "toxicity-punch-6",
+          "frame": {
+            "x": 8,
+            "y": 438,
+            "w": 349,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.501432664756447,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "toxicity-punch-7",
+          "frame": {
+            "x": 1591,
+            "y": 8,
+            "w": 345,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5115942028985507,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "toxicity-punch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 339,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5014749262536873,
+            "y": 0.9927536231884058
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1696,
+        "h": 859
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-super-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 411,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.4829683698296837,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "toxicity-super-1",
+          "frame": {
+            "x": 869,
+            "y": 8,
+            "w": 403,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5210918114143921,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "toxicity-super-2",
+          "frame": {
+            "x": 435,
+            "y": 8,
+            "w": 418,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 418,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 418,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5179425837320574,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "toxicity-super-3",
+          "frame": {
+            "x": 1288,
+            "y": 8,
+            "w": 395,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5139240506329114,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "toxicity-super-4",
+          "frame": {
+            "x": 856,
+            "y": 449,
+            "w": 420,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5119047619047619,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "toxicity-super-5",
+          "frame": {
+            "x": 8,
+            "y": 449,
+            "w": 412,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5266990291262136,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "toxicity-super-6",
+          "frame": {
+            "x": 1292,
+            "y": 449,
+            "w": 396,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.494949494949495,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "toxicity-super-7",
+          "frame": {
+            "x": 436,
+            "y": 449,
+            "w": 404,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 404,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 404,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5358910891089109,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "toxicity-super",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 411,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.4829683698296837,
+            "y": 0.9929411764705882
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1959,
+        "h": 740
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-sweep-0",
+          "frame": {
+            "x": 1244,
+            "y": 8,
+            "w": 388,
+            "h": 319
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 319
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 319
+          },
+          "pivot": {
+            "x": 0.5837628865979382,
+            "y": 0.9905956112852664
+          }
+        },
+        {
+          "filename": "toxicity-sweep-1",
+          "frame": {
+            "x": 424,
+            "y": 415,
+            "w": 511,
+            "h": 307
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 511,
+            "h": 307
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 511,
+            "h": 307
+          },
+          "pivot": {
+            "x": 0.5391389432485323,
+            "y": 0.990228013029316
+          }
+        },
+        {
+          "filename": "toxicity-sweep-2",
+          "frame": {
+            "x": 393,
+            "y": 8,
+            "w": 470,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 470,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 470,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.5946808510638298,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "toxicity-sweep-3",
+          "frame": {
+            "x": 951,
+            "y": 415,
+            "w": 451,
+            "h": 307
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 451,
+            "h": 307
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 451,
+            "h": 307
+          },
+          "pivot": {
+            "x": 0.5509977827050998,
+            "y": 0.990228013029316
+          }
+        },
+        {
+          "filename": "toxicity-sweep-4",
+          "frame": {
+            "x": 879,
+            "y": 8,
+            "w": 349,
+            "h": 322
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 322
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 322
+          },
+          "pivot": {
+            "x": 0.5429799426934098,
+            "y": 0.9906832298136646
+          }
+        },
+        {
+          "filename": "toxicity-sweep-5",
+          "frame": {
+            "x": 1648,
+            "y": 8,
+            "w": 303,
+            "h": 317
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 317
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 317
+          },
+          "pivot": {
+            "x": 0.5363036303630363,
+            "y": 0.9905362776025236
+          }
+        },
+        {
+          "filename": "toxicity-sweep-6",
+          "frame": {
+            "x": 8,
+            "y": 415,
+            "w": 400,
+            "h": 317
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 400,
+            "h": 317
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 317
+          },
+          "pivot": {
+            "x": 0.5625,
+            "y": 0.9905362776025236
+          }
+        },
+        {
+          "filename": "toxicity-sweep-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 369,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.5338753387533876,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "toxicity-sweep",
+          "frame": {
+            "x": 1244,
+            "y": 8,
+            "w": 388,
+            "h": 319
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 319
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 319
+          },
+          "pivot": {
+            "x": 0.5837628865979382,
+            "y": 0.9905956112852664
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1899,
+        "h": 820
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-uppercut-0",
+          "frame": {
+            "x": 958,
+            "y": 8,
+            "w": 310,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "toxicity-uppercut-1",
+          "frame": {
+            "x": 313,
+            "y": 512,
+            "w": 308,
+            "h": 297
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 308,
+            "h": 297
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 308,
+            "h": 297
+          },
+          "pivot": {
+            "x": 0.4935064935064935,
+            "y": 0.98989898989899
+          }
+        },
+        {
+          "filename": "toxicity-uppercut-2",
+          "frame": {
+            "x": 614,
+            "y": 8,
+            "w": 328,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "toxicity-uppercut-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 283,
+            "h": 488
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 283,
+            "h": 488
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 283,
+            "h": 488
+          },
+          "pivot": {
+            "x": 0.46996466431095407,
+            "y": 0.9938524590163934
+          }
+        },
+        {
+          "filename": "toxicity-uppercut-4",
+          "frame": {
+            "x": 307,
+            "y": 8,
+            "w": 291,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 291,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 291,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.4725085910652921,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "toxicity-uppercut-5",
+          "frame": {
+            "x": 1284,
+            "y": 8,
+            "w": 297,
+            "h": 337
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 297,
+            "h": 337
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 297,
+            "h": 337
+          },
+          "pivot": {
+            "x": 0.494949494949495,
+            "y": 0.9910979228486647
+          }
+        },
+        {
+          "filename": "toxicity-uppercut-6",
+          "frame": {
+            "x": 8,
+            "y": 512,
+            "w": 289,
+            "h": 300
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 289,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 289,
+            "h": 300
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99
+          }
+        },
+        {
+          "filename": "toxicity-uppercut-7",
+          "frame": {
+            "x": 1597,
+            "y": 8,
+            "w": 294,
+            "h": 336
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 294,
+            "h": 336
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 294,
+            "h": 336
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9910714285714286
+          }
+        },
+        {
+          "filename": "toxicity-uppercut",
+          "frame": {
+            "x": 958,
+            "y": 8,
+            "w": 310,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921052631578947
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1872,
+        "h": 850
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-win-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 337,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5089020771513353,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "toxicity-win-1",
+          "frame": {
+            "x": 721,
+            "y": 8,
+            "w": 342,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5175438596491229,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "toxicity-win-2",
+          "frame": {
+            "x": 1079,
+            "y": 8,
+            "w": 345,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5144927536231884,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "toxicity-win-3",
+          "frame": {
+            "x": 361,
+            "y": 8,
+            "w": 344,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5130813953488372,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "toxicity-win-4",
+          "frame": {
+            "x": 1440,
+            "y": 8,
+            "w": 424,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 424,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 424,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5294811320754716,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "toxicity-win-5",
+          "frame": {
+            "x": 8,
+            "y": 436,
+            "w": 407,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 407,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 407,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "toxicity-win-6",
+          "frame": {
+            "x": 850,
+            "y": 436,
+            "w": 402,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.4975124378109453,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "toxicity-win-7",
+          "frame": {
+            "x": 431,
+            "y": 436,
+            "w": 403,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5235732009925558,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "toxicity-win",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 337,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5089020771513353,
+            "y": 0.9927184466019418
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1947,
+        "h": 943
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-walk-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 347,
+            "h": 460
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 460
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 460
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934782608695653
+          }
+        },
+        {
+          "filename": "toxicity-walk-1",
+          "frame": {
+            "x": 1004,
+            "y": 8,
+            "w": 293,
+            "h": 458
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 293,
+            "h": 458
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 293,
+            "h": 458
+          },
+          "pivot": {
+            "x": 0.5085324232081911,
+            "y": 0.9934497816593887
+          }
+        },
+        {
+          "filename": "toxicity-walk-2",
+          "frame": {
+            "x": 371,
+            "y": 8,
+            "w": 255,
+            "h": 460
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 255,
+            "h": 460
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 255,
+            "h": 460
+          },
+          "pivot": {
+            "x": 0.3941176470588235,
+            "y": 0.9934782608695653
+          }
+        },
+        {
+          "filename": "toxicity-walk-3",
+          "frame": {
+            "x": 642,
+            "y": 8,
+            "w": 346,
+            "h": 460
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 460
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 460
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934782608695653
+          }
+        },
+        {
+          "filename": "toxicity-walk-4",
+          "frame": {
+            "x": 8,
+            "y": 484,
+            "w": 344,
+            "h": 451
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 451
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 451
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933481152993349
+          }
+        },
+        {
+          "filename": "toxicity-walk-5",
+          "frame": {
+            "x": 368,
+            "y": 484,
+            "w": 291,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 291,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 291,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5137457044673539,
+            "y": 0.9932279909706546
+          }
+        },
+        {
+          "filename": "toxicity-walk-6",
+          "frame": {
+            "x": 1313,
+            "y": 8,
+            "w": 261,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 261,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 261,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.2624521072796935,
+            "y": 0.9933774834437086
+          }
+        },
+        {
+          "filename": "toxicity-walk-7",
+          "frame": {
+            "x": 1590,
+            "y": 8,
+            "w": 349,
+            "h": 452
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 452
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 452
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933628318584071
+          }
+        },
+        {
+          "filename": "toxicity-walk",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 347,
+            "h": 460
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 460
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 460
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934782608695653
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1953,
+        "h": 912
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "toxicity-walkBack-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 326,
+            "h": 448
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 448
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 448
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933035714285714
+          }
+        },
+        {
+          "filename": "toxicity-walkBack-1",
+          "frame": {
+            "x": 742,
+            "y": 8,
+            "w": 370,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "toxicity-walkBack-2",
+          "frame": {
+            "x": 350,
+            "y": 8,
+            "w": 376,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932279909706546
+          }
+        },
+        {
+          "filename": "toxicity-walkBack-3",
+          "frame": {
+            "x": 8,
+            "y": 472,
+            "w": 236,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 236,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 236,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.3580508474576271,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "toxicity-walkBack-4",
+          "frame": {
+            "x": 1444,
+            "y": 8,
+            "w": 242,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 242,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 242,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.5516528925619835,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "toxicity-walkBack-5",
+          "frame": {
+            "x": 260,
+            "y": 472,
+            "w": 316,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5110759493670886,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "toxicity-walkBack-6",
+          "frame": {
+            "x": 1702,
+            "y": 8,
+            "w": 243,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 243,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 243,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5020576131687243,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "toxicity-walkBack-7",
+          "frame": {
+            "x": 1128,
+            "y": 8,
+            "w": 300,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 300,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "toxicity-walkBack",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 326,
+            "h": 448
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 448
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 448
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933035714285714
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

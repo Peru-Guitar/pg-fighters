@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "platanero-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 252,
+    "h": 322
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 252,
+    "h": 322
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 252,
+    "h": 322
+   },
+   "pivot": {
+    "x": 0.4264736445587509,
+    "y": 0.9906832298136646
+   }
+  },
+  "platanero-portrait": {
+   "frame": {
+    "x": 254,
+    "y": 0,
+    "w": 248,
+    "h": 256
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 248,
+    "h": 256
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 248,
+    "h": 256
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.98828125
+   }
+  },
+  "platanero-win": {
+   "frame": {
+    "x": 504,
+    "y": 0,
+    "w": 226,
+    "h": 323
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 226,
+    "h": 323
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 226,
+    "h": 323
+   },
+   "pivot": {
+    "x": 0.5215691254712189,
+    "y": 0.9907120743034056
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 732,
+   "h": 323
+  },
+  "scale": "1"
+ }
+}

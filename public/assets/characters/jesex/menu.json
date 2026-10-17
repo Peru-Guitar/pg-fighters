@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "jesex-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 239,
+    "h": 311
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 239,
+    "h": 311
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 239,
+    "h": 311
+   },
+   "pivot": {
+    "x": 0.47393583475176826,
+    "y": 0.9903536977491961
+   }
+  },
+  "jesex-portrait": {
+   "frame": {
+    "x": 241,
+    "y": 0,
+    "w": 602,
+    "h": 566
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 602,
+    "h": 566
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 602,
+    "h": 566
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9946996466431095
+   }
+  },
+  "jesex-win": {
+   "frame": {
+    "x": 845,
+    "y": 0,
+    "w": 176,
+    "h": 286
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 176,
+    "h": 286
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 286
+   },
+   "pivot": {
+    "x": 0.22245440729483282,
+    "y": 0.9895104895104895
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 1023,
+   "h": 566
+  },
+  "scale": "1"
+ }
+}

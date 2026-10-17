@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1880,
+        "h": 801
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-airKick-0",
+          "frame": {
+            "x": 868,
+            "y": 8,
+            "w": 264,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 264,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 264,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.36742424242424243,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "pepper-airKick-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 275,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 275,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 275,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5145454545454545,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "pepper-airKick-2",
+          "frame": {
+            "x": 1427,
+            "y": 8,
+            "w": 445,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 445,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 445,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.6595505617977528,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "pepper-airKick-3",
+          "frame": {
+            "x": 319,
+            "y": 443,
+            "w": 439,
+            "h": 269
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 439,
+            "h": 269
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 439,
+            "h": 269
+          },
+          "pivot": {
+            "x": 0.35876993166287013,
+            "y": 0.9888475836431226
+          }
+        },
+        {
+          "filename": "pepper-airKick-4",
+          "frame": {
+            "x": 8,
+            "y": 443,
+            "w": 295,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.6610169491525424,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "pepper-airKick-5",
+          "frame": {
+            "x": 1148,
+            "y": 8,
+            "w": 263,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 263,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 263,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.6026615969581749,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "pepper-airKick-6",
+          "frame": {
+            "x": 299,
+            "y": 8,
+            "w": 261,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 261,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 261,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.4789272030651341,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "pepper-airKick-7",
+          "frame": {
+            "x": 576,
+            "y": 8,
+            "w": 276,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.4057971014492754,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "pepper-airKick",
+          "frame": {
+            "x": 868,
+            "y": 8,
+            "w": 264,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 264,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 264,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.36742424242424243,
+            "y": 0.9922680412371134
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1809,
+        "h": 804
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-airPunch-0",
+          "frame": {
+            "x": 1276,
+            "y": 8,
+            "w": 250,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 250,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 250,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.6,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "pepper-airPunch-1",
+          "frame": {
+            "x": 979,
+            "y": 8,
+            "w": 281,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.6138790035587188,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "pepper-airPunch-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 297,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 297,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 297,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.43602693602693604,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "pepper-airPunch-3",
+          "frame": {
+            "x": 598,
+            "y": 8,
+            "w": 365,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.2808219178082192,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "pepper-airPunch-4",
+          "frame": {
+            "x": 8,
+            "y": 436,
+            "w": 393,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.2684478371501272,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "pepper-airPunch-5",
+          "frame": {
+            "x": 417,
+            "y": 436,
+            "w": 269,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 269,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 269,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.5576208178438662,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "pepper-airPunch-6",
+          "frame": {
+            "x": 321,
+            "y": 8,
+            "w": 261,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 261,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 261,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5210727969348659,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "pepper-airPunch-7",
+          "frame": {
+            "x": 1542,
+            "y": 8,
+            "w": 259,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 259,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 259,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.6081081081081081,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "pepper-airPunch",
+          "frame": {
+            "x": 1276,
+            "y": 8,
+            "w": 250,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 250,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 250,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.6,
+            "y": 0.9918918918918919
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1951,
+        "h": 788
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-backdash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 343,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "pepper-backdash-1",
+          "frame": {
+            "x": 1062,
+            "y": 8,
+            "w": 309,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "pepper-backdash-2",
+          "frame": {
+            "x": 711,
+            "y": 8,
+            "w": 335,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.491044776119403,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "pepper-backdash-3",
+          "frame": {
+            "x": 1387,
+            "y": 8,
+            "w": 288,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 288,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 288,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.7986111111111112,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "pepper-backdash-4",
+          "frame": {
+            "x": 1691,
+            "y": 8,
+            "w": 252,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 252,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 252,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.628968253968254,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "pepper-backdash-5",
+          "frame": {
+            "x": 8,
+            "y": 433,
+            "w": 315,
+            "h": 347
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 315,
+            "h": 347
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 315,
+            "h": 347
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9913544668587896
+          }
+        },
+        {
+          "filename": "pepper-backdash-6",
+          "frame": {
+            "x": 339,
+            "y": 433,
+            "w": 249,
+            "h": 329
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 249,
+            "h": 329
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 249,
+            "h": 329
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9908814589665653
+          }
+        },
+        {
+          "filename": "pepper-backdash-7",
+          "frame": {
+            "x": 367,
+            "y": 8,
+            "w": 328,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "pepper-backdash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 343,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2037,
+        "h": 837
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-special-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 362,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "pepper-special-1",
+          "frame": {
+            "x": 429,
+            "y": 458,
+            "w": 386,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "pepper-special-2",
+          "frame": {
+            "x": 1637,
+            "y": 8,
+            "w": 392,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "pepper-special-3",
+          "frame": {
+            "x": 831,
+            "y": 458,
+            "w": 416,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 416,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 416,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.48197115384615385,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "pepper-special-4",
+          "frame": {
+            "x": 386,
+            "y": 8,
+            "w": 434,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 434,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 434,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.45161290322580644,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "pepper-special-5",
+          "frame": {
+            "x": 8,
+            "y": 458,
+            "w": 405,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "pepper-special-6",
+          "frame": {
+            "x": 1237,
+            "y": 8,
+            "w": 384,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "pepper-special-7",
+          "frame": {
+            "x": 836,
+            "y": 8,
+            "w": 385,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "pepper-special",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 362,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2024,
+        "h": 813
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-block-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 328,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "pepper-block-1",
+          "frame": {
+            "x": 1365,
+            "y": 8,
+            "w": 320,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "pepper-block-2",
+          "frame": {
+            "x": 1701,
+            "y": 8,
+            "w": 315,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 315,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 315,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "pepper-block-3",
+          "frame": {
+            "x": 349,
+            "y": 421,
+            "w": 322,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "pepper-block-4",
+          "frame": {
+            "x": 8,
+            "y": 421,
+            "w": 325,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "pepper-block-5",
+          "frame": {
+            "x": 1026,
+            "y": 8,
+            "w": 323,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "pepper-block-6",
+          "frame": {
+            "x": 689,
+            "y": 8,
+            "w": 321,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "pepper-block-7",
+          "frame": {
+            "x": 352,
+            "y": 8,
+            "w": 321,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "pepper-block",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 328,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1702,
+        "h": 817
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-crouch-0",
+          "frame": {
+            "x": 356,
+            "y": 8,
+            "w": 324,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.49691358024691357,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "pepper-crouch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 332,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.4924698795180723,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "pepper-crouch-2",
+          "frame": {
+            "x": 8,
+            "y": 420,
+            "w": 331,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5241691842900302,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "pepper-crouch-3",
+          "frame": {
+            "x": 355,
+            "y": 420,
+            "w": 339,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5442477876106194,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "pepper-crouch-4",
+          "frame": {
+            "x": 1034,
+            "y": 8,
+            "w": 321,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5046728971962616,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "pepper-crouch-5",
+          "frame": {
+            "x": 696,
+            "y": 8,
+            "w": 322,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5108695652173914,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "pepper-crouch-6",
+          "frame": {
+            "x": 710,
+            "y": 420,
+            "w": 321,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.5155763239875389,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "pepper-crouch-7",
+          "frame": {
+            "x": 1371,
+            "y": 8,
+            "w": 323,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5015479876160991,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "pepper-crouch",
+          "frame": {
+            "x": 356,
+            "y": 8,
+            "w": 324,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.49691358024691357,
+            "y": 0.9923857868020305
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1818,
+        "h": 731
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-crouchBlock-0",
+          "frame": {
+            "x": 1219,
+            "y": 8,
+            "w": 278,
+            "h": 349
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 278,
+            "h": 349
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 349
+          },
+          "pivot": {
+            "x": 0.5089928057553957,
+            "y": 0.9914040114613181
+          }
+        },
+        {
+          "filename": "pepper-crouchBlock-1",
+          "frame": {
+            "x": 311,
+            "y": 8,
+            "w": 281,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.5106761565836299,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "pepper-crouchBlock-2",
+          "frame": {
+            "x": 1513,
+            "y": 8,
+            "w": 297,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 297,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 297,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.5286195286195287,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "pepper-crouchBlock-3",
+          "frame": {
+            "x": 316,
+            "y": 375,
+            "w": 300,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 300,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.535,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "pepper-crouchBlock-4",
+          "frame": {
+            "x": 608,
+            "y": 8,
+            "w": 287,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 287,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 287,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.5156794425087108,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "pepper-crouchBlock-5",
+          "frame": {
+            "x": 8,
+            "y": 375,
+            "w": 292,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.523972602739726,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "pepper-crouchBlock-6",
+          "frame": {
+            "x": 911,
+            "y": 8,
+            "w": 292,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.5188356164383562,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "pepper-crouchBlock-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 287,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 287,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 287,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5209059233449478,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "pepper-crouchBlock",
+          "frame": {
+            "x": 1219,
+            "y": 8,
+            "w": 278,
+            "h": 349
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 278,
+            "h": 349
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 349
+          },
+          "pivot": {
+            "x": 0.5089928057553957,
+            "y": 0.9914040114613181
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1965,
+        "h": 771
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-crouchHurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 309,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.4546925566343042,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "pepper-crouchHurt-1",
+          "frame": {
+            "x": 8,
+            "y": 399,
+            "w": 334,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.47904191616766467,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "pepper-crouchHurt-2",
+          "frame": {
+            "x": 358,
+            "y": 399,
+            "w": 400,
+            "h": 363
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 400,
+            "h": 363
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 363
+          },
+          "pivot": {
+            "x": 0.52875,
+            "y": 0.9917355371900827
+          }
+        },
+        {
+          "filename": "pepper-crouchHurt-3",
+          "frame": {
+            "x": 1643,
+            "y": 8,
+            "w": 314,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.46496815286624205,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "pepper-crouchHurt-4",
+          "frame": {
+            "x": 987,
+            "y": 8,
+            "w": 311,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.4533762057877814,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "pepper-crouchHurt-5",
+          "frame": {
+            "x": 333,
+            "y": 8,
+            "w": 312,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 312,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.4551282051282051,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "pepper-crouchHurt-6",
+          "frame": {
+            "x": 1314,
+            "y": 8,
+            "w": 313,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.4520766773162939,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "pepper-crouchHurt-7",
+          "frame": {
+            "x": 661,
+            "y": 8,
+            "w": 310,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.4532258064516129,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "pepper-crouchHurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 309,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.4546925566343042,
+            "y": 0.992
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1967,
+        "h": 764
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-crouchPunch-0",
+          "frame": {
+            "x": 393,
+            "y": 8,
+            "w": 372,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "pepper-crouchPunch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 369,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "pepper-crouchPunch-2",
+          "frame": {
+            "x": 781,
+            "y": 8,
+            "w": 371,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.4946091644204852,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "pepper-crouchPunch-3",
+          "frame": {
+            "x": 1168,
+            "y": 8,
+            "w": 402,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.48009950248756217,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "pepper-crouchPunch-4",
+          "frame": {
+            "x": 8,
+            "y": 397,
+            "w": 375,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "pepper-crouchPunch-5",
+          "frame": {
+            "x": 787,
+            "y": 397,
+            "w": 373,
+            "h": 357
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 357
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 357
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915966386554622
+          }
+        },
+        {
+          "filename": "pepper-crouchPunch-6",
+          "frame": {
+            "x": 399,
+            "y": 397,
+            "w": 372,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "pepper-crouchPunch-7",
+          "frame": {
+            "x": 1586,
+            "y": 8,
+            "w": 373,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "pepper-crouchPunch",
+          "frame": {
+            "x": 393,
+            "y": 8,
+            "w": 372,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1724,
+        "h": 739
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-dash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 312,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 312,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "pepper-dash-1",
+          "frame": {
+            "x": 963,
+            "y": 8,
+            "w": 364,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.40796703296703296,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "pepper-dash-2",
+          "frame": {
+            "x": 1343,
+            "y": 8,
+            "w": 373,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.26943699731903487,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "pepper-dash-3",
+          "frame": {
+            "x": 417,
+            "y": 397,
+            "w": 309,
+            "h": 325
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 325
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 325
+          },
+          "pivot": {
+            "x": 0.20388349514563106,
+            "y": 0.9907692307692307
+          }
+        },
+        {
+          "filename": "pepper-dash-4",
+          "frame": {
+            "x": 8,
+            "y": 397,
+            "w": 393,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.8536895674300254,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "pepper-dash-5",
+          "frame": {
+            "x": 742,
+            "y": 397,
+            "w": 376,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.4800531914893617,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "pepper-dash-6",
+          "frame": {
+            "x": 666,
+            "y": 8,
+            "w": 281,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.49644128113879005,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "pepper-dash-7",
+          "frame": {
+            "x": 336,
+            "y": 8,
+            "w": 314,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "pepper-dash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 312,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 312,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1704,
+        "h": 669
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 304,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933774834437086
+          }
+        },
+        {
+          "filename": "pepper-ko-1",
+          "frame": {
+            "x": 328,
+            "y": 8,
+            "w": 255,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 255,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 255,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "pepper-ko-2",
+          "frame": {
+            "x": 599,
+            "y": 8,
+            "w": 301,
+            "h": 328
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 301,
+            "h": 328
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 301,
+            "h": 328
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9908536585365854
+          }
+        },
+        {
+          "filename": "pepper-ko-3",
+          "frame": {
+            "x": 916,
+            "y": 8,
+            "w": 370,
+            "h": 284
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 284
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 284
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9894366197183099
+          }
+        },
+        {
+          "filename": "pepper-ko-4",
+          "frame": {
+            "x": 1302,
+            "y": 8,
+            "w": 394,
+            "h": 279
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 279
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 279
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.989247311827957
+          }
+        },
+        {
+          "filename": "pepper-ko-5",
+          "frame": {
+            "x": 8,
+            "y": 477,
+            "w": 406,
+            "h": 184
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 406,
+            "h": 184
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 406,
+            "h": 184
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9836956521739131
+          }
+        },
+        {
+          "filename": "pepper-ko-6",
+          "frame": {
+            "x": 430,
+            "y": 477,
+            "w": 377,
+            "h": 152
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 152
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 152
+          },
+          "pivot": {
+            "x": 0.5013262599469496,
+            "y": 0.9802631578947368
+          }
+        },
+        {
+          "filename": "pepper-ko-7",
+          "frame": {
+            "x": 823,
+            "y": 477,
+            "w": 412,
+            "h": 137
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 137
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 137
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9781021897810219
+          }
+        },
+        {
+          "filename": "pepper-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 304,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933774834437086
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1734,
+        "h": 377
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-down-0",
+          "frame": {
+            "x": 1307,
+            "y": 8,
+            "w": 419,
+            "h": 169
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 419,
+            "h": 169
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 419,
+            "h": 169
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9822485207100592
+          }
+        },
+        {
+          "filename": "pepper-down-1",
+          "frame": {
+            "x": 8,
+            "y": 200,
+            "w": 420,
+            "h": 169
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 169
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 169
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9822485207100592
+          }
+        },
+        {
+          "filename": "pepper-down-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 411,
+            "h": 176
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 176
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 176
+          },
+          "pivot": {
+            "x": 0.49391727493917276,
+            "y": 0.9829545454545454
+          }
+        },
+        {
+          "filename": "pepper-down-3",
+          "frame": {
+            "x": 880,
+            "y": 200,
+            "w": 410,
+            "h": 165
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 410,
+            "h": 165
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 410,
+            "h": 165
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9818181818181818
+          }
+        },
+        {
+          "filename": "pepper-down-4",
+          "frame": {
+            "x": 872,
+            "y": 8,
+            "w": 419,
+            "h": 170
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 419,
+            "h": 170
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 419,
+            "h": 170
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9823529411764705
+          }
+        },
+        {
+          "filename": "pepper-down-5",
+          "frame": {
+            "x": 444,
+            "y": 200,
+            "w": 420,
+            "h": 166
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 166
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 166
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9819277108433735
+          }
+        },
+        {
+          "filename": "pepper-down-6",
+          "frame": {
+            "x": 435,
+            "y": 8,
+            "w": 421,
+            "h": 173
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 421,
+            "h": 173
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 421,
+            "h": 173
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9826589595375722
+          }
+        },
+        {
+          "filename": "pepper-down-7",
+          "frame": {
+            "x": 1306,
+            "y": 200,
+            "w": 420,
+            "h": 161
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 161
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 161
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9813664596273292
+          }
+        },
+        {
+          "filename": "pepper-down",
+          "frame": {
+            "x": 1307,
+            "y": 8,
+            "w": 419,
+            "h": 169
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 419,
+            "h": 169
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 419,
+            "h": 169
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9822485207100592
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2010,
+        "h": 840
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-fall-0",
+          "frame": {
+            "x": 375,
+            "y": 480,
+            "w": 390,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.4794871794871795,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "pepper-fall-1",
+          "frame": {
+            "x": 1252,
+            "y": 8,
+            "w": 379,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5408970976253298,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "pepper-fall-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 400,
+            "h": 456
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 400,
+            "h": 456
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 456
+          },
+          "pivot": {
+            "x": 0.77375,
+            "y": 0.993421052631579
+          }
+        },
+        {
+          "filename": "pepper-fall-3",
+          "frame": {
+            "x": 424,
+            "y": 8,
+            "w": 399,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.7142857142857143,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "pepper-fall-4",
+          "frame": {
+            "x": 839,
+            "y": 8,
+            "w": 397,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.7304785894206549,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "pepper-fall-5",
+          "frame": {
+            "x": 1647,
+            "y": 8,
+            "w": 355,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5957746478873239,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "pepper-fall-6",
+          "frame": {
+            "x": 8,
+            "y": 480,
+            "w": 351,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "pepper-fall-7",
+          "frame": {
+            "x": 781,
+            "y": 480,
+            "w": 303,
+            "h": 329
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 329
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 329
+          },
+          "pivot": {
+            "x": 0.5676567656765676,
+            "y": 0.9908814589665653
+          }
+        },
+        {
+          "filename": "pepper-fall",
+          "frame": {
+            "x": 375,
+            "y": 480,
+            "w": 390,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.4794871794871795,
+            "y": 0.9914529914529915
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1959,
+        "h": 690
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-getup-0",
+          "frame": {
+            "x": 453,
+            "y": 442,
+            "w": 397,
+            "h": 172
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 172
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 172
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9825581395348837
+          }
+        },
+        {
+          "filename": "pepper-getup-1",
+          "frame": {
+            "x": 8,
+            "y": 442,
+            "w": 429,
+            "h": 240
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 429,
+            "h": 240
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 429,
+            "h": 240
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9875
+          }
+        },
+        {
+          "filename": "pepper-getup-2",
+          "frame": {
+            "x": 1599,
+            "y": 8,
+            "w": 352,
+            "h": 283
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 283
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 283
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9893992932862191
+          }
+        },
+        {
+          "filename": "pepper-getup-3",
+          "frame": {
+            "x": 1283,
+            "y": 8,
+            "w": 300,
+            "h": 328
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 300,
+            "h": 328
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 328
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9908536585365854
+          }
+        },
+        {
+          "filename": "pepper-getup-4",
+          "frame": {
+            "x": 963,
+            "y": 8,
+            "w": 304,
+            "h": 358
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 358
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 358
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916201117318436
+          }
+        },
+        {
+          "filename": "pepper-getup-5",
+          "frame": {
+            "x": 694,
+            "y": 8,
+            "w": 253,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 253,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 253,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.5296442687747036,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "pepper-getup-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 312,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 312,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "pepper-getup-7",
+          "frame": {
+            "x": 336,
+            "y": 8,
+            "w": 342,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "pepper-getup",
+          "frame": {
+            "x": 453,
+            "y": 442,
+            "w": 397,
+            "h": 172
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 172
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 172
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9825581395348837
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1712,
+        "h": 869
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-hurt-0",
+          "frame": {
+            "x": 337,
+            "y": 8,
+            "w": 334,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "pepper-hurt-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 313,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "pepper-hurt-2",
+          "frame": {
+            "x": 687,
+            "y": 8,
+            "w": 324,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "pepper-hurt-3",
+          "frame": {
+            "x": 692,
+            "y": 452,
+            "w": 376,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5757978723404256,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "pepper-hurt-4",
+          "frame": {
+            "x": 8,
+            "y": 452,
+            "w": 321,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "pepper-hurt-5",
+          "frame": {
+            "x": 345,
+            "y": 452,
+            "w": 331,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "pepper-hurt-6",
+          "frame": {
+            "x": 1027,
+            "y": 8,
+            "w": 333,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "pepper-hurt-7",
+          "frame": {
+            "x": 1376,
+            "y": 8,
+            "w": 328,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "pepper-hurt",
+          "frame": {
+            "x": 337,
+            "y": 8,
+            "w": 334,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1779,
+        "h": 890
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-idle-0",
+          "frame": {
+            "x": 1070,
+            "y": 8,
+            "w": 342,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "pepper-idle-1",
+          "frame": {
+            "x": 362,
+            "y": 8,
+            "w": 338,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "pepper-idle-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 338,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "pepper-idle-3",
+          "frame": {
+            "x": 716,
+            "y": 8,
+            "w": 338,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "pepper-idle-4",
+          "frame": {
+            "x": 1428,
+            "y": 8,
+            "w": 343,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "pepper-idle-5",
+          "frame": {
+            "x": 8,
+            "y": 458,
+            "w": 341,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "pepper-idle-6",
+          "frame": {
+            "x": 365,
+            "y": 458,
+            "w": 342,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "pepper-idle-7",
+          "frame": {
+            "x": 723,
+            "y": 458,
+            "w": 348,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "pepper-idle",
+          "frame": {
+            "x": 1070,
+            "y": 8,
+            "w": 342,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1959,
+        "h": 898
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-intro-0",
+          "frame": {
+            "x": 491,
+            "y": 8,
+            "w": 214,
+            "h": 484
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 214,
+            "h": 484
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 214,
+            "h": 484
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993801652892562
+          }
+        },
+        {
+          "filename": "pepper-intro-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 228,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 228,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 228,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.47368421052631576,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "pepper-intro-2",
+          "frame": {
+            "x": 721,
+            "y": 8,
+            "w": 229,
+            "h": 484
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 229,
+            "h": 484
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 229,
+            "h": 484
+          },
+          "pivot": {
+            "x": 0.4759825327510917,
+            "y": 0.993801652892562
+          }
+        },
+        {
+          "filename": "pepper-intro-3",
+          "frame": {
+            "x": 252,
+            "y": 8,
+            "w": 223,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 223,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 223,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "pepper-intro-4",
+          "frame": {
+            "x": 966,
+            "y": 8,
+            "w": 309,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "pepper-intro-5",
+          "frame": {
+            "x": 1291,
+            "y": 8,
+            "w": 309,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "pepper-intro-6",
+          "frame": {
+            "x": 1616,
+            "y": 8,
+            "w": 335,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "pepper-intro-7",
+          "frame": {
+            "x": 8,
+            "y": 509,
+            "w": 321,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "pepper-intro",
+          "frame": {
+            "x": 491,
+            "y": 8,
+            "w": 214,
+            "h": 484
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 214,
+            "h": 484
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 214,
+            "h": 484
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993801652892562
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2037,
+        "h": 755
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-jump-0",
+          "frame": {
+            "x": 279,
+            "y": 8,
+            "w": 330,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "pepper-jump-1",
+          "frame": {
+            "x": 1786,
+            "y": 8,
+            "w": 243,
+            "h": 317
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 243,
+            "h": 317
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 243,
+            "h": 317
+          },
+          "pivot": {
+            "x": 0.4218106995884774,
+            "y": 0.9905362776025236
+          }
+        },
+        {
+          "filename": "pepper-jump-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 255,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 255,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 255,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.3509803921568627,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "pepper-jump-3",
+          "frame": {
+            "x": 1229,
+            "y": 8,
+            "w": 265,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 265,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 265,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.47735849056603774,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "pepper-jump-4",
+          "frame": {
+            "x": 8,
+            "y": 440,
+            "w": 246,
+            "h": 307
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 246,
+            "h": 307
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 246,
+            "h": 307
+          },
+          "pivot": {
+            "x": 0.483739837398374,
+            "y": 0.990228013029316
+          }
+        },
+        {
+          "filename": "pepper-jump-5",
+          "frame": {
+            "x": 625,
+            "y": 8,
+            "w": 254,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 254,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 254,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.7952755905511811,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "pepper-jump-6",
+          "frame": {
+            "x": 1510,
+            "y": 8,
+            "w": 260,
+            "h": 331
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 260,
+            "h": 331
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 260,
+            "h": 331
+          },
+          "pivot": {
+            "x": 0.475,
+            "y": 0.9909365558912386
+          }
+        },
+        {
+          "filename": "pepper-jump-7",
+          "frame": {
+            "x": 895,
+            "y": 8,
+            "w": 318,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "pepper-jump",
+          "frame": {
+            "x": 279,
+            "y": 8,
+            "w": 330,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927710843373494
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1819,
+        "h": 842
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-kick-0",
+          "frame": {
+            "x": 537,
+            "y": 8,
+            "w": 316,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "pepper-kick-1",
+          "frame": {
+            "x": 274,
+            "y": 8,
+            "w": 247,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 247,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 247,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.33805668016194335,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "pepper-kick-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 250,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 250,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 250,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.43,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "pepper-kick-3",
+          "frame": {
+            "x": 8,
+            "y": 439,
+            "w": 396,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.2702020202020202,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "pepper-kick-4",
+          "frame": {
+            "x": 420,
+            "y": 439,
+            "w": 429,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 429,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 429,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.23776223776223776,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "pepper-kick-5",
+          "frame": {
+            "x": 1488,
+            "y": 8,
+            "w": 323,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.34210526315789475,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "pepper-kick-6",
+          "frame": {
+            "x": 869,
+            "y": 8,
+            "w": 273,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 273,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 273,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.3626373626373626,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "pepper-kick-7",
+          "frame": {
+            "x": 1158,
+            "y": 8,
+            "w": 314,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "pepper-kick",
+          "frame": {
+            "x": 537,
+            "y": 8,
+            "w": 316,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925187032418953
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1753,
+        "h": 712
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-knockdown-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 344,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "pepper-knockdown-1",
+          "frame": {
+            "x": 821,
+            "y": 8,
+            "w": 335,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.6522388059701493,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "pepper-knockdown-2",
+          "frame": {
+            "x": 368,
+            "y": 8,
+            "w": 437,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 437,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 437,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.37528604118993136,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "pepper-knockdown-3",
+          "frame": {
+            "x": 1172,
+            "y": 8,
+            "w": 477,
+            "h": 297
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 477,
+            "h": 297
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 477,
+            "h": 297
+          },
+          "pivot": {
+            "x": 0.6132075471698113,
+            "y": 0.98989898989899
+          }
+        },
+        {
+          "filename": "pepper-knockdown-4",
+          "frame": {
+            "x": 8,
+            "y": 441,
+            "w": 412,
+            "h": 263
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 263
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 263
+          },
+          "pivot": {
+            "x": 0.4077669902912621,
+            "y": 0.9885931558935361
+          }
+        },
+        {
+          "filename": "pepper-knockdown-5",
+          "frame": {
+            "x": 436,
+            "y": 441,
+            "w": 470,
+            "h": 254
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 470,
+            "h": 254
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 470,
+            "h": 254
+          },
+          "pivot": {
+            "x": 0.4968085106382979,
+            "y": 0.9881889763779528
+          }
+        },
+        {
+          "filename": "pepper-knockdown-6",
+          "frame": {
+            "x": 922,
+            "y": 441,
+            "w": 343,
+            "h": 194
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 194
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 194
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9845360824742269
+          }
+        },
+        {
+          "filename": "pepper-knockdown-7",
+          "frame": {
+            "x": 1281,
+            "y": 441,
+            "w": 464,
+            "h": 141
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 464,
+            "h": 141
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 464,
+            "h": 141
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9787234042553191
+          }
+        },
+        {
+          "filename": "pepper-knockdown",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 344,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1920,
+        "h": 884
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-punch-0",
+          "frame": {
+            "x": 800,
+            "y": 8,
+            "w": 346,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "pepper-punch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 358,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "pepper-punch-2",
+          "frame": {
+            "x": 382,
+            "y": 8,
+            "w": 402,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.44527363184079605,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "pepper-punch-3",
+          "frame": {
+            "x": 1162,
+            "y": 8,
+            "w": 388,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.4652061855670103,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "pepper-punch-4",
+          "frame": {
+            "x": 1566,
+            "y": 8,
+            "w": 346,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "pepper-punch-5",
+          "frame": {
+            "x": 8,
+            "y": 456,
+            "w": 341,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "pepper-punch-6",
+          "frame": {
+            "x": 365,
+            "y": 456,
+            "w": 339,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "pepper-punch-7",
+          "frame": {
+            "x": 720,
+            "y": 456,
+            "w": 339,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "pepper-punch",
+          "frame": {
+            "x": 800,
+            "y": 8,
+            "w": 346,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1843,
+        "h": 845
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-super-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.4928977272727273,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "pepper-super-1",
+          "frame": {
+            "x": 376,
+            "y": 8,
+            "w": 352,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "pepper-super-2",
+          "frame": {
+            "x": 744,
+            "y": 8,
+            "w": 352,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "pepper-super-3",
+          "frame": {
+            "x": 1112,
+            "y": 8,
+            "w": 357,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5028011204481793,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "pepper-super-4",
+          "frame": {
+            "x": 377,
+            "y": 441,
+            "w": 365,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "pepper-super-5",
+          "frame": {
+            "x": 758,
+            "y": 441,
+            "w": 365,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "pepper-super-6",
+          "frame": {
+            "x": 8,
+            "y": 441,
+            "w": 353,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "pepper-super-7",
+          "frame": {
+            "x": 1485,
+            "y": 8,
+            "w": 350,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "pepper-super",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.4928977272727273,
+            "y": 0.9928057553956835
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1682,
+        "h": 692
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-sweep-0",
+          "frame": {
+            "x": 1063,
+            "y": 8,
+            "w": 336,
+            "h": 329
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 329
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 329
+          },
+          "pivot": {
+            "x": 0.5089285714285714,
+            "y": 0.9908814589665653
+          }
+        },
+        {
+          "filename": "pepper-sweep-1",
+          "frame": {
+            "x": 8,
+            "y": 363,
+            "w": 418,
+            "h": 321
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 418,
+            "h": 321
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 418,
+            "h": 321
+          },
+          "pivot": {
+            "x": 0.5322966507177034,
+            "y": 0.9906542056074766
+          }
+        },
+        {
+          "filename": "pepper-sweep-2",
+          "frame": {
+            "x": 442,
+            "y": 363,
+            "w": 484,
+            "h": 315
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 484,
+            "h": 315
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 484,
+            "h": 315
+          },
+          "pivot": {
+            "x": 0.29545454545454547,
+            "y": 0.9904761904761905
+          }
+        },
+        {
+          "filename": "pepper-sweep-3",
+          "frame": {
+            "x": 942,
+            "y": 363,
+            "w": 358,
+            "h": 314
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 314
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 314
+          },
+          "pivot": {
+            "x": 0.49860335195530725,
+            "y": 0.9904458598726115
+          }
+        },
+        {
+          "filename": "pepper-sweep-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 351,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.4515669515669516,
+            "y": 0.9911504424778761
+          }
+        },
+        {
+          "filename": "pepper-sweep-5",
+          "frame": {
+            "x": 1415,
+            "y": 8,
+            "w": 259,
+            "h": 325
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 259,
+            "h": 325
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 259,
+            "h": 325
+          },
+          "pivot": {
+            "x": 0.4864864864864865,
+            "y": 0.9907692307692307
+          }
+        },
+        {
+          "filename": "pepper-sweep-6",
+          "frame": {
+            "x": 375,
+            "y": 8,
+            "w": 329,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911504424778761
+          }
+        },
+        {
+          "filename": "pepper-sweep-7",
+          "frame": {
+            "x": 720,
+            "y": 8,
+            "w": 327,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "pepper-sweep",
+          "frame": {
+            "x": 1063,
+            "y": 8,
+            "w": 336,
+            "h": 329
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 329
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 329
+          },
+          "pivot": {
+            "x": 0.5089285714285714,
+            "y": 0.9908814589665653
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2011,
+        "h": 851
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-uppercut-0",
+          "frame": {
+            "x": 297,
+            "y": 8,
+            "w": 372,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "pepper-uppercut-1",
+          "frame": {
+            "x": 8,
+            "y": 486,
+            "w": 320,
+            "h": 357
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 357
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 357
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915966386554622
+          }
+        },
+        {
+          "filename": "pepper-uppercut-2",
+          "frame": {
+            "x": 685,
+            "y": 8,
+            "w": 373,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "pepper-uppercut-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 273,
+            "h": 462
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 273,
+            "h": 462
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 273,
+            "h": 462
+          },
+          "pivot": {
+            "x": 0.43223443223443225,
+            "y": 0.9935064935064936
+          }
+        },
+        {
+          "filename": "pepper-uppercut-4",
+          "frame": {
+            "x": 1074,
+            "y": 8,
+            "w": 276,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.4257246376811594,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "pepper-uppercut-5",
+          "frame": {
+            "x": 1737,
+            "y": 8,
+            "w": 266,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 266,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 266,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "pepper-uppercut-6",
+          "frame": {
+            "x": 344,
+            "y": 486,
+            "w": 268,
+            "h": 316
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 268,
+            "h": 316
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 268,
+            "h": 316
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.990506329113924
+          }
+        },
+        {
+          "filename": "pepper-uppercut-7",
+          "frame": {
+            "x": 1366,
+            "y": 8,
+            "w": 355,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "pepper-uppercut",
+          "frame": {
+            "x": 297,
+            "y": 8,
+            "w": 372,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1810,
+        "h": 870
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-win-0",
+          "frame": {
+            "x": 8,
+            "y": 458,
+            "w": 306,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 306,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 306,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "pepper-win-1",
+          "frame": {
+            "x": 1506,
+            "y": 8,
+            "w": 296,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "pepper-win-2",
+          "frame": {
+            "x": 1214,
+            "y": 8,
+            "w": 276,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "pepper-win-3",
+          "frame": {
+            "x": 330,
+            "y": 458,
+            "w": 286,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "pepper-win-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 300,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 300,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "pepper-win-5",
+          "frame": {
+            "x": 324,
+            "y": 8,
+            "w": 298,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 298,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 298,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.49161073825503354,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "pepper-win-6",
+          "frame": {
+            "x": 927,
+            "y": 8,
+            "w": 271,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 271,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 271,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "pepper-win-7",
+          "frame": {
+            "x": 638,
+            "y": 8,
+            "w": 273,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 273,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 273,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "pepper-win",
+          "frame": {
+            "x": 8,
+            "y": 458,
+            "w": 306,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 306,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 306,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925742574257426
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1813,
+        "h": 849
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-walk-0",
+          "frame": {
+            "x": 898,
+            "y": 8,
+            "w": 328,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "pepper-walk-1",
+          "frame": {
+            "x": 634,
+            "y": 8,
+            "w": 248,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 248,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 248,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.4637096774193548,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "pepper-walk-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 276,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "pepper-walk-3",
+          "frame": {
+            "x": 300,
+            "y": 8,
+            "w": 318,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "pepper-walk-4",
+          "frame": {
+            "x": 8,
+            "y": 446,
+            "w": 331,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "pepper-walk-5",
+          "frame": {
+            "x": 1584,
+            "y": 8,
+            "w": 221,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 221,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 221,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.504524886877828,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "pepper-walk-6",
+          "frame": {
+            "x": 355,
+            "y": 446,
+            "w": 288,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 288,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 288,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "pepper-walk-7",
+          "frame": {
+            "x": 1242,
+            "y": 8,
+            "w": 326,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "pepper-walk",
+          "frame": {
+            "x": 898,
+            "y": 8,
+            "w": 328,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1895,
+        "h": 907
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pepper-walkBack-0",
+          "frame": {
+            "x": 1314,
+            "y": 8,
+            "w": 348,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931192660550459
+          }
+        },
+        {
+          "filename": "pepper-walkBack-1",
+          "frame": {
+            "x": 635,
+            "y": 8,
+            "w": 367,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931972789115646
+          }
+        },
+        {
+          "filename": "pepper-walkBack-2",
+          "frame": {
+            "x": 244,
+            "y": 8,
+            "w": 375,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "pepper-walkBack-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 220,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 220,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 220,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.40454545454545454,
+            "y": 0.9932279909706546
+          }
+        },
+        {
+          "filename": "pepper-walkBack-4",
+          "frame": {
+            "x": 353,
+            "y": 467,
+            "w": 319,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "pepper-walkBack-5",
+          "frame": {
+            "x": 8,
+            "y": 467,
+            "w": 329,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5015197568389058,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "pepper-walkBack-6",
+          "frame": {
+            "x": 1018,
+            "y": 8,
+            "w": 280,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 280,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 280,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "pepper-walkBack-7",
+          "frame": {
+            "x": 1678,
+            "y": 8,
+            "w": 209,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 209,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 209,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.4784688995215311,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "pepper-walkBack",
+          "frame": {
+            "x": 1314,
+            "y": 8,
+            "w": 348,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931192660550459
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "markus-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 248,
+    "h": 295
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 248,
+    "h": 295
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 248,
+    "h": 295
+   },
+   "pivot": {
+    "x": 0.5310325743200506,
+    "y": 0.9898305084745763
+   }
+  },
+  "markus-portrait": {
+   "frame": {
+    "x": 250,
+    "y": 0,
+    "w": 220,
+    "h": 262
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 220,
+    "h": 262
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 220,
+    "h": 262
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9885496183206107
+   }
+  },
+  "markus-win": {
+   "frame": {
+    "x": 472,
+    "y": 0,
+    "w": 211,
+    "h": 306
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 211,
+    "h": 306
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 211,
+    "h": 306
+   },
+   "pivot": {
+    "x": 0.23487925976077637,
+    "y": 0.9901960784313726
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 685,
+   "h": 306
+  },
+  "scale": "1"
+ }
+}

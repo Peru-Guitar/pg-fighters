@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1684,
+        "h": 953
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-airKick-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 282,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 282,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 282,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.33156028368794327,
+            "y": 0.9938271604938271
+          }
+        },
+        {
+          "filename": "tevi-airKick-1",
+          "frame": {
+            "x": 306,
+            "y": 8,
+            "w": 345,
+            "h": 476
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 476
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 476
+          },
+          "pivot": {
+            "x": 0.27246376811594203,
+            "y": 0.9936974789915967
+          }
+        },
+        {
+          "filename": "tevi-airKick-2",
+          "frame": {
+            "x": 667,
+            "y": 8,
+            "w": 339,
+            "h": 464
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 464
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 464
+          },
+          "pivot": {
+            "x": 0.6415929203539823,
+            "y": 0.9935344827586207
+          }
+        },
+        {
+          "filename": "tevi-airKick-3",
+          "frame": {
+            "x": 8,
+            "y": 510,
+            "w": 476,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 476,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 476,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.39285714285714285,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "tevi-airKick-4",
+          "frame": {
+            "x": 500,
+            "y": 510,
+            "w": 377,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5769230769230769,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "tevi-airKick-5",
+          "frame": {
+            "x": 893,
+            "y": 510,
+            "w": 320,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5734375,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "tevi-airKick-6",
+          "frame": {
+            "x": 1360,
+            "y": 8,
+            "w": 316,
+            "h": 456
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 456
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 456
+          },
+          "pivot": {
+            "x": 0.5253164556962026,
+            "y": 0.993421052631579
+          }
+        },
+        {
+          "filename": "tevi-airKick-7",
+          "frame": {
+            "x": 1022,
+            "y": 8,
+            "w": 322,
+            "h": 461
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 461
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 461
+          },
+          "pivot": {
+            "x": 0.484472049689441,
+            "y": 0.9934924078091106
+          }
+        },
+        {
+          "filename": "tevi-airKick",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 282,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 282,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 282,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.33156028368794327,
+            "y": 0.9938271604938271
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1926,
+        "h": 936
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-airPunch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 289,
+            "h": 457
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 289,
+            "h": 457
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 289,
+            "h": 457
+          },
+          "pivot": {
+            "x": 0.3546712802768166,
+            "y": 0.9934354485776805
+          }
+        },
+        {
+          "filename": "tevi-airPunch-1",
+          "frame": {
+            "x": 624,
+            "y": 8,
+            "w": 330,
+            "h": 456
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 456
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 456
+          },
+          "pivot": {
+            "x": 0.44545454545454544,
+            "y": 0.993421052631579
+          }
+        },
+        {
+          "filename": "tevi-airPunch-2",
+          "frame": {
+            "x": 8,
+            "y": 481,
+            "w": 306,
+            "h": 447
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 306,
+            "h": 447
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 306,
+            "h": 447
+          },
+          "pivot": {
+            "x": 0.43137254901960786,
+            "y": 0.9932885906040269
+          }
+        },
+        {
+          "filename": "tevi-airPunch-3",
+          "frame": {
+            "x": 330,
+            "y": 481,
+            "w": 361,
+            "h": 445
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 445
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 445
+          },
+          "pivot": {
+            "x": 0.33933518005540164,
+            "y": 0.9932584269662922
+          }
+        },
+        {
+          "filename": "tevi-airPunch-4",
+          "frame": {
+            "x": 970,
+            "y": 8,
+            "w": 298,
+            "h": 455
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 298,
+            "h": 455
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 298,
+            "h": 455
+          },
+          "pivot": {
+            "x": 0.4211409395973154,
+            "y": 0.9934065934065934
+          }
+        },
+        {
+          "filename": "tevi-airPunch-5",
+          "frame": {
+            "x": 1597,
+            "y": 8,
+            "w": 321,
+            "h": 448
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 448
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 448
+          },
+          "pivot": {
+            "x": 0.45950155763239875,
+            "y": 0.9933035714285714
+          }
+        },
+        {
+          "filename": "tevi-airPunch-6",
+          "frame": {
+            "x": 1284,
+            "y": 8,
+            "w": 297,
+            "h": 455
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 297,
+            "h": 455
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 297,
+            "h": 455
+          },
+          "pivot": {
+            "x": 0.3686868686868687,
+            "y": 0.9934065934065934
+          }
+        },
+        {
+          "filename": "tevi-airPunch-7",
+          "frame": {
+            "x": 313,
+            "y": 8,
+            "w": 295,
+            "h": 457
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 457
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 457
+          },
+          "pivot": {
+            "x": 0.3847457627118644,
+            "y": 0.9934354485776805
+          }
+        },
+        {
+          "filename": "tevi-airPunch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 289,
+            "h": 457
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 289,
+            "h": 457
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 289,
+            "h": 457
+          },
+          "pivot": {
+            "x": 0.3546712802768166,
+            "y": 0.9934354485776805
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1700,
+        "h": 933
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-backdash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 322,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936575052854123
+          }
+        },
+        {
+          "filename": "tevi-backdash-1",
+          "frame": {
+            "x": 728,
+            "y": 497,
+            "w": 289,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 289,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 289,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.4359861591695502,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "tevi-backdash-2",
+          "frame": {
+            "x": 957,
+            "y": 8,
+            "w": 357,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.4327731092436975,
+            "y": 0.9932279909706546
+          }
+        },
+        {
+          "filename": "tevi-backdash-3",
+          "frame": {
+            "x": 1330,
+            "y": 8,
+            "w": 362,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.4157458563535912,
+            "y": 0.9931972789115646
+          }
+        },
+        {
+          "filename": "tevi-backdash-4",
+          "frame": {
+            "x": 8,
+            "y": 497,
+            "w": 383,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 383,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 383,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.4321148825065274,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "tevi-backdash-5",
+          "frame": {
+            "x": 407,
+            "y": 497,
+            "w": 305,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 305,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 305,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.4098360655737705,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tevi-backdash-6",
+          "frame": {
+            "x": 678,
+            "y": 8,
+            "w": 263,
+            "h": 452
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 263,
+            "h": 452
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 263,
+            "h": 452
+          },
+          "pivot": {
+            "x": 0.4695817490494297,
+            "y": 0.9933628318584071
+          }
+        },
+        {
+          "filename": "tevi-backdash-7",
+          "frame": {
+            "x": 346,
+            "y": 8,
+            "w": 316,
+            "h": 467
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 467
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 467
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935760171306209
+          }
+        },
+        {
+          "filename": "tevi-backdash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 322,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936575052854123
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1819,
+        "h": 994
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-special-0",
+          "frame": {
+            "x": 310,
+            "y": 8,
+            "w": 317,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99375
+          }
+        },
+        {
+          "filename": "tevi-special-1",
+          "frame": {
+            "x": 643,
+            "y": 8,
+            "w": 355,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.532394366197183,
+            "y": 0.9937238493723849
+          }
+        },
+        {
+          "filename": "tevi-special-2",
+          "frame": {
+            "x": 1014,
+            "y": 8,
+            "w": 348,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.5272988505747126,
+            "y": 0.9937238493723849
+          }
+        },
+        {
+          "filename": "tevi-special-3",
+          "frame": {
+            "x": 661,
+            "y": 509,
+            "w": 393,
+            "h": 467
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 467
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 467
+          },
+          "pivot": {
+            "x": 0.4618320610687023,
+            "y": 0.9935760171306209
+          }
+        },
+        {
+          "filename": "tevi-special-4",
+          "frame": {
+            "x": 1378,
+            "y": 8,
+            "w": 433,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 433,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 433,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.4503464203233256,
+            "y": 0.9937238493723849
+          }
+        },
+        {
+          "filename": "tevi-special-5",
+          "frame": {
+            "x": 8,
+            "y": 509,
+            "w": 319,
+            "h": 477
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 477
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 477
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937106918238994
+          }
+        },
+        {
+          "filename": "tevi-special-6",
+          "frame": {
+            "x": 343,
+            "y": 509,
+            "w": 302,
+            "h": 477
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 477
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 477
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937106918238994
+          }
+        },
+        {
+          "filename": "tevi-special-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 286,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "tevi-special",
+          "frame": {
+            "x": 310,
+            "y": 8,
+            "w": 317,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99375
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1807,
+        "h": 1009
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-block-0",
+          "frame": {
+            "x": 369,
+            "y": 8,
+            "w": 343,
+            "h": 495
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 495
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 495
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939393939393939
+          }
+        },
+        {
+          "filename": "tevi-block-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 345,
+            "h": 497
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 497
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 497
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993963782696177
+          }
+        },
+        {
+          "filename": "tevi-block-2",
+          "frame": {
+            "x": 728,
+            "y": 8,
+            "w": 350,
+            "h": 489
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 489
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 489
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938650306748467
+          }
+        },
+        {
+          "filename": "tevi-block-3",
+          "frame": {
+            "x": 744,
+            "y": 521,
+            "w": 351,
+            "h": 468
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 468
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 468
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935897435897436
+          }
+        },
+        {
+          "filename": "tevi-block-4",
+          "frame": {
+            "x": 393,
+            "y": 521,
+            "w": 335,
+            "h": 476
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 476
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 476
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936974789915967
+          }
+        },
+        {
+          "filename": "tevi-block-5",
+          "frame": {
+            "x": 1454,
+            "y": 8,
+            "w": 345,
+            "h": 481
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 481
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 481
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937629937629938
+          }
+        },
+        {
+          "filename": "tevi-block-6",
+          "frame": {
+            "x": 8,
+            "y": 521,
+            "w": 369,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.46747967479674796,
+            "y": 0.99375
+          }
+        },
+        {
+          "filename": "tevi-block-7",
+          "frame": {
+            "x": 1094,
+            "y": 8,
+            "w": 344,
+            "h": 484
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 484
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 484
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993801652892562
+          }
+        },
+        {
+          "filename": "tevi-block",
+          "frame": {
+            "x": 369,
+            "y": 8,
+            "w": 343,
+            "h": 495
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 495
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 495
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939393939393939
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1734,
+        "h": 923
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-crouch-0",
+          "frame": {
+            "x": 1399,
+            "y": 8,
+            "w": 327,
+            "h": 439
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 439
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 439
+          },
+          "pivot": {
+            "x": 0.4877675840978593,
+            "y": 0.9931662870159453
+          }
+        },
+        {
+          "filename": "tevi-crouch-1",
+          "frame": {
+            "x": 357,
+            "y": 8,
+            "w": 332,
+            "h": 451
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 451
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 451
+          },
+          "pivot": {
+            "x": 0.4819277108433735,
+            "y": 0.9933481152993349
+          }
+        },
+        {
+          "filename": "tevi-crouch-2",
+          "frame": {
+            "x": 705,
+            "y": 8,
+            "w": 331,
+            "h": 451
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 451
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 451
+          },
+          "pivot": {
+            "x": 0.48338368580060426,
+            "y": 0.9933481152993349
+          }
+        },
+        {
+          "filename": "tevi-crouch-3",
+          "frame": {
+            "x": 698,
+            "y": 483,
+            "w": 328,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.48628048780487804,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "tevi-crouch-4",
+          "frame": {
+            "x": 8,
+            "y": 483,
+            "w": 330,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.48484848484848486,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "tevi-crouch-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 333,
+            "h": 459
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 459
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 459
+          },
+          "pivot": {
+            "x": 0.4804804804804805,
+            "y": 0.9934640522875817
+          }
+        },
+        {
+          "filename": "tevi-crouch-6",
+          "frame": {
+            "x": 1052,
+            "y": 8,
+            "w": 331,
+            "h": 448
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 448
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 448
+          },
+          "pivot": {
+            "x": 0.48338368580060426,
+            "y": 0.9933035714285714
+          }
+        },
+        {
+          "filename": "tevi-crouch-7",
+          "frame": {
+            "x": 354,
+            "y": 483,
+            "w": 328,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.4878048780487805,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "tevi-crouch",
+          "frame": {
+            "x": 1399,
+            "y": 8,
+            "w": 327,
+            "h": 439
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 439
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 439
+          },
+          "pivot": {
+            "x": 0.4877675840978593,
+            "y": 0.9931662870159453
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1921,
+        "h": 932
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-crouchBlock-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.5014204545454546,
+            "y": 0.9933774834437086
+          }
+        },
+        {
+          "filename": "tevi-crouchBlock-1",
+          "frame": {
+            "x": 376,
+            "y": 8,
+            "w": 353,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.5028328611898017,
+            "y": 0.9933774834437086
+          }
+        },
+        {
+          "filename": "tevi-crouchBlock-2",
+          "frame": {
+            "x": 8,
+            "y": 477,
+            "w": 349,
+            "h": 447
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 447
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 447
+          },
+          "pivot": {
+            "x": 0.502865329512894,
+            "y": 0.9932885906040269
+          }
+        },
+        {
+          "filename": "tevi-crouchBlock-3",
+          "frame": {
+            "x": 745,
+            "y": 8,
+            "w": 365,
+            "h": 451
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 451
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 451
+          },
+          "pivot": {
+            "x": 0.48356164383561645,
+            "y": 0.9933481152993349
+          }
+        },
+        {
+          "filename": "tevi-crouchBlock-4",
+          "frame": {
+            "x": 1126,
+            "y": 8,
+            "w": 360,
+            "h": 448
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 448
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 448
+          },
+          "pivot": {
+            "x": 0.48055555555555557,
+            "y": 0.9933035714285714
+          }
+        },
+        {
+          "filename": "tevi-crouchBlock-5",
+          "frame": {
+            "x": 1502,
+            "y": 8,
+            "w": 411,
+            "h": 448
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 448
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 448
+          },
+          "pivot": {
+            "x": 0.4416058394160584,
+            "y": 0.9933035714285714
+          }
+        },
+        {
+          "filename": "tevi-crouchBlock-6",
+          "frame": {
+            "x": 373,
+            "y": 477,
+            "w": 356,
+            "h": 445
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 445
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 445
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932584269662922
+          }
+        },
+        {
+          "filename": "tevi-crouchBlock-7",
+          "frame": {
+            "x": 745,
+            "y": 477,
+            "w": 350,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932279909706546
+          }
+        },
+        {
+          "filename": "tevi-crouchBlock",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.5014204545454546,
+            "y": 0.9933774834437086
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1868,
+        "h": 925
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-crouchHurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 362,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.44337016574585636,
+            "y": 0.9936575052854123
+          }
+        },
+        {
+          "filename": "tevi-crouchHurt-1",
+          "frame": {
+            "x": 386,
+            "y": 8,
+            "w": 354,
+            "h": 448
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 448
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 448
+          },
+          "pivot": {
+            "x": 0.4364406779661017,
+            "y": 0.9933035714285714
+          }
+        },
+        {
+          "filename": "tevi-crouchHurt-2",
+          "frame": {
+            "x": 756,
+            "y": 8,
+            "w": 391,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5268542199488491,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "tevi-crouchHurt-3",
+          "frame": {
+            "x": 1163,
+            "y": 8,
+            "w": 332,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.45180722891566266,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "tevi-crouchHurt-4",
+          "frame": {
+            "x": 1511,
+            "y": 8,
+            "w": 349,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.45702005730659023,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tevi-crouchHurt-5",
+          "frame": {
+            "x": 8,
+            "y": 497,
+            "w": 351,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.45726495726495725,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "tevi-crouchHurt-6",
+          "frame": {
+            "x": 375,
+            "y": 497,
+            "w": 345,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.45362318840579713,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "tevi-crouchHurt-7",
+          "frame": {
+            "x": 736,
+            "y": 497,
+            "w": 343,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.4577259475218659,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "tevi-crouchHurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 362,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.44337016574585636,
+            "y": 0.9936575052854123
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1852,
+        "h": 888
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-crouchPunch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 343,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.4446064139941691,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "tevi-crouchPunch-1",
+          "frame": {
+            "x": 1484,
+            "y": 8,
+            "w": 360,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.46805555555555556,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "tevi-crouchPunch-2",
+          "frame": {
+            "x": 371,
+            "y": 456,
+            "w": 373,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.4195710455764075,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tevi-crouchPunch-3",
+          "frame": {
+            "x": 760,
+            "y": 456,
+            "w": 385,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.4155844155844156,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "tevi-crouchPunch-4",
+          "frame": {
+            "x": 735,
+            "y": 8,
+            "w": 361,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.4515235457063712,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "tevi-crouchPunch-5",
+          "frame": {
+            "x": 367,
+            "y": 8,
+            "w": 352,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.4602272727272727,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "tevi-crouchPunch-6",
+          "frame": {
+            "x": 1112,
+            "y": 8,
+            "w": 356,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.44241573033707865,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "tevi-crouchPunch-7",
+          "frame": {
+            "x": 8,
+            "y": 456,
+            "w": 347,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.4495677233429395,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "tevi-crouchPunch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 343,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.4446064139941691,
+            "y": 0.9930555555555556
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2023,
+        "h": 915
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-dash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 326,
+            "h": 464
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 464
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 464
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935344827586207
+          }
+        },
+        {
+          "filename": "tevi-dash-1",
+          "frame": {
+            "x": 8,
+            "y": 488,
+            "w": 335,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.2671641791044776,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "tevi-dash-2",
+          "frame": {
+            "x": 695,
+            "y": 8,
+            "w": 456,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 456,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 456,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.3991228070175439,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "tevi-dash-3",
+          "frame": {
+            "x": 359,
+            "y": 488,
+            "w": 426,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 426,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 426,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.48708920187793425,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "tevi-dash-4",
+          "frame": {
+            "x": 1634,
+            "y": 8,
+            "w": 381,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.16272965879265092,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tevi-dash-5",
+          "frame": {
+            "x": 1167,
+            "y": 8,
+            "w": 451,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 451,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 451,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.4745011086474501,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "tevi-dash-6",
+          "frame": {
+            "x": 801,
+            "y": 488,
+            "w": 303,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.3547854785478548,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "tevi-dash-7",
+          "frame": {
+            "x": 350,
+            "y": 8,
+            "w": 329,
+            "h": 462
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 462
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 462
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935064935064936
+          }
+        },
+        {
+          "filename": "tevi-dash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 326,
+            "h": 464
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 464
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 464
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935344827586207
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1833,
+        "h": 842
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 299,
+            "h": 587
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 299,
+            "h": 587
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 299,
+            "h": 587
+          },
+          "pivot": {
+            "x": 0.4882943143812709,
+            "y": 0.9948892674616695
+          }
+        },
+        {
+          "filename": "tevi-ko-1",
+          "frame": {
+            "x": 323,
+            "y": 8,
+            "w": 317,
+            "h": 540
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 540
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 540
+          },
+          "pivot": {
+            "x": 0.40063091482649843,
+            "y": 0.9944444444444445
+          }
+        },
+        {
+          "filename": "tevi-ko-2",
+          "frame": {
+            "x": 656,
+            "y": 8,
+            "w": 378,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.4722222222222222,
+            "y": 0.9932279909706546
+          }
+        },
+        {
+          "filename": "tevi-ko-3",
+          "frame": {
+            "x": 1050,
+            "y": 8,
+            "w": 383,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 383,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 383,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.4908616187989556,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "tevi-ko-4",
+          "frame": {
+            "x": 1449,
+            "y": 8,
+            "w": 376,
+            "h": 316
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 316
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 316
+          },
+          "pivot": {
+            "x": 0.5013297872340425,
+            "y": 0.990506329113924
+          }
+        },
+        {
+          "filename": "tevi-ko-5",
+          "frame": {
+            "x": 8,
+            "y": 611,
+            "w": 391,
+            "h": 223
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 223
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 223
+          },
+          "pivot": {
+            "x": 0.5140664961636828,
+            "y": 0.9865470852017937
+          }
+        },
+        {
+          "filename": "tevi-ko-6",
+          "frame": {
+            "x": 415,
+            "y": 611,
+            "w": 394,
+            "h": 177
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 177
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 177
+          },
+          "pivot": {
+            "x": 0.5114213197969543,
+            "y": 0.9830508474576272
+          }
+        },
+        {
+          "filename": "tevi-ko-7",
+          "frame": {
+            "x": 825,
+            "y": 611,
+            "w": 353,
+            "h": 151
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 151
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 151
+          },
+          "pivot": {
+            "x": 0.5028328611898017,
+            "y": 0.9801324503311258
+          }
+        },
+        {
+          "filename": "tevi-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 299,
+            "h": 587
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 299,
+            "h": 587
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 299,
+            "h": 587
+          },
+          "pivot": {
+            "x": 0.4882943143812709,
+            "y": 0.9948892674616695
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1896,
+        "h": 651
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-down-0",
+          "frame": {
+            "x": 8,
+            "y": 336,
+            "w": 355,
+            "h": 307
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 307
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 307
+          },
+          "pivot": {
+            "x": 0.352112676056338,
+            "y": 0.990228013029316
+          }
+        },
+        {
+          "filename": "tevi-down-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 361,
+            "h": 312
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 312
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.35041551246537395,
+            "y": 0.9903846153846154
+          }
+        },
+        {
+          "filename": "tevi-down-2",
+          "frame": {
+            "x": 1143,
+            "y": 8,
+            "w": 361,
+            "h": 309
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 309
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 309
+          },
+          "pivot": {
+            "x": 0.36426592797783935,
+            "y": 0.9902912621359223
+          }
+        },
+        {
+          "filename": "tevi-down-3",
+          "frame": {
+            "x": 757,
+            "y": 336,
+            "w": 358,
+            "h": 295
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 295
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 295
+          },
+          "pivot": {
+            "x": 0.3645251396648045,
+            "y": 0.9898305084745763
+          }
+        },
+        {
+          "filename": "tevi-down-4",
+          "frame": {
+            "x": 767,
+            "y": 8,
+            "w": 360,
+            "h": 311
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 311
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.34305555555555556,
+            "y": 0.9903536977491961
+          }
+        },
+        {
+          "filename": "tevi-down-5",
+          "frame": {
+            "x": 385,
+            "y": 8,
+            "w": 366,
+            "h": 312
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 312
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.36065573770491804,
+            "y": 0.9903846153846154
+          }
+        },
+        {
+          "filename": "tevi-down-6",
+          "frame": {
+            "x": 1520,
+            "y": 8,
+            "w": 368,
+            "h": 308
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 308
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 308
+          },
+          "pivot": {
+            "x": 0.36820652173913043,
+            "y": 0.9902597402597403
+          }
+        },
+        {
+          "filename": "tevi-down-7",
+          "frame": {
+            "x": 379,
+            "y": 336,
+            "w": 362,
+            "h": 301
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 301
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 301
+          },
+          "pivot": {
+            "x": 0.36187845303867405,
+            "y": 0.9900332225913622
+          }
+        },
+        {
+          "filename": "tevi-down",
+          "frame": {
+            "x": 8,
+            "y": 336,
+            "w": 355,
+            "h": 307
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 307
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 307
+          },
+          "pivot": {
+            "x": 0.352112676056338,
+            "y": 0.990228013029316
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1981,
+        "h": 939
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-fall-0",
+          "frame": {
+            "x": 335,
+            "y": 515,
+            "w": 353,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.49575070821529743,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "tevi-fall-1",
+          "frame": {
+            "x": 8,
+            "y": 515,
+            "w": 311,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.48231511254019294,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "tevi-fall-2",
+          "frame": {
+            "x": 993,
+            "y": 8,
+            "w": 316,
+            "h": 464
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 464
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 464
+          },
+          "pivot": {
+            "x": 0.4525316455696203,
+            "y": 0.9935344827586207
+          }
+        },
+        {
+          "filename": "tevi-fall-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 305,
+            "h": 491
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 305,
+            "h": 491
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 305,
+            "h": 491
+          },
+          "pivot": {
+            "x": 0.4721311475409836,
+            "y": 0.9938900203665988
+          }
+        },
+        {
+          "filename": "tevi-fall-4",
+          "frame": {
+            "x": 1651,
+            "y": 8,
+            "w": 322,
+            "h": 460
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 460
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 460
+          },
+          "pivot": {
+            "x": 0.40683229813664595,
+            "y": 0.9934782608695653
+          }
+        },
+        {
+          "filename": "tevi-fall-5",
+          "frame": {
+            "x": 329,
+            "y": 8,
+            "w": 319,
+            "h": 467
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 467
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 467
+          },
+          "pivot": {
+            "x": 0.38557993730407525,
+            "y": 0.9935760171306209
+          }
+        },
+        {
+          "filename": "tevi-fall-6",
+          "frame": {
+            "x": 664,
+            "y": 8,
+            "w": 313,
+            "h": 467
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 467
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 467
+          },
+          "pivot": {
+            "x": 0.4728434504792332,
+            "y": 0.9935760171306209
+          }
+        },
+        {
+          "filename": "tevi-fall-7",
+          "frame": {
+            "x": 1325,
+            "y": 8,
+            "w": 310,
+            "h": 461
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 461
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 461
+          },
+          "pivot": {
+            "x": 0.47580645161290325,
+            "y": 0.9934924078091106
+          }
+        },
+        {
+          "filename": "tevi-fall",
+          "frame": {
+            "x": 335,
+            "y": 515,
+            "w": 353,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.49575070821529743,
+            "y": 0.992462311557789
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1772,
+        "h": 813
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-getup-0",
+          "frame": {
+            "x": 796,
+            "y": 497,
+            "w": 412,
+            "h": 175
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 175
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 175
+          },
+          "pivot": {
+            "x": 0.4890776699029126,
+            "y": 0.9828571428571429
+          }
+        },
+        {
+          "filename": "tevi-getup-1",
+          "frame": {
+            "x": 409,
+            "y": 497,
+            "w": 371,
+            "h": 250
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 250
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 250
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.988
+          }
+        },
+        {
+          "filename": "tevi-getup-2",
+          "frame": {
+            "x": 8,
+            "y": 497,
+            "w": 385,
+            "h": 308
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 308
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 308
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9902597402597403
+          }
+        },
+        {
+          "filename": "tevi-getup-3",
+          "frame": {
+            "x": 1417,
+            "y": 8,
+            "w": 347,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.49135446685878964,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "tevi-getup-4",
+          "frame": {
+            "x": 1036,
+            "y": 8,
+            "w": 365,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "tevi-getup-5",
+          "frame": {
+            "x": 713,
+            "y": 8,
+            "w": 307,
+            "h": 440
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 440
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 440
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931818181818182
+          }
+        },
+        {
+          "filename": "tevi-getup-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 313,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936575052854123
+          }
+        },
+        {
+          "filename": "tevi-getup-7",
+          "frame": {
+            "x": 337,
+            "y": 8,
+            "w": 360,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936575052854123
+          }
+        },
+        {
+          "filename": "tevi-getup",
+          "frame": {
+            "x": 796,
+            "y": 497,
+            "w": 412,
+            "h": 175
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 175
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 175
+          },
+          "pivot": {
+            "x": 0.4890776699029126,
+            "y": 0.9828571428571429
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1831,
+        "h": 1019
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-hurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 330,
+            "h": 502
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 502
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 502
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9940239043824701
+          }
+        },
+        {
+          "filename": "tevi-hurt-1",
+          "frame": {
+            "x": 735,
+            "y": 8,
+            "w": 345,
+            "h": 498
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 498
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 498
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939759036144579
+          }
+        },
+        {
+          "filename": "tevi-hurt-2",
+          "frame": {
+            "x": 1096,
+            "y": 8,
+            "w": 381,
+            "h": 496
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 496
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 496
+          },
+          "pivot": {
+            "x": 0.55249343832021,
+            "y": 0.9939516129032258
+          }
+        },
+        {
+          "filename": "tevi-hurt-3",
+          "frame": {
+            "x": 354,
+            "y": 8,
+            "w": 365,
+            "h": 500
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 500
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 500
+          },
+          "pivot": {
+            "x": 0.541095890410959,
+            "y": 0.994
+          }
+        },
+        {
+          "filename": "tevi-hurt-4",
+          "frame": {
+            "x": 8,
+            "y": 526,
+            "w": 345,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "tevi-hurt-5",
+          "frame": {
+            "x": 369,
+            "y": 526,
+            "w": 352,
+            "h": 483
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 483
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 483
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937888198757764
+          }
+        },
+        {
+          "filename": "tevi-hurt-6",
+          "frame": {
+            "x": 737,
+            "y": 526,
+            "w": 350,
+            "h": 483
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 483
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 483
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937888198757764
+          }
+        },
+        {
+          "filename": "tevi-hurt-7",
+          "frame": {
+            "x": 1493,
+            "y": 8,
+            "w": 330,
+            "h": 487
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 487
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 487
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938398357289527
+          }
+        },
+        {
+          "filename": "tevi-hurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 330,
+            "h": 502
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 502
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 502
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9940239043824701
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2044,
+        "h": 1011
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-idle-0",
+          "frame": {
+            "x": 1035,
+            "y": 8,
+            "w": 323,
+            "h": 489
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 489
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 489
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938650306748467
+          }
+        },
+        {
+          "filename": "tevi-idle-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 325,
+            "h": 493
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 493
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 493
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939148073022313
+          }
+        },
+        {
+          "filename": "tevi-idle-2",
+          "frame": {
+            "x": 349,
+            "y": 8,
+            "w": 325,
+            "h": 493
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 493
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 493
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939148073022313
+          }
+        },
+        {
+          "filename": "tevi-idle-3",
+          "frame": {
+            "x": 354,
+            "y": 517,
+            "w": 348,
+            "h": 483
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 483
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 483
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937888198757764
+          }
+        },
+        {
+          "filename": "tevi-idle-4",
+          "frame": {
+            "x": 8,
+            "y": 517,
+            "w": 330,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938271604938271
+          }
+        },
+        {
+          "filename": "tevi-idle-5",
+          "frame": {
+            "x": 1374,
+            "y": 8,
+            "w": 321,
+            "h": 487
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 487
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 487
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938398357289527
+          }
+        },
+        {
+          "filename": "tevi-idle-6",
+          "frame": {
+            "x": 1711,
+            "y": 8,
+            "w": 325,
+            "h": 487
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 487
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 487
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938398357289527
+          }
+        },
+        {
+          "filename": "tevi-idle-7",
+          "frame": {
+            "x": 690,
+            "y": 8,
+            "w": 329,
+            "h": 491
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 491
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 491
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938900203665988
+          }
+        },
+        {
+          "filename": "tevi-idle",
+          "frame": {
+            "x": 1035,
+            "y": 8,
+            "w": 323,
+            "h": 489
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 489
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 489
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938650306748467
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1676,
+        "h": 1017
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-intro-0",
+          "frame": {
+            "x": 475,
+            "y": 8,
+            "w": 267,
+            "h": 506
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 267,
+            "h": 506
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 267,
+            "h": 506
+          },
+          "pivot": {
+            "x": 0.5131086142322098,
+            "y": 0.9940711462450593
+          }
+        },
+        {
+          "filename": "tevi-intro-1",
+          "frame": {
+            "x": 1065,
+            "y": 8,
+            "w": 265,
+            "h": 504
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 265,
+            "h": 504
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 265,
+            "h": 504
+          },
+          "pivot": {
+            "x": 0.5358490566037736,
+            "y": 0.9940476190476191
+          }
+        },
+        {
+          "filename": "tevi-intro-2",
+          "frame": {
+            "x": 758,
+            "y": 8,
+            "w": 291,
+            "h": 506
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 291,
+            "h": 506
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 291,
+            "h": 506
+          },
+          "pivot": {
+            "x": 0.5567010309278351,
+            "y": 0.9940711462450593
+          }
+        },
+        {
+          "filename": "tevi-intro-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 451,
+            "h": 508
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 451,
+            "h": 508
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 451,
+            "h": 508
+          },
+          "pivot": {
+            "x": 0.5576496674057649,
+            "y": 0.9940944881889764
+          }
+        },
+        {
+          "filename": "tevi-intro-4",
+          "frame": {
+            "x": 1346,
+            "y": 8,
+            "w": 322,
+            "h": 492
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 492
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 492
+          },
+          "pivot": {
+            "x": 0.4860248447204969,
+            "y": 0.9939024390243902
+          }
+        },
+        {
+          "filename": "tevi-intro-5",
+          "frame": {
+            "x": 399,
+            "y": 532,
+            "w": 365,
+            "h": 470
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 470
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 470
+          },
+          "pivot": {
+            "x": 0.45616438356164385,
+            "y": 0.9936170212765958
+          }
+        },
+        {
+          "filename": "tevi-intro-6",
+          "frame": {
+            "x": 780,
+            "y": 532,
+            "w": 355,
+            "h": 468
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 468
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 468
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935897435897436
+          }
+        },
+        {
+          "filename": "tevi-intro-7",
+          "frame": {
+            "x": 8,
+            "y": 532,
+            "w": 375,
+            "h": 477
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 477
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 477
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937106918238994
+          }
+        },
+        {
+          "filename": "tevi-intro",
+          "frame": {
+            "x": 475,
+            "y": 8,
+            "w": 267,
+            "h": 506
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 267,
+            "h": 506
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 267,
+            "h": 506
+          },
+          "pivot": {
+            "x": 0.5131086142322098,
+            "y": 0.9940711462450593
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1881,
+        "h": 928
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-jump-0",
+          "frame": {
+            "x": 339,
+            "y": 8,
+            "w": 320,
+            "h": 482
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 482
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 482
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937759336099585
+          }
+        },
+        {
+          "filename": "tevi-jump-1",
+          "frame": {
+            "x": 1577,
+            "y": 8,
+            "w": 296,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.4560810810810811,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "tevi-jump-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 315,
+            "h": 497
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 315,
+            "h": 497
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 315,
+            "h": 497
+          },
+          "pivot": {
+            "x": 0.39365079365079364,
+            "y": 0.993963782696177
+          }
+        },
+        {
+          "filename": "tevi-jump-3",
+          "frame": {
+            "x": 1301,
+            "y": 8,
+            "w": 260,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 260,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 260,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.41923076923076924,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "tevi-jump-4",
+          "frame": {
+            "x": 315,
+            "y": 521,
+            "w": 282,
+            "h": 336
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 282,
+            "h": 336
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 282,
+            "h": 336
+          },
+          "pivot": {
+            "x": 0.4734042553191489,
+            "y": 0.9910714285714286
+          }
+        },
+        {
+          "filename": "tevi-jump-5",
+          "frame": {
+            "x": 1007,
+            "y": 8,
+            "w": 278,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 278,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.39388489208633093,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "tevi-jump-6",
+          "frame": {
+            "x": 8,
+            "y": 521,
+            "w": 291,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 291,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 291,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.48109965635738833,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "tevi-jump-7",
+          "frame": {
+            "x": 675,
+            "y": 8,
+            "w": 316,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936575052854123
+          }
+        },
+        {
+          "filename": "tevi-jump",
+          "frame": {
+            "x": 339,
+            "y": 8,
+            "w": 320,
+            "h": 482
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 482
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 482
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937759336099585
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1656,
+        "h": 995
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-kick-0",
+          "frame": {
+            "x": 634,
+            "y": 8,
+            "w": 276,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99375
+          }
+        },
+        {
+          "filename": "tevi-kick-1",
+          "frame": {
+            "x": 1380,
+            "y": 8,
+            "w": 268,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 268,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 268,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.45149253731343286,
+            "y": 0.9937238493723849
+          }
+        },
+        {
+          "filename": "tevi-kick-2",
+          "frame": {
+            "x": 8,
+            "y": 511,
+            "w": 392,
+            "h": 476
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 476
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 476
+          },
+          "pivot": {
+            "x": 0.3405612244897959,
+            "y": 0.9936974789915967
+          }
+        },
+        {
+          "filename": "tevi-kick-3",
+          "frame": {
+            "x": 926,
+            "y": 8,
+            "w": 438,
+            "h": 479
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 438,
+            "h": 479
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 438,
+            "h": 479
+          },
+          "pivot": {
+            "x": 0.341324200913242,
+            "y": 0.9937369519832986
+          }
+        },
+        {
+          "filename": "tevi-kick-4",
+          "frame": {
+            "x": 308,
+            "y": 8,
+            "w": 310,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.4306451612903226,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "tevi-kick-5",
+          "frame": {
+            "x": 416,
+            "y": 511,
+            "w": 268,
+            "h": 476
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 268,
+            "h": 476
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 268,
+            "h": 476
+          },
+          "pivot": {
+            "x": 0.3675373134328358,
+            "y": 0.9936974789915967
+          }
+        },
+        {
+          "filename": "tevi-kick-6",
+          "frame": {
+            "x": 700,
+            "y": 511,
+            "w": 278,
+            "h": 472
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 278,
+            "h": 472
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 472
+          },
+          "pivot": {
+            "x": 0.5017985611510791,
+            "y": 0.9936440677966102
+          }
+        },
+        {
+          "filename": "tevi-kick-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 284,
+            "h": 487
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 284,
+            "h": 487
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 284,
+            "h": 487
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938398357289527
+          }
+        },
+        {
+          "filename": "tevi-kick",
+          "frame": {
+            "x": 634,
+            "y": 8,
+            "w": 276,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99375
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1852,
+        "h": 876
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-knockdown-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 293,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 293,
+            "h": 512
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 293,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.994140625
+          }
+        },
+        {
+          "filename": "tevi-knockdown-1",
+          "frame": {
+            "x": 723,
+            "y": 8,
+            "w": 336,
+            "h": 492
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 492
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 492
+          },
+          "pivot": {
+            "x": 0.5520833333333334,
+            "y": 0.9939024390243902
+          }
+        },
+        {
+          "filename": "tevi-knockdown-2",
+          "frame": {
+            "x": 317,
+            "y": 8,
+            "w": 390,
+            "h": 495
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 495
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 495
+          },
+          "pivot": {
+            "x": 0.6012820512820513,
+            "y": 0.9939393939393939
+          }
+        },
+        {
+          "filename": "tevi-knockdown-3",
+          "frame": {
+            "x": 1075,
+            "y": 8,
+            "w": 403,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.49627791563275436,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "tevi-knockdown-4",
+          "frame": {
+            "x": 1494,
+            "y": 8,
+            "w": 350,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.6028571428571429,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "tevi-knockdown-5",
+          "frame": {
+            "x": 8,
+            "y": 536,
+            "w": 410,
+            "h": 332
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 410,
+            "h": 332
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 410,
+            "h": 332
+          },
+          "pivot": {
+            "x": 0.5195121951219512,
+            "y": 0.9909638554216867
+          }
+        },
+        {
+          "filename": "tevi-knockdown-6",
+          "frame": {
+            "x": 434,
+            "y": 536,
+            "w": 377,
+            "h": 222
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 222
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 222
+          },
+          "pivot": {
+            "x": 0.5384615384615384,
+            "y": 0.9864864864864865
+          }
+        },
+        {
+          "filename": "tevi-knockdown-7",
+          "frame": {
+            "x": 827,
+            "y": 536,
+            "w": 395,
+            "h": 153
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 153
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 153
+          },
+          "pivot": {
+            "x": 0.5012658227848101,
+            "y": 0.9803921568627451
+          }
+        },
+        {
+          "filename": "tevi-knockdown",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 293,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 293,
+            "h": 512
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 293,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.994140625
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2038,
+        "h": 905
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-punch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 306,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 306,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 306,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931972789115646
+          }
+        },
+        {
+          "filename": "tevi-punch-1",
+          "frame": {
+            "x": 330,
+            "y": 8,
+            "w": 308,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 308,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 308,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931972789115646
+          }
+        },
+        {
+          "filename": "tevi-punch-2",
+          "frame": {
+            "x": 1030,
+            "y": 8,
+            "w": 348,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.44396551724137934,
+            "y": 0.9931192660550459
+          }
+        },
+        {
+          "filename": "tevi-punch-3",
+          "frame": {
+            "x": 654,
+            "y": 8,
+            "w": 360,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.46111111111111114,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "tevi-punch-4",
+          "frame": {
+            "x": 1713,
+            "y": 8,
+            "w": 317,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "tevi-punch-5",
+          "frame": {
+            "x": 331,
+            "y": 465,
+            "w": 321,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "tevi-punch-6",
+          "frame": {
+            "x": 8,
+            "y": 465,
+            "w": 307,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "tevi-punch-7",
+          "frame": {
+            "x": 1394,
+            "y": 8,
+            "w": 303,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931192660550459
+          }
+        },
+        {
+          "filename": "tevi-punch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 306,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 306,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 306,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931972789115646
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1854,
+        "h": 963
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-super-0",
+          "frame": {
+            "x": 625,
+            "y": 8,
+            "w": 276,
+            "h": 461
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 461
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 461
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934924078091106
+          }
+        },
+        {
+          "filename": "tevi-super-1",
+          "frame": {
+            "x": 917,
+            "y": 8,
+            "w": 277,
+            "h": 461
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 277,
+            "h": 461
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 277,
+            "h": 461
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934924078091106
+          }
+        },
+        {
+          "filename": "tevi-super-2",
+          "frame": {
+            "x": 299,
+            "y": 8,
+            "w": 310,
+            "h": 462
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 462
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 462
+          },
+          "pivot": {
+            "x": 0.5580645161290323,
+            "y": 0.9935064935064936
+          }
+        },
+        {
+          "filename": "tevi-super-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 275,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 275,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 275,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.5036363636363637,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "tevi-super-4",
+          "frame": {
+            "x": 1210,
+            "y": 8,
+            "w": 340,
+            "h": 450
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 450
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 450
+          },
+          "pivot": {
+            "x": 0.4338235294117647,
+            "y": 0.9933333333333333
+          }
+        },
+        {
+          "filename": "tevi-super-5",
+          "frame": {
+            "x": 8,
+            "y": 509,
+            "w": 337,
+            "h": 446
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 446
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 446
+          },
+          "pivot": {
+            "x": 0.46439169139465875,
+            "y": 0.9932735426008968
+          }
+        },
+        {
+          "filename": "tevi-super-6",
+          "frame": {
+            "x": 1566,
+            "y": 8,
+            "w": 280,
+            "h": 447
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 280,
+            "h": 447
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 280,
+            "h": 447
+          },
+          "pivot": {
+            "x": 0.5089285714285714,
+            "y": 0.9932885906040269
+          }
+        },
+        {
+          "filename": "tevi-super-7",
+          "frame": {
+            "x": 361,
+            "y": 509,
+            "w": 268,
+            "h": 446
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 268,
+            "h": 446
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 268,
+            "h": 446
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932735426008968
+          }
+        },
+        {
+          "filename": "tevi-super",
+          "frame": {
+            "x": 625,
+            "y": 8,
+            "w": 276,
+            "h": 461
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 461
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 461
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934924078091106
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1736,
+        "h": 827
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-sweep-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 324,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933774834437086
+          }
+        },
+        {
+          "filename": "tevi-sweep-1",
+          "frame": {
+            "x": 8,
+            "y": 477,
+            "w": 313,
+            "h": 342
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 342
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 342
+          },
+          "pivot": {
+            "x": 0.5654952076677316,
+            "y": 0.9912280701754386
+          }
+        },
+        {
+          "filename": "tevi-sweep-2",
+          "frame": {
+            "x": 677,
+            "y": 477,
+            "w": 464,
+            "h": 320
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 464,
+            "h": 320
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 464,
+            "h": 320
+          },
+          "pivot": {
+            "x": 0.4547413793103448,
+            "y": 0.990625
+          }
+        },
+        {
+          "filename": "tevi-sweep-3",
+          "frame": {
+            "x": 337,
+            "y": 477,
+            "w": 324,
+            "h": 332
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 332
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 332
+          },
+          "pivot": {
+            "x": 0.48302469135802467,
+            "y": 0.9909638554216867
+          }
+        },
+        {
+          "filename": "tevi-sweep-4",
+          "frame": {
+            "x": 1397,
+            "y": 8,
+            "w": 331,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.35347432024169184,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "tevi-sweep-5",
+          "frame": {
+            "x": 1045,
+            "y": 8,
+            "w": 336,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5922619047619048,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "tevi-sweep-6",
+          "frame": {
+            "x": 697,
+            "y": 8,
+            "w": 332,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "tevi-sweep-7",
+          "frame": {
+            "x": 348,
+            "y": 8,
+            "w": 333,
+            "h": 439
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 439
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 439
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931662870159453
+          }
+        },
+        {
+          "filename": "tevi-sweep",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 324,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933774834437086
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2035,
+        "h": 984
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-uppercut-0",
+          "frame": {
+            "x": 303,
+            "y": 8,
+            "w": 338,
+            "h": 481
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 481
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 481
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937629937629938
+          }
+        },
+        {
+          "filename": "tevi-uppercut-1",
+          "frame": {
+            "x": 356,
+            "y": 542,
+            "w": 334,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.47604790419161674,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "tevi-uppercut-2",
+          "frame": {
+            "x": 1337,
+            "y": 8,
+            "w": 335,
+            "h": 446
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 446
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 446
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932735426008968
+          }
+        },
+        {
+          "filename": "tevi-uppercut-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 279,
+            "h": 518
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 279,
+            "h": 518
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 279,
+            "h": 518
+          },
+          "pivot": {
+            "x": 0.44265232974910396,
+            "y": 0.9942084942084942
+          }
+        },
+        {
+          "filename": "tevi-uppercut-4",
+          "frame": {
+            "x": 997,
+            "y": 8,
+            "w": 324,
+            "h": 451
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 451
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 451
+          },
+          "pivot": {
+            "x": 0.4783950617283951,
+            "y": 0.9933481152993349
+          }
+        },
+        {
+          "filename": "tevi-uppercut-5",
+          "frame": {
+            "x": 1688,
+            "y": 8,
+            "w": 339,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "tevi-uppercut-6",
+          "frame": {
+            "x": 8,
+            "y": 542,
+            "w": 332,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "tevi-uppercut-7",
+          "frame": {
+            "x": 657,
+            "y": 8,
+            "w": 324,
+            "h": 452
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 452
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 452
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933628318584071
+          }
+        },
+        {
+          "filename": "tevi-uppercut",
+          "frame": {
+            "x": 303,
+            "y": 8,
+            "w": 338,
+            "h": 481
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 481
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 481
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937629937629938
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1984,
+        "h": 1029
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-win-0",
+          "frame": {
+            "x": 331,
+            "y": 530,
+            "w": 351,
+            "h": 469
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 469
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 469
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936034115138592
+          }
+        },
+        {
+          "filename": "tevi-win-1",
+          "frame": {
+            "x": 8,
+            "y": 530,
+            "w": 307,
+            "h": 491
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 491
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 491
+          },
+          "pivot": {
+            "x": 0.4771986970684039,
+            "y": 0.9938900203665988
+          }
+        },
+        {
+          "filename": "tevi-win-2",
+          "frame": {
+            "x": 1012,
+            "y": 8,
+            "w": 292,
+            "h": 500
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 500
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 500
+          },
+          "pivot": {
+            "x": 0.4794520547945205,
+            "y": 0.994
+          }
+        },
+        {
+          "filename": "tevi-win-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 326,
+            "h": 506
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 506
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 506
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9940711462450593
+          }
+        },
+        {
+          "filename": "tevi-win-4",
+          "frame": {
+            "x": 350,
+            "y": 8,
+            "w": 332,
+            "h": 506
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 506
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 506
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9940711462450593
+          }
+        },
+        {
+          "filename": "tevi-win-5",
+          "frame": {
+            "x": 1320,
+            "y": 8,
+            "w": 346,
+            "h": 499
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 499
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 499
+          },
+          "pivot": {
+            "x": 0.5158959537572254,
+            "y": 0.9939879759519038
+          }
+        },
+        {
+          "filename": "tevi-win-6",
+          "frame": {
+            "x": 1682,
+            "y": 8,
+            "w": 294,
+            "h": 498
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 294,
+            "h": 498
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 294,
+            "h": 498
+          },
+          "pivot": {
+            "x": 0.5102040816326531,
+            "y": 0.9939759036144579
+          }
+        },
+        {
+          "filename": "tevi-win-7",
+          "frame": {
+            "x": 698,
+            "y": 8,
+            "w": 298,
+            "h": 504
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 298,
+            "h": 504
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 298,
+            "h": 504
+          },
+          "pivot": {
+            "x": 0.5335570469798657,
+            "y": 0.9940476190476191
+          }
+        },
+        {
+          "filename": "tevi-win",
+          "frame": {
+            "x": 331,
+            "y": 530,
+            "w": 351,
+            "h": 469
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 469
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 469
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936034115138592
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1700,
+        "h": 1034
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-walk-0",
+          "frame": {
+            "x": 375,
+            "y": 8,
+            "w": 297,
+            "h": 500
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 297,
+            "h": 500
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 297,
+            "h": 500
+          },
+          "pivot": {
+            "x": 0.48653198653198654,
+            "y": 0.994
+          }
+        },
+        {
+          "filename": "tevi-walk-1",
+          "frame": {
+            "x": 688,
+            "y": 8,
+            "w": 304,
+            "h": 500
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 500
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 500
+          },
+          "pivot": {
+            "x": 0.5230263157894737,
+            "y": 0.994
+          }
+        },
+        {
+          "filename": "tevi-walk-2",
+          "frame": {
+            "x": 1008,
+            "y": 8,
+            "w": 328,
+            "h": 500
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 500
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 500
+          },
+          "pivot": {
+            "x": 0.5350609756097561,
+            "y": 0.994
+          }
+        },
+        {
+          "filename": "tevi-walk-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 351,
+            "h": 503
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 503
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 503
+          },
+          "pivot": {
+            "x": 0.5470085470085471,
+            "y": 0.9940357852882704
+          }
+        },
+        {
+          "filename": "tevi-walk-4",
+          "frame": {
+            "x": 694,
+            "y": 527,
+            "w": 335,
+            "h": 495
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 495
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 495
+          },
+          "pivot": {
+            "x": 0.5194029850746269,
+            "y": 0.9939393939393939
+          }
+        },
+        {
+          "filename": "tevi-walk-5",
+          "frame": {
+            "x": 1352,
+            "y": 8,
+            "w": 340,
+            "h": 499
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 499
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 499
+          },
+          "pivot": {
+            "x": 0.5485294117647059,
+            "y": 0.9939879759519038
+          }
+        },
+        {
+          "filename": "tevi-walk-6",
+          "frame": {
+            "x": 8,
+            "y": 527,
+            "w": 347,
+            "h": 499
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 499
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 499
+          },
+          "pivot": {
+            "x": 0.5403458213256485,
+            "y": 0.9939879759519038
+          }
+        },
+        {
+          "filename": "tevi-walk-7",
+          "frame": {
+            "x": 371,
+            "y": 527,
+            "w": 307,
+            "h": 499
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 499
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 499
+          },
+          "pivot": {
+            "x": 0.5130293159609121,
+            "y": 0.9939879759519038
+          }
+        },
+        {
+          "filename": "tevi-walk",
+          "frame": {
+            "x": 375,
+            "y": 8,
+            "w": 297,
+            "h": 500
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 297,
+            "h": 500
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 297,
+            "h": 500
+          },
+          "pivot": {
+            "x": 0.48653198653198654,
+            "y": 0.994
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1822,
+        "h": 1012
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tevi-walkBack-0",
+          "frame": {
+            "x": 1490,
+            "y": 8,
+            "w": 324,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "tevi-walkBack-1",
+          "frame": {
+            "x": 865,
+            "y": 8,
+            "w": 327,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.4892966360856269,
+            "y": 0.9938271604938271
+          }
+        },
+        {
+          "filename": "tevi-walkBack-2",
+          "frame": {
+            "x": 301,
+            "y": 8,
+            "w": 269,
+            "h": 493
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 269,
+            "h": 493
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 269,
+            "h": 493
+          },
+          "pivot": {
+            "x": 0.4312267657992565,
+            "y": 0.9939148073022313
+          }
+        },
+        {
+          "filename": "tevi-walkBack-3",
+          "frame": {
+            "x": 586,
+            "y": 8,
+            "w": 263,
+            "h": 491
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 263,
+            "h": 491
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 263,
+            "h": 491
+          },
+          "pivot": {
+            "x": 0.44866920152091255,
+            "y": 0.9938900203665988
+          }
+        },
+        {
+          "filename": "tevi-walkBack-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 277,
+            "h": 495
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 277,
+            "h": 495
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 277,
+            "h": 495
+          },
+          "pivot": {
+            "x": 0.4927797833935018,
+            "y": 0.9939393939393939
+          }
+        },
+        {
+          "filename": "tevi-walkBack-5",
+          "frame": {
+            "x": 298,
+            "y": 519,
+            "w": 342,
+            "h": 467
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 467
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 467
+          },
+          "pivot": {
+            "x": 0.5014619883040936,
+            "y": 0.9935760171306209
+          }
+        },
+        {
+          "filename": "tevi-walkBack-6",
+          "frame": {
+            "x": 1208,
+            "y": 8,
+            "w": 266,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 266,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 266,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.46616541353383456,
+            "y": 0.9938271604938271
+          }
+        },
+        {
+          "filename": "tevi-walkBack-7",
+          "frame": {
+            "x": 8,
+            "y": 519,
+            "w": 274,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 274,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 274,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.4762773722627737,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "tevi-walkBack",
+          "frame": {
+            "x": 1490,
+            "y": 8,
+            "w": 324,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938144329896907
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

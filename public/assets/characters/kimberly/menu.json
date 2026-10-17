@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "kimberly-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 229,
+    "h": 308
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 229,
+    "h": 308
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 229,
+    "h": 308
+   },
+   "pivot": {
+    "x": 0.46832249863331293,
+    "y": 0.9902597402597403
+   }
+  },
+  "kimberly-portrait": {
+   "frame": {
+    "x": 231,
+    "y": 0,
+    "w": 202,
+    "h": 219
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 202,
+    "h": 219
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 202,
+    "h": 219
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9863013698630136
+   }
+  },
+  "kimberly-win": {
+   "frame": {
+    "x": 435,
+    "y": 0,
+    "w": 203,
+    "h": 302
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 203,
+    "h": 302
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 203,
+    "h": 302
+   },
+   "pivot": {
+    "x": 0.5873797794980061,
+    "y": 0.9900662251655629
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 640,
+   "h": 308
+  },
+  "scale": "1"
+ }
+}

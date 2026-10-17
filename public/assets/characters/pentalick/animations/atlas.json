@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1660,
+        "h": 800
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-airKick-0",
+          "frame": {
+            "x": 938,
+            "y": 8,
+            "w": 271,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 271,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 271,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5092250922509225,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "pentalick-airKick-1",
+          "frame": {
+            "x": 371,
+            "y": 8,
+            "w": 276,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.6159420289855072,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "pentalick-airKick-2",
+          "frame": {
+            "x": 8,
+            "y": 428,
+            "w": 459,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 459,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 459,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.4019607843137255,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "pentalick-airKick-3",
+          "frame": {
+            "x": 1225,
+            "y": 8,
+            "w": 427,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 427,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 427,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.48009367681498827,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "pentalick-airKick-4",
+          "frame": {
+            "x": 775,
+            "y": 428,
+            "w": 308,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 308,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 308,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.6347402597402597,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "pentalick-airKick-5",
+          "frame": {
+            "x": 483,
+            "y": 428,
+            "w": 276,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.644927536231884,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "pentalick-airKick-6",
+          "frame": {
+            "x": 663,
+            "y": 8,
+            "w": 259,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 259,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 259,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5405405405405406,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "pentalick-airKick-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 347,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.6455331412103746,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "pentalick-airKick",
+          "frame": {
+            "x": 938,
+            "y": 8,
+            "w": 271,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 271,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 271,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5092250922509225,
+            "y": 0.9918478260869565
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1751,
+        "h": 798
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-airPunch-0",
+          "frame": {
+            "x": 1175,
+            "y": 8,
+            "w": 271,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 271,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 271,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.551660516605166,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "pentalick-airPunch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 286,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5034965034965035,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "pentalick-airPunch-2",
+          "frame": {
+            "x": 310,
+            "y": 8,
+            "w": 430,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.4,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "pentalick-airPunch-3",
+          "frame": {
+            "x": 756,
+            "y": 8,
+            "w": 403,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.45285359801488834,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "pentalick-airPunch-4",
+          "frame": {
+            "x": 8,
+            "y": 424,
+            "w": 303,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.523102310231023,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "pentalick-airPunch-5",
+          "frame": {
+            "x": 625,
+            "y": 424,
+            "w": 289,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 289,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 289,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.6332179930795848,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "pentalick-airPunch-6",
+          "frame": {
+            "x": 1462,
+            "y": 8,
+            "w": 281,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5284697508896797,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "pentalick-airPunch-7",
+          "frame": {
+            "x": 327,
+            "y": 424,
+            "w": 282,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 282,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 282,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.6560283687943262,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "pentalick-airPunch",
+          "frame": {
+            "x": 1175,
+            "y": 8,
+            "w": 271,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 271,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 271,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.551660516605166,
+            "y": 0.9922077922077922
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1993,
+        "h": 765
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-backdash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 332,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "pentalick-backdash-1",
+          "frame": {
+            "x": 1368,
+            "y": 8,
+            "w": 262,
+            "h": 343
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 262,
+            "h": 343
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 262,
+            "h": 343
+          },
+          "pivot": {
+            "x": 0.4713740458015267,
+            "y": 0.9912536443148688
+          }
+        },
+        {
+          "filename": "pentalick-backdash-2",
+          "frame": {
+            "x": 686,
+            "y": 8,
+            "w": 324,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.42592592592592593,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "pentalick-backdash-3",
+          "frame": {
+            "x": 356,
+            "y": 8,
+            "w": 314,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.13535031847133758,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "pentalick-backdash-4",
+          "frame": {
+            "x": 8,
+            "y": 419,
+            "w": 367,
+            "h": 338
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 338
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 338
+          },
+          "pivot": {
+            "x": 0.47411444141689374,
+            "y": 0.9911242603550295
+          }
+        },
+        {
+          "filename": "pentalick-backdash-5",
+          "frame": {
+            "x": 391,
+            "y": 419,
+            "w": 276,
+            "h": 338
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 276,
+            "h": 338
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 276,
+            "h": 338
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911242603550295
+          }
+        },
+        {
+          "filename": "pentalick-backdash-6",
+          "frame": {
+            "x": 1646,
+            "y": 8,
+            "w": 339,
+            "h": 343
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 343
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 343
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9912536443148688
+          }
+        },
+        {
+          "filename": "pentalick-backdash-7",
+          "frame": {
+            "x": 1026,
+            "y": 8,
+            "w": 326,
+            "h": 357
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 357
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 357
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915966386554622
+          }
+        },
+        {
+          "filename": "pentalick-backdash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 332,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1925,
+        "h": 804
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-special-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 356,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "pentalick-special-1",
+          "frame": {
+            "x": 879,
+            "y": 430,
+            "w": 370,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "pentalick-special-2",
+          "frame": {
+            "x": 452,
+            "y": 430,
+            "w": 411,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.4489051094890511,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "pentalick-special-3",
+          "frame": {
+            "x": 8,
+            "y": 430,
+            "w": 428,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.44042056074766356,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "pentalick-special-4",
+          "frame": {
+            "x": 1492,
+            "y": 8,
+            "w": 425,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 425,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 425,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.43411764705882355,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "pentalick-special-5",
+          "frame": {
+            "x": 1119,
+            "y": 8,
+            "w": 357,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.4943977591036415,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "pentalick-special-6",
+          "frame": {
+            "x": 745,
+            "y": 8,
+            "w": 358,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "pentalick-special-7",
+          "frame": {
+            "x": 380,
+            "y": 8,
+            "w": 349,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "pentalick-special",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 356,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1708,
+        "h": 821
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-block-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 325,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "pentalick-block-1",
+          "frame": {
+            "x": 349,
+            "y": 8,
+            "w": 325,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "pentalick-block-2",
+          "frame": {
+            "x": 690,
+            "y": 8,
+            "w": 325,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "pentalick-block-3",
+          "frame": {
+            "x": 736,
+            "y": 431,
+            "w": 310,
+            "h": 357
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 357
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 357
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915966386554622
+          }
+        },
+        {
+          "filename": "pentalick-block-4",
+          "frame": {
+            "x": 1031,
+            "y": 8,
+            "w": 303,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "pentalick-block-5",
+          "frame": {
+            "x": 1350,
+            "y": 8,
+            "w": 350,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.4685714285714286,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "pentalick-block-6",
+          "frame": {
+            "x": 8,
+            "y": 431,
+            "w": 381,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.431758530183727,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "pentalick-block-7",
+          "frame": {
+            "x": 405,
+            "y": 431,
+            "w": 315,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 315,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 315,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "pentalick-block",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 325,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1827,
+        "h": 782
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-crouch-0",
+          "frame": {
+            "x": 1109,
+            "y": 8,
+            "w": 349,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "pentalick-crouch-1",
+          "frame": {
+            "x": 377,
+            "y": 8,
+            "w": 351,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "pentalick-crouch-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 353,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "pentalick-crouch-3",
+          "frame": {
+            "x": 744,
+            "y": 8,
+            "w": 349,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "pentalick-crouch-4",
+          "frame": {
+            "x": 1474,
+            "y": 8,
+            "w": 345,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "pentalick-crouch-5",
+          "frame": {
+            "x": 8,
+            "y": 423,
+            "w": 346,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "pentalick-crouch-6",
+          "frame": {
+            "x": 370,
+            "y": 423,
+            "w": 348,
+            "h": 347
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 347
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 347
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9913544668587896
+          }
+        },
+        {
+          "filename": "pentalick-crouch-7",
+          "frame": {
+            "x": 734,
+            "y": 423,
+            "w": 352,
+            "h": 347
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 347
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 347
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9913544668587896
+          }
+        },
+        {
+          "filename": "pentalick-crouch",
+          "frame": {
+            "x": 1109,
+            "y": 8,
+            "w": 349,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919354838709677
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1761,
+        "h": 765
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-crouchBlock-0",
+          "frame": {
+            "x": 1066,
+            "y": 8,
+            "w": 325,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "pentalick-crouchBlock-1",
+          "frame": {
+            "x": 1407,
+            "y": 8,
+            "w": 346,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.48988439306358383,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "pentalick-crouchBlock-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 336,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "pentalick-crouchBlock-3",
+          "frame": {
+            "x": 360,
+            "y": 8,
+            "w": 331,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "pentalick-crouchBlock-4",
+          "frame": {
+            "x": 350,
+            "y": 393,
+            "w": 328,
+            "h": 363
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 363
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 363
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917355371900827
+          }
+        },
+        {
+          "filename": "pentalick-crouchBlock-5",
+          "frame": {
+            "x": 694,
+            "y": 393,
+            "w": 336,
+            "h": 363
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 363
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 363
+          },
+          "pivot": {
+            "x": 0.5029761904761905,
+            "y": 0.9917355371900827
+          }
+        },
+        {
+          "filename": "pentalick-crouchBlock-6",
+          "frame": {
+            "x": 707,
+            "y": 8,
+            "w": 343,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5116618075801749,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "pentalick-crouchBlock-7",
+          "frame": {
+            "x": 8,
+            "y": 393,
+            "w": 326,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "pentalick-crouchBlock",
+          "frame": {
+            "x": 1066,
+            "y": 8,
+            "w": 325,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917582417582418
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1896,
+        "h": 724
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-crouchHurt-0",
+          "frame": {
+            "x": 358,
+            "y": 376,
+            "w": 322,
+            "h": 337
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 337
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 337
+          },
+          "pivot": {
+            "x": 0.4518633540372671,
+            "y": 0.9910979228486647
+          }
+        },
+        {
+          "filename": "pentalick-crouchHurt-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 379,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.49604221635883905,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "pentalick-crouchHurt-2",
+          "frame": {
+            "x": 403,
+            "y": 8,
+            "w": 397,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.4634760705289673,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "pentalick-crouchHurt-3",
+          "frame": {
+            "x": 816,
+            "y": 8,
+            "w": 371,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5013477088948787,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "pentalick-crouchHurt-4",
+          "frame": {
+            "x": 1203,
+            "y": 8,
+            "w": 338,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.43047337278106507,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "pentalick-crouchHurt-5",
+          "frame": {
+            "x": 8,
+            "y": 376,
+            "w": 334,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.47604790419161674,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "pentalick-crouchHurt-6",
+          "frame": {
+            "x": 1557,
+            "y": 8,
+            "w": 331,
+            "h": 343
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 343
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 343
+          },
+          "pivot": {
+            "x": 0.4622356495468278,
+            "y": 0.9912536443148688
+          }
+        },
+        {
+          "filename": "pentalick-crouchHurt-7",
+          "frame": {
+            "x": 696,
+            "y": 376,
+            "w": 332,
+            "h": 336
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 336
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 336
+          },
+          "pivot": {
+            "x": 0.4789156626506024,
+            "y": 0.9910714285714286
+          }
+        },
+        {
+          "filename": "pentalick-crouchHurt",
+          "frame": {
+            "x": 358,
+            "y": 376,
+            "w": 322,
+            "h": 337
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 337
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 337
+          },
+          "pivot": {
+            "x": 0.4518633540372671,
+            "y": 0.9910979228486647
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1962,
+        "h": 730
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-crouchPunch-0",
+          "frame": {
+            "x": 803,
+            "y": 8,
+            "w": 344,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "pentalick-crouchPunch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 350,
+            "h": 357
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 357
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 357
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915966386554622
+          }
+        },
+        {
+          "filename": "pentalick-crouchPunch-2",
+          "frame": {
+            "x": 1530,
+            "y": 8,
+            "w": 424,
+            "h": 346
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 424,
+            "h": 346
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 424,
+            "h": 346
+          },
+          "pivot": {
+            "x": 0.45990566037735847,
+            "y": 0.9913294797687862
+          }
+        },
+        {
+          "filename": "pentalick-crouchPunch-3",
+          "frame": {
+            "x": 374,
+            "y": 8,
+            "w": 413,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.45641646489104115,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "pentalick-crouchPunch-4",
+          "frame": {
+            "x": 376,
+            "y": 381,
+            "w": 353,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "pentalick-crouchPunch-5",
+          "frame": {
+            "x": 1163,
+            "y": 8,
+            "w": 351,
+            "h": 347
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 347
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 347
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9913544668587896
+          }
+        },
+        {
+          "filename": "pentalick-crouchPunch-6",
+          "frame": {
+            "x": 8,
+            "y": 381,
+            "w": 352,
+            "h": 341
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 341
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 341
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9912023460410557
+          }
+        },
+        {
+          "filename": "pentalick-crouchPunch-7",
+          "frame": {
+            "x": 745,
+            "y": 381,
+            "w": 344,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "pentalick-crouchPunch",
+          "frame": {
+            "x": 803,
+            "y": 8,
+            "w": 344,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914772727272727
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1989,
+        "h": 731
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-dash-0",
+          "frame": {
+            "x": 350,
+            "y": 8,
+            "w": 318,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "pentalick-dash-1",
+          "frame": {
+            "x": 684,
+            "y": 8,
+            "w": 336,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.4732142857142857,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "pentalick-dash-2",
+          "frame": {
+            "x": 8,
+            "y": 387,
+            "w": 360,
+            "h": 336
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 336
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 336
+          },
+          "pivot": {
+            "x": 0.4263888888888889,
+            "y": 0.9910714285714286
+          }
+        },
+        {
+          "filename": "pentalick-dash-3",
+          "frame": {
+            "x": 384,
+            "y": 387,
+            "w": 443,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 443,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 443,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.5011286681715575,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "pentalick-dash-4",
+          "frame": {
+            "x": 1646,
+            "y": 8,
+            "w": 335,
+            "h": 338
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 338
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 338
+          },
+          "pivot": {
+            "x": 0.4597014925373134,
+            "y": 0.9911242603550295
+          }
+        },
+        {
+          "filename": "pentalick-dash-5",
+          "frame": {
+            "x": 1369,
+            "y": 8,
+            "w": 261,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 261,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 261,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.1896551724137931,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "pentalick-dash-6",
+          "frame": {
+            "x": 1036,
+            "y": 8,
+            "w": 317,
+            "h": 342
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 342
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 342
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9912280701754386
+          }
+        },
+        {
+          "filename": "pentalick-dash-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 326,
+            "h": 363
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 363
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 363
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917355371900827
+          }
+        },
+        {
+          "filename": "pentalick-dash",
+          "frame": {
+            "x": 350,
+            "y": 8,
+            "w": 318,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917127071823204
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2007,
+        "h": 640
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 292,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "pentalick-ko-1",
+          "frame": {
+            "x": 316,
+            "y": 8,
+            "w": 289,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 289,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 289,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "pentalick-ko-2",
+          "frame": {
+            "x": 621,
+            "y": 8,
+            "w": 299,
+            "h": 333
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 299,
+            "h": 333
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 299,
+            "h": 333
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.990990990990991
+          }
+        },
+        {
+          "filename": "pentalick-ko-3",
+          "frame": {
+            "x": 936,
+            "y": 8,
+            "w": 307,
+            "h": 289
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 289
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 289
+          },
+          "pivot": {
+            "x": 0.4495114006514658,
+            "y": 0.9896193771626297
+          }
+        },
+        {
+          "filename": "pentalick-ko-4",
+          "frame": {
+            "x": 1259,
+            "y": 8,
+            "w": 375,
+            "h": 231
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 231
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 231
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.987012987012987
+          }
+        },
+        {
+          "filename": "pentalick-ko-5",
+          "frame": {
+            "x": 1650,
+            "y": 8,
+            "w": 349,
+            "h": 220
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 220
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 220
+          },
+          "pivot": {
+            "x": 0.4512893982808023,
+            "y": 0.9863636363636363
+          }
+        },
+        {
+          "filename": "pentalick-ko-6",
+          "frame": {
+            "x": 8,
+            "y": 444,
+            "w": 365,
+            "h": 188
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 188
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 188
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9840425531914894
+          }
+        },
+        {
+          "filename": "pentalick-ko-7",
+          "frame": {
+            "x": 389,
+            "y": 444,
+            "w": 371,
+            "h": 186
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 186
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 186
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9838709677419355
+          }
+        },
+        {
+          "filename": "pentalick-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 292,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1809,
+        "h": 535
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-down-0",
+          "frame": {
+            "x": 8,
+            "y": 277,
+            "w": 435,
+            "h": 250
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 250
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 250
+          },
+          "pivot": {
+            "x": 0.42298850574712643,
+            "y": 0.988
+          }
+        },
+        {
+          "filename": "pentalick-down-1",
+          "frame": {
+            "x": 459,
+            "y": 277,
+            "w": 436,
+            "h": 250
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 436,
+            "h": 250
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 436,
+            "h": 250
+          },
+          "pivot": {
+            "x": 0.4208715596330275,
+            "y": 0.988
+          }
+        },
+        {
+          "filename": "pentalick-down-2",
+          "frame": {
+            "x": 911,
+            "y": 277,
+            "w": 436,
+            "h": 250
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 436,
+            "h": 250
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 436,
+            "h": 250
+          },
+          "pivot": {
+            "x": 0.4197247706422018,
+            "y": 0.988
+          }
+        },
+        {
+          "filename": "pentalick-down-3",
+          "frame": {
+            "x": 1363,
+            "y": 277,
+            "w": 433,
+            "h": 250
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 433,
+            "h": 250
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 433,
+            "h": 250
+          },
+          "pivot": {
+            "x": 0.42494226327944573,
+            "y": 0.988
+          }
+        },
+        {
+          "filename": "pentalick-down-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 437,
+            "h": 253
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 437,
+            "h": 253
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 437,
+            "h": 253
+          },
+          "pivot": {
+            "x": 0.4233409610983982,
+            "y": 0.9881422924901185
+          }
+        },
+        {
+          "filename": "pentalick-down-5",
+          "frame": {
+            "x": 461,
+            "y": 8,
+            "w": 437,
+            "h": 252
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 437,
+            "h": 252
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 437,
+            "h": 252
+          },
+          "pivot": {
+            "x": 0.42219679633867274,
+            "y": 0.9880952380952381
+          }
+        },
+        {
+          "filename": "pentalick-down-6",
+          "frame": {
+            "x": 914,
+            "y": 8,
+            "w": 435,
+            "h": 252
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 252
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 252
+          },
+          "pivot": {
+            "x": 0.4241379310344828,
+            "y": 0.9880952380952381
+          }
+        },
+        {
+          "filename": "pentalick-down-7",
+          "frame": {
+            "x": 1365,
+            "y": 8,
+            "w": 436,
+            "h": 252
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 436,
+            "h": 252
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 436,
+            "h": 252
+          },
+          "pivot": {
+            "x": 0.4231651376146789,
+            "y": 0.9880952380952381
+          }
+        },
+        {
+          "filename": "pentalick-down",
+          "frame": {
+            "x": 8,
+            "y": 277,
+            "w": 435,
+            "h": 250
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 250
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 250
+          },
+          "pivot": {
+            "x": 0.42298850574712643,
+            "y": 0.988
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1996,
+        "h": 777
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-fall-0",
+          "frame": {
+            "x": 8,
+            "y": 428,
+            "w": 266,
+            "h": 341
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 266,
+            "h": 341
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 266,
+            "h": 341
+          },
+          "pivot": {
+            "x": 0.37969924812030076,
+            "y": 0.9912023460410557
+          }
+        },
+        {
+          "filename": "pentalick-fall-1",
+          "frame": {
+            "x": 290,
+            "y": 428,
+            "w": 265,
+            "h": 341
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 265,
+            "h": 341
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 265,
+            "h": 341
+          },
+          "pivot": {
+            "x": 0.6830188679245283,
+            "y": 0.9912023460410557
+          }
+        },
+        {
+          "filename": "pentalick-fall-2",
+          "frame": {
+            "x": 644,
+            "y": 8,
+            "w": 265,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 265,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 265,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.630188679245283,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "pentalick-fall-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 258,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 258,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 258,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.5232558139534884,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "pentalick-fall-4",
+          "frame": {
+            "x": 282,
+            "y": 8,
+            "w": 346,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5563583815028902,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "pentalick-fall-5",
+          "frame": {
+            "x": 1641,
+            "y": 8,
+            "w": 347,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "pentalick-fall-6",
+          "frame": {
+            "x": 1289,
+            "y": 8,
+            "w": 336,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5029761904761905,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "pentalick-fall-7",
+          "frame": {
+            "x": 925,
+            "y": 8,
+            "w": 348,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "pentalick-fall",
+          "frame": {
+            "x": 8,
+            "y": 428,
+            "w": 266,
+            "h": 341
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 266,
+            "h": 341
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 266,
+            "h": 341
+          },
+          "pivot": {
+            "x": 0.37969924812030076,
+            "y": 0.9912023460410557
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2007,
+        "h": 629
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-getup-0",
+          "frame": {
+            "x": 414,
+            "y": 432,
+            "w": 512,
+            "h": 144
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 512,
+            "h": 144
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 512,
+            "h": 144
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9791666666666666
+          }
+        },
+        {
+          "filename": "pentalick-getup-1",
+          "frame": {
+            "x": 8,
+            "y": 432,
+            "w": 390,
+            "h": 189
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 189
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 189
+          },
+          "pivot": {
+            "x": 0.5064102564102564,
+            "y": 0.9841269841269841
+          }
+        },
+        {
+          "filename": "pentalick-getup-2",
+          "frame": {
+            "x": 1639,
+            "y": 8,
+            "w": 360,
+            "h": 269
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 269
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 269
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9888475836431226
+          }
+        },
+        {
+          "filename": "pentalick-getup-3",
+          "frame": {
+            "x": 1314,
+            "y": 8,
+            "w": 309,
+            "h": 329
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 329
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 329
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9908814589665653
+          }
+        },
+        {
+          "filename": "pentalick-getup-4",
+          "frame": {
+            "x": 1001,
+            "y": 8,
+            "w": 297,
+            "h": 347
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 297,
+            "h": 347
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 297,
+            "h": 347
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9913544668587896
+          }
+        },
+        {
+          "filename": "pentalick-getup-5",
+          "frame": {
+            "x": 674,
+            "y": 8,
+            "w": 311,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "pentalick-getup-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 307,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "pentalick-getup-7",
+          "frame": {
+            "x": 331,
+            "y": 8,
+            "w": 327,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "pentalick-getup",
+          "frame": {
+            "x": 414,
+            "y": 432,
+            "w": 512,
+            "h": 144
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 512,
+            "h": 144
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 512,
+            "h": 144
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9791666666666666
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2015,
+        "h": 812
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-hurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 323,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "pentalick-hurt-1",
+          "frame": {
+            "x": 1691,
+            "y": 8,
+            "w": 316,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5316455696202531,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "pentalick-hurt-2",
+          "frame": {
+            "x": 363,
+            "y": 430,
+            "w": 336,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5803571428571429,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "pentalick-hurt-3",
+          "frame": {
+            "x": 8,
+            "y": 430,
+            "w": 339,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5914454277286135,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "pentalick-hurt-4",
+          "frame": {
+            "x": 1036,
+            "y": 8,
+            "w": 290,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 290,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 290,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.49310344827586206,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "pentalick-hurt-5",
+          "frame": {
+            "x": 1342,
+            "y": 8,
+            "w": 333,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "pentalick-hurt-6",
+          "frame": {
+            "x": 687,
+            "y": 8,
+            "w": 333,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "pentalick-hurt-7",
+          "frame": {
+            "x": 347,
+            "y": 8,
+            "w": 324,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "pentalick-hurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 323,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1869,
+        "h": 794
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-idle-0",
+          "frame": {
+            "x": 629,
+            "y": 8,
+            "w": 296,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "pentalick-idle-1",
+          "frame": {
+            "x": 318,
+            "y": 8,
+            "w": 295,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "pentalick-idle-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 294,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 294,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 294,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "pentalick-idle-3",
+          "frame": {
+            "x": 941,
+            "y": 8,
+            "w": 296,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "pentalick-idle-4",
+          "frame": {
+            "x": 1565,
+            "y": 8,
+            "w": 296,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "pentalick-idle-5",
+          "frame": {
+            "x": 320,
+            "y": 412,
+            "w": 297,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 297,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 297,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "pentalick-idle-6",
+          "frame": {
+            "x": 1253,
+            "y": 8,
+            "w": 296,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "pentalick-idle-7",
+          "frame": {
+            "x": 8,
+            "y": 412,
+            "w": 296,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "pentalick-idle",
+          "frame": {
+            "x": 629,
+            "y": 8,
+            "w": 296,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920424403183024
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1782,
+        "h": 923
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-intro-0",
+          "frame": {
+            "x": 303,
+            "y": 8,
+            "w": 245,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 245,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 245,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937238493723849
+          }
+        },
+        {
+          "filename": "pentalick-intro-1",
+          "frame": {
+            "x": 564,
+            "y": 8,
+            "w": 265,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 265,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 265,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.5132075471698113,
+            "y": 0.9937238493723849
+          }
+        },
+        {
+          "filename": "pentalick-intro-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 279,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 279,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 279,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99375
+          }
+        },
+        {
+          "filename": "pentalick-intro-3",
+          "frame": {
+            "x": 845,
+            "y": 8,
+            "w": 264,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 264,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 264,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937238493723849
+          }
+        },
+        {
+          "filename": "pentalick-intro-4",
+          "frame": {
+            "x": 1125,
+            "y": 8,
+            "w": 303,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "pentalick-intro-5",
+          "frame": {
+            "x": 350,
+            "y": 504,
+            "w": 337,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "pentalick-intro-6",
+          "frame": {
+            "x": 1444,
+            "y": 8,
+            "w": 330,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "pentalick-intro-7",
+          "frame": {
+            "x": 8,
+            "y": 504,
+            "w": 326,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "pentalick-intro",
+          "frame": {
+            "x": 303,
+            "y": 8,
+            "w": 245,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 245,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 245,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937238493723849
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1793,
+        "h": 826
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-jump-0",
+          "frame": {
+            "x": 804,
+            "y": 8,
+            "w": 324,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "pentalick-jump-1",
+          "frame": {
+            "x": 270,
+            "y": 484,
+            "w": 283,
+            "h": 333
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 283,
+            "h": 333
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 283,
+            "h": 333
+          },
+          "pivot": {
+            "x": 0.4787985865724382,
+            "y": 0.990990990990991
+          }
+        },
+        {
+          "filename": "pentalick-jump-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 270,
+            "h": 460
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 270,
+            "h": 460
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 270,
+            "h": 460
+          },
+          "pivot": {
+            "x": 0.2833333333333333,
+            "y": 0.9934782608695653
+          }
+        },
+        {
+          "filename": "pentalick-jump-3",
+          "frame": {
+            "x": 294,
+            "y": 8,
+            "w": 236,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 236,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 236,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.375,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "pentalick-jump-4",
+          "frame": {
+            "x": 8,
+            "y": 484,
+            "w": 246,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 246,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 246,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.43902439024390244,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "pentalick-jump-5",
+          "frame": {
+            "x": 546,
+            "y": 8,
+            "w": 242,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 242,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 242,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.6012396694214877,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "pentalick-jump-6",
+          "frame": {
+            "x": 1477,
+            "y": 8,
+            "w": 308,
+            "h": 358
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 308,
+            "h": 358
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 308,
+            "h": 358
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916201117318436
+          }
+        },
+        {
+          "filename": "pentalick-jump-7",
+          "frame": {
+            "x": 1144,
+            "y": 8,
+            "w": 317,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "pentalick-jump",
+          "frame": {
+            "x": 804,
+            "y": 8,
+            "w": 324,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2037,
+        "h": 825
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-kick-0",
+          "frame": {
+            "x": 1452,
+            "y": 8,
+            "w": 310,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "pentalick-kick-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 232,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 232,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 232,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.38146551724137934,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "pentalick-kick-2",
+          "frame": {
+            "x": 256,
+            "y": 8,
+            "w": 430,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.21046511627906977,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "pentalick-kick-3",
+          "frame": {
+            "x": 1034,
+            "y": 8,
+            "w": 402,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.2325870646766169,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "pentalick-kick-4",
+          "frame": {
+            "x": 1778,
+            "y": 8,
+            "w": 251,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 251,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 251,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.37250996015936255,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "pentalick-kick-5",
+          "frame": {
+            "x": 8,
+            "y": 426,
+            "w": 260,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 260,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 260,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.3096153846153846,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "pentalick-kick-6",
+          "frame": {
+            "x": 284,
+            "y": 426,
+            "w": 307,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "pentalick-kick-7",
+          "frame": {
+            "x": 702,
+            "y": 8,
+            "w": 316,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "pentalick-kick",
+          "frame": {
+            "x": 1452,
+            "y": 8,
+            "w": 310,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923469387755102
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1952,
+        "h": 616
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-knockdown-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 330,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "pentalick-knockdown-1",
+          "frame": {
+            "x": 354,
+            "y": 8,
+            "w": 310,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5774193548387097,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "pentalick-knockdown-2",
+          "frame": {
+            "x": 680,
+            "y": 8,
+            "w": 398,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 398,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 398,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.6582914572864321,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "pentalick-knockdown-3",
+          "frame": {
+            "x": 1094,
+            "y": 8,
+            "w": 442,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 442,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 442,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.5927601809954751,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "pentalick-knockdown-4",
+          "frame": {
+            "x": 1552,
+            "y": 8,
+            "w": 392,
+            "h": 241
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 241
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 241
+          },
+          "pivot": {
+            "x": 0.5025510204081632,
+            "y": 0.9875518672199171
+          }
+        },
+        {
+          "filename": "pentalick-knockdown-5",
+          "frame": {
+            "x": 8,
+            "y": 413,
+            "w": 441,
+            "h": 195
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 441,
+            "h": 195
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 441,
+            "h": 195
+          },
+          "pivot": {
+            "x": 0.5351473922902494,
+            "y": 0.9846153846153847
+          }
+        },
+        {
+          "filename": "pentalick-knockdown-6",
+          "frame": {
+            "x": 465,
+            "y": 413,
+            "w": 395,
+            "h": 178
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 178
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 178
+          },
+          "pivot": {
+            "x": 0.5025316455696203,
+            "y": 0.9831460674157303
+          }
+        },
+        {
+          "filename": "pentalick-knockdown-7",
+          "frame": {
+            "x": 876,
+            "y": 413,
+            "w": 432,
+            "h": 131
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 432,
+            "h": 131
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 432,
+            "h": 131
+          },
+          "pivot": {
+            "x": 0.4988425925925926,
+            "y": 0.9770992366412213
+          }
+        },
+        {
+          "filename": "pentalick-knockdown",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 330,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1872,
+        "h": 800
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-punch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 337,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "pentalick-punch-1",
+          "frame": {
+            "x": 361,
+            "y": 8,
+            "w": 345,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "pentalick-punch-2",
+          "frame": {
+            "x": 722,
+            "y": 8,
+            "w": 353,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "pentalick-punch-3",
+          "frame": {
+            "x": 1091,
+            "y": 8,
+            "w": 423,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 423,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 423,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.45508274231678486,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "pentalick-punch-4",
+          "frame": {
+            "x": 353,
+            "y": 416,
+            "w": 342,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.48391812865497075,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "pentalick-punch-5",
+          "frame": {
+            "x": 711,
+            "y": 416,
+            "w": 344,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "pentalick-punch-6",
+          "frame": {
+            "x": 8,
+            "y": 416,
+            "w": 329,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "pentalick-punch-7",
+          "frame": {
+            "x": 1530,
+            "y": 8,
+            "w": 334,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "pentalick-punch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 337,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923469387755102
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1903,
+        "h": 884
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-super-0",
+          "frame": {
+            "x": 765,
+            "y": 8,
+            "w": 364,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.49862637362637363,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "pentalick-super-1",
+          "frame": {
+            "x": 1145,
+            "y": 8,
+            "w": 367,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.49727520435967304,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "pentalick-super-2",
+          "frame": {
+            "x": 400,
+            "y": 461,
+            "w": 380,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.48157894736842105,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "pentalick-super-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 363,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.49173553719008267,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "pentalick-super-4",
+          "frame": {
+            "x": 1528,
+            "y": 8,
+            "w": 367,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.494550408719346,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "pentalick-super-5",
+          "frame": {
+            "x": 8,
+            "y": 461,
+            "w": 376,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.49069148936170215,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "pentalick-super-6",
+          "frame": {
+            "x": 796,
+            "y": 461,
+            "w": 378,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.4801587301587302,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "pentalick-super-7",
+          "frame": {
+            "x": 387,
+            "y": 8,
+            "w": 362,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.49171270718232046,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "pentalick-super",
+          "frame": {
+            "x": 765,
+            "y": 8,
+            "w": 364,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.49862637362637363,
+            "y": 0.9929577464788732
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2042,
+        "h": 751
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-sweep-0",
+          "frame": {
+            "x": 1295,
+            "y": 8,
+            "w": 307,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5130293159609121,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "pentalick-sweep-1",
+          "frame": {
+            "x": 1618,
+            "y": 8,
+            "w": 416,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 416,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 416,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.5252403846153846,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "pentalick-sweep-2",
+          "frame": {
+            "x": 353,
+            "y": 399,
+            "w": 452,
+            "h": 328
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 452,
+            "h": 328
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 452,
+            "h": 328
+          },
+          "pivot": {
+            "x": 0.5331858407079646,
+            "y": 0.9908536585365854
+          }
+        },
+        {
+          "filename": "pentalick-sweep-3",
+          "frame": {
+            "x": 8,
+            "y": 399,
+            "w": 329,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.6884498480243161,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "pentalick-sweep-4",
+          "frame": {
+            "x": 1005,
+            "y": 8,
+            "w": 274,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 274,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 274,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.75,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "pentalick-sweep-5",
+          "frame": {
+            "x": 369,
+            "y": 8,
+            "w": 262,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 262,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 262,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.4847328244274809,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "pentalick-sweep-6",
+          "frame": {
+            "x": 647,
+            "y": 8,
+            "w": 342,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "pentalick-sweep-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 345,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "pentalick-sweep",
+          "frame": {
+            "x": 1295,
+            "y": 8,
+            "w": 307,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5130293159609121,
+            "y": 0.991304347826087
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1945,
+        "h": 868
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-uppercut-0",
+          "frame": {
+            "x": 244,
+            "y": 8,
+            "w": 378,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "pentalick-uppercut-1",
+          "frame": {
+            "x": 1263,
+            "y": 8,
+            "w": 329,
+            "h": 347
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 347
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 347
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9913544668587896
+          }
+        },
+        {
+          "filename": "pentalick-uppercut-2",
+          "frame": {
+            "x": 638,
+            "y": 8,
+            "w": 322,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "pentalick-uppercut-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 220,
+            "h": 502
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 220,
+            "h": 502
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 220,
+            "h": 502
+          },
+          "pivot": {
+            "x": 0.33181818181818185,
+            "y": 0.9940239043824701
+          }
+        },
+        {
+          "filename": "pentalick-uppercut-4",
+          "frame": {
+            "x": 976,
+            "y": 8,
+            "w": 271,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 271,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 271,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.42066420664206644,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "pentalick-uppercut-5",
+          "frame": {
+            "x": 351,
+            "y": 526,
+            "w": 330,
+            "h": 322
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 322
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 322
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9906832298136646
+          }
+        },
+        {
+          "filename": "pentalick-uppercut-6",
+          "frame": {
+            "x": 8,
+            "y": 526,
+            "w": 327,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "pentalick-uppercut-7",
+          "frame": {
+            "x": 1608,
+            "y": 8,
+            "w": 329,
+            "h": 341
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 341
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 341
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9912023460410557
+          }
+        },
+        {
+          "filename": "pentalick-uppercut",
+          "frame": {
+            "x": 244,
+            "y": 8,
+            "w": 378,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1909,
+        "h": 915
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-win-0",
+          "frame": {
+            "x": 325,
+            "y": 498,
+            "w": 294,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 294,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 294,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "pentalick-win-1",
+          "frame": {
+            "x": 8,
+            "y": 498,
+            "w": 301,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 301,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 301,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "pentalick-win-2",
+          "frame": {
+            "x": 1597,
+            "y": 8,
+            "w": 304,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "pentalick-win-3",
+          "frame": {
+            "x": 1280,
+            "y": 8,
+            "w": 301,
+            "h": 455
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 301,
+            "h": 455
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 301,
+            "h": 455
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934065934065934
+          }
+        },
+        {
+          "filename": "pentalick-win-4",
+          "frame": {
+            "x": 958,
+            "y": 8,
+            "w": 306,
+            "h": 462
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 306,
+            "h": 462
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 306,
+            "h": 462
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935064935064936
+          }
+        },
+        {
+          "filename": "pentalick-win-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 300,
+            "h": 474
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 300,
+            "h": 474
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 474
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936708860759493
+          }
+        },
+        {
+          "filename": "pentalick-win-6",
+          "frame": {
+            "x": 639,
+            "y": 8,
+            "w": 303,
+            "h": 468
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 468
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 468
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935897435897436
+          }
+        },
+        {
+          "filename": "pentalick-win-7",
+          "frame": {
+            "x": 324,
+            "y": 8,
+            "w": 299,
+            "h": 469
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 299,
+            "h": 469
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 299,
+            "h": 469
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936034115138592
+          }
+        },
+        {
+          "filename": "pentalick-win",
+          "frame": {
+            "x": 325,
+            "y": 498,
+            "w": 294,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 294,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 294,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1734,
+        "h": 887
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-walk-0",
+          "frame": {
+            "x": 8,
+            "y": 454,
+            "w": 325,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "pentalick-walk-1",
+          "frame": {
+            "x": 713,
+            "y": 8,
+            "w": 268,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 268,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 268,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5018656716417911,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "pentalick-walk-2",
+          "frame": {
+            "x": 1515,
+            "y": 8,
+            "w": 211,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 211,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 211,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.43601895734597157,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "pentalick-walk-3",
+          "frame": {
+            "x": 349,
+            "y": 454,
+            "w": 331,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "pentalick-walk-4",
+          "frame": {
+            "x": 997,
+            "y": 8,
+            "w": 280,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 280,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 280,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5267857142857143,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "pentalick-walk-5",
+          "frame": {
+            "x": 1293,
+            "y": 8,
+            "w": 206,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 206,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 206,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.4077669902912621,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "pentalick-walk-6",
+          "frame": {
+            "x": 337,
+            "y": 8,
+            "w": 360,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "pentalick-walk-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 313,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "pentalick-walk",
+          "frame": {
+            "x": 8,
+            "y": 454,
+            "w": 325,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1848,
+        "h": 865
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "pentalick-walkBack-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 338,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "pentalick-walkBack-1",
+          "frame": {
+            "x": 362,
+            "y": 8,
+            "w": 366,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5027322404371585,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "pentalick-walkBack-2",
+          "frame": {
+            "x": 978,
+            "y": 8,
+            "w": 405,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "pentalick-walkBack-3",
+          "frame": {
+            "x": 744,
+            "y": 8,
+            "w": 218,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 218,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 218,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.41284403669724773,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "pentalick-walkBack-4",
+          "frame": {
+            "x": 1399,
+            "y": 8,
+            "w": 218,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 218,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 218,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.4701834862385321,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "pentalick-walkBack-5",
+          "frame": {
+            "x": 402,
+            "y": 450,
+            "w": 372,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5013440860215054,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "pentalick-walkBack-6",
+          "frame": {
+            "x": 8,
+            "y": 450,
+            "w": 378,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "pentalick-walkBack-7",
+          "frame": {
+            "x": 1633,
+            "y": 8,
+            "w": 207,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 207,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 207,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5048309178743962,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "pentalick-walkBack",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 338,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

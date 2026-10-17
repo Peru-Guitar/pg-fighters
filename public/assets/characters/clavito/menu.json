@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "clavito-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 253,
+    "h": 302
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 253,
+    "h": 302
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 253,
+    "h": 302
+   },
+   "pivot": {
+    "x": 0.43766318323216247,
+    "y": 0.9900662251655629
+   }
+  },
+  "clavito-portrait": {
+   "frame": {
+    "x": 255,
+    "y": 0,
+    "w": 227,
+    "h": 291
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 227,
+    "h": 291
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 227,
+    "h": 291
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9896907216494846
+   }
+  },
+  "clavito-win": {
+   "frame": {
+    "x": 484,
+    "y": 0,
+    "w": 234,
+    "h": 324
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 234,
+    "h": 324
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 234,
+    "h": 324
+   },
+   "pivot": {
+    "x": 0.5241807626744865,
+    "y": 0.9907407407407407
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 720,
+   "h": 324
+  },
+  "scale": "1"
+ }
+}

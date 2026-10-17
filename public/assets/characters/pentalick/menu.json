@@ -1,0 +1,85 @@
+{
+ "frames": {
+  "pentalick-idle": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 200,
+    "h": 253
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 200,
+    "h": 253
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 200,
+    "h": 253
+   },
+   "pivot": {
+    "x": 0.5495703703703704,
+    "y": 0.9881422924901185
+   }
+  },
+  "pentalick-portrait": {
+   "frame": {
+    "x": 202,
+    "y": 0,
+    "w": 239,
+    "h": 277
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 239,
+    "h": 277
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 239,
+    "h": 277
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9891696750902527
+   }
+  },
+  "pentalick-win": {
+   "frame": {
+    "x": 443,
+    "y": 0,
+    "w": 210,
+    "h": 367
+   },
+   "rotated": false,
+   "trimmed": false,
+   "sourceSize": {
+    "w": 210,
+    "h": 367
+   },
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 210,
+    "h": 367
+   },
+   "pivot": {
+    "x": 0.5407174603174604,
+    "y": 0.9918256130790191
+   }
+  }
+ },
+ "meta": {
+  "image": "menu.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 655,
+   "h": 367
+  },
+  "scale": "1"
+ }
+}
