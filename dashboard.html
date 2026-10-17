@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>PG Fighters · Estadísticas</title>
+    <style>
+      :root { --bg: #0b0a0e; --card: #17151d; --line: #2a2733; --text: #e9e5d9; --muted: #8d8898; --accent: #dfff00; }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.4 system-ui, sans-serif; }
+      main { max-width: 960px; margin: 0 auto; padding: 24px 16px 48px; }
+      h1 { font-size: 22px; margin: 0 0 4px; }
+      h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 12px; font-weight: 600; }
+      .sub { color: var(--muted); margin: 0 0 24px; }
+      .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 16px; }
+      .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+      .tile .n { font-size: 34px; font-weight: 700; font-variant-numeric: tabular-nums; }
+      .tile .l { color: var(--muted); font-size: 13px; }
+      .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-top: 12px; }
+      .row { display: grid; grid-template-columns: 110px 1fr 44px; align-items: center; gap: 8px; margin: 5px 0; font-size: 13px; }
+      .row .bar { height: 10px; background: var(--accent); border-radius: 0 4px 4px 0; min-width: 2px; }
+      .row .v { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+      .days { display: flex; align-items: flex-end; gap: 3px; height: 140px; }
+      .days div { flex: 1; background: var(--accent); border-radius: 3px 3px 0 0; min-height: 2px; }
+      .axis { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; margin-top: 6px; }
+      button { background: var(--accent); color: #000; border: 0; border-radius: 8px; padding: 10px 18px; font-weight: 700; cursor: pointer; }
+      .tabs button { background: transparent; color: var(--muted); border: 1px solid var(--line); padding: 4px 10px; font-weight: 500; }
+      .tabs button.on { color: #000; background: var(--accent); border-color: var(--accent); }
+      .tabs { display: flex; gap: 6px; margin-bottom: 12px; }
+      .note { color: var(--muted); font-size: 12px; margin-top: 16px; }
+      [hidden] { display: none !important; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>PG Fighters · Estadísticas</h1>
+      <p class="sub" id="status">Cargando…</p>
+      <button id="login" hidden>Entrar con Google</button>
+      <div id="board" hidden>
+        <div class="tiles">
+          <div class="card tile"><div class="n" id="t-accounts">–</div><div class="l">Cuentas totales</div></div>
+          <div class="card tile"><div class="n" id="t-today">–</div><div class="l">Jugadores hoy</div></div>
+          <div class="card tile"><div class="n" id="t-week">–</div><div class="l">Jugadores esta semana</div></div>
+          <div class="card tile"><div class="n" id="t-inactive">–</div><div class="l">Inactivas (no entraron este mes)</div></div>
+        </div>
+        <div class="tiles">
+          <div class="card tile"><div class="n" id="t-fights">–</div><div class="l">Peleas hoy</div></div>
+          <div class="card tile"><div class="n" id="t-new">–</div><div class="l">Cuentas nuevas hoy</div></div>
+          <div class="card tile"><div class="n" id="t-fighter">–</div><div class="l">Personaje más usado (30 días)</div></div>
+          <div class="card tile"><div class="n" id="t-stage">–</div><div class="l">Escenario más usado (30 días)</div></div>
+        </div>
+        <div class="card">
+          <h2>Jugadores por día · últimos 30 días</h2>
+          <div class="days" id="days"></div>
+          <div class="axis"><span id="ax-from"></span><span id="ax-to"></span></div>
+        </div>
+        <div class="tabs" style="margin-top: 16px">
+          <button data-range="7">7 días</button>
+          <button data-range="30" class="on">30 días</button>
+        </div>
+        <div class="grid2">
+          <div class="card"><h2>Personajes</h2><div id="fighters"></div></div>
+          <div class="card"><h2>Escenarios</h2><div id="stages"></div></div>
+          <div class="card"><h2>Modos</h2><div id="modes"></div></div>
+        </div>
+        <p class="note">Los datos cuentan desde que se publicaron las estadísticas; las cuentas creadas antes no entran en el total. Cada jugador cuenta una vez por día, semana y mes en cada navegador. Las inactivas son aproximadas: cuentas totales menos los jugadores de este mes.</p>
+      </div>
+    </main>
+    <script type="module" src="/src/dashboard.ts"></script>
+  </body>
+</html>

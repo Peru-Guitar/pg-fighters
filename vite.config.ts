@@ -50,7 +50,8 @@ export default defineConfig({
   base: './',
   // Versión del juego (package.json), visible en la pantalla principal.
   define: { __APP_VERSION__: JSON.stringify(pkg.version) },
-  build: { chunkSizeWarningLimit: 2000 },
+  // Dos páginas: el juego y el dashboard de estadísticas (solo lo lee el administrador).
+  build: { chunkSizeWarningLimit: 2000, rollupOptions: { input: { main: 'index.html', dashboard: 'dashboard.html' } } },
   // El orden importa: primero se quita el material de trabajo y después se arma el manifiesto.
   plugins: [stripWorkFiles(), serviceWorker()],
 });

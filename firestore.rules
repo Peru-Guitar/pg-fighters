@@ -32,5 +32,37 @@ service cloud.firestore {
         && key == 'n_' + request.resource.data.name.upper();
       allow update, delete: if false;
     }
+
+    // Estadísticas (src/systems/Analytics.ts): analytics/accounts, analytics/day-<fecha>, analytics/week-<semana>, analytics/month-<mes>.
+    // Cualquier cuenta solo suma; nadie borra. Leer: solo el administrador (dashboard.html).
+    match /analytics/{id} {
+      function admin() {
+        return request.auth != null && request.auth.token.email == 'erodriguezp105@gmail.com' && request.auth.token.email_verified;
+      }
+      function counter(k) {
+        return !(k in request.resource.data) || (request.resource.data[k] is int && request.resource.data[k] >= 0);
+      }
+      function valid() {
+        let d = request.resource.data;
+        return (id == 'accounts' && d.type == 'accounts' && d.keys().hasOnly(['type','total']) && counter('total'))
+          || (id == 'day-' + d.get('date', '') && d.type == 'day'
+              && d.keys().hasOnly(['type','date','players','new','fights','fighters','stages','modes'])
+              && counter('players') && counter('new') && counter('fights')
+              && d.get('fighters', {}) is map && d.get('stages', {}) is map && d.get('modes', {}) is map)
+          || (id == 'week-' + d.get('week', '') && d.type == 'week' && d.keys().hasOnly(['type','week','players']) && counter('players'))
+          || (id == 'month-' + d.get('month', '') && d.type == 'month' && d.keys().hasOnly(['type','month','players']) && counter('players'));
+      }
+      // Los contadores no pueden bajar.
+      function grows() {
+        return resource == null || request.resource.data.diff(resource.data).affectedKeys().hasOnly(['players','new','fights','fighters','stages','modes','total'])
+          && (!('total' in resource.data) || request.resource.data.total >= resource.data.total)
+          && (!('players' in resource.data) || request.resource.data.players >= resource.data.players)
+          && (!('fights' in resource.data) || request.resource.data.fights >= resource.data.fights);
+      }
+      allow read: if admin();
+      allow create: if request.auth != null && valid();
+      allow update: if request.auth != null && valid() && grows();
+      allow delete: if false;
+    }
   }
 }

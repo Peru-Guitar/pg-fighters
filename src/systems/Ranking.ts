@@ -1,7 +1,8 @@
 import type { FighterId } from '../data/fighters';
+import { Analytics } from './Analytics';
 
 /** Proyecto de Firebase (la apiKey de una app web es pública; la base la protegen las reglas). */
-const FIREBASE_CONFIG = {
+export const FIREBASE_CONFIG = {
   apiKey: 'AIzaSyBQA2aMdmFfx-8kXUWuiO5SkhnRx2c7Tl8',
   authDomain: 'pg-fighters.firebaseapp.com',
   projectId: 'pg-fighters',
@@ -65,7 +66,7 @@ let taken: import('firebase/auth').OAuthCredential | null = null;
 const toPlayer = (u: import('firebase/auth').User): Player => ({ uid: u.uid, google: u.providerData.some((p) => p.providerId === 'google.com') });
 
 /** Firebase se carga recién la primera vez que se usa (no pesa en el arranque del juego). */
-const connect = () => {
+export const connect = () => {
   ready ??= Promise.all([import('firebase/app'), import('firebase/auth'), import('firebase/firestore/lite')]).then(([app, am, fs]) => {
     const fb = app.initializeApp(FIREBASE_CONFIG);
     const auth = am.getAuth(fb);
@@ -97,9 +98,14 @@ export const Ranking = {
   /** Sesión guardada del navegador o, si no hay, una cuenta anónima nueva. Lanza sin conexión. */
   async signIn(): Promise<Player> {
     const { am, auth } = await connect();
-    if (await this.init()) return user!;
+    if (await this.init()) {
+      Analytics.visit();
+      return user!;
+    }
     const cred = await am.signInAnonymously(auth);
     user = toPlayer(cred.user);
+    Analytics.newAccount();
+    Analytics.visit();
     return user;
   },
 
