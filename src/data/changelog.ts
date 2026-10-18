@@ -10,6 +10,11 @@ export interface ChangelogEntry {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    version: '1.10.1',
+    date: '2026-10-18',
+    notes: ['Al salir una versión nueva ya no se queda el arte antiguo.'],
+  },
+  {
     version: '1.10.0',
     date: '2026-10-18',
     notes: [

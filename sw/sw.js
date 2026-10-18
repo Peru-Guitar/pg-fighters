@@ -40,7 +40,9 @@ self.addEventListener('fetch', (event) => {
       const key = keyFor(url, hash);
       const hit = await cache.match(key);
       if (hit) return hit;
-      const response = await fetch(request);
+      // Se pide con la huella en la URL: así la caché HTTP del navegador no puede devolver el archivo
+      // viejo (que quedaría guardado con la huella nueva y el arte antiguo se quedaría pegado).
+      const response = await fetch(key, { cache: 'no-cache' });
       if (response.status === 200) cache.put(key, response.clone()).catch(() => undefined);
       return response;
     })(),

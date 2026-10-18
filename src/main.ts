@@ -13,10 +13,15 @@ const play = () => void ready().then(() => import('./game')).then((m) => m.start
 async function ready(): Promise<void> {
   if (!import.meta.env.PROD || !('serviceWorker' in navigator)) return;
   try {
-    await navigator.serviceWorker.register('./sw.js');
+    const registration = await navigator.serviceWorker.register('./sw.js');
     // Que el navegador no borre los ~300 MB guardados cuando le falte espacio (más probable si se instaló como app).
     void navigator.storage?.persist?.();
-    if (navigator.serviceWorker.controller) return;
+    if (navigator.serviceWorker.controller) {
+      // Visita de vuelta: si se publicó una versión nueva, se espera a que su caché tome el control
+      // antes de cargar el juego; si no, esta sesión cargaría el arte con el manifiesto viejo.
+      await registration.update();
+      if (!registration.installing && !registration.waiting) return;
+    }
     await new Promise<void>((resolve) => {
       navigator.serviceWorker.addEventListener('controllerchange', () => resolve(), { once: true });
       setTimeout(resolve, 3000);
