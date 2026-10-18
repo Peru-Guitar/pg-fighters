@@ -17,7 +17,7 @@ export const CHANGELOG: ChangelogEntry[] = [
   {
     version: '1.7.1',
     date: '2026-10-17',
-    notes: ['El primer poder de El Acople ahora se llama Sweep Picking.'],
+    notes: ['El primer poder de El Acople ahora se llama Barrido.'],
   },
   {
     version: '1.7.0',
