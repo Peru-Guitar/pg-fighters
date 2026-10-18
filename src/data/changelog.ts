@@ -10,6 +10,11 @@ export interface ChangelogEntry {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    version: '1.7.1',
+    date: '2026-10-17',
+    notes: ['El primer poder de El Acople ahora se llama Sweep Picking.'],
+  },
+  {
     version: '1.7.0',
     date: '2026-10-17',
     notes: [

@@ -940,7 +940,7 @@ export const FIGHTERS: Record<FighterId, FighterDef> = {
     },
     rating: { potencia: 5, velocidad: 4, alcance: 5, tecnica: 5 },
     moves: {
-      special: "PODER ROBADO",
+      special: "SWEEP PICKING",
       uppercut: "PICO DE FRECUENCIA",
       super: "LA ÚLTIMA FECHA",
     },
