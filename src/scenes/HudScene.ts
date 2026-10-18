@@ -4,6 +4,7 @@ import { MAX_METER, type Fighter } from '../entities/Fighter';
 import { addPortrait } from '../systems/FighterArt';
 import { bottomOf, fitText, keycap, pts, text } from '../ui/ui';
 import { Audio } from '../systems/Audio';
+import { devText } from '../systems/Input';
 import type { DialogLine } from '../data/dialogs';
 import type { FightScene } from './FightScene';
 
@@ -99,7 +100,7 @@ export class HudScene extends Phaser.Scene {
     }
 
     // Tecla E gigante sobre la barra ULTIMATE del jugador.
-    const cap = keycap(this, 0, 0, 'E', 46, COLORS.lime).container;
+    const cap = keycap(this, 0, 0, devText('E'), 46, COLORS.lime).container;
     const glow = this.add.graphics();
     glow.fillStyle(COLORS.lime, 0.25).fillCircle(0, 0, 70);
     const label = text(this, 64, -2, '¡ULTIMATE!', { size: 46, italic: true, weight: '900', color: CSS.lime, origin: [0, 0.5], stroke: '#000000' });
@@ -228,7 +229,7 @@ export class HudScene extends Phaser.Scene {
     const band = this.add.graphics().setDepth(20);
     band.fillStyle(COLORS.lime, 1).fillPoints(pts([{ x: 0, y: y - 46 }, { x: 900, y: y - 46 }, { x: 860, y: y + 46 }, { x: 0, y: y + 46 }]), true);
     const msg = text(this, 40, y, '¡ULTIMATE LISTO!  PULSA', { size: 64, italic: true, weight: '900', color: CSS.dark, origin: [0, 0.5] }).setDepth(21);
-    const cap = keycap(this, 0, y, 'E', 40, 0x000000).container.setDepth(21);
+    const cap = keycap(this, 0, y, devText('E'), 40, 0x000000).container.setDepth(21);
     cap.x = 40 + msg.width - (msg.padding.left ?? 0) * 2 + 50;
     const group = [band, msg, cap];
     for (const o of group) (o as Phaser.GameObjects.Components.Transform).x -= 960;

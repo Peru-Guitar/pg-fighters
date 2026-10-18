@@ -3,6 +3,7 @@ import { GAME_CONFIG_BASE } from './config';
 import { StoryRun } from './systems/StoryRun';
 import { BootScene } from './scenes/BootScene';
 import { ControlsScene } from './scenes/ControlsScene';
+import { ChangelogScene } from './scenes/ChangelogScene';
 import { CreditsScene } from './scenes/CreditsScene';
 import { DisclaimerScene } from './scenes/DisclaimerScene';
 import { LabPickScene } from './scenes/LabPickScene';
@@ -33,7 +34,7 @@ export const startGame = (): void => {
   const game = new Phaser.Game({
     ...GAME_CONFIG_BASE,
     parent: 'game',
-    scene: [BootScene, PreloadScene, TitleScene, ControlsScene, SelectScene, StageSelectScene, VersusScene, FightScene, HudScene, TrainingHudScene, SuperCutInScene, PauseScene, ResultsScene, StoryScene, StoryProgressScene, ContinueScene, LoginScene, NameEntryScene, RankingScene, SavesScene, EndingScene, CreditsScene, DisclaimerScene, LabScene, LabPickScene, LabInfoScene],
+    scene: [BootScene, PreloadScene, TitleScene, ControlsScene, SelectScene, StageSelectScene, VersusScene, FightScene, HudScene, TrainingHudScene, SuperCutInScene, PauseScene, ResultsScene, StoryScene, StoryProgressScene, ContinueScene, LoginScene, NameEntryScene, RankingScene, SavesScene, EndingScene, CreditsScene, ChangelogScene, DisclaimerScene, LabScene, LabPickScene, LabInfoScene],
   });
 
   // Acceso desde la consola del navegador en desarrollo.

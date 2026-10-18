@@ -63,6 +63,7 @@ export const SCENES = {
   Saves: 'Saves',
   Ending: 'Ending',
   Credits: 'Credits',
+  Changelog: 'Changelog',
   Disclaimer: 'Disclaimer',
   LabPick: 'LabPick',
   LabInfo: 'LabInfo',

@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import { COLORS, CSS, FONTS, GAME_HEIGHT, GAME_WIDTH } from '../config';
 import { Audio } from '../systems/Audio';
+import { onDevice, padKey } from '../systems/Input';
 
 /** fillPoints/strokePoints de Phaser 4 tipan Vector2[], pero aceptan cualquier {x, y}. */
 export const pts = (list: { x: number; y: number }[]) => list as unknown as Phaser.Math.Vector2[];
@@ -109,12 +110,15 @@ export interface MenuItem {
   onSelect?: () => void;
   /** Para opciones con A D. */
   onSide?: (dir: number) => void;
+  /** Título de sección que se dibuja encima de esta opción (no se puede elegir). */
+  header?: string;
 }
 
 /** Lista vertical: W S y Enter, o ratón (hover + clic). A D cambia las opciones con valor. */
 export class Menu {
   index = 0;
   private texts: Phaser.GameObjects.Text[] = [];
+  private headers: Phaser.GameObjects.GameObject[] = [];
   private marker: Phaser.GameObjects.Graphics;
 
   constructor(
@@ -127,8 +131,16 @@ export class Menu {
     private align: 'left' | 'center' = 'center',
   ) {
     this.marker = scene.add.graphics();
+    let cy = y;
     items.forEach((item, i) => {
-      const t = text(scene, x, y + i * spacing, '', { size, italic: true, weight: '900', origin: [align === 'center' ? 0.5 : 0, 0.5], spacing: 1 });
+      if (item.header) {
+        if (i > 0) cy += spacing * 0.35;
+        const h = text(scene, x - 30, cy, item.header, { size: Math.round(size * 0.5), weight: '800', color: CSS.grey, origin: [0, 0.5], spacing: 4 });
+        const line = scene.add.graphics().fillStyle(COLORS.grey, 0.6).fillRect(h.x + h.width - (h.padding.left ?? 0) * 2 + 16, cy - 1, 260, 2);
+        this.headers.push(h, line);
+        cy += spacing * 0.8;
+      }
+      const t = text(scene, x, cy, '', { size, italic: true, weight: '900', origin: [align === 'center' ? 0.5 : 0, 0.5], spacing: 1 });
       t.setInteractive({ useHandCursor: true });
       t.on('pointerover', () => {
         if (item.enabled === false || this.index === i) return;
@@ -143,9 +155,15 @@ export class Menu {
         this.select();
       });
       this.texts.push(t);
+      cy += spacing;
     });
     this.index = Math.max(0, items.findIndex((it) => it.enabled !== false));
     this.refresh();
+  }
+
+  destroy(): void {
+    for (const t of [...this.texts, ...this.headers]) t.destroy();
+    this.marker.destroy();
   }
 
   move(dir: number): void {
@@ -220,26 +238,32 @@ export const keycap = (scene: Phaser.Scene, x: number, y: number, key: string, s
  * teclas separadas por espacio y la acción tras 2 espacios: 'ENTER  ELEGIR      ESC  VOLVER'.
  */
 export const footer = (scene: Phaser.Scene, str: string, y = GAME_HEIGHT - 48) => {
-  const row = scene.add.container(0, y);
-  let x = 0;
-  for (const group of str.trim().split(/\s{4,}/)) {
-    const [keys, ...rest] = group.split(/\s{2,}/);
-    for (const k of keys.split(/\s+/)) {
-      const cap = keycap(scene, 0, 0, k);
-      cap.container.x = x + cap.width / 2;
-      row.add(cap.container);
-      x += cap.width + 6;
+  const row = scene.add.container(0, y).setDepth(900);
+  onDevice(scene, (d) => {
+    row.removeAll(true);
+    let x = 0;
+    for (const group of str.trim().split(/\s{4,}/)) {
+      const [keys, ...rest] = group.split(/\s{2,}/);
+      let caps = keys.split(/\s+/).map((k) => padKey(k, d));
+      // Con mando: las teclas sin botón (C, F, A-Z…) no se muestran; WASD es la cruceta.
+      if (caps.some((k) => k === null)) continue;
+      if (d !== 'keys' && caps.length === 4) caps = ['✚'];
+      for (const k of caps as string[]) {
+        const cap = keycap(scene, 0, 0, k);
+        cap.container.x = x + cap.width / 2;
+        row.add(cap.container);
+        x += cap.width + 6;
+      }
+      const label = text(scene, x + 6, 0, rest.join(' '), { size: 24, weight: '600', color: '#c9c6b8', origin: [0, 0.5], spacing: 1.5 });
+      row.add(label);
+      x += 6 + label.width - (label.padding.left ?? 0) * 2 + 46;
     }
-    const label = text(scene, x + 6, 0, rest.join(' '), { size: 24, weight: '600', color: '#c9c6b8', origin: [0, 0.5], spacing: 1.5 });
-    row.add(label);
-    x += 6 + label.width - (label.padding.left ?? 0) * 2 + 46;
-  }
-  const w = x - 46;
-  const back = scene.add.graphics();
-  back.fillStyle(COLORS.bg, 0.75).fillRect(-30, -28, w + 60, 56);
-  row.addAt(back, 0);
-  row.x = GAME_WIDTH / 2 - w / 2;
-  row.setDepth(900);
+    const w = x - 46;
+    const back = scene.add.graphics();
+    back.fillStyle(COLORS.bg, 0.75).fillRect(-30, -28, w + 60, 56);
+    row.addAt(back, 0);
+    row.x = GAME_WIDTH / 2 - w / 2;
+  });
   return row;
 };
 
@@ -259,4 +283,14 @@ export const logo = (scene: Phaser.Scene, x: number, y: number, scale = 1) => {
   const pg = text(scene, x, y + 20 * scale, 'PG', { size: 270 * scale, italic: true, weight: '900', color: CSS.cream, origin: [0.5, 1], shadow: true });
   const fighters = text(scene, x, y - 30 * scale, 'FIGHTERS', { size: 190 * scale, italic: true, weight: '900', color: CSS.lime, origin: [0.5, 0], glow: '#dfff0066' });
   return [pg, fighters];
+};
+
+/** Opción "PANTALLA COMPLETA: SÍ/NO" (ENTER, A D o clic). Se usa en el título y en la pausa. */
+export const fullscreenItem = (scene: Phaser.Scene, menu: () => Menu | null): MenuItem => {
+  const toggle = () => {
+    scene.scale.toggleFullscreen();
+    // El cambio llega un instante después: se refresca la etiqueta.
+    scene.time.delayedCall(150, () => menu()?.refresh());
+  };
+  return { label: () => (scene.scale.isFullscreen ? 'PANTALLA COMPLETA:  SÍ' : 'PANTALLA COMPLETA:  NO'), onSelect: toggle, onSide: toggle };
 };

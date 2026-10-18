@@ -19,7 +19,7 @@ import { Analytics } from '../systems/Analytics';
 import { Audio, preloadMusic } from '../systems/Audio';
 import { Fx } from '../systems/Fx';
 import { buildStage, preloadStages } from '../systems/StageArt';
-import { Input } from '../systems/Input';
+import { Input, onPadChange, padConnected } from '../systems/Input';
 import { Settings, type CpuLevel } from '../systems/Settings';
 import { StoryRun } from '../systems/StoryRun';
 import { Training, type DemoCombo } from '../systems/Training';
@@ -200,6 +200,16 @@ export class FightScene extends Phaser.Scene implements Arena {
     this.cpuBadge = this.data0.story ? (this.p2.def.boss ? 'JEFE' : 'HATER') : 'CPU';
     this.input2 = new Input(this, true);
     this.events.on(Phaser.Scenes.Events.RESUME, () => this.input2.reset());
+    // Si se desconecta el mando en plena pelea, se pausa (como en consola).
+    let hadPad = padConnected();
+    onPadChange(this, () => {
+      const lost = hadPad && !padConnected();
+      hadPad = padConnected();
+      if (lost && this.sys.isActive() && !this.solo && !this.hud?.dialogActive && (this.phase === 'fight' || this.phase === 'intro')) {
+        if (this.data0.lab) this.openLabInfo();
+        else this.openPause();
+      }
+    });
     this.boxes = this.add.graphics().setDepth(60);
     this.training = null;
     if (this.data0.training) {
@@ -513,7 +523,9 @@ export class FightScene extends Phaser.Scene implements Arena {
     if (this.training) this.scene.setVisible(false, SCENES.TrainingHud);
     Audio.boost(true);
     this.scene.pause();
-    this.scene.launch(SCENES.SuperCutIn, { def: owner.def, side: owner.side, onDone: () => this.scene.resume() });
+    // El retrato sale del lado de la pantalla donde está el luchador ahora (no el de su esquina inicial).
+    const side = owner.x <= owner.opponent.x ? 0 : 1;
+    this.scene.launch(SCENES.SuperCutIn, { def: owner.def, side, onDone: () => this.scene.resume() });
   }
 
   /** Súper, paso 2: escenario en penumbra y solo de guitarra. */
@@ -607,7 +619,7 @@ export class FightScene extends Phaser.Scene implements Arena {
       up: i.isDown('up'),
       down: i.isDown('down'),
       punch: this.pending.punch,
-      punchHeld: this.input.activePointer.leftButtonDown(),
+      punchHeld: this.input.activePointer.leftButtonDown() || i.isDown('punch'),
       kick: this.pending.kick,
       dash: false,
       super: this.pending.super,

@@ -1,8 +1,8 @@
 import Phaser from 'phaser';
 import { COLORS, CSS, GAME_HEIGHT, GAME_WIDTH, SCENES } from '../config';
 import { Audio } from '../systems/Audio';
-import { Input } from '../systems/Input';
-import { Menu, footer, text } from '../ui/ui';
+import { devText, Input } from '../systems/Input';
+import { Menu, footer, fullscreenItem, text } from '../ui/ui';
 import { FIGHTERS, type FighterDef } from '../data/fighters';
 import { TRAITS, powerInfo, superInfo } from '../data/moveset';
 import type { FightData } from './FightScene';
@@ -14,9 +14,9 @@ const LAB = new URLSearchParams(location.search).has('sprites');
 export const movesOf = (def: FighterDef): [string, string, string, string][] => {
   const trait = TRAITS[def.id];
   return [
-    ['PODER', 'S → D + CLIC IZQ', def.moves.special, powerInfo(def.id)],
-    ['UPPERCUT', 'D → S → S+D + CLIC IZQ', def.moves.uppercut, 'Antiaéreo invulnerable al arrancar.'],
-    ['ULTIMATE', 'E', def.moves.super, superInfo(def.id)],
+    ['PODER', devText('S → D + CLIC IZQ'), def.moves.special, powerInfo(def.id)],
+    ['UPPERCUT', devText('D → S → S+D + CLIC IZQ'), def.moves.uppercut, 'Antiaéreo invulnerable al arrancar.'],
+    ['ULTIMATE', devText('E'), def.moves.super, superInfo(def.id)],
     ...(trait ? [['RASGO', '', trait.name, trait.desc] as [string, string, string, string]] : []),
   ];
 };
@@ -46,8 +46,9 @@ export class PauseScene extends Phaser.Scene {
       { label: 'REINICIAR PELEA', onSelect: () => this.leave(SCENES.Fight, this.fight) },
       ...(this.fight.story ? [] : [{ label: 'CAMBIAR LUCHADOR', onSelect: () => this.leave(SCENES.Select, { last: this.fight.p1, mode: this.fight.training ? 'training' : 'arcade' }) }]),
       ...(LAB ? [{ label: 'LABORATORIO', onSelect: () => this.leave(SCENES.Lab, { char: this.fight.p1 }) }] : []),
+      fullscreenItem(this, () => this.menu),
       { label: this.fight.story ? 'MENÚ (PROGRESO GUARDADO)' : 'MENÚ PRINCIPAL', onSelect: () => this.leave(SCENES.Title, { skipPress: true }) },
-    ], 170, 400, 84, 52, 'left');
+    ], 170, 400, 76, 48, 'left');
 
     const px = 1040;
     const g = this.add.graphics();
@@ -66,7 +67,7 @@ export class PauseScene extends Phaser.Scene {
       y = d.y + d.height + 22;
     }
     text(this, px + 40, 876, 'Golpes básicos, barrida, cadena y dash: menú CONTROLES.', { size: 20, font: 'body', color: CSS.grey, origin: [0, 0.5] });
-    footer(this, 'W S  ELEGIR      ENTER  CONFIRMAR      ESC  CONTINUAR');
+    footer(this, 'W S  ELEGIR      A D  CAMBIAR      ENTER  CONFIRMAR      ESC  CONTINUAR');
   }
 
   private resume(): void {
@@ -90,6 +91,8 @@ export class PauseScene extends Phaser.Scene {
     const i = this.input2;
     if (i.justDown('up')) this.menu.move(-1);
     if (i.justDown('down')) this.menu.move(1);
+    if (i.justDown('left')) this.menu.side(-1);
+    if (i.justDown('right')) this.menu.side(1);
     if (i.justDown('confirm')) this.menu.select();
     if (i.justDown('back')) this.resume();
   }
