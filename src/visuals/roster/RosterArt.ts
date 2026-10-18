@@ -87,6 +87,12 @@ const PIVOT_X: Partial<Record<string, number>> = {
 /** Alto visual (px) que reemplaza al de metadata.json: El Acople, al tamaño de su arte original (imponente). */
 const VISUAL_HEIGHT: Partial<Record<string, number>> = { acople: 594 };
 
+/** Corrección de tamaño por pose (todos sus cuadros) cuando el arte dibujó una pose más grande o más chica que la guardia. */
+const POSE_FIT: Partial<Record<string, Record<string, number>>> = {
+  // Dash y dash atrás vinieron muy anchos, y el salto algo grande: se achican para que no se vean exagerados.
+  ricardo: { dash: 0.8, backdash: 0.85, jump: 0.9, fall: 0.9 },
+};
+
 /** Alto de la pose de ultimate respecto de la guardia (la guitarra levantada suma un poco). */
 const SUPER_HEIGHT = 1.05;
 
@@ -150,6 +156,13 @@ export function registerRosterArt(scene: Phaser.Scene, ids: readonly string[] = 
       const frame = scene.textures.getFrame(texture, name);
       frame.customPivot = true;
       frame.pivotX = x!;
+    }
+    for (const [pose, fit] of Object.entries(POSE_FIT[id] ?? {})) {
+      for (const name of scene.textures.get(texture).getFrameNames()) {
+        if (name !== `${id}-${pose}` && !name.startsWith(`${id}-${pose}-`)) continue;
+        const key = `${texture}/${name}`;
+        poseScale.set(key, (poseScale.get(key) ?? visualScale) * fit);
+      }
     }
     const winKey = `${texture}/${id}-win`;
     poseScale.set(winKey, (poseScale.get(winKey) ?? visualScale) * (WIN_FIT[id] ?? 1));

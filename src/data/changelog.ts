@@ -10,6 +10,15 @@ export interface ChangelogEntry {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    version: '1.9.0',
+    date: '2026-10-18',
+    notes: [
+      'Animaciones nuevas, hechas desde cero: Markus, El Acople y Platanero.',
+      'Ricardo, más alto y con frases nuevas.',
+      'Kimberly brilla con un aura en su ultimate.',
+    ],
+  },
+  {
     version: '1.8.0',
     date: '2026-10-17',
     notes: [

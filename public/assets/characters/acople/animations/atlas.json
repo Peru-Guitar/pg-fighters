@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1744,
+        "h": 784
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-airKick-0",
+          "frame": {
+            "x": 340,
+            "y": 8,
+            "w": 310,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.2838709677419355,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "acople-airKick-1",
+          "frame": {
+            "x": 666,
+            "y": 8,
+            "w": 358,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.441340782122905,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "acople-airKick-2",
+          "frame": {
+            "x": 857,
+            "y": 428,
+            "w": 475,
+            "h": 322
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 475,
+            "h": 322
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 475,
+            "h": 322
+          },
+          "pivot": {
+            "x": 0.33157894736842103,
+            "y": 0.9906832298136646
+          }
+        },
+        {
+          "filename": "acople-airKick-3",
+          "frame": {
+            "x": 394,
+            "y": 428,
+            "w": 447,
+            "h": 333
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 447,
+            "h": 333
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 447,
+            "h": 333
+          },
+          "pivot": {
+            "x": 0.3344519015659955,
+            "y": 0.990990990990991
+          }
+        },
+        {
+          "filename": "acople-airKick-4",
+          "frame": {
+            "x": 8,
+            "y": 428,
+            "w": 370,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.6405405405405405,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "acople-airKick-5",
+          "frame": {
+            "x": 1040,
+            "y": 8,
+            "w": 361,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.6592797783933518,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "acople-airKick-6",
+          "frame": {
+            "x": 1417,
+            "y": 8,
+            "w": 319,
+            "h": 358
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 358
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 358
+          },
+          "pivot": {
+            "x": 0.5909090909090909,
+            "y": 0.9916201117318436
+          }
+        },
+        {
+          "filename": "acople-airKick-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 316,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.6313291139240507,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "acople-airKick",
+          "frame": {
+            "x": 340,
+            "y": 8,
+            "w": 310,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.2838709677419355,
+            "y": 0.9925373134328358
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1942,
+        "h": 828
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-airPunch-0",
+          "frame": {
+            "x": 332,
+            "y": 442,
+            "w": 321,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.4657320872274143,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "acople-airPunch-1",
+          "frame": {
+            "x": 353,
+            "y": 8,
+            "w": 353,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.4631728045325779,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "acople-airPunch-2",
+          "frame": {
+            "x": 722,
+            "y": 8,
+            "w": 425,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 425,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 425,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.43411764705882355,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "acople-airPunch-3",
+          "frame": {
+            "x": 1528,
+            "y": 8,
+            "w": 406,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 406,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 406,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.4445812807881773,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "acople-airPunch-4",
+          "frame": {
+            "x": 669,
+            "y": 442,
+            "w": 328,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.4192073170731707,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "acople-airPunch-5",
+          "frame": {
+            "x": 8,
+            "y": 442,
+            "w": 308,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 308,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 308,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.42857142857142855,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "acople-airPunch-6",
+          "frame": {
+            "x": 1163,
+            "y": 8,
+            "w": 349,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.6289398280802292,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "acople-airPunch-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 329,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.4969604863221885,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "acople-airPunch",
+          "frame": {
+            "x": 332,
+            "y": 442,
+            "w": 321,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.4657320872274143,
+            "y": 0.9920424403183024
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1954,
+        "h": 777
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-backdash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 353,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "acople-backdash-1",
+          "frame": {
+            "x": 793,
+            "y": 426,
+            "w": 301,
+            "h": 323
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 301,
+            "h": 323
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 301,
+            "h": 323
+          },
+          "pivot": {
+            "x": 0.4368770764119601,
+            "y": 0.9907120743034056
+          }
+        },
+        {
+          "filename": "acople-backdash-2",
+          "frame": {
+            "x": 745,
+            "y": 8,
+            "w": 409,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.44865525672371637,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "acople-backdash-3",
+          "frame": {
+            "x": 1553,
+            "y": 8,
+            "w": 393,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.3969465648854962,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "acople-backdash-4",
+          "frame": {
+            "x": 1170,
+            "y": 8,
+            "w": 367,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.37193460490463215,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "acople-backdash-5",
+          "frame": {
+            "x": 381,
+            "y": 426,
+            "w": 396,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.4595959595959596,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "acople-backdash-6",
+          "frame": {
+            "x": 8,
+            "y": 426,
+            "w": 357,
+            "h": 343
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 343
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 343
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9912536443148688
+          }
+        },
+        {
+          "filename": "acople-backdash-7",
+          "frame": {
+            "x": 377,
+            "y": 8,
+            "w": 352,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "acople-backdash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 353,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1981,
+        "h": 811
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-special-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 372,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "acople-special-1",
+          "frame": {
+            "x": 8,
+            "y": 430,
+            "w": 406,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 406,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 406,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.479064039408867,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "acople-special-2",
+          "frame": {
+            "x": 396,
+            "y": 8,
+            "w": 384,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "acople-special-3",
+          "frame": {
+            "x": 920,
+            "y": 430,
+            "w": 438,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 438,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 438,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.4726027397260274,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "acople-special-4",
+          "frame": {
+            "x": 430,
+            "y": 430,
+            "w": 474,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 474,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 474,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.42510548523206754,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "acople-special-5",
+          "frame": {
+            "x": 1185,
+            "y": 8,
+            "w": 403,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "acople-special-6",
+          "frame": {
+            "x": 1604,
+            "y": 8,
+            "w": 369,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "acople-special-7",
+          "frame": {
+            "x": 796,
+            "y": 8,
+            "w": 373,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "acople-special",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 372,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1936,
+        "h": 852
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-block-0",
+          "frame": {
+            "x": 393,
+            "y": 8,
+            "w": 376,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "acople-block-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 369,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "acople-block-2",
+          "frame": {
+            "x": 8,
+            "y": 446,
+            "w": 369,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "acople-block-3",
+          "frame": {
+            "x": 783,
+            "y": 446,
+            "w": 372,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "acople-block-4",
+          "frame": {
+            "x": 393,
+            "y": 446,
+            "w": 374,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "acople-block-5",
+          "frame": {
+            "x": 785,
+            "y": 8,
+            "w": 370,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "acople-block-6",
+          "frame": {
+            "x": 1552,
+            "y": 8,
+            "w": 376,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "acople-block-7",
+          "frame": {
+            "x": 1171,
+            "y": 8,
+            "w": 365,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "acople-block",
+          "frame": {
+            "x": 393,
+            "y": 8,
+            "w": 376,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1885,
+        "h": 756
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-crouch-0",
+          "frame": {
+            "x": 1141,
+            "y": 8,
+            "w": 356,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.4803370786516854,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "acople-crouch-1",
+          "frame": {
+            "x": 776,
+            "y": 8,
+            "w": 349,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5100286532951289,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "acople-crouch-2",
+          "frame": {
+            "x": 8,
+            "y": 406,
+            "w": 356,
+            "h": 342
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 342
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 342
+          },
+          "pivot": {
+            "x": 0.48314606741573035,
+            "y": 0.9912280701754386
+          }
+        },
+        {
+          "filename": "acople-crouch-3",
+          "frame": {
+            "x": 1513,
+            "y": 8,
+            "w": 364,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.532967032967033,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "acople-crouch-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 367,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.494550408719346,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "acople-crouch-5",
+          "frame": {
+            "x": 380,
+            "y": 406,
+            "w": 351,
+            "h": 337
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 337
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 337
+          },
+          "pivot": {
+            "x": 0.5042735042735043,
+            "y": 0.9910979228486647
+          }
+        },
+        {
+          "filename": "acople-crouch-6",
+          "frame": {
+            "x": 391,
+            "y": 8,
+            "w": 369,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.537940379403794,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "acople-crouch-7",
+          "frame": {
+            "x": 747,
+            "y": 406,
+            "w": 357,
+            "h": 337
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 337
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 337
+          },
+          "pivot": {
+            "x": 0.5084033613445378,
+            "y": 0.9910979228486647
+          }
+        },
+        {
+          "filename": "acople-crouch",
+          "frame": {
+            "x": 1141,
+            "y": 8,
+            "w": 356,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.4803370786516854,
+            "y": 0.9919571045576407
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1832,
+        "h": 715
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-crouchBlock-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 362,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.5013812154696132,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "acople-crouchBlock-1",
+          "frame": {
+            "x": 386,
+            "y": 8,
+            "w": 340,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.48823529411764705,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "acople-crouchBlock-2",
+          "frame": {
+            "x": 371,
+            "y": 377,
+            "w": 332,
+            "h": 323
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 323
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 323
+          },
+          "pivot": {
+            "x": 0.49698795180722893,
+            "y": 0.9907120743034056
+          }
+        },
+        {
+          "filename": "acople-crouchBlock-3",
+          "frame": {
+            "x": 719,
+            "y": 377,
+            "w": 342,
+            "h": 312
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 312
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.4853801169590643,
+            "y": 0.9903846153846154
+          }
+        },
+        {
+          "filename": "acople-crouchBlock-4",
+          "frame": {
+            "x": 8,
+            "y": 377,
+            "w": 347,
+            "h": 330
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 330
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 330
+          },
+          "pivot": {
+            "x": 0.49135446685878964,
+            "y": 0.990909090909091
+          }
+        },
+        {
+          "filename": "acople-crouchBlock-5",
+          "frame": {
+            "x": 1112,
+            "y": 8,
+            "w": 345,
+            "h": 331
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 331
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 331
+          },
+          "pivot": {
+            "x": 0.4855072463768116,
+            "y": 0.9909365558912386
+          }
+        },
+        {
+          "filename": "acople-crouchBlock-6",
+          "frame": {
+            "x": 1473,
+            "y": 8,
+            "w": 351,
+            "h": 331
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 331
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 331
+          },
+          "pivot": {
+            "x": 0.48575498575498577,
+            "y": 0.9909365558912386
+          }
+        },
+        {
+          "filename": "acople-crouchBlock-7",
+          "frame": {
+            "x": 742,
+            "y": 8,
+            "w": 354,
+            "h": 335
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 335
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 335
+          },
+          "pivot": {
+            "x": 0.4943502824858757,
+            "y": 0.991044776119403
+          }
+        },
+        {
+          "filename": "acople-crouchBlock",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 362,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.5013812154696132,
+            "y": 0.9915014164305949
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1948,
+        "h": 740
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-crouchHurt-0",
+          "frame": {
+            "x": 454,
+            "y": 8,
+            "w": 368,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.5190217391304348,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "acople-crouchHurt-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 430,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5488372093023256,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "acople-crouchHurt-2",
+          "frame": {
+            "x": 385,
+            "y": 392,
+            "w": 393,
+            "h": 338
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 338
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 338
+          },
+          "pivot": {
+            "x": 0.5343511450381679,
+            "y": 0.9911242603550295
+          }
+        },
+        {
+          "filename": "acople-crouchHurt-3",
+          "frame": {
+            "x": 794,
+            "y": 392,
+            "w": 414,
+            "h": 311
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 414,
+            "h": 311
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 414,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.5567632850241546,
+            "y": 0.9903536977491961
+          }
+        },
+        {
+          "filename": "acople-crouchHurt-4",
+          "frame": {
+            "x": 1204,
+            "y": 8,
+            "w": 353,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "acople-crouchHurt-5",
+          "frame": {
+            "x": 838,
+            "y": 8,
+            "w": 350,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "acople-crouchHurt-6",
+          "frame": {
+            "x": 1573,
+            "y": 8,
+            "w": 367,
+            "h": 342
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 342
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 342
+          },
+          "pivot": {
+            "x": 0.5204359673024523,
+            "y": 0.9912280701754386
+          }
+        },
+        {
+          "filename": "acople-crouchHurt-7",
+          "frame": {
+            "x": 8,
+            "y": 392,
+            "w": 361,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.5235457063711911,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "acople-crouchHurt",
+          "frame": {
+            "x": 454,
+            "y": 8,
+            "w": 368,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.5190217391304348,
+            "y": 0.9914285714285714
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1999,
+        "h": 702
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-crouchPunch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 354,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.4590395480225989,
+            "y": 0.9911504424778761
+          }
+        },
+        {
+          "filename": "acople-crouchPunch-1",
+          "frame": {
+            "x": 378,
+            "y": 8,
+            "w": 363,
+            "h": 338
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 338
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 338
+          },
+          "pivot": {
+            "x": 0.46005509641873277,
+            "y": 0.9911242603550295
+          }
+        },
+        {
+          "filename": "acople-crouchPunch-2",
+          "frame": {
+            "x": 1136,
+            "y": 8,
+            "w": 476,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 476,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 476,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.3560924369747899,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "acople-crouchPunch-3",
+          "frame": {
+            "x": 746,
+            "y": 363,
+            "w": 419,
+            "h": 314
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 419,
+            "h": 314
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 419,
+            "h": 314
+          },
+          "pivot": {
+            "x": 0.40572792362768495,
+            "y": 0.9904458598726115
+          }
+        },
+        {
+          "filename": "acople-crouchPunch-4",
+          "frame": {
+            "x": 757,
+            "y": 8,
+            "w": 363,
+            "h": 336
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 336
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 336
+          },
+          "pivot": {
+            "x": 0.4696969696969697,
+            "y": 0.9910714285714286
+          }
+        },
+        {
+          "filename": "acople-crouchPunch-5",
+          "frame": {
+            "x": 1628,
+            "y": 8,
+            "w": 363,
+            "h": 333
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 333
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 333
+          },
+          "pivot": {
+            "x": 0.465564738292011,
+            "y": 0.990990990990991
+          }
+        },
+        {
+          "filename": "acople-crouchPunch-6",
+          "frame": {
+            "x": 377,
+            "y": 363,
+            "w": 353,
+            "h": 330
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 330
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 330
+          },
+          "pivot": {
+            "x": 0.47875354107648727,
+            "y": 0.990909090909091
+          }
+        },
+        {
+          "filename": "acople-crouchPunch-7",
+          "frame": {
+            "x": 8,
+            "y": 363,
+            "w": 353,
+            "h": 331
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 331
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 331
+          },
+          "pivot": {
+            "x": 0.47875354107648727,
+            "y": 0.9909365558912386
+          }
+        },
+        {
+          "filename": "acople-crouchPunch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 354,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.4590395480225989,
+            "y": 0.9911504424778761
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1941,
+        "h": 745
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-dash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 334,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "acople-dash-1",
+          "frame": {
+            "x": 8,
+            "y": 411,
+            "w": 356,
+            "h": 326
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 326
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 326
+          },
+          "pivot": {
+            "x": 0.4199438202247191,
+            "y": 0.99079754601227
+          }
+        },
+        {
+          "filename": "acople-dash-2",
+          "frame": {
+            "x": 1118,
+            "y": 8,
+            "w": 406,
+            "h": 329
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 406,
+            "h": 329
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 406,
+            "h": 329
+          },
+          "pivot": {
+            "x": 0.3682266009852217,
+            "y": 0.9908814589665653
+          }
+        },
+        {
+          "filename": "acople-dash-3",
+          "frame": {
+            "x": 380,
+            "y": 411,
+            "w": 511,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 511,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 511,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "acople-dash-4",
+          "frame": {
+            "x": 713,
+            "y": 8,
+            "w": 389,
+            "h": 332
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 332
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 332
+          },
+          "pivot": {
+            "x": 0.4370179948586118,
+            "y": 0.9909638554216867
+          }
+        },
+        {
+          "filename": "acople-dash-5",
+          "frame": {
+            "x": 1540,
+            "y": 8,
+            "w": 393,
+            "h": 328
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 328
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 328
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9908536585365854
+          }
+        },
+        {
+          "filename": "acople-dash-6",
+          "frame": {
+            "x": 907,
+            "y": 411,
+            "w": 318,
+            "h": 314
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 314
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 314
+          },
+          "pivot": {
+            "x": 0.4827044025157233,
+            "y": 0.9904458598726115
+          }
+        },
+        {
+          "filename": "acople-dash-7",
+          "frame": {
+            "x": 358,
+            "y": 8,
+            "w": 339,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "acople-dash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 334,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922480620155039
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1893,
+        "h": 737
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 334,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936575052854123
+          }
+        },
+        {
+          "filename": "acople-ko-1",
+          "frame": {
+            "x": 358,
+            "y": 8,
+            "w": 319,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "acople-ko-2",
+          "frame": {
+            "x": 693,
+            "y": 8,
+            "w": 329,
+            "h": 343
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 343
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 343
+          },
+          "pivot": {
+            "x": 0.4848024316109423,
+            "y": 0.9912536443148688
+          }
+        },
+        {
+          "filename": "acople-ko-3",
+          "frame": {
+            "x": 1486,
+            "y": 8,
+            "w": 399,
+            "h": 294
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 294
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 294
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9897959183673469
+          }
+        },
+        {
+          "filename": "acople-ko-4",
+          "frame": {
+            "x": 1038,
+            "y": 8,
+            "w": 432,
+            "h": 302
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 432,
+            "h": 302
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 432,
+            "h": 302
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9900662251655629
+          }
+        },
+        {
+          "filename": "acople-ko-5",
+          "frame": {
+            "x": 8,
+            "y": 497,
+            "w": 402,
+            "h": 232
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 232
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 232
+          },
+          "pivot": {
+            "x": 0.5087064676616916,
+            "y": 0.9870689655172413
+          }
+        },
+        {
+          "filename": "acople-ko-6",
+          "frame": {
+            "x": 426,
+            "y": 497,
+            "w": 452,
+            "h": 170
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 452,
+            "h": 170
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 452,
+            "h": 170
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9823529411764705
+          }
+        },
+        {
+          "filename": "acople-ko-7",
+          "frame": {
+            "x": 894,
+            "y": 497,
+            "w": 415,
+            "h": 141
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 415,
+            "h": 141
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 415,
+            "h": 141
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9787234042553191
+          }
+        },
+        {
+          "filename": "acople-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 334,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936575052854123
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1739,
+        "h": 433
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-down-0",
+          "frame": {
+            "x": 442,
+            "y": 8,
+            "w": 418,
+            "h": 203
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 418,
+            "h": 203
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 418,
+            "h": 203
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9852216748768473
+          }
+        },
+        {
+          "filename": "acople-down-1",
+          "frame": {
+            "x": 876,
+            "y": 8,
+            "w": 417,
+            "h": 203
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 417,
+            "h": 203
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 417,
+            "h": 203
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9852216748768473
+          }
+        },
+        {
+          "filename": "acople-down-2",
+          "frame": {
+            "x": 441,
+            "y": 229,
+            "w": 420,
+            "h": 194
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 194
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 194
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9845360824742269
+          }
+        },
+        {
+          "filename": "acople-down-3",
+          "frame": {
+            "x": 8,
+            "y": 229,
+            "w": 417,
+            "h": 196
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 417,
+            "h": 196
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 417,
+            "h": 196
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9846938775510204
+          }
+        },
+        {
+          "filename": "acople-down-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 418,
+            "h": 205
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 418,
+            "h": 205
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 418,
+            "h": 205
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9853658536585366
+          }
+        },
+        {
+          "filename": "acople-down-5",
+          "frame": {
+            "x": 877,
+            "y": 229,
+            "w": 418,
+            "h": 192
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 418,
+            "h": 192
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 418,
+            "h": 192
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.984375
+          }
+        },
+        {
+          "filename": "acople-down-6",
+          "frame": {
+            "x": 1311,
+            "y": 229,
+            "w": 420,
+            "h": 190
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 190
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 190
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9842105263157894
+          }
+        },
+        {
+          "filename": "acople-down-7",
+          "frame": {
+            "x": 1309,
+            "y": 8,
+            "w": 417,
+            "h": 203
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 417,
+            "h": 203
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 417,
+            "h": 203
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9852216748768473
+          }
+        },
+        {
+          "filename": "acople-down",
+          "frame": {
+            "x": 442,
+            "y": 8,
+            "w": 418,
+            "h": 203
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 418,
+            "h": 203
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 418,
+            "h": 203
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9852216748768473
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1692,
+        "h": 816
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-fall-0",
+          "frame": {
+            "x": 1052,
+            "y": 8,
+            "w": 264,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 264,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 264,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.5549242424242424,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "acople-fall-1",
+          "frame": {
+            "x": 731,
+            "y": 8,
+            "w": 305,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 305,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 305,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.639344262295082,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "acople-fall-2",
+          "frame": {
+            "x": 367,
+            "y": 8,
+            "w": 348,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.75,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "acople-fall-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 343,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.7667638483965015,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "acople-fall-4",
+          "frame": {
+            "x": 377,
+            "y": 438,
+            "w": 330,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.5757575757575758,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "acople-fall-5",
+          "frame": {
+            "x": 723,
+            "y": 438,
+            "w": 351,
+            "h": 326
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 326
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 326
+          },
+          "pivot": {
+            "x": 0.5612535612535613,
+            "y": 0.99079754601227
+          }
+        },
+        {
+          "filename": "acople-fall-6",
+          "frame": {
+            "x": 8,
+            "y": 438,
+            "w": 353,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.5439093484419264,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "acople-fall-7",
+          "frame": {
+            "x": 1332,
+            "y": 8,
+            "w": 352,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "acople-fall",
+          "frame": {
+            "x": 1052,
+            "y": 8,
+            "w": 264,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 264,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 264,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.5549242424242424,
+            "y": 0.9921671018276762
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1802,
+        "h": 757
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-getup-0",
+          "frame": {
+            "x": 854,
+            "y": 459,
+            "w": 463,
+            "h": 171
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 463,
+            "h": 171
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 463,
+            "h": 171
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9824561403508771
+          }
+        },
+        {
+          "filename": "acople-getup-1",
+          "frame": {
+            "x": 415,
+            "y": 459,
+            "w": 423,
+            "h": 223
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 423,
+            "h": 223
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 423,
+            "h": 223
+          },
+          "pivot": {
+            "x": 0.49645390070921985,
+            "y": 0.9865470852017937
+          }
+        },
+        {
+          "filename": "acople-getup-2",
+          "frame": {
+            "x": 8,
+            "y": 459,
+            "w": 391,
+            "h": 290
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 290
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 290
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9896551724137931
+          }
+        },
+        {
+          "filename": "acople-getup-3",
+          "frame": {
+            "x": 1480,
+            "y": 8,
+            "w": 314,
+            "h": 298
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 298
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 298
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9899328859060402
+          }
+        },
+        {
+          "filename": "acople-getup-4",
+          "frame": {
+            "x": 1130,
+            "y": 8,
+            "w": 334,
+            "h": 336
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 336
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 336
+          },
+          "pivot": {
+            "x": 0.49700598802395207,
+            "y": 0.9910714285714286
+          }
+        },
+        {
+          "filename": "acople-getup-5",
+          "frame": {
+            "x": 746,
+            "y": 8,
+            "w": 368,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "acople-getup-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 344,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.501453488372093,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "acople-getup-7",
+          "frame": {
+            "x": 368,
+            "y": 8,
+            "w": 362,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "acople-getup",
+          "frame": {
+            "x": 854,
+            "y": 459,
+            "w": 463,
+            "h": 171
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 463,
+            "h": 171
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 463,
+            "h": 171
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9824561403508771
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2024,
+        "h": 855
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-hurt-0",
+          "frame": {
+            "x": 432,
+            "y": 8,
+            "w": 363,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "acople-hurt-1",
+          "frame": {
+            "x": 811,
+            "y": 8,
+            "w": 399,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5175438596491229,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "acople-hurt-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 408,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 408,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 408,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5600490196078431,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "acople-hurt-3",
+          "frame": {
+            "x": 1226,
+            "y": 8,
+            "w": 416,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 416,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 416,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5552884615384616,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "acople-hurt-4",
+          "frame": {
+            "x": 765,
+            "y": 445,
+            "w": 364,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "acople-hurt-5",
+          "frame": {
+            "x": 8,
+            "y": 445,
+            "w": 365,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "acople-hurt-6",
+          "frame": {
+            "x": 1658,
+            "y": 8,
+            "w": 358,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "acople-hurt-7",
+          "frame": {
+            "x": 389,
+            "y": 445,
+            "w": 360,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "acople-hurt",
+          "frame": {
+            "x": 432,
+            "y": 8,
+            "w": 363,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1889,
+        "h": 858
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-idle-0",
+          "frame": {
+            "x": 765,
+            "y": 8,
+            "w": 359,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "acople-idle-1",
+          "frame": {
+            "x": 386,
+            "y": 8,
+            "w": 363,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "acople-idle-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 362,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "acople-idle-3",
+          "frame": {
+            "x": 1140,
+            "y": 8,
+            "w": 364,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "acople-idle-4",
+          "frame": {
+            "x": 387,
+            "y": 450,
+            "w": 361,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "acople-idle-5",
+          "frame": {
+            "x": 8,
+            "y": 450,
+            "w": 363,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "acople-idle-6",
+          "frame": {
+            "x": 1520,
+            "y": 8,
+            "w": 361,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "acople-idle-7",
+          "frame": {
+            "x": 764,
+            "y": 450,
+            "w": 361,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "acople-idle",
+          "frame": {
+            "x": 765,
+            "y": 8,
+            "w": 359,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927710843373494
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1957,
+        "h": 859
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-intro-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 305,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 305,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 305,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5491803278688525,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "acople-intro-1",
+          "frame": {
+            "x": 329,
+            "y": 8,
+            "w": 390,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.4576923076923077,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "acople-intro-2",
+          "frame": {
+            "x": 735,
+            "y": 8,
+            "w": 413,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5375302663438256,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "acople-intro-3",
+          "frame": {
+            "x": 1164,
+            "y": 8,
+            "w": 426,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 426,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 426,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5633802816901409,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "acople-intro-4",
+          "frame": {
+            "x": 1606,
+            "y": 8,
+            "w": 343,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.45626822157434405,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "acople-intro-5",
+          "frame": {
+            "x": 749,
+            "y": 462,
+            "w": 362,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.4723756906077348,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "acople-intro-6",
+          "frame": {
+            "x": 8,
+            "y": 462,
+            "w": 340,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "acople-intro-7",
+          "frame": {
+            "x": 364,
+            "y": 462,
+            "w": 369,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "acople-intro",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 305,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 305,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 305,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5491803278688525,
+            "y": 0.9931506849315068
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1957,
+        "h": 813
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-jump-0",
+          "frame": {
+            "x": 686,
+            "y": 8,
+            "w": 337,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "acople-jump-1",
+          "frame": {
+            "x": 1674,
+            "y": 8,
+            "w": 275,
+            "h": 331
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 275,
+            "h": 331
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 275,
+            "h": 331
+          },
+          "pivot": {
+            "x": 0.509090909090909,
+            "y": 0.9909365558912386
+          }
+        },
+        {
+          "filename": "acople-jump-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 323,
+            "h": 456
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 456
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 456
+          },
+          "pivot": {
+            "x": 0.26006191950464397,
+            "y": 0.993421052631579
+          }
+        },
+        {
+          "filename": "acople-jump-3",
+          "frame": {
+            "x": 1380,
+            "y": 8,
+            "w": 278,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 278,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.45143884892086333,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "acople-jump-4",
+          "frame": {
+            "x": 8,
+            "y": 480,
+            "w": 281,
+            "h": 325
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 325
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 325
+          },
+          "pivot": {
+            "x": 0.3736654804270463,
+            "y": 0.9907692307692307
+          }
+        },
+        {
+          "filename": "acople-jump-5",
+          "frame": {
+            "x": 347,
+            "y": 8,
+            "w": 323,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.6718266253869969,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "acople-jump-6",
+          "frame": {
+            "x": 305,
+            "y": 480,
+            "w": 294,
+            "h": 310
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 294,
+            "h": 310
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 294,
+            "h": 310
+          },
+          "pivot": {
+            "x": 0.4642857142857143,
+            "y": 0.9903225806451613
+          }
+        },
+        {
+          "filename": "acople-jump-7",
+          "frame": {
+            "x": 1039,
+            "y": 8,
+            "w": 325,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "acople-jump",
+          "frame": {
+            "x": 686,
+            "y": 8,
+            "w": 337,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1805,
+        "h": 852
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-kick-0",
+          "frame": {
+            "x": 342,
+            "y": 8,
+            "w": 355,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "acople-kick-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 318,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.41823899371069184,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "acople-kick-2",
+          "frame": {
+            "x": 713,
+            "y": 8,
+            "w": 322,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.6677018633540373,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "acople-kick-3",
+          "frame": {
+            "x": 1051,
+            "y": 8,
+            "w": 456,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 456,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 456,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.41228070175438597,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "acople-kick-4",
+          "frame": {
+            "x": 698,
+            "y": 448,
+            "w": 441,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 441,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 441,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.42857142857142855,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "acople-kick-5",
+          "frame": {
+            "x": 1523,
+            "y": 8,
+            "w": 274,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 274,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 274,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.49635036496350365,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "acople-kick-6",
+          "frame": {
+            "x": 353,
+            "y": 448,
+            "w": 329,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5440729483282675,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "acople-kick-7",
+          "frame": {
+            "x": 8,
+            "y": 448,
+            "w": 329,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "acople-kick",
+          "frame": {
+            "x": 342,
+            "y": 8,
+            "w": 355,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1787,
+        "h": 671
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-knockdown-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 342,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "acople-knockdown-1",
+          "frame": {
+            "x": 366,
+            "y": 8,
+            "w": 403,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.6029776674937966,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "acople-knockdown-2",
+          "frame": {
+            "x": 785,
+            "y": 8,
+            "w": 477,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 477,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 477,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.6939203354297694,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "acople-knockdown-3",
+          "frame": {
+            "x": 1278,
+            "y": 8,
+            "w": 446,
+            "h": 307
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 446,
+            "h": 307
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 446,
+            "h": 307
+          },
+          "pivot": {
+            "x": 0.5840807174887892,
+            "y": 0.990228013029316
+          }
+        },
+        {
+          "filename": "acople-knockdown-4",
+          "frame": {
+            "x": 8,
+            "y": 419,
+            "w": 416,
+            "h": 244
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 416,
+            "h": 244
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 416,
+            "h": 244
+          },
+          "pivot": {
+            "x": 0.5096153846153846,
+            "y": 0.9877049180327869
+          }
+        },
+        {
+          "filename": "acople-knockdown-5",
+          "frame": {
+            "x": 440,
+            "y": 419,
+            "w": 409,
+            "h": 188
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 188
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 188
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9840425531914894
+          }
+        },
+        {
+          "filename": "acople-knockdown-6",
+          "frame": {
+            "x": 865,
+            "y": 419,
+            "w": 417,
+            "h": 177
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 417,
+            "h": 177
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 417,
+            "h": 177
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9830508474576272
+          }
+        },
+        {
+          "filename": "acople-knockdown-7",
+          "frame": {
+            "x": 1298,
+            "y": 419,
+            "w": 481,
+            "h": 130
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 481,
+            "h": 130
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 481,
+            "h": 130
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9769230769230769
+          }
+        },
+        {
+          "filename": "acople-knockdown",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 342,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2033,
+        "h": 845
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-punch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 370,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "acople-punch-1",
+          "frame": {
+            "x": 394,
+            "y": 8,
+            "w": 380,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "acople-punch-2",
+          "frame": {
+            "x": 790,
+            "y": 8,
+            "w": 416,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 416,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 416,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.4735576923076923,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "acople-punch-3",
+          "frame": {
+            "x": 1222,
+            "y": 8,
+            "w": 406,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 406,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 406,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.47783251231527096,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "acople-punch-4",
+          "frame": {
+            "x": 784,
+            "y": 435,
+            "w": 373,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "acople-punch-5",
+          "frame": {
+            "x": 1644,
+            "y": 8,
+            "w": 381,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "acople-punch-6",
+          "frame": {
+            "x": 8,
+            "y": 435,
+            "w": 378,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "acople-punch-7",
+          "frame": {
+            "x": 402,
+            "y": 435,
+            "w": 366,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "acople-punch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 370,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1670,
+        "h": 879
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-super-0",
+          "frame": {
+            "x": 893,
+            "y": 8,
+            "w": 380,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "acople-super-1",
+          "frame": {
+            "x": 431,
+            "y": 8,
+            "w": 446,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 446,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 446,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5426008968609866,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "acople-super-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 407,
+            "h": 462
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 407,
+            "h": 462
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 407,
+            "h": 462
+          },
+          "pivot": {
+            "x": 0.527027027027027,
+            "y": 0.9935064935064936
+          }
+        },
+        {
+          "filename": "acople-super-3",
+          "frame": {
+            "x": 1289,
+            "y": 8,
+            "w": 373,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "acople-super-4",
+          "frame": {
+            "x": 8,
+            "y": 486,
+            "w": 367,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "acople-super-5",
+          "frame": {
+            "x": 808,
+            "y": 486,
+            "w": 367,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "acople-super-6",
+          "frame": {
+            "x": 391,
+            "y": 486,
+            "w": 401,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 401,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 401,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.527431421446384,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "acople-super-7",
+          "frame": {
+            "x": 1191,
+            "y": 486,
+            "w": 368,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.49592391304347827,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "acople-super",
+          "frame": {
+            "x": 893,
+            "y": 8,
+            "w": 380,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926470588235294
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1963,
+        "h": 734
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-sweep-0",
+          "frame": {
+            "x": 408,
+            "y": 8,
+            "w": 402,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "acople-sweep-1",
+          "frame": {
+            "x": 439,
+            "y": 408,
+            "w": 323,
+            "h": 317
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 317
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 317
+          },
+          "pivot": {
+            "x": 0.5557275541795665,
+            "y": 0.9905362776025236
+          }
+        },
+        {
+          "filename": "acople-sweep-2",
+          "frame": {
+            "x": 778,
+            "y": 408,
+            "w": 512,
+            "h": 311
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 512,
+            "h": 311
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 512,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.5009765625,
+            "y": 0.9903536977491961
+          }
+        },
+        {
+          "filename": "acople-sweep-3",
+          "frame": {
+            "x": 1558,
+            "y": 8,
+            "w": 397,
+            "h": 321
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 321
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 321
+          },
+          "pivot": {
+            "x": 0.5453400503778337,
+            "y": 0.9906542056074766
+          }
+        },
+        {
+          "filename": "acople-sweep-4",
+          "frame": {
+            "x": 8,
+            "y": 408,
+            "w": 415,
+            "h": 318
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 415,
+            "h": 318
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 415,
+            "h": 318
+          },
+          "pivot": {
+            "x": 0.35903614457831323,
+            "y": 0.9905660377358491
+          }
+        },
+        {
+          "filename": "acople-sweep-5",
+          "frame": {
+            "x": 1230,
+            "y": 8,
+            "w": 312,
+            "h": 329
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 312,
+            "h": 329
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 329
+          },
+          "pivot": {
+            "x": 0.532051282051282,
+            "y": 0.9908814589665653
+          }
+        },
+        {
+          "filename": "acople-sweep-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 384,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "acople-sweep-7",
+          "frame": {
+            "x": 826,
+            "y": 8,
+            "w": 388,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "acople-sweep",
+          "frame": {
+            "x": 408,
+            "y": 8,
+            "w": 402,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991869918699187
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2038,
+        "h": 694
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-uppercut-0",
+          "frame": {
+            "x": 861,
+            "y": 8,
+            "w": 295,
+            "h": 321
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 321
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 321
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9906542056074766
+          }
+        },
+        {
+          "filename": "acople-uppercut-1",
+          "frame": {
+            "x": 8,
+            "y": 426,
+            "w": 278,
+            "h": 260
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 278,
+            "h": 260
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 260
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9884615384615385
+          }
+        },
+        {
+          "filename": "acople-uppercut-2",
+          "frame": {
+            "x": 1172,
+            "y": 8,
+            "w": 263,
+            "h": 308
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 263,
+            "h": 308
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 263,
+            "h": 308
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9902597402597403
+          }
+        },
+        {
+          "filename": "acople-uppercut-3",
+          "frame": {
+            "x": 266,
+            "y": 8,
+            "w": 271,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 271,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 271,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.511070110701107,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "acople-uppercut-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 242,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 242,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 242,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.44834710743801653,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "acople-uppercut-5",
+          "frame": {
+            "x": 553,
+            "y": 8,
+            "w": 292,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "acople-uppercut-6",
+          "frame": {
+            "x": 1748,
+            "y": 8,
+            "w": 282,
+            "h": 290
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 282,
+            "h": 290
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 282,
+            "h": 290
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9896551724137931
+          }
+        },
+        {
+          "filename": "acople-uppercut-7",
+          "frame": {
+            "x": 1451,
+            "y": 8,
+            "w": 281,
+            "h": 292
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 292
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 292
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9897260273972602
+          }
+        },
+        {
+          "filename": "acople-uppercut",
+          "frame": {
+            "x": 861,
+            "y": 8,
+            "w": 295,
+            "h": 321
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 321
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 321
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9906542056074766
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1924,
+        "h": 878
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-win-0",
+          "frame": {
+            "x": 1552,
+            "y": 8,
+            "w": 364,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "acople-win-1",
+          "frame": {
+            "x": 770,
+            "y": 8,
+            "w": 358,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "acople-win-2",
+          "frame": {
+            "x": 388,
+            "y": 8,
+            "w": 366,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5163934426229508,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "acople-win-3",
+          "frame": {
+            "x": 1144,
+            "y": 8,
+            "w": 392,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5459183673469388,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "acople-win-4",
+          "frame": {
+            "x": 8,
+            "y": 469,
+            "w": 381,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.536745406824147,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "acople-win-5",
+          "frame": {
+            "x": 776,
+            "y": 469,
+            "w": 412,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5449029126213593,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "acople-win-6",
+          "frame": {
+            "x": 405,
+            "y": 469,
+            "w": 355,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5056338028169014,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "acople-win-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 364,
+            "h": 445
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 445
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 445
+          },
+          "pivot": {
+            "x": 0.5206043956043956,
+            "y": 0.9932584269662922
+          }
+        },
+        {
+          "filename": "acople-win",
+          "frame": {
+            "x": 1552,
+            "y": 8,
+            "w": 364,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2035,
+        "h": 838
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-walk-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "acople-walk-1",
+          "frame": {
+            "x": 1030,
+            "y": 8,
+            "w": 329,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "acople-walk-2",
+          "frame": {
+            "x": 749,
+            "y": 8,
+            "w": 265,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 265,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 265,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.6037735849056604,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "acople-walk-3",
+          "frame": {
+            "x": 376,
+            "y": 8,
+            "w": 357,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "acople-walk-4",
+          "frame": {
+            "x": 8,
+            "y": 435,
+            "w": 365,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "acople-walk-5",
+          "frame": {
+            "x": 389,
+            "y": 435,
+            "w": 285,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 285,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 285,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.4824561403508772,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "acople-walk-6",
+          "frame": {
+            "x": 1375,
+            "y": 8,
+            "w": 274,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 274,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 274,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5583941605839416,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "acople-walk-7",
+          "frame": {
+            "x": 1665,
+            "y": 8,
+            "w": 362,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "acople-walk",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1945,
+        "h": 682
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "acople-walkBack-0",
+          "frame": {
+            "x": 315,
+            "y": 8,
+            "w": 254,
+            "h": 325
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 254,
+            "h": 325
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 254,
+            "h": 325
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9907692307692307
+          }
+        },
+        {
+          "filename": "acople-walkBack-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 291,
+            "h": 326
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 291,
+            "h": 326
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 291,
+            "h": 326
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99079754601227
+          }
+        },
+        {
+          "filename": "acople-walkBack-2",
+          "frame": {
+            "x": 585,
+            "y": 8,
+            "w": 263,
+            "h": 325
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 263,
+            "h": 325
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 263,
+            "h": 325
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9907692307692307
+          }
+        },
+        {
+          "filename": "acople-walkBack-3",
+          "frame": {
+            "x": 864,
+            "y": 8,
+            "w": 235,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 235,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 235,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.548936170212766,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "acople-walkBack-4",
+          "frame": {
+            "x": 1115,
+            "y": 8,
+            "w": 231,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 231,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 231,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.564935064935065,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "acople-walkBack-5",
+          "frame": {
+            "x": 1362,
+            "y": 8,
+            "w": 294,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 294,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 294,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "acople-walkBack-6",
+          "frame": {
+            "x": 1672,
+            "y": 8,
+            "w": 265,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 265,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 265,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "acople-walkBack-7",
+          "frame": {
+            "x": 8,
+            "y": 350,
+            "w": 238,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 238,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 238,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.5021008403361344,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "acople-walkBack",
+          "frame": {
+            "x": 315,
+            "y": 8,
+            "w": 254,
+            "h": 325
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 254,
+            "h": 325
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 254,
+            "h": 325
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9907692307692307
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

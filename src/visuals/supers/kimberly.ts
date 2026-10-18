@@ -1,7 +1,7 @@
 import Phaser from 'phaser';
 import { FONTS, GAME_HEIGHT, GAME_WIDTH } from '../../config';
 import { chest, emit, rand, finale, veil, type ShowCtx, type SuperShow } from './kit';
-import { ADD, burst, colorFlash, comet, glintTex, glowTex, lensColor, lensVignette, markHit, pixelFlash, ringTex, shockwave, shot, spark, victim } from './energy';
+import { burst, colorFlash, comet, glintTex, glowTex, lensColor, lensVignette, markHit, pixelFlash, shockwave, shot, spark, victim } from './energy';
 
 const PINK = 0xff7ad9;
 const SOFT = 0xffd0f0;
@@ -14,22 +14,19 @@ const SOFT = 0xffd0f0;
 export const kimberly: SuperShow = {
   spin: 240,
   start(c: ShowCtx) {
-    const ring = c.scene.add.image(0, 0, ringTex(c.scene)).setTint(PINK).setBlendMode(ADD).setScale(0);
-    const inner = c.scene.add.image(0, 0, glowTex(c.scene)).setTint(SOFT).setBlendMode(ADD).setScale(0).setAlpha(0.35);
-    c.back.add([inner, ring]);
-    c.scene.tweens.add({ targets: ring, scale: 6, duration: 420, ease: 'Back.easeOut' });
-    c.scene.tweens.add({ targets: inner, scale: 14, duration: 420 });
     // Transmisión: insignia EN VIVO y contador de likes que sube de a millones.
     const live = c.scene.add.text(70, 210, '● EN VIVO', { fontFamily: FONTS.head, fontSize: '56px', fontStyle: 'italic 900', color: '#ffffff', backgroundColor: '#e8173d', padding: { x: 18, y: 6 } });
     const likes = c.scene.add.text(70, 300, '', { fontFamily: FONTS.head, fontSize: '64px', fontStyle: 'italic 900', color: '#ff7ad9', stroke: '#000000', strokeThickness: 8 });
     const viewers = c.scene.add.text(70, 382, '', { fontFamily: FONTS.head, fontSize: '36px', fontStyle: '900', color: '#ffffff', stroke: '#000000', strokeThickness: 6 });
     c.front.add([live, likes, viewers]);
-    Object.assign(c.data, { ring, inner, live, likes, viewers, count: 2_000_000, pop: 0 });
+    Object.assign(c.data, { live, likes, viewers, count: 2_000_000, pop: 0, auraAt: -999 });
   },
   update(c: ShowCtx, dt: number) {
-    const p = chest(c.owner);
-    (c.data.ring as Phaser.GameObjects.Image).setPosition(p.x, p.y - 30).setAlpha(0.7 + Math.sin(c.t / 90) * 0.15);
-    (c.data.inner as Phaser.GameObjects.Image).setPosition(p.x, p.y - 30);
+    // Aura rosa que sale de su silueta mientras toca (sigue su dibujo, no un círculo fijo).
+    if (c.t - c.data.auraAt > 70) {
+      c.data.auraAt = c.t;
+      c.fx.ghost(c.owner.sprite, Math.floor(c.t / 140) % 2 ? SOFT : PINK, 0.5, 300, 0.04);
+    }
     // Los likes suben sin parar (y saltan con cada golpe).
     c.data.count += dt * 1_800_000;
     c.data.pop = Math.max(0, c.data.pop - dt * 4);
@@ -37,7 +34,7 @@ export const kimberly: SuperShow = {
     (c.data.viewers as Phaser.GameObjects.Text).setText(`${Math.floor(c.data.count / 7.3).toLocaleString('es-PE')} viendo ahora`);
     (c.data.live as Phaser.GameObjects.Text).setAlpha(Math.floor(c.t / 450) % 2 ? 1 : 0.55);
     if (Math.random() < dt * 30) emit(c, glintTex(c.scene), rand(0, GAME_WIDTH), rand(0, GAME_HEIGHT), { life: 0.6, scale: rand(0.3, 0.9), grow: -1.2, spin: 140, tint: Math.random() < 0.6 ? PINK : 0xffffff, add: true });
-    if (Math.random() < dt * 25) emit(c, glowTex(c.scene), p.x + rand(-400, 400), GAME_HEIGHT + 20, { vy: -rand(200, 420), life: 2.4, scale: rand(0.3, 0.7), tint: PINK, add: true, layer: 'back' });
+    if (Math.random() < dt * 25) emit(c, glowTex(c.scene), c.owner.x + rand(-400, 400), GAME_HEIGHT + 20, { vy: -rand(200, 420), life: 2.4, scale: rand(0.3, 0.7), tint: PINK, add: true, layer: 'back' });
     // Filtro de belleza: todo más brillante y suave, bordes rosas.
     const cm = lensColor(c);
     if (cm) {

@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2048,
+        "h": 733
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-airKick-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 307,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5570032573289903,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "platanero-airKick-1",
+          "frame": {
+            "x": 331,
+            "y": 8,
+            "w": 310,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.6096774193548387,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "platanero-airKick-2",
+          "frame": {
+            "x": 1619,
+            "y": 8,
+            "w": 421,
+            "h": 346
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 421,
+            "h": 346
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 421,
+            "h": 346
+          },
+          "pivot": {
+            "x": 0.5118764845605701,
+            "y": 0.9913294797687862
+          }
+        },
+        {
+          "filename": "platanero-airKick-3",
+          "frame": {
+            "x": 404,
+            "y": 395,
+            "w": 444,
+            "h": 302
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 444,
+            "h": 302
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 444,
+            "h": 302
+          },
+          "pivot": {
+            "x": 0.36373873873873874,
+            "y": 0.9900662251655629
+          }
+        },
+        {
+          "filename": "platanero-airKick-4",
+          "frame": {
+            "x": 8,
+            "y": 395,
+            "w": 380,
+            "h": 330
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 330
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 330
+          },
+          "pivot": {
+            "x": 0.618421052631579,
+            "y": 0.990909090909091
+          }
+        },
+        {
+          "filename": "platanero-airKick-5",
+          "frame": {
+            "x": 657,
+            "y": 8,
+            "w": 287,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 287,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 287,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.6759581881533101,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "platanero-airKick-6",
+          "frame": {
+            "x": 1295,
+            "y": 8,
+            "w": 308,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 308,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 308,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.6038961038961039,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "platanero-airKick-7",
+          "frame": {
+            "x": 960,
+            "y": 8,
+            "w": 319,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.609717868338558,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "platanero-airKick",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 307,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5570032573289903,
+            "y": 0.9919137466307277
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2007,
+        "h": 808
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-airPunch-0",
+          "frame": {
+            "x": 370,
+            "y": 8,
+            "w": 336,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5133928571428571,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "platanero-airPunch-1",
+          "frame": {
+            "x": 8,
+            "y": 426,
+            "w": 361,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.6371191135734072,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "platanero-airPunch-2",
+          "frame": {
+            "x": 722,
+            "y": 8,
+            "w": 440,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 440,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 440,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.44772727272727275,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "platanero-airPunch-3",
+          "frame": {
+            "x": 1551,
+            "y": 8,
+            "w": 448,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 448,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 448,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.41964285714285715,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "platanero-airPunch-4",
+          "frame": {
+            "x": 385,
+            "y": 426,
+            "w": 379,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.470976253298153,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "platanero-airPunch-5",
+          "frame": {
+            "x": 780,
+            "y": 426,
+            "w": 358,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.553072625698324,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "platanero-airPunch-6",
+          "frame": {
+            "x": 1178,
+            "y": 8,
+            "w": 357,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.5154061624649859,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "platanero-airPunch-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 346,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.4841040462427746,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "platanero-airPunch",
+          "frame": {
+            "x": 370,
+            "y": 8,
+            "w": 336,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5133928571428571,
+            "y": 0.9922480620155039
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1857,
+        "h": 794
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-backdash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 356,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5224719101123596,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "platanero-backdash-1",
+          "frame": {
+            "x": 723,
+            "y": 418,
+            "w": 312,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 312,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.4935897435897436,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "platanero-backdash-2",
+          "frame": {
+            "x": 380,
+            "y": 8,
+            "w": 346,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.4624277456647399,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "platanero-backdash-3",
+          "frame": {
+            "x": 742,
+            "y": 8,
+            "w": 352,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.48863636363636365,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "platanero-backdash-4",
+          "frame": {
+            "x": 8,
+            "y": 418,
+            "w": 356,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "platanero-backdash-5",
+          "frame": {
+            "x": 380,
+            "y": 418,
+            "w": 327,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.4954128440366973,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "platanero-backdash-6",
+          "frame": {
+            "x": 1110,
+            "y": 8,
+            "w": 361,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5304709141274239,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "platanero-backdash-7",
+          "frame": {
+            "x": 1487,
+            "y": 8,
+            "w": 362,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5248618784530387,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "platanero-backdash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 356,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5224719101123596,
+            "y": 0.9923857868020305
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1984,
+        "h": 829
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-special-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 369,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "platanero-special-1",
+          "frame": {
+            "x": 918,
+            "y": 440,
+            "w": 375,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "platanero-special-2",
+          "frame": {
+            "x": 393,
+            "y": 8,
+            "w": 394,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5469543147208121,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "platanero-special-3",
+          "frame": {
+            "x": 1178,
+            "y": 8,
+            "w": 420,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.46904761904761905,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "platanero-special-4",
+          "frame": {
+            "x": 450,
+            "y": 440,
+            "w": 452,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 452,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 452,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.43805309734513276,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "platanero-special-5",
+          "frame": {
+            "x": 8,
+            "y": 440,
+            "w": 426,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 426,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 426,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.47183098591549294,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "platanero-special-6",
+          "frame": {
+            "x": 1614,
+            "y": 8,
+            "w": 362,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "platanero-special-7",
+          "frame": {
+            "x": 803,
+            "y": 8,
+            "w": 359,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "platanero-special",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 369,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1999,
+        "h": 872
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-block-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 382,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5091623036649214,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "platanero-block-1",
+          "frame": {
+            "x": 810,
+            "y": 8,
+            "w": 387,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5090439276485789,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "platanero-block-2",
+          "frame": {
+            "x": 1213,
+            "y": 8,
+            "w": 381,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5026246719160105,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "platanero-block-3",
+          "frame": {
+            "x": 406,
+            "y": 8,
+            "w": 388,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5283505154639175,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "platanero-block-4",
+          "frame": {
+            "x": 1610,
+            "y": 8,
+            "w": 381,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5091863517060368,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "platanero-block-5",
+          "frame": {
+            "x": 794,
+            "y": 452,
+            "w": 393,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5190839694656488,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "platanero-block-6",
+          "frame": {
+            "x": 394,
+            "y": 452,
+            "w": 384,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5078125,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "platanero-block-7",
+          "frame": {
+            "x": 8,
+            "y": 452,
+            "w": 370,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5067567567567568,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "platanero-block",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 382,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5091623036649214,
+            "y": 0.9929906542056075
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2015,
+        "h": 814
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-crouch-0",
+          "frame": {
+            "x": 8,
+            "y": 417,
+            "w": 387,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5813953488372093,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "platanero-crouch-1",
+          "frame": {
+            "x": 410,
+            "y": 8,
+            "w": 390,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5756410256410256,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "platanero-crouch-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 386,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5686528497409327,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "platanero-crouch-3",
+          "frame": {
+            "x": 816,
+            "y": 8,
+            "w": 388,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5876288659793815,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "platanero-crouch-4",
+          "frame": {
+            "x": 411,
+            "y": 417,
+            "w": 384,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5794270833333334,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "platanero-crouch-5",
+          "frame": {
+            "x": 1220,
+            "y": 8,
+            "w": 387,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5736434108527132,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "platanero-crouch-6",
+          "frame": {
+            "x": 811,
+            "y": 417,
+            "w": 385,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5727272727272728,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "platanero-crouch-7",
+          "frame": {
+            "x": 1623,
+            "y": 8,
+            "w": 384,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5768229166666666,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "platanero-crouch",
+          "frame": {
+            "x": 8,
+            "y": 417,
+            "w": 387,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5813953488372093,
+            "y": 0.9922879177377892
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1650,
+        "h": 820
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-crouchBlock-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 403,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.56575682382134,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "platanero-crouchBlock-1",
+          "frame": {
+            "x": 823,
+            "y": 424,
+            "w": 407,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 407,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 407,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5651105651105651,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "platanero-crouchBlock-2",
+          "frame": {
+            "x": 1246,
+            "y": 424,
+            "w": 392,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5625,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "platanero-crouchBlock-3",
+          "frame": {
+            "x": 417,
+            "y": 424,
+            "w": 390,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5756410256410256,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "platanero-crouchBlock-4",
+          "frame": {
+            "x": 427,
+            "y": 8,
+            "w": 397,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5629722921914357,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "platanero-crouchBlock-5",
+          "frame": {
+            "x": 840,
+            "y": 8,
+            "w": 395,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5645569620253165,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "platanero-crouchBlock-6",
+          "frame": {
+            "x": 1251,
+            "y": 8,
+            "w": 391,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5652173913043478,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "platanero-crouchBlock-7",
+          "frame": {
+            "x": 8,
+            "y": 424,
+            "w": 393,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5648854961832062,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "platanero-crouchBlock",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 403,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.56575682382134,
+            "y": 0.9925
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1705,
+        "h": 791
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-crouchHurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 392,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5714285714285714,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "platanero-crouchHurt-1",
+          "frame": {
+            "x": 416,
+            "y": 8,
+            "w": 406,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 406,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 406,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5578817733990148,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "platanero-crouchHurt-2",
+          "frame": {
+            "x": 835,
+            "y": 412,
+            "w": 467,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 467,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 467,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.5064239828693791,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "platanero-crouchHurt-3",
+          "frame": {
+            "x": 1318,
+            "y": 412,
+            "w": 379,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.554089709762533,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "platanero-crouchHurt-4",
+          "frame": {
+            "x": 429,
+            "y": 412,
+            "w": 390,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.5641025641025641,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "platanero-crouchHurt-5",
+          "frame": {
+            "x": 8,
+            "y": 412,
+            "w": 405,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5654320987654321,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "platanero-crouchHurt-6",
+          "frame": {
+            "x": 1249,
+            "y": 8,
+            "w": 397,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.5806045340050378,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "platanero-crouchHurt-7",
+          "frame": {
+            "x": 838,
+            "y": 8,
+            "w": 395,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5772151898734177,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "platanero-crouchHurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 392,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.5714285714285714,
+            "y": 0.9922680412371134
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1788,
+        "h": 783
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-crouchPunch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 395,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5708860759493671,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "platanero-crouchPunch-1",
+          "frame": {
+            "x": 419,
+            "y": 8,
+            "w": 386,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.5880829015544041,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "platanero-crouchPunch-2",
+          "frame": {
+            "x": 8,
+            "y": 404,
+            "w": 481,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 481,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 481,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.4968814968814969,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "platanero-crouchPunch-3",
+          "frame": {
+            "x": 921,
+            "y": 404,
+            "w": 445,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 445,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 445,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.501123595505618,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "platanero-crouchPunch-4",
+          "frame": {
+            "x": 505,
+            "y": 404,
+            "w": 400,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 400,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.56625,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "platanero-crouchPunch-5",
+          "frame": {
+            "x": 1382,
+            "y": 404,
+            "w": 398,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 398,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 398,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5678391959798995,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "platanero-crouchPunch-6",
+          "frame": {
+            "x": 821,
+            "y": 8,
+            "w": 388,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.5579896907216495,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "platanero-crouchPunch-7",
+          "frame": {
+            "x": 1225,
+            "y": 8,
+            "w": 387,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.5723514211886305,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "platanero-crouchPunch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 395,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5708860759493671,
+            "y": 0.9921052631578947
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1984,
+        "h": 780
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-dash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 353,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5084985835694051,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "platanero-dash-1",
+          "frame": {
+            "x": 421,
+            "y": 419,
+            "w": 351,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.4686609686609687,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "platanero-dash-2",
+          "frame": {
+            "x": 8,
+            "y": 419,
+            "w": 397,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.47984886649874053,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "platanero-dash-3",
+          "frame": {
+            "x": 743,
+            "y": 8,
+            "w": 447,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 447,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 447,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.49440715883668906,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "platanero-dash-4",
+          "frame": {
+            "x": 1556,
+            "y": 8,
+            "w": 420,
+            "h": 354
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 354
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 354
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915254237288136
+          }
+        },
+        {
+          "filename": "platanero-dash-5",
+          "frame": {
+            "x": 788,
+            "y": 419,
+            "w": 346,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.5130057803468208,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "platanero-dash-6",
+          "frame": {
+            "x": 1206,
+            "y": 8,
+            "w": 334,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.5029940119760479,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "platanero-dash-7",
+          "frame": {
+            "x": 377,
+            "y": 8,
+            "w": 350,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.5071428571428571,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "platanero-dash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 353,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5084985835694051,
+            "y": 0.9924050632911392
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1835,
+        "h": 672
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 334,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933774834437086
+          }
+        },
+        {
+          "filename": "platanero-ko-1",
+          "frame": {
+            "x": 358,
+            "y": 8,
+            "w": 310,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "platanero-ko-2",
+          "frame": {
+            "x": 684,
+            "y": 8,
+            "w": 341,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "platanero-ko-3",
+          "frame": {
+            "x": 1041,
+            "y": 8,
+            "w": 378,
+            "h": 302
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 302
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 302
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9900662251655629
+          }
+        },
+        {
+          "filename": "platanero-ko-4",
+          "frame": {
+            "x": 1435,
+            "y": 8,
+            "w": 392,
+            "h": 256
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 256
+          },
+          "pivot": {
+            "x": 0.48596938775510207,
+            "y": 0.98828125
+          }
+        },
+        {
+          "filename": "platanero-ko-5",
+          "frame": {
+            "x": 8,
+            "y": 477,
+            "w": 412,
+            "h": 187
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 187
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 187
+          },
+          "pivot": {
+            "x": 0.4890776699029126,
+            "y": 0.983957219251337
+          }
+        },
+        {
+          "filename": "platanero-ko-6",
+          "frame": {
+            "x": 436,
+            "y": 477,
+            "w": 403,
+            "h": 177
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 177
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 177
+          },
+          "pivot": {
+            "x": 0.4975186104218362,
+            "y": 0.9830508474576272
+          }
+        },
+        {
+          "filename": "platanero-ko-7",
+          "frame": {
+            "x": 855,
+            "y": 477,
+            "w": 402,
+            "h": 174
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 174
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 174
+          },
+          "pivot": {
+            "x": 0.4937810945273632,
+            "y": 0.9827586206896551
+          }
+        },
+        {
+          "filename": "platanero-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 334,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933774834437086
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1690,
+        "h": 433
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-down-0",
+          "frame": {
+            "x": 1263,
+            "y": 225,
+            "w": 399,
+            "h": 197
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 197
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 197
+          },
+          "pivot": {
+            "x": 0.49874686716791977,
+            "y": 0.9847715736040609
+          }
+        },
+        {
+          "filename": "platanero-down-1",
+          "frame": {
+            "x": 855,
+            "y": 8,
+            "w": 407,
+            "h": 200
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 407,
+            "h": 200
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 407,
+            "h": 200
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.985
+          }
+        },
+        {
+          "filename": "platanero-down-2",
+          "frame": {
+            "x": 1278,
+            "y": 8,
+            "w": 404,
+            "h": 200
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 404,
+            "h": 200
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 404,
+            "h": 200
+          },
+          "pivot": {
+            "x": 0.49876237623762376,
+            "y": 0.985
+          }
+        },
+        {
+          "filename": "platanero-down-3",
+          "frame": {
+            "x": 428,
+            "y": 225,
+            "w": 399,
+            "h": 199
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 199
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 199
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9849246231155779
+          }
+        },
+        {
+          "filename": "platanero-down-4",
+          "frame": {
+            "x": 8,
+            "y": 225,
+            "w": 404,
+            "h": 200
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 404,
+            "h": 200
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 404,
+            "h": 200
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.985
+          }
+        },
+        {
+          "filename": "platanero-down-5",
+          "frame": {
+            "x": 843,
+            "y": 225,
+            "w": 404,
+            "h": 199
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 404,
+            "h": 199
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 404,
+            "h": 199
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9849246231155779
+          }
+        },
+        {
+          "filename": "platanero-down-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 410,
+            "h": 201
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 410,
+            "h": 201
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 410,
+            "h": 201
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9850746268656716
+          }
+        },
+        {
+          "filename": "platanero-down-7",
+          "frame": {
+            "x": 434,
+            "y": 8,
+            "w": 405,
+            "h": 201
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 201
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 201
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9850746268656716
+          }
+        },
+        {
+          "filename": "platanero-down",
+          "frame": {
+            "x": 1263,
+            "y": 225,
+            "w": 399,
+            "h": 197
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 197
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 197
+          },
+          "pivot": {
+            "x": 0.49874686716791977,
+            "y": 0.9847715736040609
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1747,
+        "h": 807
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-fall-0",
+          "frame": {
+            "x": 473,
+            "y": 8,
+            "w": 408,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 408,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 408,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5024509803921569,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "platanero-fall-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 449,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 449,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 449,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.5489977728285078,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "platanero-fall-2",
+          "frame": {
+            "x": 1330,
+            "y": 8,
+            "w": 409,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.511002444987775,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "platanero-fall-3",
+          "frame": {
+            "x": 8,
+            "y": 459,
+            "w": 409,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.558679706601467,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "platanero-fall-4",
+          "frame": {
+            "x": 897,
+            "y": 8,
+            "w": 417,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 417,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 417,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.4832134292565947,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "platanero-fall-5",
+          "frame": {
+            "x": 433,
+            "y": 459,
+            "w": 407,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 407,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 407,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.6363636363636364,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "platanero-fall-6",
+          "frame": {
+            "x": 856,
+            "y": 459,
+            "w": 410,
+            "h": 307
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 410,
+            "h": 307
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 410,
+            "h": 307
+          },
+          "pivot": {
+            "x": 0.526829268292683,
+            "y": 0.990228013029316
+          }
+        },
+        {
+          "filename": "platanero-fall-7",
+          "frame": {
+            "x": 1282,
+            "y": 459,
+            "w": 372,
+            "h": 298
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 298
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 298
+          },
+          "pivot": {
+            "x": 0.5389784946236559,
+            "y": 0.9899328859060402
+          }
+        },
+        {
+          "filename": "platanero-fall",
+          "frame": {
+            "x": 473,
+            "y": 8,
+            "w": 408,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 408,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 408,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5024509803921569,
+            "y": 0.9926470588235294
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1800,
+        "h": 679
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-getup-0",
+          "frame": {
+            "x": 437,
+            "y": 418,
+            "w": 446,
+            "h": 203
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 446,
+            "h": 203
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 446,
+            "h": 203
+          },
+          "pivot": {
+            "x": 0.4943946188340807,
+            "y": 0.9852216748768473
+          }
+        },
+        {
+          "filename": "platanero-getup-1",
+          "frame": {
+            "x": 899,
+            "y": 418,
+            "w": 438,
+            "h": 201
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 438,
+            "h": 201
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 438,
+            "h": 201
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9850746268656716
+          }
+        },
+        {
+          "filename": "platanero-getup-2",
+          "frame": {
+            "x": 8,
+            "y": 418,
+            "w": 413,
+            "h": 253
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 253
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 253
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9881422924901185
+          }
+        },
+        {
+          "filename": "platanero-getup-3",
+          "frame": {
+            "x": 1448,
+            "y": 8,
+            "w": 344,
+            "h": 318
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 318
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 318
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9905660377358491
+          }
+        },
+        {
+          "filename": "platanero-getup-4",
+          "frame": {
+            "x": 1070,
+            "y": 8,
+            "w": 362,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "platanero-getup-5",
+          "frame": {
+            "x": 714,
+            "y": 8,
+            "w": 340,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "platanero-getup-6",
+          "frame": {
+            "x": 374,
+            "y": 8,
+            "w": 324,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5200617283950617,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "platanero-getup-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 350,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5171428571428571,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "platanero-getup",
+          "frame": {
+            "x": 437,
+            "y": 418,
+            "w": 446,
+            "h": 203
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 446,
+            "h": 203
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 446,
+            "h": 203
+          },
+          "pivot": {
+            "x": 0.4943946188340807,
+            "y": 0.9852216748768473
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1701,
+        "h": 879
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-hurt-0",
+          "frame": {
+            "x": 874,
+            "y": 8,
+            "w": 368,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5027173913043478,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "platanero-hurt-1",
+          "frame": {
+            "x": 460,
+            "y": 8,
+            "w": 398,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 398,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 398,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5301507537688442,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "platanero-hurt-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 436,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 436,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 436,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5768348623853211,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "platanero-hurt-3",
+          "frame": {
+            "x": 1258,
+            "y": 8,
+            "w": 435,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5770114942528736,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "platanero-hurt-4",
+          "frame": {
+            "x": 399,
+            "y": 457,
+            "w": 368,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5027173913043478,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "platanero-hurt-5",
+          "frame": {
+            "x": 1158,
+            "y": 457,
+            "w": 376,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5106382978723404,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "platanero-hurt-6",
+          "frame": {
+            "x": 8,
+            "y": 457,
+            "w": 375,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5146666666666667,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "platanero-hurt-7",
+          "frame": {
+            "x": 783,
+            "y": 457,
+            "w": 359,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5027855153203342,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "platanero-hurt",
+          "frame": {
+            "x": 874,
+            "y": 8,
+            "w": 368,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5027173913043478,
+            "y": 0.9930232558139535
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1913,
+        "h": 873
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-idle-0",
+          "frame": {
+            "x": 788,
+            "y": 8,
+            "w": 365,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5027397260273972,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "platanero-idle-1",
+          "frame": {
+            "x": 397,
+            "y": 8,
+            "w": 375,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "platanero-idle-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 373,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "platanero-idle-3",
+          "frame": {
+            "x": 1169,
+            "y": 8,
+            "w": 363,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5013774104683195,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "platanero-idle-4",
+          "frame": {
+            "x": 8,
+            "y": 455,
+            "w": 363,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "platanero-idle-5",
+          "frame": {
+            "x": 387,
+            "y": 455,
+            "w": 371,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5013477088948787,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "platanero-idle-6",
+          "frame": {
+            "x": 774,
+            "y": 455,
+            "w": 365,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5054794520547945,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "platanero-idle-7",
+          "frame": {
+            "x": 1548,
+            "y": 8,
+            "w": 357,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5028011204481793,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "platanero-idle",
+          "frame": {
+            "x": 788,
+            "y": 8,
+            "w": 365,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5027397260273972,
+            "y": 0.9929906542056075
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1868,
+        "h": 880
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-intro-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 330,
+            "h": 449
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 449
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 449
+          },
+          "pivot": {
+            "x": 0.6,
+            "y": 0.9933184855233853
+          }
+        },
+        {
+          "filename": "platanero-intro-1",
+          "frame": {
+            "x": 748,
+            "y": 8,
+            "w": 340,
+            "h": 444
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 444
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 444
+          },
+          "pivot": {
+            "x": 0.5529411764705883,
+            "y": 0.9932432432432432
+          }
+        },
+        {
+          "filename": "platanero-intro-2",
+          "frame": {
+            "x": 354,
+            "y": 8,
+            "w": 378,
+            "h": 445
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 445
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 445
+          },
+          "pivot": {
+            "x": 0.5436507936507936,
+            "y": 0.9932584269662922
+          }
+        },
+        {
+          "filename": "platanero-intro-3",
+          "frame": {
+            "x": 1104,
+            "y": 8,
+            "w": 373,
+            "h": 444
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 444
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 444
+          },
+          "pivot": {
+            "x": 0.5630026809651475,
+            "y": 0.9932432432432432
+          }
+        },
+        {
+          "filename": "platanero-intro-4",
+          "frame": {
+            "x": 1493,
+            "y": 8,
+            "w": 367,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.555858310626703,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "platanero-intro-5",
+          "frame": {
+            "x": 791,
+            "y": 473,
+            "w": 381,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5223097112860893,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "platanero-intro-6",
+          "frame": {
+            "x": 8,
+            "y": 473,
+            "w": 374,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5093582887700535,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "platanero-intro-7",
+          "frame": {
+            "x": 398,
+            "y": 473,
+            "w": 377,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5079575596816976,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "platanero-intro",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 330,
+            "h": 449
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 449
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 449
+          },
+          "pivot": {
+            "x": 0.6,
+            "y": 0.9933184855233853
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1959,
+        "h": 791
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-jump-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 379,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5079155672823219,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "platanero-jump-1",
+          "frame": {
+            "x": 794,
+            "y": 454,
+            "w": 360,
+            "h": 284
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 284
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 284
+          },
+          "pivot": {
+            "x": 0.5416666666666666,
+            "y": 0.9894366197183099
+          }
+        },
+        {
+          "filename": "platanero-jump-2",
+          "frame": {
+            "x": 403,
+            "y": 8,
+            "w": 355,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.4323943661971831,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "platanero-jump-3",
+          "frame": {
+            "x": 1592,
+            "y": 8,
+            "w": 359,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.5236768802228412,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "platanero-jump-4",
+          "frame": {
+            "x": 405,
+            "y": 454,
+            "w": 373,
+            "h": 322
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 322
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 322
+          },
+          "pivot": {
+            "x": 0.5509383378016086,
+            "y": 0.9906832298136646
+          }
+        },
+        {
+          "filename": "platanero-jump-5",
+          "frame": {
+            "x": 1166,
+            "y": 8,
+            "w": 410,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 410,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 410,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.697560975609756,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "platanero-jump-6",
+          "frame": {
+            "x": 8,
+            "y": 454,
+            "w": 381,
+            "h": 329
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 329
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 329
+          },
+          "pivot": {
+            "x": 0.5695538057742782,
+            "y": 0.9908814589665653
+          }
+        },
+        {
+          "filename": "platanero-jump-7",
+          "frame": {
+            "x": 774,
+            "y": 8,
+            "w": 376,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5172872340425532,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "platanero-jump",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 379,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5079155672823219,
+            "y": 0.9930232558139535
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1914,
+        "h": 834
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-kick-0",
+          "frame": {
+            "x": 838,
+            "y": 8,
+            "w": 345,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5101449275362319,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "platanero-kick-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 317,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.3785488958990536,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "platanero-kick-2",
+          "frame": {
+            "x": 1199,
+            "y": 8,
+            "w": 291,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 291,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 291,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.7955326460481099,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "platanero-kick-3",
+          "frame": {
+            "x": 341,
+            "y": 8,
+            "w": 481,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 481,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 481,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.2713097713097713,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "platanero-kick-4",
+          "frame": {
+            "x": 1506,
+            "y": 8,
+            "w": 400,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 400,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.36625,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "platanero-kick-5",
+          "frame": {
+            "x": 8,
+            "y": 432,
+            "w": 301,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 301,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 301,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.574750830564784,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "platanero-kick-6",
+          "frame": {
+            "x": 325,
+            "y": 432,
+            "w": 324,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5601851851851852,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "platanero-kick-7",
+          "frame": {
+            "x": 665,
+            "y": 432,
+            "w": 349,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5128939828080229,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "platanero-kick",
+          "frame": {
+            "x": 838,
+            "y": 8,
+            "w": 345,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5101449275362319,
+            "y": 0.9925373134328358
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1683,
+        "h": 668
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-knockdown-0",
+          "frame": {
+            "x": 830,
+            "y": 8,
+            "w": 343,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5233236151603499,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "platanero-knockdown-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 385,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.638961038961039,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "platanero-knockdown-2",
+          "frame": {
+            "x": 409,
+            "y": 8,
+            "w": 405,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.6432098765432098,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "platanero-knockdown-3",
+          "frame": {
+            "x": 1189,
+            "y": 8,
+            "w": 401,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 401,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 401,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.48877805486284287,
+            "y": 0.9911504424778761
+          }
+        },
+        {
+          "filename": "platanero-knockdown-4",
+          "frame": {
+            "x": 8,
+            "y": 420,
+            "w": 452,
+            "h": 240
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 452,
+            "h": 240
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 452,
+            "h": 240
+          },
+          "pivot": {
+            "x": 0.48783185840707965,
+            "y": 0.9875
+          }
+        },
+        {
+          "filename": "platanero-knockdown-5",
+          "frame": {
+            "x": 476,
+            "y": 420,
+            "w": 378,
+            "h": 200
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 200
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 200
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.985
+          }
+        },
+        {
+          "filename": "platanero-knockdown-6",
+          "frame": {
+            "x": 1285,
+            "y": 420,
+            "w": 390,
+            "h": 172
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 172
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 172
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9825581395348837
+          }
+        },
+        {
+          "filename": "platanero-knockdown-7",
+          "frame": {
+            "x": 870,
+            "y": 420,
+            "w": 399,
+            "h": 175
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 175
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 175
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9828571428571429
+          }
+        },
+        {
+          "filename": "platanero-knockdown",
+          "frame": {
+            "x": 830,
+            "y": 8,
+            "w": 343,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5233236151603499,
+            "y": 0.9922879177377892
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2043,
+        "h": 864
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-punch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 370,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5094594594594595,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "platanero-punch-1",
+          "frame": {
+            "x": 394,
+            "y": 8,
+            "w": 387,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5025839793281653,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "platanero-punch-2",
+          "frame": {
+            "x": 797,
+            "y": 8,
+            "w": 395,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.47468354430379744,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "platanero-punch-3",
+          "frame": {
+            "x": 1208,
+            "y": 8,
+            "w": 434,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 434,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 434,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.4573732718894009,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "platanero-punch-4",
+          "frame": {
+            "x": 787,
+            "y": 448,
+            "w": 374,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5080213903743316,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "platanero-punch-5",
+          "frame": {
+            "x": 1658,
+            "y": 8,
+            "w": 377,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5092838196286472,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "platanero-punch-6",
+          "frame": {
+            "x": 8,
+            "y": 448,
+            "w": 374,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5133689839572193,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "platanero-punch-7",
+          "frame": {
+            "x": 398,
+            "y": 448,
+            "w": 373,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.514745308310992,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "platanero-punch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 370,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5094594594594595,
+            "y": 0.9929245283018868
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1738,
+        "h": 885
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-super-0",
+          "frame": {
+            "x": 427,
+            "y": 8,
+            "w": 401,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 401,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 401,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.4975062344139651,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "platanero-super-1",
+          "frame": {
+            "x": 8,
+            "y": 457,
+            "w": 408,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 408,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 408,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.48161764705882354,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "platanero-super-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 403,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5148883374689827,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "platanero-super-3",
+          "frame": {
+            "x": 432,
+            "y": 457,
+            "w": 415,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 415,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 415,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.4891566265060241,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "platanero-super-4",
+          "frame": {
+            "x": 863,
+            "y": 457,
+            "w": 438,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 438,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 438,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.4623287671232877,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "platanero-super-5",
+          "frame": {
+            "x": 844,
+            "y": 8,
+            "w": 410,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 410,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 410,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5121951219512195,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "platanero-super-6",
+          "frame": {
+            "x": 1317,
+            "y": 457,
+            "w": 413,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.463680387409201,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "platanero-super-7",
+          "frame": {
+            "x": 1270,
+            "y": 8,
+            "w": 396,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "platanero-super",
+          "frame": {
+            "x": 427,
+            "y": 8,
+            "w": 401,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 401,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 401,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.4975062344139651,
+            "y": 0.9930232558139535
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1838,
+        "h": 629
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-sweep-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 328,
+            "h": 309
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 309
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 309
+          },
+          "pivot": {
+            "x": 0.5548780487804879,
+            "y": 0.9902912621359223
+          }
+        },
+        {
+          "filename": "platanero-sweep-1",
+          "frame": {
+            "x": 352,
+            "y": 8,
+            "w": 331,
+            "h": 301
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 301
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 301
+          },
+          "pivot": {
+            "x": 0.5226586102719033,
+            "y": 0.9900332225913622
+          }
+        },
+        {
+          "filename": "platanero-sweep-2",
+          "frame": {
+            "x": 699,
+            "y": 8,
+            "w": 437,
+            "h": 299
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 437,
+            "h": 299
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 437,
+            "h": 299
+          },
+          "pivot": {
+            "x": 0.528604118993135,
+            "y": 0.9899665551839465
+          }
+        },
+        {
+          "filename": "platanero-sweep-3",
+          "frame": {
+            "x": 8,
+            "y": 333,
+            "w": 448,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 448,
+            "h": 288
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 448,
+            "h": 288
+          },
+          "pivot": {
+            "x": 0.5379464285714286,
+            "y": 0.9895833333333334
+          }
+        },
+        {
+          "filename": "platanero-sweep-4",
+          "frame": {
+            "x": 472,
+            "y": 333,
+            "w": 461,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 461,
+            "h": 288
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 461,
+            "h": 288
+          },
+          "pivot": {
+            "x": 0.527114967462039,
+            "y": 0.9895833333333334
+          }
+        },
+        {
+          "filename": "platanero-sweep-5",
+          "frame": {
+            "x": 1497,
+            "y": 8,
+            "w": 333,
+            "h": 289
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 289
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 289
+          },
+          "pivot": {
+            "x": 0.5705705705705706,
+            "y": 0.9896193771626297
+          }
+        },
+        {
+          "filename": "platanero-sweep-6",
+          "frame": {
+            "x": 949,
+            "y": 333,
+            "w": 320,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 288
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 288
+          },
+          "pivot": {
+            "x": 0.55,
+            "y": 0.9895833333333334
+          }
+        },
+        {
+          "filename": "platanero-sweep-7",
+          "frame": {
+            "x": 1152,
+            "y": 8,
+            "w": 329,
+            "h": 297
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 297
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 297
+          },
+          "pivot": {
+            "x": 0.547112462006079,
+            "y": 0.98989898989899
+          }
+        },
+        {
+          "filename": "platanero-sweep",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 328,
+            "h": 309
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 309
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 309
+          },
+          "pivot": {
+            "x": 0.5548780487804879,
+            "y": 0.9902912621359223
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1707,
+        "h": 839
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-uppercut-0",
+          "frame": {
+            "x": 305,
+            "y": 8,
+            "w": 341,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "platanero-uppercut-1",
+          "frame": {
+            "x": 361,
+            "y": 509,
+            "w": 323,
+            "h": 308
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 308
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 308
+          },
+          "pivot": {
+            "x": 0.5154798761609907,
+            "y": 0.9902597402597403
+          }
+        },
+        {
+          "filename": "platanero-uppercut-2",
+          "frame": {
+            "x": 662,
+            "y": 8,
+            "w": 334,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.5104790419161677,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "platanero-uppercut-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 281,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.400355871886121,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "platanero-uppercut-4",
+          "frame": {
+            "x": 1012,
+            "y": 8,
+            "w": 344,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.5145348837209303,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "platanero-uppercut-5",
+          "frame": {
+            "x": 700,
+            "y": 509,
+            "w": 316,
+            "h": 298
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 298
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 298
+          },
+          "pivot": {
+            "x": 0.5079113924050633,
+            "y": 0.9899328859060402
+          }
+        },
+        {
+          "filename": "platanero-uppercut-6",
+          "frame": {
+            "x": 8,
+            "y": 509,
+            "w": 337,
+            "h": 322
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 322
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 322
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9906832298136646
+          }
+        },
+        {
+          "filename": "platanero-uppercut-7",
+          "frame": {
+            "x": 1372,
+            "y": 8,
+            "w": 327,
+            "h": 331
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 331
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 331
+          },
+          "pivot": {
+            "x": 0.5045871559633027,
+            "y": 0.9909365558912386
+          }
+        },
+        {
+          "filename": "platanero-uppercut",
+          "frame": {
+            "x": 305,
+            "y": 8,
+            "w": 341,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1871,
+        "h": 883
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-win-0",
+          "frame": {
+            "x": 748,
+            "y": 470,
+            "w": 351,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5170940170940171,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "platanero-win-1",
+          "frame": {
+            "x": 380,
+            "y": 470,
+            "w": 352,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5198863636363636,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "platanero-win-2",
+          "frame": {
+            "x": 8,
+            "y": 470,
+            "w": 356,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5126404494382022,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "platanero-win-3",
+          "frame": {
+            "x": 383,
+            "y": 8,
+            "w": 360,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.5236111111111111,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "platanero-win-4",
+          "frame": {
+            "x": 759,
+            "y": 8,
+            "w": 358,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5083798882681564,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "platanero-win-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 359,
+            "h": 446
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 446
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 446
+          },
+          "pivot": {
+            "x": 0.5125348189415042,
+            "y": 0.9932735426008968
+          }
+        },
+        {
+          "filename": "platanero-win-6",
+          "frame": {
+            "x": 1133,
+            "y": 8,
+            "w": 357,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5126050420168067,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "platanero-win-7",
+          "frame": {
+            "x": 1506,
+            "y": 8,
+            "w": 357,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5168067226890757,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "platanero-win",
+          "frame": {
+            "x": 748,
+            "y": 470,
+            "w": 351,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5170940170940171,
+            "y": 0.9924433249370277
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2015,
+        "h": 855
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-walk-0",
+          "frame": {
+            "x": 349,
+            "y": 8,
+            "w": 334,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5224550898203593,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "platanero-walk-1",
+          "frame": {
+            "x": 699,
+            "y": 8,
+            "w": 302,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5463576158940397,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "platanero-walk-2",
+          "frame": {
+            "x": 1017,
+            "y": 8,
+            "w": 296,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5388513513513513,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "platanero-walk-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 325,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.52,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "platanero-walk-4",
+          "frame": {
+            "x": 8,
+            "y": 447,
+            "w": 341,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5146627565982405,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "platanero-walk-5",
+          "frame": {
+            "x": 365,
+            "y": 447,
+            "w": 305,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 305,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 305,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5360655737704918,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "platanero-walk-6",
+          "frame": {
+            "x": 1705,
+            "y": 8,
+            "w": 302,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5728476821192053,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "platanero-walk-7",
+          "frame": {
+            "x": 1329,
+            "y": 8,
+            "w": 360,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5388888888888889,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "platanero-walk",
+          "frame": {
+            "x": 349,
+            "y": 8,
+            "w": 334,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5224550898203593,
+            "y": 0.9928400954653938
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2003,
+        "h": 889
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "platanero-walkBack-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 356,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931972789115646
+          }
+        },
+        {
+          "filename": "platanero-walkBack-1",
+          "frame": {
+            "x": 678,
+            "y": 8,
+            "w": 324,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "platanero-walkBack-2",
+          "frame": {
+            "x": 1018,
+            "y": 8,
+            "w": 348,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "platanero-walkBack-3",
+          "frame": {
+            "x": 380,
+            "y": 8,
+            "w": 282,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 282,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 282,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.46631205673758863,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "platanero-walkBack-4",
+          "frame": {
+            "x": 8,
+            "y": 465,
+            "w": 316,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5079113924050633,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "platanero-walkBack-5",
+          "frame": {
+            "x": 340,
+            "y": 465,
+            "w": 274,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 274,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 274,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5145985401459854,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "platanero-walkBack-6",
+          "frame": {
+            "x": 1727,
+            "y": 8,
+            "w": 268,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 268,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 268,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5839552238805971,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "platanero-walkBack-7",
+          "frame": {
+            "x": 1382,
+            "y": 8,
+            "w": 329,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "platanero-walkBack",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 356,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931972789115646
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

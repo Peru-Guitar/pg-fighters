@@ -106,7 +106,7 @@ export const EPILOGUES: Partial<Record<FighterId, string>> = {
   nosu:
     "NOSU produce el disco de reconciliación de toda la escena. Lo afina, lo cuadra y lo masteriza en treinta segundos. Es perfecto. Nadie lo escucha dos veces. Por primera vez, NOSU anota un error que no sabe corregir.",
   ricardo:
-    "Ricardo graba su primer disco con su nombre en la portada. Es rock de raíz, crudo y honesto. En los créditos de cada canción dice lo mismo: Ricardo.",
+    "Ricardo graba su primer disco con su nombre en la portada. Es rock de raíz, crudo y honesto. En los créditos de cada canción dice lo mismo: Ricardo. En la portada sale sonriendo como nunca.",
   platanero:
     "Platanero relanza su curso en VHS como «edición de coleccionista». Vende tres copias: dos se las compra la abuela. Su legado queda en VHS, por si te quieres reír de lo mal que enseñaba.",
   virrey:

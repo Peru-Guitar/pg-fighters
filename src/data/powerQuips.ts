@@ -81,6 +81,7 @@ export const POWER_QUIPS = {
   ricardo: [
     'Este riff es mío.', 'Volví a mis raíces.', 'Ahora toco para mí.', 'Se acabaron los jingles.', 'Rock con voz propia.',
     'Por fin me encontré.', 'Sin pedidos, gracias.', 'Esa etapa ya pasó.', 'Hoy sueno a mí.', 'Nada de canciones ajenas.',
+    'Hoy sueno feliz.', 'Así soy yo.', 'Me reconocí.', 'Sin pedir permiso.',
   ],
   kimberly: [
     'Dale like primero.', 'Esto va al feed.', 'Gracias, auspiciadores.', '¿Quedó bien grabado?', 'Sin filtro, casi.',

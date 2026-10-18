@@ -3,7 +3,7 @@ import { FIGHTERS, type FighterDef } from '../../data/fighters';
 import { poseScale } from '../../systems/AnimeAtlas';
 
 /** Only complete, reviewed source sets belong here. Load pages for the active fighters. */
-export const REGENERATED_ART_IDS: readonly string[] = ['nosu', 'george', 'virrey', 'mimetico', 'slandor', 'clavito', 'chantal', 'erp', 'mayin', 'jeanpierre', 'pepper', 'pentalick', 'ferdex', 'turboshred', 'toxicity', 'tevi', 'rematada', 'escalas', 'jesex', 'tayloy'];
+export const REGENERATED_ART_IDS: readonly string[] = ['nosu', 'george', 'virrey', 'mimetico', 'slandor', 'clavito', 'chantal', 'erp', 'mayin', 'jeanpierre', 'pepper', 'pentalick', 'ferdex', 'turboshred', 'toxicity', 'tevi', 'rematada', 'escalas', 'jesex', 'tayloy', 'markus', 'acople', 'platanero'];
 
 export interface AnimationMetadata {
   animationVersion: 2;
@@ -18,6 +18,10 @@ export interface AnimationMetadata {
  * y revisado a ojo en el laboratorio de sprites. 1 = sin cambio.
  */
 const POSE_SCALE_FIX: Partial<Record<string, Record<string, number>>> = {
+  // La patada y el uppercut vinieron dibujados más chicos que la guardia.
+  markus: { kick: 1.1, uppercut: 1.1 },
+  // El uppercut vino dibujado más chico y chato que la guardia.
+  platanero: { uppercut: 1.15 },
   george: {
     // Agachado: las hojas vinieron ~10–25 % más grandes.
     crouch: 0.91, crouchBlock: 0.9, crouchHurt: 0.79, crouchPunch: 0.84,

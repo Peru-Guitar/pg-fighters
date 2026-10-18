@@ -68,7 +68,7 @@ const INTRO_FPS = 7;
 /** En el piso: respira despacio (a 12 fps parecía temblar). */
 const DOWN_FPS = 5;
 /** Guardia más calmada para quien la tiene muy movida a 12 fps. */
-const IDLE_FPS: Partial<Record<string, number>> = { virrey: 6 };
+const IDLE_FPS: Partial<Record<string, number>> = { virrey: 6, acople: 8 };
 
 /** Busca frames de una pose: animación (`pose-0..n`) o frame único. */
 const framesFor = (texture: Phaser.Textures.Texture, prefix: string, pose: Pose): string[] => {
