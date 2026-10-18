@@ -69,7 +69,7 @@ const SUPER_INFO: Partial<Record<FighterId, string>> = {
   turboshred: 'Todo va en cámara lenta menos él. Remate: el tiempo se detiene y cien cortes caen de golpe.',
   toxicity: 'Aire morado y denso, aura de poseída y cruces de luz. Remate: una cruz gigante sobre el rival.',
   rematada: 'Una cuerda de energía la une al rival y lo electrocuta. Remate: ¡TWANG!, la cuerda lo lanza.',
-  escalas: 'Escalas de luz recorren la pantalla y marcan al rival. Remate: tres impactos seguidos y FIN.',
+  escalas: 'Escaleras de luz; cada golpe deja una nota musical detrás del rival. Remate: tres impactos seguidos y FIN.',
   tayloy: 'Tajos de jade y un dragón de luz que se enrosca en el rival. Remate: el dragón choca y todo estalla.',
   jesex: 'Todo se baña en oro y lanza cometas dorados. Remate: lluvia de cometas sobre el rival.',
   markus: 'Tornados de arena que atrapan y electrocutan al rival. Remate: ¡KABOOOM! que deforma la pantalla.',
