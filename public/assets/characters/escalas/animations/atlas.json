@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2043,
+        "h": 735
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-airKick-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 323,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.4195046439628483,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "escalas-airKick-1",
+          "frame": {
+            "x": 347,
+            "y": 8,
+            "w": 322,
+            "h": 364
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 364
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 364
+          },
+          "pivot": {
+            "x": 0.43167701863354035,
+            "y": 0.9917582417582418
+          }
+        },
+        {
+          "filename": "escalas-airKick-2",
+          "frame": {
+            "x": 474,
+            "y": 408,
+            "w": 531,
+            "h": 298
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 531,
+            "h": 298
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 531,
+            "h": 298
+          },
+          "pivot": {
+            "x": 0.3182674199623352,
+            "y": 0.9899328859060402
+          }
+        },
+        {
+          "filename": "escalas-airKick-3",
+          "frame": {
+            "x": 8,
+            "y": 408,
+            "w": 450,
+            "h": 319
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 450,
+            "h": 319
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 450,
+            "h": 319
+          },
+          "pivot": {
+            "x": 0.3566666666666667,
+            "y": 0.9905956112852664
+          }
+        },
+        {
+          "filename": "escalas-airKick-4",
+          "frame": {
+            "x": 1346,
+            "y": 8,
+            "w": 367,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.44005449591280654,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "escalas-airKick-5",
+          "frame": {
+            "x": 1729,
+            "y": 8,
+            "w": 306,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 306,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 306,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.35130718954248363,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "escalas-airKick-6",
+          "frame": {
+            "x": 685,
+            "y": 8,
+            "w": 303,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.4158415841584158,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "escalas-airKick-7",
+          "frame": {
+            "x": 1004,
+            "y": 8,
+            "w": 326,
+            "h": 357
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 357
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 357
+          },
+          "pivot": {
+            "x": 0.3834355828220859,
+            "y": 0.9915966386554622
+          }
+        },
+        {
+          "filename": "escalas-airKick",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 323,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.4195046439628483,
+            "y": 0.9921875
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1978,
+        "h": 802
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-airPunch-0",
+          "frame": {
+            "x": 417,
+            "y": 8,
+            "w": 388,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5631443298969072,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "escalas-airPunch-1",
+          "frame": {
+            "x": 821,
+            "y": 8,
+            "w": 386,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.560880829015544,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "escalas-airPunch-2",
+          "frame": {
+            "x": 877,
+            "y": 435,
+            "w": 478,
+            "h": 343
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 478,
+            "h": 343
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 478,
+            "h": 343
+          },
+          "pivot": {
+            "x": 0.3493723849372385,
+            "y": 0.9912536443148688
+          }
+        },
+        {
+          "filename": "escalas-airPunch-3",
+          "frame": {
+            "x": 8,
+            "y": 435,
+            "w": 452,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 452,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 452,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.3473451327433628,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "escalas-airPunch-4",
+          "frame": {
+            "x": 476,
+            "y": 435,
+            "w": 385,
+            "h": 354
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 354
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 354
+          },
+          "pivot": {
+            "x": 0.37142857142857144,
+            "y": 0.9915254237288136
+          }
+        },
+        {
+          "filename": "escalas-airPunch-5",
+          "frame": {
+            "x": 1601,
+            "y": 8,
+            "w": 369,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.494579945799458,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "escalas-airPunch-6",
+          "frame": {
+            "x": 1223,
+            "y": 8,
+            "w": 362,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.42679558011049723,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "escalas-airPunch-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 393,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.6844783715012722,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "escalas-airPunch",
+          "frame": {
+            "x": 417,
+            "y": 8,
+            "w": 388,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5631443298969072,
+            "y": 0.9923857868020305
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1648,
+        "h": 831
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-backdash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 390,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5153846153846153,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "escalas-backdash-1",
+          "frame": {
+            "x": 498,
+            "y": 445,
+            "w": 378,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5873015873015873,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "escalas-backdash-2",
+          "frame": {
+            "x": 812,
+            "y": 8,
+            "w": 360,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.37222222222222223,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "escalas-backdash-3",
+          "frame": {
+            "x": 414,
+            "y": 8,
+            "w": 382,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5667539267015707,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "escalas-backdash-4",
+          "frame": {
+            "x": 8,
+            "y": 445,
+            "w": 474,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 474,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 474,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.37341772151898733,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "escalas-backdash-5",
+          "frame": {
+            "x": 892,
+            "y": 445,
+            "w": 390,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.6012820512820513,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "escalas-backdash-6",
+          "frame": {
+            "x": 1298,
+            "y": 445,
+            "w": 342,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.6242690058479532,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "escalas-backdash-7",
+          "frame": {
+            "x": 1188,
+            "y": 8,
+            "w": 376,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5226063829787234,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "escalas-backdash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 390,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5153846153846153,
+            "y": 0.9928741092636579
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2046,
+        "h": 846
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-special-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 376,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5305851063829787,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "escalas-special-1",
+          "frame": {
+            "x": 865,
+            "y": 443,
+            "w": 408,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 408,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 408,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.4840686274509804,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "escalas-special-2",
+          "frame": {
+            "x": 478,
+            "y": 443,
+            "w": 371,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.5161725067385444,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "escalas-special-3",
+          "frame": {
+            "x": 8,
+            "y": 443,
+            "w": 454,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 454,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 454,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.4900881057268722,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "escalas-special-4",
+          "frame": {
+            "x": 400,
+            "y": 8,
+            "w": 423,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 423,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 423,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5070921985815603,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "escalas-special-5",
+          "frame": {
+            "x": 839,
+            "y": 8,
+            "w": 395,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5417721518987342,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "escalas-special-6",
+          "frame": {
+            "x": 1250,
+            "y": 8,
+            "w": 380,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5460526315789473,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "escalas-special-7",
+          "frame": {
+            "x": 1646,
+            "y": 8,
+            "w": 392,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5446428571428571,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "escalas-special",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 376,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5305851063829787,
+            "y": 0.9928400954653938
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1875,
+        "h": 871
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-block-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 378,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5515873015873016,
+            "y": 0.9932279909706546
+          }
+        },
+        {
+          "filename": "escalas-block-1",
+          "frame": {
+            "x": 402,
+            "y": 8,
+            "w": 374,
+            "h": 440
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 440
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 440
+          },
+          "pivot": {
+            "x": 0.5414438502673797,
+            "y": 0.9931818181818182
+          }
+        },
+        {
+          "filename": "escalas-block-2",
+          "frame": {
+            "x": 792,
+            "y": 8,
+            "w": 345,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5550724637681159,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "escalas-block-3",
+          "frame": {
+            "x": 813,
+            "y": 467,
+            "w": 365,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.5342465753424658,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "escalas-block-4",
+          "frame": {
+            "x": 422,
+            "y": 467,
+            "w": 375,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5786666666666667,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "escalas-block-5",
+          "frame": {
+            "x": 8,
+            "y": 467,
+            "w": 398,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 398,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 398,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5175879396984925,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "escalas-block-6",
+          "frame": {
+            "x": 1516,
+            "y": 8,
+            "w": 351,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5398860398860399,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "escalas-block-7",
+          "frame": {
+            "x": 1153,
+            "y": 8,
+            "w": 347,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5389048991354467,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "escalas-block",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 378,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5515873015873016,
+            "y": 0.9932279909706546
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1891,
+        "h": 770
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-crouch-0",
+          "frame": {
+            "x": 758,
+            "y": 8,
+            "w": 362,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5124309392265194,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "escalas-crouch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 357,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.5126050420168067,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "escalas-crouch-2",
+          "frame": {
+            "x": 384,
+            "y": 404,
+            "w": 360,
+            "h": 354
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 354
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 354
+          },
+          "pivot": {
+            "x": 0.5111111111111111,
+            "y": 0.9915254237288136
+          }
+        },
+        {
+          "filename": "escalas-crouch-3",
+          "frame": {
+            "x": 1136,
+            "y": 8,
+            "w": 368,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5163043478260869,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "escalas-crouch-4",
+          "frame": {
+            "x": 8,
+            "y": 404,
+            "w": 360,
+            "h": 358
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 358
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 358
+          },
+          "pivot": {
+            "x": 0.5097222222222222,
+            "y": 0.9916201117318436
+          }
+        },
+        {
+          "filename": "escalas-crouch-5",
+          "frame": {
+            "x": 1520,
+            "y": 8,
+            "w": 363,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5151515151515151,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "escalas-crouch-6",
+          "frame": {
+            "x": 760,
+            "y": 404,
+            "w": 348,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.514367816091954,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "escalas-crouch-7",
+          "frame": {
+            "x": 381,
+            "y": 8,
+            "w": 361,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5124653739612188,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "escalas-crouch",
+          "frame": {
+            "x": 758,
+            "y": 8,
+            "w": 362,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5124309392265194,
+            "y": 0.9918256130790191
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1980,
+        "h": 736
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-crouchBlock-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 387,
+            "h": 363
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 363
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 363
+          },
+          "pivot": {
+            "x": 0.5051679586563308,
+            "y": 0.9917355371900827
+          }
+        },
+        {
+          "filename": "escalas-crouchBlock-1",
+          "frame": {
+            "x": 411,
+            "y": 8,
+            "w": 370,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.5337837837837838,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "escalas-crouchBlock-2",
+          "frame": {
+            "x": 797,
+            "y": 8,
+            "w": 380,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5171052631578947,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "escalas-crouchBlock-3",
+          "frame": {
+            "x": 877,
+            "y": 387,
+            "w": 344,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.5305232558139535,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "escalas-crouchBlock-4",
+          "frame": {
+            "x": 1193,
+            "y": 8,
+            "w": 375,
+            "h": 349
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 349
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 349
+          },
+          "pivot": {
+            "x": 0.5066666666666667,
+            "y": 0.9914040114613181
+          }
+        },
+        {
+          "filename": "escalas-crouchBlock-5",
+          "frame": {
+            "x": 8,
+            "y": 387,
+            "w": 399,
+            "h": 341
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 341
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 341
+          },
+          "pivot": {
+            "x": 0.5300751879699248,
+            "y": 0.9912023460410557
+          }
+        },
+        {
+          "filename": "escalas-crouchBlock-6",
+          "frame": {
+            "x": 423,
+            "y": 387,
+            "w": 438,
+            "h": 335
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 438,
+            "h": 335
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 438,
+            "h": 335
+          },
+          "pivot": {
+            "x": 0.5342465753424658,
+            "y": 0.991044776119403
+          }
+        },
+        {
+          "filename": "escalas-crouchBlock-7",
+          "frame": {
+            "x": 1584,
+            "y": 8,
+            "w": 388,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.49871134020618557,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "escalas-crouchBlock",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 387,
+            "h": 363
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 363
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 363
+          },
+          "pivot": {
+            "x": 0.5051679586563308,
+            "y": 0.9917355371900827
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2041,
+        "h": 739
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-crouchHurt-0",
+          "frame": {
+            "x": 399,
+            "y": 8,
+            "w": 367,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "escalas-crouchHurt-1",
+          "frame": {
+            "x": 782,
+            "y": 8,
+            "w": 395,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.49873417721518987,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "escalas-crouchHurt-2",
+          "frame": {
+            "x": 1601,
+            "y": 8,
+            "w": 432,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 432,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 432,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.5023148148148148,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "escalas-crouchHurt-3",
+          "frame": {
+            "x": 397,
+            "y": 381,
+            "w": 390,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.4987179487179487,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "escalas-crouchHurt-4",
+          "frame": {
+            "x": 803,
+            "y": 381,
+            "w": 405,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.5049382716049383,
+            "y": 0.9911504424778761
+          }
+        },
+        {
+          "filename": "escalas-crouchHurt-5",
+          "frame": {
+            "x": 8,
+            "y": 381,
+            "w": 373,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.5040214477211796,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "escalas-crouchHurt-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 375,
+            "h": 357
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 357
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 357
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915966386554622
+          }
+        },
+        {
+          "filename": "escalas-crouchHurt-7",
+          "frame": {
+            "x": 1193,
+            "y": 8,
+            "w": 392,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "escalas-crouchHurt",
+          "frame": {
+            "x": 399,
+            "y": 8,
+            "w": 367,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915730337078652
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1950,
+        "h": 723
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-crouchPunch-0",
+          "frame": {
+            "x": 8,
+            "y": 373,
+            "w": 347,
+            "h": 342
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 342
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 342
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9912280701754386
+          }
+        },
+        {
+          "filename": "escalas-crouchPunch-1",
+          "frame": {
+            "x": 1171,
+            "y": 8,
+            "w": 386,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "escalas-crouchPunch-2",
+          "frame": {
+            "x": 371,
+            "y": 373,
+            "w": 442,
+            "h": 342
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 442,
+            "h": 342
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 442,
+            "h": 342
+          },
+          "pivot": {
+            "x": 0.39819004524886875,
+            "y": 0.9912280701754386
+          }
+        },
+        {
+          "filename": "escalas-crouchPunch-3",
+          "frame": {
+            "x": 829,
+            "y": 373,
+            "w": 430,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.41627906976744183,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "escalas-crouchPunch-4",
+          "frame": {
+            "x": 393,
+            "y": 8,
+            "w": 369,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "escalas-crouchPunch-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 369,
+            "h": 349
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 349
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 349
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914040114613181
+          }
+        },
+        {
+          "filename": "escalas-crouchPunch-6",
+          "frame": {
+            "x": 778,
+            "y": 8,
+            "w": 377,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "escalas-crouchPunch-7",
+          "frame": {
+            "x": 1573,
+            "y": 8,
+            "w": 369,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "escalas-crouchPunch",
+          "frame": {
+            "x": 8,
+            "y": 373,
+            "w": 347,
+            "h": 342
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 342
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 342
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9912280701754386
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1952,
+        "h": 750
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-dash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 361,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.538781163434903,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "escalas-dash-1",
+          "frame": {
+            "x": 1582,
+            "y": 8,
+            "w": 362,
+            "h": 332
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 332
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 332
+          },
+          "pivot": {
+            "x": 0.45027624309392267,
+            "y": 0.9909638554216867
+          }
+        },
+        {
+          "filename": "escalas-dash-2",
+          "frame": {
+            "x": 8,
+            "y": 417,
+            "w": 406,
+            "h": 325
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 406,
+            "h": 325
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 406,
+            "h": 325
+          },
+          "pivot": {
+            "x": 0.2869458128078818,
+            "y": 0.9907692307692307
+          }
+        },
+        {
+          "filename": "escalas-dash-3",
+          "frame": {
+            "x": 778,
+            "y": 417,
+            "w": 436,
+            "h": 307
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 436,
+            "h": 307
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 436,
+            "h": 307
+          },
+          "pivot": {
+            "x": 0.13188073394495411,
+            "y": 0.990228013029316
+          }
+        },
+        {
+          "filename": "escalas-dash-4",
+          "frame": {
+            "x": 1117,
+            "y": 8,
+            "w": 449,
+            "h": 336
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 449,
+            "h": 336
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 449,
+            "h": 336
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9910714285714286
+          }
+        },
+        {
+          "filename": "escalas-dash-5",
+          "frame": {
+            "x": 430,
+            "y": 417,
+            "w": 332,
+            "h": 317
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 317
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 317
+          },
+          "pivot": {
+            "x": 0.39156626506024095,
+            "y": 0.9905362776025236
+          }
+        },
+        {
+          "filename": "escalas-dash-6",
+          "frame": {
+            "x": 752,
+            "y": 8,
+            "w": 349,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "escalas-dash-7",
+          "frame": {
+            "x": 385,
+            "y": 8,
+            "w": 351,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5284900284900285,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "escalas-dash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 361,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.538781163434903,
+            "y": 0.9923664122137404
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1913,
+        "h": 699
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 304,
+            "h": 440
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 440
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 440
+          },
+          "pivot": {
+            "x": 0.5427631578947368,
+            "y": 0.9931818181818182
+          }
+        },
+        {
+          "filename": "escalas-ko-1",
+          "frame": {
+            "x": 328,
+            "y": 8,
+            "w": 312,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 312,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.4983974358974359,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "escalas-ko-2",
+          "frame": {
+            "x": 656,
+            "y": 8,
+            "w": 390,
+            "h": 295
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 295
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 295
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9898305084745763
+          }
+        },
+        {
+          "filename": "escalas-ko-3",
+          "frame": {
+            "x": 1500,
+            "y": 8,
+            "w": 405,
+            "h": 267
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 267
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 267
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9887640449438202
+          }
+        },
+        {
+          "filename": "escalas-ko-4",
+          "frame": {
+            "x": 1062,
+            "y": 8,
+            "w": 422,
+            "h": 270
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 422,
+            "h": 270
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 270
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9888888888888889
+          }
+        },
+        {
+          "filename": "escalas-ko-5",
+          "frame": {
+            "x": 8,
+            "y": 464,
+            "w": 423,
+            "h": 227
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 423,
+            "h": 227
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 423,
+            "h": 227
+          },
+          "pivot": {
+            "x": 0.49763593380614657,
+            "y": 0.986784140969163
+          }
+        },
+        {
+          "filename": "escalas-ko-6",
+          "frame": {
+            "x": 447,
+            "y": 464,
+            "w": 433,
+            "h": 159
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 433,
+            "h": 159
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 433,
+            "h": 159
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9811320754716981
+          }
+        },
+        {
+          "filename": "escalas-ko-7",
+          "frame": {
+            "x": 896,
+            "y": 464,
+            "w": 437,
+            "h": 144
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 437,
+            "h": 144
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 437,
+            "h": 144
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9791666666666666
+          }
+        },
+        {
+          "filename": "escalas-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 304,
+            "h": 440
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 440
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 440
+          },
+          "pivot": {
+            "x": 0.5427631578947368,
+            "y": 0.9931818181818182
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1784,
+        "h": 372
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-down-0",
+          "frame": {
+            "x": 1347,
+            "y": 8,
+            "w": 429,
+            "h": 169
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 429,
+            "h": 169
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 429,
+            "h": 169
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9822485207100592
+          }
+        },
+        {
+          "filename": "escalas-down-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 428,
+            "h": 172
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 172
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 172
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9825581395348837
+          }
+        },
+        {
+          "filename": "escalas-down-2",
+          "frame": {
+            "x": 453,
+            "y": 196,
+            "w": 425,
+            "h": 167
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 425,
+            "h": 167
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 425,
+            "h": 167
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9820359281437125
+          }
+        },
+        {
+          "filename": "escalas-down-3",
+          "frame": {
+            "x": 894,
+            "y": 196,
+            "w": 417,
+            "h": 166
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 417,
+            "h": 166
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 417,
+            "h": 166
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9819277108433735
+          }
+        },
+        {
+          "filename": "escalas-down-4",
+          "frame": {
+            "x": 8,
+            "y": 196,
+            "w": 429,
+            "h": 168
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 429,
+            "h": 168
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 429,
+            "h": 168
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9821428571428571
+          }
+        },
+        {
+          "filename": "escalas-down-5",
+          "frame": {
+            "x": 452,
+            "y": 8,
+            "w": 428,
+            "h": 171
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 171
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 171
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9824561403508771
+          }
+        },
+        {
+          "filename": "escalas-down-6",
+          "frame": {
+            "x": 896,
+            "y": 8,
+            "w": 435,
+            "h": 170
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 170
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 170
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9823529411764705
+          }
+        },
+        {
+          "filename": "escalas-down-7",
+          "frame": {
+            "x": 1327,
+            "y": 196,
+            "w": 418,
+            "h": 164
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 418,
+            "h": 164
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 418,
+            "h": 164
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9817073170731707
+          }
+        },
+        {
+          "filename": "escalas-down",
+          "frame": {
+            "x": 1347,
+            "y": 8,
+            "w": 429,
+            "h": 169
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 429,
+            "h": 169
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 429,
+            "h": 169
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9822485207100592
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1633,
+        "h": 832
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-fall-0",
+          "frame": {
+            "x": 1217,
+            "y": 439,
+            "w": 365,
+            "h": 332
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 332
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 332
+          },
+          "pivot": {
+            "x": 0.40684931506849314,
+            "y": 0.9909638554216867
+          }
+        },
+        {
+          "filename": "escalas-fall-1",
+          "frame": {
+            "x": 855,
+            "y": 439,
+            "w": 346,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5708092485549133,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "escalas-fall-2",
+          "frame": {
+            "x": 8,
+            "y": 439,
+            "w": 409,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.6503667481662592,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "escalas-fall-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 394,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.6243654822335025,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "escalas-fall-4",
+          "frame": {
+            "x": 433,
+            "y": 439,
+            "w": 406,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 406,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 406,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.6416256157635468,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "escalas-fall-5",
+          "frame": {
+            "x": 1236,
+            "y": 8,
+            "w": 389,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.6105398457583547,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "escalas-fall-6",
+          "frame": {
+            "x": 824,
+            "y": 8,
+            "w": 396,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5795454545454546,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "escalas-fall-7",
+          "frame": {
+            "x": 418,
+            "y": 8,
+            "w": 390,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5794871794871795,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "escalas-fall",
+          "frame": {
+            "x": 1217,
+            "y": 439,
+            "w": 365,
+            "h": 332
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 332
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 332
+          },
+          "pivot": {
+            "x": 0.40684931506849314,
+            "y": 0.9909638554216867
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1859,
+        "h": 722
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-getup-0",
+          "frame": {
+            "x": 818,
+            "y": 441,
+            "w": 423,
+            "h": 179
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 423,
+            "h": 179
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 423,
+            "h": 179
+          },
+          "pivot": {
+            "x": 0.4988179669030733,
+            "y": 0.9832402234636871
+          }
+        },
+        {
+          "filename": "escalas-getup-1",
+          "frame": {
+            "x": 397,
+            "y": 441,
+            "w": 405,
+            "h": 216
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 216
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 216
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9861111111111112
+          }
+        },
+        {
+          "filename": "escalas-getup-2",
+          "frame": {
+            "x": 8,
+            "y": 441,
+            "w": 373,
+            "h": 273
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 273
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 273
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.989010989010989
+          }
+        },
+        {
+          "filename": "escalas-getup-3",
+          "frame": {
+            "x": 1098,
+            "y": 8,
+            "w": 354,
+            "h": 354
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 354
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 354
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915254237288136
+          }
+        },
+        {
+          "filename": "escalas-getup-4",
+          "frame": {
+            "x": 1468,
+            "y": 8,
+            "w": 383,
+            "h": 323
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 383,
+            "h": 323
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 383,
+            "h": 323
+          },
+          "pivot": {
+            "x": 0.5326370757180157,
+            "y": 0.9907120743034056
+          }
+        },
+        {
+          "filename": "escalas-getup-5",
+          "frame": {
+            "x": 745,
+            "y": 8,
+            "w": 337,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.5519287833827893,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "escalas-getup-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 342,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5233918128654971,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "escalas-getup-7",
+          "frame": {
+            "x": 366,
+            "y": 8,
+            "w": 363,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5385674931129476,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "escalas-getup",
+          "frame": {
+            "x": 818,
+            "y": 441,
+            "w": 423,
+            "h": 179
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 423,
+            "h": 179
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 423,
+            "h": 179
+          },
+          "pivot": {
+            "x": 0.4988179669030733,
+            "y": 0.9832402234636871
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1669,
+        "h": 856
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-hurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 375,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5213333333333333,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "escalas-hurt-1",
+          "frame": {
+            "x": 399,
+            "y": 8,
+            "w": 391,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5370843989769821,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "escalas-hurt-2",
+          "frame": {
+            "x": 1241,
+            "y": 8,
+            "w": 420,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.544047619047619,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "escalas-hurt-3",
+          "frame": {
+            "x": 806,
+            "y": 8,
+            "w": 419,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 419,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 419,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5429594272076372,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "escalas-hurt-4",
+          "frame": {
+            "x": 409,
+            "y": 445,
+            "w": 382,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5615183246073299,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "escalas-hurt-5",
+          "frame": {
+            "x": 8,
+            "y": 445,
+            "w": 385,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5532467532467532,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "escalas-hurt-6",
+          "frame": {
+            "x": 807,
+            "y": 445,
+            "w": 386,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5479274611398963,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "escalas-hurt-7",
+          "frame": {
+            "x": 1209,
+            "y": 445,
+            "w": 380,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5421052631578948,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "escalas-hurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 375,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5213333333333333,
+            "y": 0.9928741092636579
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1639,
+        "h": 860
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-idle-0",
+          "frame": {
+            "x": 1240,
+            "y": 8,
+            "w": 391,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5217391304347826,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "escalas-idle-1",
+          "frame": {
+            "x": 420,
+            "y": 8,
+            "w": 393,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5254452926208651,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "escalas-idle-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 396,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5277777777777778,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "escalas-idle-3",
+          "frame": {
+            "x": 829,
+            "y": 8,
+            "w": 395,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5240506329113924,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "escalas-idle-4",
+          "frame": {
+            "x": 1240,
+            "y": 450,
+            "w": 391,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.520460358056266,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "escalas-idle-5",
+          "frame": {
+            "x": 8,
+            "y": 450,
+            "w": 397,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5289672544080605,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "escalas-idle-6",
+          "frame": {
+            "x": 831,
+            "y": 450,
+            "w": 393,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5241730279898219,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "escalas-idle-7",
+          "frame": {
+            "x": 421,
+            "y": 450,
+            "w": 394,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5241116751269036,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "escalas-idle",
+          "frame": {
+            "x": 1240,
+            "y": 8,
+            "w": 391,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5217391304347826,
+            "y": 0.9927360774818402
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1860,
+        "h": 862
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-intro-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 286,
+            "h": 463
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 463
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 463
+          },
+          "pivot": {
+            "x": 0.5699300699300699,
+            "y": 0.9935205183585313
+          }
+        },
+        {
+          "filename": "escalas-intro-1",
+          "frame": {
+            "x": 310,
+            "y": 8,
+            "w": 316,
+            "h": 463
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 463
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 463
+          },
+          "pivot": {
+            "x": 0.5585443037974683,
+            "y": 0.9935205183585313
+          }
+        },
+        {
+          "filename": "escalas-intro-2",
+          "frame": {
+            "x": 642,
+            "y": 8,
+            "w": 420,
+            "h": 458
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 458
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 458
+          },
+          "pivot": {
+            "x": 0.45714285714285713,
+            "y": 0.9934497816593887
+          }
+        },
+        {
+          "filename": "escalas-intro-3",
+          "frame": {
+            "x": 1078,
+            "y": 8,
+            "w": 387,
+            "h": 450
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 450
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 450
+          },
+          "pivot": {
+            "x": 0.4974160206718346,
+            "y": 0.9933333333333333
+          }
+        },
+        {
+          "filename": "escalas-intro-4",
+          "frame": {
+            "x": 1481,
+            "y": 8,
+            "w": 371,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.48517520215633425,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "escalas-intro-5",
+          "frame": {
+            "x": 408,
+            "y": 487,
+            "w": 370,
+            "h": 358
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 358
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 358
+          },
+          "pivot": {
+            "x": 0.504054054054054,
+            "y": 0.9916201117318436
+          }
+        },
+        {
+          "filename": "escalas-intro-6",
+          "frame": {
+            "x": 8,
+            "y": 487,
+            "w": 384,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5208333333333334,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "escalas-intro-7",
+          "frame": {
+            "x": 794,
+            "y": 487,
+            "w": 389,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.5038560411311054,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "escalas-intro",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 286,
+            "h": 463
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 463
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 463
+          },
+          "pivot": {
+            "x": 0.5699300699300699,
+            "y": 0.9935205183585313
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1801,
+        "h": 859
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-jump-0",
+          "frame": {
+            "x": 364,
+            "y": 8,
+            "w": 346,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "escalas-jump-1",
+          "frame": {
+            "x": 379,
+            "y": 500,
+            "w": 310,
+            "h": 336
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 336
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 336
+          },
+          "pivot": {
+            "x": 0.5241935483870968,
+            "y": 0.9910714285714286
+          }
+        },
+        {
+          "filename": "escalas-jump-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 340,
+            "h": 476
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 476
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 476
+          },
+          "pivot": {
+            "x": 0.33676470588235297,
+            "y": 0.9936974789915967
+          }
+        },
+        {
+          "filename": "escalas-jump-3",
+          "frame": {
+            "x": 1430,
+            "y": 8,
+            "w": 363,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.640495867768595,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "escalas-jump-4",
+          "frame": {
+            "x": 705,
+            "y": 500,
+            "w": 309,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.5080906148867314,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "escalas-jump-5",
+          "frame": {
+            "x": 726,
+            "y": 8,
+            "w": 332,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5572289156626506,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "escalas-jump-6",
+          "frame": {
+            "x": 8,
+            "y": 500,
+            "w": 355,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5704225352112676,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "escalas-jump-7",
+          "frame": {
+            "x": 1074,
+            "y": 8,
+            "w": 340,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5044117647058823,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "escalas-jump",
+          "frame": {
+            "x": 364,
+            "y": 8,
+            "w": 346,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2004,
+        "h": 848
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-kick-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 350,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5571428571428572,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "escalas-kick-1",
+          "frame": {
+            "x": 374,
+            "y": 8,
+            "w": 295,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.535593220338983,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "escalas-kick-2",
+          "frame": {
+            "x": 685,
+            "y": 8,
+            "w": 440,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 440,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 440,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5170454545454546,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "escalas-kick-3",
+          "frame": {
+            "x": 1510,
+            "y": 8,
+            "w": 486,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 486,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 486,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.31790123456790126,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "escalas-kick-4",
+          "frame": {
+            "x": 8,
+            "y": 441,
+            "w": 311,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.6318327974276527,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "escalas-kick-5",
+          "frame": {
+            "x": 335,
+            "y": 441,
+            "w": 332,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5858433734939759,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "escalas-kick-6",
+          "frame": {
+            "x": 683,
+            "y": 441,
+            "w": 325,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.6492307692307693,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "escalas-kick-7",
+          "frame": {
+            "x": 1141,
+            "y": 8,
+            "w": 353,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5538243626062322,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "escalas-kick",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 350,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5571428571428572,
+            "y": 0.9928057553956835
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1797,
+        "h": 723
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-knockdown-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 386,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5375647668393783,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "escalas-knockdown-1",
+          "frame": {
+            "x": 860,
+            "y": 8,
+            "w": 394,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.5774111675126904,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "escalas-knockdown-2",
+          "frame": {
+            "x": 410,
+            "y": 8,
+            "w": 434,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 434,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 434,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5299539170506913,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "escalas-knockdown-3",
+          "frame": {
+            "x": 1270,
+            "y": 8,
+            "w": 468,
+            "h": 337
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 468,
+            "h": 337
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 468,
+            "h": 337
+          },
+          "pivot": {
+            "x": 0.5555555555555556,
+            "y": 0.9910979228486647
+          }
+        },
+        {
+          "filename": "escalas-knockdown-4",
+          "frame": {
+            "x": 8,
+            "y": 432,
+            "w": 444,
+            "h": 283
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 444,
+            "h": 283
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 444,
+            "h": 283
+          },
+          "pivot": {
+            "x": 0.46734234234234234,
+            "y": 0.9893992932862191
+          }
+        },
+        {
+          "filename": "escalas-knockdown-5",
+          "frame": {
+            "x": 468,
+            "y": 432,
+            "w": 462,
+            "h": 197
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 462,
+            "h": 197
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 462,
+            "h": 197
+          },
+          "pivot": {
+            "x": 0.4989177489177489,
+            "y": 0.9847715736040609
+          }
+        },
+        {
+          "filename": "escalas-knockdown-6",
+          "frame": {
+            "x": 946,
+            "y": 432,
+            "w": 379,
+            "h": 168
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 168
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 168
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9821428571428571
+          }
+        },
+        {
+          "filename": "escalas-knockdown-7",
+          "frame": {
+            "x": 1341,
+            "y": 432,
+            "w": 448,
+            "h": 150
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 448,
+            "h": 150
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 448,
+            "h": 150
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.98
+          }
+        },
+        {
+          "filename": "escalas-knockdown",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 386,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5375647668393783,
+            "y": 0.9926470588235294
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1675,
+        "h": 851
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-punch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 372,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5295698924731183,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "escalas-punch-1",
+          "frame": {
+            "x": 396,
+            "y": 8,
+            "w": 381,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.536745406824147,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "escalas-punch-2",
+          "frame": {
+            "x": 1243,
+            "y": 8,
+            "w": 424,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 424,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 424,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.4540094339622642,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "escalas-punch-3",
+          "frame": {
+            "x": 793,
+            "y": 8,
+            "w": 434,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 434,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 434,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5103686635944701,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "escalas-punch-4",
+          "frame": {
+            "x": 1190,
+            "y": 443,
+            "w": 377,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5782493368700266,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "escalas-punch-5",
+          "frame": {
+            "x": 8,
+            "y": 443,
+            "w": 376,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5518617021276596,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "escalas-punch-6",
+          "frame": {
+            "x": 400,
+            "y": 443,
+            "w": 373,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5482573726541555,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "escalas-punch-7",
+          "frame": {
+            "x": 789,
+            "y": 443,
+            "w": 385,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5506493506493506,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "escalas-punch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 372,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5295698924731183,
+            "y": 0.9928400954653938
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1854,
+        "h": 720
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-super-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 359,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5069637883008357,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "escalas-super-1",
+          "frame": {
+            "x": 768,
+            "y": 8,
+            "w": 343,
+            "h": 336
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 336
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 336
+          },
+          "pivot": {
+            "x": 0.5306122448979592,
+            "y": 0.9910714285714286
+          }
+        },
+        {
+          "filename": "escalas-super-2",
+          "frame": {
+            "x": 379,
+            "y": 389,
+            "w": 352,
+            "h": 320
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 320
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 320
+          },
+          "pivot": {
+            "x": 0.5397727272727273,
+            "y": 0.990625
+          }
+        },
+        {
+          "filename": "escalas-super-3",
+          "frame": {
+            "x": 1487,
+            "y": 8,
+            "w": 359,
+            "h": 326
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 326
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 326
+          },
+          "pivot": {
+            "x": 0.5292479108635098,
+            "y": 0.99079754601227
+          }
+        },
+        {
+          "filename": "escalas-super-4",
+          "frame": {
+            "x": 747,
+            "y": 389,
+            "w": 357,
+            "h": 315
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 315
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 315
+          },
+          "pivot": {
+            "x": 0.5182072829131653,
+            "y": 0.9904761904761905
+          }
+        },
+        {
+          "filename": "escalas-super-5",
+          "frame": {
+            "x": 1127,
+            "y": 8,
+            "w": 344,
+            "h": 332
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 332
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 332
+          },
+          "pivot": {
+            "x": 0.5159883720930233,
+            "y": 0.9909638554216867
+          }
+        },
+        {
+          "filename": "escalas-super-6",
+          "frame": {
+            "x": 383,
+            "y": 8,
+            "w": 369,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5420054200542005,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "escalas-super-7",
+          "frame": {
+            "x": 8,
+            "y": 389,
+            "w": 355,
+            "h": 323
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 323
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 323
+          },
+          "pivot": {
+            "x": 0.5338028169014084,
+            "y": 0.9907120743034056
+          }
+        },
+        {
+          "filename": "escalas-super",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 359,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5069637883008357,
+            "y": 0.9917808219178083
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1898,
+        "h": 691
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-sweep-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 379,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5197889182058048,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "escalas-sweep-1",
+          "frame": {
+            "x": 403,
+            "y": 8,
+            "w": 369,
+            "h": 331
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 331
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 331
+          },
+          "pivot": {
+            "x": 0.45934959349593496,
+            "y": 0.9909365558912386
+          }
+        },
+        {
+          "filename": "escalas-sweep-2",
+          "frame": {
+            "x": 1512,
+            "y": 8,
+            "w": 378,
+            "h": 270
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 270
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 270
+          },
+          "pivot": {
+            "x": 0.5026455026455027,
+            "y": 0.9888888888888889
+          }
+        },
+        {
+          "filename": "escalas-sweep-3",
+          "frame": {
+            "x": 926,
+            "y": 420,
+            "w": 497,
+            "h": 254
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 497,
+            "h": 254
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 497,
+            "h": 254
+          },
+          "pivot": {
+            "x": 0.28269617706237427,
+            "y": 0.9881889763779528
+          }
+        },
+        {
+          "filename": "escalas-sweep-4",
+          "frame": {
+            "x": 375,
+            "y": 420,
+            "w": 535,
+            "h": 257
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 535,
+            "h": 257
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 535,
+            "h": 257
+          },
+          "pivot": {
+            "x": 0.28130841121495326,
+            "y": 0.9883268482490273
+          }
+        },
+        {
+          "filename": "escalas-sweep-5",
+          "frame": {
+            "x": 8,
+            "y": 420,
+            "w": 351,
+            "h": 263
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 263
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 263
+          },
+          "pivot": {
+            "x": 0.4301994301994302,
+            "y": 0.9885931558935361
+          }
+        },
+        {
+          "filename": "escalas-sweep-6",
+          "frame": {
+            "x": 788,
+            "y": 8,
+            "w": 365,
+            "h": 301
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 301
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 301
+          },
+          "pivot": {
+            "x": 0.5287671232876713,
+            "y": 0.9900332225913622
+          }
+        },
+        {
+          "filename": "escalas-sweep-7",
+          "frame": {
+            "x": 1169,
+            "y": 8,
+            "w": 327,
+            "h": 292
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 292
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 292
+          },
+          "pivot": {
+            "x": 0.4709480122324159,
+            "y": 0.9897260273972602
+          }
+        },
+        {
+          "filename": "escalas-sweep",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 379,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5197889182058048,
+            "y": 0.9924242424242424
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1769,
+        "h": 845
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-uppercut-0",
+          "frame": {
+            "x": 678,
+            "y": 8,
+            "w": 346,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.5043352601156069,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "escalas-uppercut-1",
+          "frame": {
+            "x": 681,
+            "y": 490,
+            "w": 326,
+            "h": 296
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 296
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 296
+          },
+          "pivot": {
+            "x": 0.5444785276073619,
+            "y": 0.9898648648648649
+          }
+        },
+        {
+          "filename": "escalas-uppercut-2",
+          "frame": {
+            "x": 1040,
+            "y": 8,
+            "w": 370,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.527027027027027,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "escalas-uppercut-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 296,
+            "h": 466
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 466
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 466
+          },
+          "pivot": {
+            "x": 0.48986486486486486,
+            "y": 0.9935622317596566
+          }
+        },
+        {
+          "filename": "escalas-uppercut-4",
+          "frame": {
+            "x": 320,
+            "y": 8,
+            "w": 342,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5219298245614035,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "escalas-uppercut-5",
+          "frame": {
+            "x": 1426,
+            "y": 8,
+            "w": 335,
+            "h": 347
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 347
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 347
+          },
+          "pivot": {
+            "x": 0.5253731343283582,
+            "y": 0.9913544668587896
+          }
+        },
+        {
+          "filename": "escalas-uppercut-6",
+          "frame": {
+            "x": 362,
+            "y": 490,
+            "w": 303,
+            "h": 335
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 335
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 335
+          },
+          "pivot": {
+            "x": 0.5132013201320133,
+            "y": 0.991044776119403
+          }
+        },
+        {
+          "filename": "escalas-uppercut-7",
+          "frame": {
+            "x": 8,
+            "y": 490,
+            "w": 338,
+            "h": 347
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 347
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 347
+          },
+          "pivot": {
+            "x": 0.5103550295857988,
+            "y": 0.9913544668587896
+          }
+        },
+        {
+          "filename": "escalas-uppercut",
+          "frame": {
+            "x": 678,
+            "y": 8,
+            "w": 346,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.5043352601156069,
+            "y": 0.9921259842519685
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1917,
+        "h": 875
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-win-0",
+          "frame": {
+            "x": 1169,
+            "y": 8,
+            "w": 366,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5341530054644809,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "escalas-win-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 349,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5501432664756447,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "escalas-win-2",
+          "frame": {
+            "x": 373,
+            "y": 8,
+            "w": 395,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.4835443037974684,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "escalas-win-3",
+          "frame": {
+            "x": 784,
+            "y": 8,
+            "w": 369,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.537940379403794,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "escalas-win-4",
+          "frame": {
+            "x": 378,
+            "y": 454,
+            "w": 374,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5187165775401069,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "escalas-win-5",
+          "frame": {
+            "x": 1551,
+            "y": 8,
+            "w": 358,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5502793296089385,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "escalas-win-6",
+          "frame": {
+            "x": 768,
+            "y": 454,
+            "w": 361,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5498614958448753,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "escalas-win-7",
+          "frame": {
+            "x": 8,
+            "y": 454,
+            "w": 354,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5494350282485876,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "escalas-win",
+          "frame": {
+            "x": 1169,
+            "y": 8,
+            "w": 366,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5341530054644809,
+            "y": 0.9928571428571429
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1902,
+        "h": 880
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-walk-0",
+          "frame": {
+            "x": 395,
+            "y": 8,
+            "w": 378,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.5238095238095238,
+            "y": 0.9931192660550459
+          }
+        },
+        {
+          "filename": "escalas-walk-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 371,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5377358490566038,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "escalas-walk-2",
+          "frame": {
+            "x": 789,
+            "y": 8,
+            "w": 306,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 306,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 306,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.5964052287581699,
+            "y": 0.9931192660550459
+          }
+        },
+        {
+          "filename": "escalas-walk-3",
+          "frame": {
+            "x": 1111,
+            "y": 8,
+            "w": 397,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.5579345088161209,
+            "y": 0.9931192660550459
+          }
+        },
+        {
+          "filename": "escalas-walk-4",
+          "frame": {
+            "x": 1524,
+            "y": 8,
+            "w": 370,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.6135135135135135,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "escalas-walk-5",
+          "frame": {
+            "x": 748,
+            "y": 462,
+            "w": 335,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.6044776119402985,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "escalas-walk-6",
+          "frame": {
+            "x": 8,
+            "y": 462,
+            "w": 328,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5426829268292683,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "escalas-walk-7",
+          "frame": {
+            "x": 352,
+            "y": 462,
+            "w": 380,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5447368421052632,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "escalas-walk",
+          "frame": {
+            "x": 395,
+            "y": 8,
+            "w": 378,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.5238095238095238,
+            "y": 0.9931192660550459
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1782,
+        "h": 887
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "escalas-walkBack-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 366,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "escalas-walkBack-1",
+          "frame": {
+            "x": 804,
+            "y": 8,
+            "w": 364,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5068681318681318,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "escalas-walkBack-2",
+          "frame": {
+            "x": 390,
+            "y": 8,
+            "w": 398,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 398,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 398,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "escalas-walkBack-3",
+          "frame": {
+            "x": 1184,
+            "y": 8,
+            "w": 265,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 265,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 265,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5433962264150943,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "escalas-walkBack-4",
+          "frame": {
+            "x": 333,
+            "y": 461,
+            "w": 254,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 254,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 254,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5413385826771654,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "escalas-walkBack-5",
+          "frame": {
+            "x": 603,
+            "y": 461,
+            "w": 330,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5045454545454545,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "escalas-walkBack-6",
+          "frame": {
+            "x": 8,
+            "y": 461,
+            "w": 309,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5210355987055016,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "escalas-walkBack-7",
+          "frame": {
+            "x": 1465,
+            "y": 8,
+            "w": 309,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "escalas-walkBack",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 366,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

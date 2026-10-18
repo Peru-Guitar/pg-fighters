@@ -37,7 +37,7 @@ const POWER_INFO: Partial<Record<FighterId, string>> = {
   turboshred: 'Tempo imposible: por 3 s caminas y golpeas más rápido, envuelto en viento. No pega por sí solo. La recarga empieza al terminar.',
   toxicity: 'Cruces benditas: tres cruces giran a tu alrededor como escudo unos 2,5 s. No se lanzan: la que toca al rival o a un poder explota y lo aleja. Si te pegan limpio, se rompen. La recarga empieza cuando ya no queda ninguna.',
   rematada: 'Latigazo de cuerda: si pega, jala al rival hasta tenerlo a distancia de golpe.',
-  escalas: 'Onda de silencio: corrige su altura hacia el rival. Si pega, lo silencia 3 s: no puede usar su poder especial ni activar el ultimate. Pega poco.',
+  escalas: 'Onda de silencio: corrige su altura hacia el rival. Si pega, lo silencia 2 s: no puede usar su poder especial ni activar el ultimate. Pega poco.',
   tayloy: 'Tres agujas de jade desde alturas distintas, directo al rival.',
   jesex: 'Moneda rápida: si pega, le roba un poco de vida al rival. Cada moneda sale más rápida que la anterior (+10 % y +25 %), y a la cuarta vuelve a empezar.',
   markus: 'Tornado de arena: avanza recto y, si pega, jala un poco al rival hacia ti. Recarga larga.',

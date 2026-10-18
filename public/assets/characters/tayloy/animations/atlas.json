@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1681,
+        "h": 841
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-airKick-0",
+          "frame": {
+            "x": 1353,
+            "y": 8,
+            "w": 320,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5015625,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "tayloy-airKick-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 319,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.6300940438871473,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "tayloy-airKick-2",
+          "frame": {
+            "x": 8,
+            "y": 450,
+            "w": 480,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 480,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 480,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.32395833333333335,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "tayloy-airKick-3",
+          "frame": {
+            "x": 504,
+            "y": 450,
+            "w": 479,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 479,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 479,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.30167014613778703,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "tayloy-airKick-4",
+          "frame": {
+            "x": 999,
+            "y": 450,
+            "w": 413,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.37772397094430993,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "tayloy-airKick-5",
+          "frame": {
+            "x": 681,
+            "y": 8,
+            "w": 316,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.5427215189873418,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "tayloy-airKick-6",
+          "frame": {
+            "x": 1013,
+            "y": 8,
+            "w": 324,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5154320987654321,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "tayloy-airKick-7",
+          "frame": {
+            "x": 343,
+            "y": 8,
+            "w": 322,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5046583850931677,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "tayloy-airKick",
+          "frame": {
+            "x": 1353,
+            "y": 8,
+            "w": 320,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5015625,
+            "y": 0.9925187032418953
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1715,
+        "h": 865
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-airPunch-0",
+          "frame": {
+            "x": 900,
+            "y": 8,
+            "w": 373,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.3699731903485255,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "tayloy-airPunch-1",
+          "frame": {
+            "x": 490,
+            "y": 8,
+            "w": 394,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.1598984771573604,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "tayloy-airPunch-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 466,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 466,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 466,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.2532188841201717,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tayloy-airPunch-3",
+          "frame": {
+            "x": 1289,
+            "y": 8,
+            "w": 418,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 418,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 418,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.29066985645933013,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "tayloy-airPunch-4",
+          "frame": {
+            "x": 8,
+            "y": 445,
+            "w": 443,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 443,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 443,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.3126410835214447,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "tayloy-airPunch-5",
+          "frame": {
+            "x": 467,
+            "y": 445,
+            "w": 373,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.35254691689008044,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "tayloy-airPunch-6",
+          "frame": {
+            "x": 856,
+            "y": 445,
+            "w": 361,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.33933518005540164,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "tayloy-airPunch-7",
+          "frame": {
+            "x": 1233,
+            "y": 445,
+            "w": 423,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 423,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 423,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5354609929078015,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "tayloy-airPunch",
+          "frame": {
+            "x": 900,
+            "y": 8,
+            "w": 373,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.3699731903485255,
+            "y": 0.992822966507177
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1839,
+        "h": 744
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-backdash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "tayloy-backdash-1",
+          "frame": {
+            "x": 1440,
+            "y": 8,
+            "w": 391,
+            "h": 343
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 343
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 343
+          },
+          "pivot": {
+            "x": 0.5358056265984654,
+            "y": 0.9912536443148688
+          }
+        },
+        {
+          "filename": "tayloy-backdash-2",
+          "frame": {
+            "x": 702,
+            "y": 399,
+            "w": 320,
+            "h": 319
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 319
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 319
+          },
+          "pivot": {
+            "x": 0.415625,
+            "y": 0.9905956112852664
+          }
+        },
+        {
+          "filename": "tayloy-backdash-3",
+          "frame": {
+            "x": 725,
+            "y": 8,
+            "w": 349,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.46418338108882523,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "tayloy-backdash-4",
+          "frame": {
+            "x": 362,
+            "y": 399,
+            "w": 324,
+            "h": 335
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 335
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 335
+          },
+          "pivot": {
+            "x": 0.4984567901234568,
+            "y": 0.991044776119403
+          }
+        },
+        {
+          "filename": "tayloy-backdash-5",
+          "frame": {
+            "x": 8,
+            "y": 399,
+            "w": 338,
+            "h": 337
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 337
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 337
+          },
+          "pivot": {
+            "x": 0.5118343195266272,
+            "y": 0.9910979228486647
+          }
+        },
+        {
+          "filename": "tayloy-backdash-6",
+          "frame": {
+            "x": 1090,
+            "y": 8,
+            "w": 334,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5044910179640718,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "tayloy-backdash-7",
+          "frame": {
+            "x": 376,
+            "y": 8,
+            "w": 333,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.5135135135135135,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "tayloy-backdash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2037,
+        "h": 826
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-special-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 385,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "tayloy-special-1",
+          "frame": {
+            "x": 925,
+            "y": 443,
+            "w": 404,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 404,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 404,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "tayloy-special-2",
+          "frame": {
+            "x": 409,
+            "y": 8,
+            "w": 385,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "tayloy-special-3",
+          "frame": {
+            "x": 1196,
+            "y": 8,
+            "w": 424,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 424,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 424,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.47641509433962265,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "tayloy-special-4",
+          "frame": {
+            "x": 8,
+            "y": 443,
+            "w": 461,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 461,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 461,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.44468546637744033,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "tayloy-special-5",
+          "frame": {
+            "x": 485,
+            "y": 443,
+            "w": 424,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 424,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 424,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.4846698113207547,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "tayloy-special-6",
+          "frame": {
+            "x": 1636,
+            "y": 8,
+            "w": 393,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "tayloy-special-7",
+          "frame": {
+            "x": 810,
+            "y": 8,
+            "w": 370,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "tayloy-special",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 385,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2038,
+        "h": 886
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-block-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 390,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "tayloy-block-1",
+          "frame": {
+            "x": 414,
+            "y": 8,
+            "w": 389,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "tayloy-block-2",
+          "frame": {
+            "x": 1637,
+            "y": 8,
+            "w": 393,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "tayloy-block-3",
+          "frame": {
+            "x": 823,
+            "y": 457,
+            "w": 393,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "tayloy-block-4",
+          "frame": {
+            "x": 415,
+            "y": 457,
+            "w": 392,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "tayloy-block-5",
+          "frame": {
+            "x": 819,
+            "y": 8,
+            "w": 390,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "tayloy-block-6",
+          "frame": {
+            "x": 1225,
+            "y": 8,
+            "w": 396,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "tayloy-block-7",
+          "frame": {
+            "x": 8,
+            "y": 457,
+            "w": 391,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tayloy-block",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 390,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1688,
+        "h": 680
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-crouch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 394,
+            "h": 332
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 332
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 332
+          },
+          "pivot": {
+            "x": 0.5114213197969543,
+            "y": 0.9909638554216867
+          }
+        },
+        {
+          "filename": "tayloy-crouch-1",
+          "frame": {
+            "x": 418,
+            "y": 8,
+            "w": 389,
+            "h": 326
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 326
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 326
+          },
+          "pivot": {
+            "x": 0.5141388174807198,
+            "y": 0.99079754601227
+          }
+        },
+        {
+          "filename": "tayloy-crouch-2",
+          "frame": {
+            "x": 8,
+            "y": 356,
+            "w": 345,
+            "h": 316
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 316
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 316
+          },
+          "pivot": {
+            "x": 0.4753623188405797,
+            "y": 0.990506329113924
+          }
+        },
+        {
+          "filename": "tayloy-crouch-3",
+          "frame": {
+            "x": 1256,
+            "y": 8,
+            "w": 424,
+            "h": 318
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 424,
+            "h": 318
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 424,
+            "h": 318
+          },
+          "pivot": {
+            "x": 0.5058962264150944,
+            "y": 0.9905660377358491
+          }
+        },
+        {
+          "filename": "tayloy-crouch-4",
+          "frame": {
+            "x": 823,
+            "y": 8,
+            "w": 417,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 417,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 417,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.5251798561151079,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "tayloy-crouch-5",
+          "frame": {
+            "x": 1160,
+            "y": 356,
+            "w": 385,
+            "h": 310
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 310
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 310
+          },
+          "pivot": {
+            "x": 0.5038961038961038,
+            "y": 0.9903225806451613
+          }
+        },
+        {
+          "filename": "tayloy-crouch-6",
+          "frame": {
+            "x": 767,
+            "y": 356,
+            "w": 377,
+            "h": 312
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 312
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5185676392572944,
+            "y": 0.9903846153846154
+          }
+        },
+        {
+          "filename": "tayloy-crouch-7",
+          "frame": {
+            "x": 369,
+            "y": 356,
+            "w": 382,
+            "h": 316
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 316
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 316
+          },
+          "pivot": {
+            "x": 0.5170157068062827,
+            "y": 0.990506329113924
+          }
+        },
+        {
+          "filename": "tayloy-crouch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 394,
+            "h": 332
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 332
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 332
+          },
+          "pivot": {
+            "x": 0.5114213197969543,
+            "y": 0.9909638554216867
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1947,
+        "h": 693
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-crouchBlock-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 388,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.520618556701031,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "tayloy-crouchBlock-1",
+          "frame": {
+            "x": 412,
+            "y": 8,
+            "w": 369,
+            "h": 331
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 331
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 331
+          },
+          "pivot": {
+            "x": 0.5365853658536586,
+            "y": 0.9909365558912386
+          }
+        },
+        {
+          "filename": "tayloy-crouchBlock-2",
+          "frame": {
+            "x": 8,
+            "y": 364,
+            "w": 364,
+            "h": 321
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 321
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 321
+          },
+          "pivot": {
+            "x": 0.5370879120879121,
+            "y": 0.9906542056074766
+          }
+        },
+        {
+          "filename": "tayloy-crouchBlock-3",
+          "frame": {
+            "x": 817,
+            "y": 364,
+            "w": 353,
+            "h": 311
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 311
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.5325779036827195,
+            "y": 0.9903536977491961
+          }
+        },
+        {
+          "filename": "tayloy-crouchBlock-4",
+          "frame": {
+            "x": 1169,
+            "y": 8,
+            "w": 358,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.5363128491620112,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "tayloy-crouchBlock-5",
+          "frame": {
+            "x": 388,
+            "y": 364,
+            "w": 413,
+            "h": 319
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 319
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 319
+          },
+          "pivot": {
+            "x": 0.5181598062953995,
+            "y": 0.9905956112852664
+          }
+        },
+        {
+          "filename": "tayloy-crouchBlock-6",
+          "frame": {
+            "x": 1543,
+            "y": 8,
+            "w": 396,
+            "h": 323
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 323
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 323
+          },
+          "pivot": {
+            "x": 0.5012626262626263,
+            "y": 0.9907120743034056
+          }
+        },
+        {
+          "filename": "tayloy-crouchBlock-7",
+          "frame": {
+            "x": 797,
+            "y": 8,
+            "w": 356,
+            "h": 327
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 327
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 327
+          },
+          "pivot": {
+            "x": 0.5365168539325843,
+            "y": 0.9908256880733946
+          }
+        },
+        {
+          "filename": "tayloy-crouchBlock",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 388,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.520618556701031,
+            "y": 0.9911764705882353
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1665,
+        "h": 714
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-crouchHurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 395,
+            "h": 346
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 346
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 346
+          },
+          "pivot": {
+            "x": 0.5012658227848101,
+            "y": 0.9913294797687862
+          }
+        },
+        {
+          "filename": "tayloy-crouchHurt-1",
+          "frame": {
+            "x": 832,
+            "y": 370,
+            "w": 391,
+            "h": 322
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 322
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 322
+          },
+          "pivot": {
+            "x": 0.5012787723785166,
+            "y": 0.9906832298136646
+          }
+        },
+        {
+          "filename": "tayloy-crouchHurt-2",
+          "frame": {
+            "x": 419,
+            "y": 8,
+            "w": 424,
+            "h": 342
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 424,
+            "h": 342
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 424,
+            "h": 342
+          },
+          "pivot": {
+            "x": 0.5330188679245284,
+            "y": 0.9912280701754386
+          }
+        },
+        {
+          "filename": "tayloy-crouchHurt-3",
+          "frame": {
+            "x": 1239,
+            "y": 370,
+            "w": 380,
+            "h": 314
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 314
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 314
+          },
+          "pivot": {
+            "x": 0.5184210526315789,
+            "y": 0.9904458598726115
+          }
+        },
+        {
+          "filename": "tayloy-crouchHurt-4",
+          "frame": {
+            "x": 8,
+            "y": 370,
+            "w": 398,
+            "h": 336
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 398,
+            "h": 336
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 398,
+            "h": 336
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9910714285714286
+          }
+        },
+        {
+          "filename": "tayloy-crouchHurt-5",
+          "frame": {
+            "x": 422,
+            "y": 370,
+            "w": 394,
+            "h": 335
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 335
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 335
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991044776119403
+          }
+        },
+        {
+          "filename": "tayloy-crouchHurt-6",
+          "frame": {
+            "x": 859,
+            "y": 8,
+            "w": 397,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "tayloy-crouchHurt-7",
+          "frame": {
+            "x": 1272,
+            "y": 8,
+            "w": 385,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "tayloy-crouchHurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 395,
+            "h": 346
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 346
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 346
+          },
+          "pivot": {
+            "x": 0.5012658227848101,
+            "y": 0.9913294797687862
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2038,
+        "h": 661
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-crouchPunch-0",
+          "frame": {
+            "x": 8,
+            "y": 342,
+            "w": 368,
+            "h": 311
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 311
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.53125,
+            "y": 0.9903536977491961
+          }
+        },
+        {
+          "filename": "tayloy-crouchPunch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 392,
+            "h": 318
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 318
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 318
+          },
+          "pivot": {
+            "x": 0.5293367346938775,
+            "y": 0.9905660377358491
+          }
+        },
+        {
+          "filename": "tayloy-crouchPunch-2",
+          "frame": {
+            "x": 825,
+            "y": 8,
+            "w": 423,
+            "h": 313
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 423,
+            "h": 313
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 423,
+            "h": 313
+          },
+          "pivot": {
+            "x": 0.5141843971631206,
+            "y": 0.9904153354632588
+          }
+        },
+        {
+          "filename": "tayloy-crouchPunch-3",
+          "frame": {
+            "x": 416,
+            "y": 8,
+            "w": 393,
+            "h": 314
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 314
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 314
+          },
+          "pivot": {
+            "x": 0.5432569974554707,
+            "y": 0.9904458598726115
+          }
+        },
+        {
+          "filename": "tayloy-crouchPunch-4",
+          "frame": {
+            "x": 392,
+            "y": 342,
+            "w": 379,
+            "h": 311
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 311
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.5277044854881267,
+            "y": 0.9903536977491961
+          }
+        },
+        {
+          "filename": "tayloy-crouchPunch-5",
+          "frame": {
+            "x": 787,
+            "y": 342,
+            "w": 363,
+            "h": 311
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 311
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.522038567493113,
+            "y": 0.9903536977491961
+          }
+        },
+        {
+          "filename": "tayloy-crouchPunch-6",
+          "frame": {
+            "x": 1264,
+            "y": 8,
+            "w": 377,
+            "h": 312
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 312
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5278514588859416,
+            "y": 0.9903846153846154
+          }
+        },
+        {
+          "filename": "tayloy-crouchPunch-7",
+          "frame": {
+            "x": 1657,
+            "y": 8,
+            "w": 373,
+            "h": 312
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 312
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5227882037533512,
+            "y": 0.9903846153846154
+          }
+        },
+        {
+          "filename": "tayloy-crouchPunch",
+          "frame": {
+            "x": 8,
+            "y": 342,
+            "w": 368,
+            "h": 311
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 311
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.53125,
+            "y": 0.9903536977491961
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1942,
+        "h": 695
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-dash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 342,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "tayloy-dash-1",
+          "frame": {
+            "x": 1549,
+            "y": 8,
+            "w": 385,
+            "h": 321
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 321
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 321
+          },
+          "pivot": {
+            "x": 0.2987012987012987,
+            "y": 0.9906542056074766
+          }
+        },
+        {
+          "filename": "tayloy-dash-2",
+          "frame": {
+            "x": 8,
+            "y": 369,
+            "w": 394,
+            "h": 318
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 318
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 318
+          },
+          "pivot": {
+            "x": 0.3401015228426396,
+            "y": 0.9905660377358491
+          }
+        },
+        {
+          "filename": "tayloy-dash-3",
+          "frame": {
+            "x": 732,
+            "y": 8,
+            "w": 412,
+            "h": 336
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 336
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 336
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9910714285714286
+          }
+        },
+        {
+          "filename": "tayloy-dash-4",
+          "frame": {
+            "x": 418,
+            "y": 369,
+            "w": 409,
+            "h": 313
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 313
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 313
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9904153354632588
+          }
+        },
+        {
+          "filename": "tayloy-dash-5",
+          "frame": {
+            "x": 843,
+            "y": 369,
+            "w": 393,
+            "h": 300
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 300
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99
+          }
+        },
+        {
+          "filename": "tayloy-dash-6",
+          "frame": {
+            "x": 1160,
+            "y": 8,
+            "w": 373,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "tayloy-dash-7",
+          "frame": {
+            "x": 366,
+            "y": 8,
+            "w": 350,
+            "h": 338
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 338
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 338
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911242603550295
+          }
+        },
+        {
+          "filename": "tayloy-dash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 342,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991304347826087
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1739,
+        "h": 784
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 354,
+            "h": 464
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 464
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 464
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935344827586207
+          }
+        },
+        {
+          "filename": "tayloy-ko-1",
+          "frame": {
+            "x": 378,
+            "y": 8,
+            "w": 320,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.509375,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "tayloy-ko-2",
+          "frame": {
+            "x": 714,
+            "y": 8,
+            "w": 401,
+            "h": 328
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 401,
+            "h": 328
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 401,
+            "h": 328
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9908536585365854
+          }
+        },
+        {
+          "filename": "tayloy-ko-3",
+          "frame": {
+            "x": 8,
+            "y": 488,
+            "w": 440,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 440,
+            "h": 288
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 440,
+            "h": 288
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9895833333333334
+          }
+        },
+        {
+          "filename": "tayloy-ko-4",
+          "frame": {
+            "x": 1131,
+            "y": 8,
+            "w": 459,
+            "h": 300
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 459,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 459,
+            "h": 300
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99
+          }
+        },
+        {
+          "filename": "tayloy-ko-5",
+          "frame": {
+            "x": 464,
+            "y": 488,
+            "w": 418,
+            "h": 196
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 418,
+            "h": 196
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 418,
+            "h": 196
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9846938775510204
+          }
+        },
+        {
+          "filename": "tayloy-ko-6",
+          "frame": {
+            "x": 898,
+            "y": 488,
+            "w": 402,
+            "h": 154
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 154
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 154
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9805194805194806
+          }
+        },
+        {
+          "filename": "tayloy-ko-7",
+          "frame": {
+            "x": 1316,
+            "y": 488,
+            "w": 415,
+            "h": 142
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 415,
+            "h": 142
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 415,
+            "h": 142
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9788732394366197
+          }
+        },
+        {
+          "filename": "tayloy-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 354,
+            "h": 464
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 464
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 464
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935344827586207
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1807,
+        "h": 440
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-down-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 435,
+            "h": 205
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 205
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 205
+          },
+          "pivot": {
+            "x": 0.5011494252873563,
+            "y": 0.9853658536585366
+          }
+        },
+        {
+          "filename": "tayloy-down-1",
+          "frame": {
+            "x": 910,
+            "y": 8,
+            "w": 436,
+            "h": 203
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 436,
+            "h": 203
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 436,
+            "h": 203
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9852216748768473
+          }
+        },
+        {
+          "filename": "tayloy-down-2",
+          "frame": {
+            "x": 1362,
+            "y": 8,
+            "w": 437,
+            "h": 203
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 437,
+            "h": 203
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 437,
+            "h": 203
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9852216748768473
+          }
+        },
+        {
+          "filename": "tayloy-down-3",
+          "frame": {
+            "x": 1364,
+            "y": 229,
+            "w": 435,
+            "h": 200
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 200
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 200
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.985
+          }
+        },
+        {
+          "filename": "tayloy-down-4",
+          "frame": {
+            "x": 459,
+            "y": 8,
+            "w": 435,
+            "h": 204
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 204
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 204
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9852941176470589
+          }
+        },
+        {
+          "filename": "tayloy-down-5",
+          "frame": {
+            "x": 911,
+            "y": 229,
+            "w": 437,
+            "h": 202
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 437,
+            "h": 202
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 437,
+            "h": 202
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9851485148514851
+          }
+        },
+        {
+          "filename": "tayloy-down-6",
+          "frame": {
+            "x": 8,
+            "y": 229,
+            "w": 436,
+            "h": 203
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 436,
+            "h": 203
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 436,
+            "h": 203
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9852216748768473
+          }
+        },
+        {
+          "filename": "tayloy-down-7",
+          "frame": {
+            "x": 460,
+            "y": 229,
+            "w": 435,
+            "h": 203
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 203
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 203
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9852216748768473
+          }
+        },
+        {
+          "filename": "tayloy-down",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 435,
+            "h": 205
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 205
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 205
+          },
+          "pivot": {
+            "x": 0.5011494252873563,
+            "y": 0.9853658536585366
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1907,
+        "h": 874
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-fall-0",
+          "frame": {
+            "x": 769,
+            "y": 461,
+            "w": 328,
+            "h": 335
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 335
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 335
+          },
+          "pivot": {
+            "x": 0.510670731707317,
+            "y": 0.991044776119403
+          }
+        },
+        {
+          "filename": "tayloy-fall-1",
+          "frame": {
+            "x": 411,
+            "y": 461,
+            "w": 342,
+            "h": 342
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 342
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 342
+          },
+          "pivot": {
+            "x": 0.5307017543859649,
+            "y": 0.9912280701754386
+          }
+        },
+        {
+          "filename": "tayloy-fall-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 360,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5416666666666666,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "tayloy-fall-3",
+          "frame": {
+            "x": 384,
+            "y": 8,
+            "w": 327,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.573394495412844,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "tayloy-fall-4",
+          "frame": {
+            "x": 727,
+            "y": 8,
+            "w": 357,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.572829131652661,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "tayloy-fall-5",
+          "frame": {
+            "x": 1472,
+            "y": 8,
+            "w": 427,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 427,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 427,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.6346604215456675,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "tayloy-fall-6",
+          "frame": {
+            "x": 8,
+            "y": 461,
+            "w": 387,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.6266149870801033,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "tayloy-fall-7",
+          "frame": {
+            "x": 1100,
+            "y": 8,
+            "w": 356,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5898876404494382,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "tayloy-fall",
+          "frame": {
+            "x": 769,
+            "y": 461,
+            "w": 328,
+            "h": 335
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 335
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 335
+          },
+          "pivot": {
+            "x": 0.510670731707317,
+            "y": 0.991044776119403
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1927,
+        "h": 734
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-getup-0",
+          "frame": {
+            "x": 872,
+            "y": 433,
+            "w": 455,
+            "h": 172
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 455,
+            "h": 172
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 455,
+            "h": 172
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9825581395348837
+          }
+        },
+        {
+          "filename": "tayloy-getup-1",
+          "frame": {
+            "x": 423,
+            "y": 433,
+            "w": 433,
+            "h": 262
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 433,
+            "h": 262
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 433,
+            "h": 262
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9885496183206107
+          }
+        },
+        {
+          "filename": "tayloy-getup-2",
+          "frame": {
+            "x": 8,
+            "y": 433,
+            "w": 399,
+            "h": 293
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 293
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 293
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9897610921501706
+          }
+        },
+        {
+          "filename": "tayloy-getup-3",
+          "frame": {
+            "x": 1559,
+            "y": 8,
+            "w": 360,
+            "h": 325
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 325
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 325
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9907692307692307
+          }
+        },
+        {
+          "filename": "tayloy-getup-4",
+          "frame": {
+            "x": 1152,
+            "y": 8,
+            "w": 391,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.4948849104859335,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "tayloy-getup-5",
+          "frame": {
+            "x": 408,
+            "y": 8,
+            "w": 334,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "tayloy-getup-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 384,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "tayloy-getup-7",
+          "frame": {
+            "x": 758,
+            "y": 8,
+            "w": 378,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "tayloy-getup",
+          "frame": {
+            "x": 872,
+            "y": 433,
+            "w": 455,
+            "h": 172
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 455,
+            "h": 172
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 455,
+            "h": 172
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9825581395348837
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1749,
+        "h": 890
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-hurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 391,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "tayloy-hurt-1",
+          "frame": {
+            "x": 415,
+            "y": 8,
+            "w": 404,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 404,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 404,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5099009900990099,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "tayloy-hurt-2",
+          "frame": {
+            "x": 1294,
+            "y": 461,
+            "w": 447,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 447,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 447,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5447427293064877,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "tayloy-hurt-3",
+          "frame": {
+            "x": 838,
+            "y": 461,
+            "w": 440,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 440,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 440,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5511363636363636,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "tayloy-hurt-4",
+          "frame": {
+            "x": 1263,
+            "y": 8,
+            "w": 403,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tayloy-hurt-5",
+          "frame": {
+            "x": 425,
+            "y": 461,
+            "w": 397,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "tayloy-hurt-6",
+          "frame": {
+            "x": 835,
+            "y": 8,
+            "w": 412,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 412,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 412,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "tayloy-hurt-7",
+          "frame": {
+            "x": 8,
+            "y": 461,
+            "w": 401,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 401,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 401,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tayloy-hurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 391,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2032,
+        "h": 885
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-idle-0",
+          "frame": {
+            "x": 427,
+            "y": 8,
+            "w": 388,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "tayloy-idle-1",
+          "frame": {
+            "x": 831,
+            "y": 8,
+            "w": 385,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "tayloy-idle-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 403,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931972789115646
+          }
+        },
+        {
+          "filename": "tayloy-idle-3",
+          "frame": {
+            "x": 1232,
+            "y": 8,
+            "w": 388,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "tayloy-idle-4",
+          "frame": {
+            "x": 1636,
+            "y": 8,
+            "w": 388,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "tayloy-idle-5",
+          "frame": {
+            "x": 8,
+            "y": 465,
+            "w": 390,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "tayloy-idle-6",
+          "frame": {
+            "x": 414,
+            "y": 465,
+            "w": 394,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "tayloy-idle-7",
+          "frame": {
+            "x": 824,
+            "y": 465,
+            "w": 389,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "tayloy-idle",
+          "frame": {
+            "x": 427,
+            "y": 8,
+            "w": 388,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1928,
+        "h": 831
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-intro-0",
+          "frame": {
+            "x": 1041,
+            "y": 8,
+            "w": 225,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 225,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 225,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5155555555555555,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "tayloy-intro-1",
+          "frame": {
+            "x": 437,
+            "y": 8,
+            "w": 335,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.40746268656716417,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tayloy-intro-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 413,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.43825665859564167,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "tayloy-intro-3",
+          "frame": {
+            "x": 788,
+            "y": 8,
+            "w": 237,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 237,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 237,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.540084388185654,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tayloy-intro-4",
+          "frame": {
+            "x": 1282,
+            "y": 8,
+            "w": 311,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.49517684887459806,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "tayloy-intro-5",
+          "frame": {
+            "x": 1609,
+            "y": 8,
+            "w": 311,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "tayloy-intro-6",
+          "frame": {
+            "x": 345,
+            "y": 450,
+            "w": 379,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.4788918205804749,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "tayloy-intro-7",
+          "frame": {
+            "x": 8,
+            "y": 450,
+            "w": 321,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "tayloy-intro",
+          "frame": {
+            "x": 1041,
+            "y": 8,
+            "w": 225,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 225,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 225,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5155555555555555,
+            "y": 0.9928571428571429
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1958,
+        "h": 817
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-jump-0",
+          "frame": {
+            "x": 643,
+            "y": 8,
+            "w": 330,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "tayloy-jump-1",
+          "frame": {
+            "x": 1301,
+            "y": 8,
+            "w": 314,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.5079617834394905,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "tayloy-jump-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 274,
+            "h": 446
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 274,
+            "h": 446
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 274,
+            "h": 446
+          },
+          "pivot": {
+            "x": 0.31386861313868614,
+            "y": 0.9932735426008968
+          }
+        },
+        {
+          "filename": "tayloy-jump-3",
+          "frame": {
+            "x": 8,
+            "y": 470,
+            "w": 270,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 270,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 270,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.37592592592592594,
+            "y": 0.9911504424778761
+          }
+        },
+        {
+          "filename": "tayloy-jump-4",
+          "frame": {
+            "x": 294,
+            "y": 470,
+            "w": 286,
+            "h": 312
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 312
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.43356643356643354,
+            "y": 0.9903846153846154
+          }
+        },
+        {
+          "filename": "tayloy-jump-5",
+          "frame": {
+            "x": 989,
+            "y": 8,
+            "w": 296,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.7094594594594594,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "tayloy-jump-6",
+          "frame": {
+            "x": 1631,
+            "y": 8,
+            "w": 319,
+            "h": 342
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 342
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 342
+          },
+          "pivot": {
+            "x": 0.4827586206896552,
+            "y": 0.9912280701754386
+          }
+        },
+        {
+          "filename": "tayloy-jump-7",
+          "frame": {
+            "x": 298,
+            "y": 8,
+            "w": 329,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "tayloy-jump",
+          "frame": {
+            "x": 643,
+            "y": 8,
+            "w": 330,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1943,
+        "h": 879
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-kick-0",
+          "frame": {
+            "x": 1230,
+            "y": 8,
+            "w": 353,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "tayloy-kick-1",
+          "frame": {
+            "x": 851,
+            "y": 449,
+            "w": 337,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.40059347181008903,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tayloy-kick-2",
+          "frame": {
+            "x": 1599,
+            "y": 8,
+            "w": 336,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.27976190476190477,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "tayloy-kick-3",
+          "frame": {
+            "x": 8,
+            "y": 449,
+            "w": 495,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 495,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 495,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.2676767676767677,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "tayloy-kick-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 501,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 501,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 501,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.2345309381237525,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "tayloy-kick-5",
+          "frame": {
+            "x": 519,
+            "y": 449,
+            "w": 316,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.39082278481012656,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "tayloy-kick-6",
+          "frame": {
+            "x": 525,
+            "y": 8,
+            "w": 324,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.595679012345679,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "tayloy-kick-7",
+          "frame": {
+            "x": 865,
+            "y": 8,
+            "w": 349,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "tayloy-kick",
+          "frame": {
+            "x": 1230,
+            "y": 8,
+            "w": 353,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1858,
+        "h": 827
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-knockdown-0",
+          "frame": {
+            "x": 910,
+            "y": 8,
+            "w": 385,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "tayloy-knockdown-1",
+          "frame": {
+            "x": 474,
+            "y": 8,
+            "w": 420,
+            "h": 469
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 469
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 469
+          },
+          "pivot": {
+            "x": 0.6309523809523809,
+            "y": 0.9936034115138592
+          }
+        },
+        {
+          "filename": "tayloy-knockdown-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 450,
+            "h": 490
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 450,
+            "h": 490
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 450,
+            "h": 490
+          },
+          "pivot": {
+            "x": 0.5611111111111111,
+            "y": 0.9938775510204082
+          }
+        },
+        {
+          "filename": "tayloy-knockdown-3",
+          "frame": {
+            "x": 1311,
+            "y": 8,
+            "w": 489,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 489,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 489,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.6124744376278118,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "tayloy-knockdown-4",
+          "frame": {
+            "x": 8,
+            "y": 514,
+            "w": 445,
+            "h": 305
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 445,
+            "h": 305
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 445,
+            "h": 305
+          },
+          "pivot": {
+            "x": 0.43258426966292135,
+            "y": 0.9901639344262295
+          }
+        },
+        {
+          "filename": "tayloy-knockdown-5",
+          "frame": {
+            "x": 469,
+            "y": 514,
+            "w": 458,
+            "h": 273
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 458,
+            "h": 273
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 458,
+            "h": 273
+          },
+          "pivot": {
+            "x": 0.48799126637554585,
+            "y": 0.989010989010989
+          }
+        },
+        {
+          "filename": "tayloy-knockdown-6",
+          "frame": {
+            "x": 943,
+            "y": 514,
+            "w": 420,
+            "h": 187
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 420,
+            "h": 187
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 420,
+            "h": 187
+          },
+          "pivot": {
+            "x": 0.5107142857142857,
+            "y": 0.983957219251337
+          }
+        },
+        {
+          "filename": "tayloy-knockdown-7",
+          "frame": {
+            "x": 1379,
+            "y": 514,
+            "w": 471,
+            "h": 153
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 471,
+            "h": 153
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 471,
+            "h": 153
+          },
+          "pivot": {
+            "x": 0.5063694267515924,
+            "y": 0.9803921568627451
+          }
+        },
+        {
+          "filename": "tayloy-knockdown",
+          "frame": {
+            "x": 910,
+            "y": 8,
+            "w": 385,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931506849315068
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1809,
+        "h": 901
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-punch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 439
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 439
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 439
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931662870159453
+          }
+        },
+        {
+          "filename": "tayloy-punch-1",
+          "frame": {
+            "x": 376,
+            "y": 8,
+            "w": 339,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "tayloy-punch-2",
+          "frame": {
+            "x": 1459,
+            "y": 8,
+            "w": 342,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "tayloy-punch-3",
+          "frame": {
+            "x": 8,
+            "y": 463,
+            "w": 385,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.4961038961038961,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "tayloy-punch-4",
+          "frame": {
+            "x": 772,
+            "y": 463,
+            "w": 372,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.489247311827957,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "tayloy-punch-5",
+          "frame": {
+            "x": 731,
+            "y": 8,
+            "w": 356,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "tayloy-punch-6",
+          "frame": {
+            "x": 409,
+            "y": 463,
+            "w": 347,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5057636887608069,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "tayloy-punch-7",
+          "frame": {
+            "x": 1103,
+            "y": 8,
+            "w": 340,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "tayloy-punch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 352,
+            "h": 439
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 439
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 439
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931662870159453
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1741,
+        "h": 886
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-super-0",
+          "frame": {
+            "x": 433,
+            "y": 8,
+            "w": 430,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.46162790697674416,
+            "y": 0.9931192660550459
+          }
+        },
+        {
+          "filename": "tayloy-super-1",
+          "frame": {
+            "x": 879,
+            "y": 8,
+            "w": 425,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 425,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 425,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.4623529411764706,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "tayloy-super-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 409,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.49144254278728605,
+            "y": 0.9932279909706546
+          }
+        },
+        {
+          "filename": "tayloy-super-3",
+          "frame": {
+            "x": 8,
+            "y": 467,
+            "w": 395,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.48860759493670886,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "tayloy-super-4",
+          "frame": {
+            "x": 1267,
+            "y": 467,
+            "w": 437,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 437,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 437,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.4759725400457666,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "tayloy-super-5",
+          "frame": {
+            "x": 1320,
+            "y": 8,
+            "w": 413,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "tayloy-super-6",
+          "frame": {
+            "x": 830,
+            "y": 467,
+            "w": 421,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 421,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 421,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.47980997624703087,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "tayloy-super-7",
+          "frame": {
+            "x": 419,
+            "y": 467,
+            "w": 395,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.49493670886075947,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "tayloy-super",
+          "frame": {
+            "x": 433,
+            "y": 8,
+            "w": 430,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.46162790697674416,
+            "y": 0.9931192660550459
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1945,
+        "h": 743
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-sweep-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 413,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5145278450363197,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "tayloy-sweep-1",
+          "frame": {
+            "x": 864,
+            "y": 8,
+            "w": 389,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5089974293059126,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "tayloy-sweep-2",
+          "frame": {
+            "x": 940,
+            "y": 391,
+            "w": 480,
+            "h": 323
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 480,
+            "h": 323
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 480,
+            "h": 323
+          },
+          "pivot": {
+            "x": 0.5208333333333334,
+            "y": 0.9907120743034056
+          }
+        },
+        {
+          "filename": "tayloy-sweep-3",
+          "frame": {
+            "x": 1436,
+            "y": 391,
+            "w": 501,
+            "h": 322
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 501,
+            "h": 322
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 501,
+            "h": 322
+          },
+          "pivot": {
+            "x": 0.3413173652694611,
+            "y": 0.9906832298136646
+          }
+        },
+        {
+          "filename": "tayloy-sweep-4",
+          "frame": {
+            "x": 428,
+            "y": 391,
+            "w": 496,
+            "h": 341
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 496,
+            "h": 341
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 496,
+            "h": 341
+          },
+          "pivot": {
+            "x": 0.5463709677419355,
+            "y": 0.9912023460410557
+          }
+        },
+        {
+          "filename": "tayloy-sweep-5",
+          "frame": {
+            "x": 8,
+            "y": 391,
+            "w": 404,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 404,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 404,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.3849009900990099,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "tayloy-sweep-6",
+          "frame": {
+            "x": 1269,
+            "y": 8,
+            "w": 388,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 388,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 388,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.529639175257732,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "tayloy-sweep-7",
+          "frame": {
+            "x": 437,
+            "y": 8,
+            "w": 411,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.5158150851581509,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "tayloy-sweep",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 413,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.5145278450363197,
+            "y": 0.9918256130790191
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1895,
+        "h": 826
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-uppercut-0",
+          "frame": {
+            "x": 590,
+            "y": 8,
+            "w": 322,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "tayloy-uppercut-1",
+          "frame": {
+            "x": 356,
+            "y": 484,
+            "w": 323,
+            "h": 315
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 315
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 315
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9904761904761905
+          }
+        },
+        {
+          "filename": "tayloy-uppercut-2",
+          "frame": {
+            "x": 928,
+            "y": 8,
+            "w": 309,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "tayloy-uppercut-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 271,
+            "h": 460
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 271,
+            "h": 460
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 271,
+            "h": 460
+          },
+          "pivot": {
+            "x": 0.4280442804428044,
+            "y": 0.9934782608695653
+          }
+        },
+        {
+          "filename": "tayloy-uppercut-4",
+          "frame": {
+            "x": 295,
+            "y": 8,
+            "w": 279,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 279,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 279,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.48566308243727596,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "tayloy-uppercut-5",
+          "frame": {
+            "x": 1585,
+            "y": 8,
+            "w": 302,
+            "h": 344
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 344
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 344
+          },
+          "pivot": {
+            "x": 0.4735099337748344,
+            "y": 0.9912790697674418
+          }
+        },
+        {
+          "filename": "tayloy-uppercut-6",
+          "frame": {
+            "x": 8,
+            "y": 484,
+            "w": 332,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "tayloy-uppercut-7",
+          "frame": {
+            "x": 1253,
+            "y": 8,
+            "w": 316,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "tayloy-uppercut",
+          "frame": {
+            "x": 590,
+            "y": 8,
+            "w": 322,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917127071823204
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1680,
+        "h": 906
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-win-0",
+          "frame": {
+            "x": 1190,
+            "y": 8,
+            "w": 390,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "tayloy-win-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 345,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "tayloy-win-2",
+          "frame": {
+            "x": 778,
+            "y": 8,
+            "w": 396,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931972789115646
+          }
+        },
+        {
+          "filename": "tayloy-win-3",
+          "frame": {
+            "x": 369,
+            "y": 8,
+            "w": 393,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "tayloy-win-4",
+          "frame": {
+            "x": 8,
+            "y": 466,
+            "w": 454,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 454,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 454,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5308370044052864,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "tayloy-win-5",
+          "frame": {
+            "x": 478,
+            "y": 466,
+            "w": 411,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.4829683698296837,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "tayloy-win-6",
+          "frame": {
+            "x": 1276,
+            "y": 466,
+            "w": 396,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "tayloy-win-7",
+          "frame": {
+            "x": 905,
+            "y": 466,
+            "w": 355,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "tayloy-win",
+          "frame": {
+            "x": 1190,
+            "y": 8,
+            "w": 390,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993103448275862
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1848,
+        "h": 854
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-walk-0",
+          "frame": {
+            "x": 622,
+            "y": 8,
+            "w": 366,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "tayloy-walk-1",
+          "frame": {
+            "x": 1004,
+            "y": 8,
+            "w": 270,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 270,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 270,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.4888888888888889,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "tayloy-walk-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 263,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 263,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 263,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5741444866920152,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "tayloy-walk-3",
+          "frame": {
+            "x": 287,
+            "y": 8,
+            "w": 319,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5078369905956113,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "tayloy-walk-4",
+          "frame": {
+            "x": 8,
+            "y": 441,
+            "w": 373,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "tayloy-walk-5",
+          "frame": {
+            "x": 1290,
+            "y": 8,
+            "w": 274,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 274,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 274,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5127737226277372,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "tayloy-walk-6",
+          "frame": {
+            "x": 1580,
+            "y": 8,
+            "w": 260,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 260,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 260,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.551923076923077,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "tayloy-walk-7",
+          "frame": {
+            "x": 397,
+            "y": 441,
+            "w": 357,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "tayloy-walk",
+          "frame": {
+            "x": 622,
+            "y": 8,
+            "w": 366,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2022,
+        "h": 899
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "tayloy-walkBack-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 357,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.5042016806722689,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "tayloy-walkBack-1",
+          "frame": {
+            "x": 1053,
+            "y": 8,
+            "w": 355,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "tayloy-walkBack-2",
+          "frame": {
+            "x": 381,
+            "y": 8,
+            "w": 372,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931972789115646
+          }
+        },
+        {
+          "filename": "tayloy-walkBack-3",
+          "frame": {
+            "x": 769,
+            "y": 8,
+            "w": 268,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 268,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 268,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.5802238805970149,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "tayloy-walkBack-4",
+          "frame": {
+            "x": 1424,
+            "y": 8,
+            "w": 261,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 261,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 261,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5574712643678161,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "tayloy-walkBack-5",
+          "frame": {
+            "x": 372,
+            "y": 466,
+            "w": 359,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5041782729805014,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "tayloy-walkBack-6",
+          "frame": {
+            "x": 8,
+            "y": 466,
+            "w": 348,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "tayloy-walkBack-7",
+          "frame": {
+            "x": 1701,
+            "y": 8,
+            "w": 313,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "tayloy-walkBack",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 357,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.5042016806722689,
+            "y": 0.9932126696832579
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

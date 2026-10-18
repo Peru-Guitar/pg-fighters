@@ -143,8 +143,8 @@ export interface ShotSpec {
 export const POWERS: Partial<Record<FighterId, ShotSpec[]>> = {
   // Disparo de buster azul, recto y rapidísimo desde el puño: el poder más simple del juego.
   erp: [{ look: 'buster', color: 0x168bff, speed: 2.2, size: 1.3, damage: 0.85 }],
-  // Onda de silencio: va recta y corrige su altura hacia el pecho del rival. Si pega, silencia al rival 3 s.
-  escalas: [{ look: 'wave', damage: 0.7, track: 2.2, silence: 3000 }],
+  // Onda de silencio: va recta y corrige su altura hacia el pecho del rival. Si pega, silencia al rival 2 s.
+  escalas: [{ look: 'wave', damage: 0.7, track: 2.2, silence: 2000 }],
   // Láser de ecualizador que cruza la pantalla. Manteniendo el clic se carga (hasta 2 s) y sale más grueso y fuerte.
   pepper: [{ look: 'laser', size: 0.6, damage: 0.75, beam: 260, charged: { size: 2.4, damage: 2, push: 2.5 } }],
   // Golpe de oro: su próximo golpe normal pega el doble (se gasta al conectar).

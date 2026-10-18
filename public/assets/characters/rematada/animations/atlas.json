@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1807,
+        "h": 886
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-airKick-0",
+          "frame": {
+            "x": 611,
+            "y": 8,
+            "w": 277,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 277,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 277,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.34296028880866425,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "rematada-airKick-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 294,
+            "h": 440
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 294,
+            "h": 440
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 294,
+            "h": 440
+          },
+          "pivot": {
+            "x": 0.576530612244898,
+            "y": 0.9931818181818182
+          }
+        },
+        {
+          "filename": "rematada-airKick-2",
+          "frame": {
+            "x": 904,
+            "y": 8,
+            "w": 422,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 422,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.10426540284360189,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "rematada-airKick-3",
+          "frame": {
+            "x": 1342,
+            "y": 8,
+            "w": 457,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 457,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 457,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.10065645514223195,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "rematada-airKick-4",
+          "frame": {
+            "x": 8,
+            "y": 464,
+            "w": 386,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.3082901554404145,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "rematada-airKick-5",
+          "frame": {
+            "x": 318,
+            "y": 8,
+            "w": 277,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 277,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 277,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.3953068592057762,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-airKick-6",
+          "frame": {
+            "x": 410,
+            "y": 464,
+            "w": 281,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.501779359430605,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "rematada-airKick-7",
+          "frame": {
+            "x": 707,
+            "y": 464,
+            "w": 278,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 278,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.4892086330935252,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "rematada-airKick",
+          "frame": {
+            "x": 611,
+            "y": 8,
+            "w": 277,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 277,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 277,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.34296028880866425,
+            "y": 0.9928909952606635
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1760,
+        "h": 877
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-airPunch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 241,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 241,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 241,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.34854771784232363,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "rematada-airPunch-1",
+          "frame": {
+            "x": 265,
+            "y": 8,
+            "w": 371,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.29784366576819404,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "rematada-airPunch-2",
+          "frame": {
+            "x": 987,
+            "y": 8,
+            "w": 462,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 462,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 462,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.24891774891774893,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "rematada-airPunch-3",
+          "frame": {
+            "x": 652,
+            "y": 8,
+            "w": 319,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.38087774294670845,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "rematada-airPunch-4",
+          "frame": {
+            "x": 304,
+            "y": 456,
+            "w": 294,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 294,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 294,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.32482993197278914,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "rematada-airPunch-5",
+          "frame": {
+            "x": 614,
+            "y": 456,
+            "w": 292,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.3493150684931507,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "rematada-airPunch-6",
+          "frame": {
+            "x": 8,
+            "y": 456,
+            "w": 280,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 280,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 280,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.30178571428571427,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "rematada-airPunch-7",
+          "frame": {
+            "x": 1465,
+            "y": 8,
+            "w": 287,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 287,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 287,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.33797909407665505,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "rematada-airPunch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 241,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 241,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 241,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.34854771784232363,
+            "y": 0.9930555555555556
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1919,
+        "h": 876
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-backdash-0",
+          "frame": {
+            "x": 1167,
+            "y": 8,
+            "w": 345,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-backdash-1",
+          "frame": {
+            "x": 387,
+            "y": 8,
+            "w": 390,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5948717948717949,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "rematada-backdash-2",
+          "frame": {
+            "x": 646,
+            "y": 451,
+            "w": 393,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.6361323155216285,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "rematada-backdash-3",
+          "frame": {
+            "x": 320,
+            "y": 451,
+            "w": 310,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.7096774193548387,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "rematada-backdash-4",
+          "frame": {
+            "x": 8,
+            "y": 451,
+            "w": 296,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.49493243243243246,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "rematada-backdash-5",
+          "frame": {
+            "x": 1528,
+            "y": 8,
+            "w": 383,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 383,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 383,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "rematada-backdash-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 363,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "rematada-backdash-7",
+          "frame": {
+            "x": 793,
+            "y": 8,
+            "w": 358,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "rematada-backdash",
+          "frame": {
+            "x": 1167,
+            "y": 8,
+            "w": 345,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1920,
+        "h": 887
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-special-0",
+          "frame": {
+            "x": 1192,
+            "y": 8,
+            "w": 343,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "rematada-special-1",
+          "frame": {
+            "x": 459,
+            "y": 454,
+            "w": 362,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5138121546961326,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-special-2",
+          "frame": {
+            "x": 8,
+            "y": 454,
+            "w": 435,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.4367816091954023,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "rematada-special-3",
+          "frame": {
+            "x": 837,
+            "y": 454,
+            "w": 423,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 423,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 423,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.4385342789598109,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-special-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 426,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 426,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 426,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.4119718309859155,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "rematada-special-5",
+          "frame": {
+            "x": 814,
+            "y": 8,
+            "w": 362,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "rematada-special-6",
+          "frame": {
+            "x": 1551,
+            "y": 8,
+            "w": 361,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "rematada-special-7",
+          "frame": {
+            "x": 450,
+            "y": 8,
+            "w": 348,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-special",
+          "frame": {
+            "x": 1192,
+            "y": 8,
+            "w": 343,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1841,
+        "h": 889
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-block-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 351,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-block-1",
+          "frame": {
+            "x": 375,
+            "y": 8,
+            "w": 354,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-block-2",
+          "frame": {
+            "x": 747,
+            "y": 453,
+            "w": 353,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "rematada-block-3",
+          "frame": {
+            "x": 745,
+            "y": 8,
+            "w": 351,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-block-4",
+          "frame": {
+            "x": 1112,
+            "y": 8,
+            "w": 352,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-block-5",
+          "frame": {
+            "x": 8,
+            "y": 453,
+            "w": 354,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "rematada-block-6",
+          "frame": {
+            "x": 1480,
+            "y": 8,
+            "w": 353,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-block-7",
+          "frame": {
+            "x": 378,
+            "y": 453,
+            "w": 353,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "rematada-block",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 351,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1947,
+        "h": 824
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-crouch-0",
+          "frame": {
+            "x": 391,
+            "y": 8,
+            "w": 374,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "rematada-crouch-1",
+          "frame": {
+            "x": 1168,
+            "y": 8,
+            "w": 375,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "rematada-crouch-2",
+          "frame": {
+            "x": 781,
+            "y": 8,
+            "w": 371,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 371,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 371,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "rematada-crouch-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 367,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "rematada-crouch-4",
+          "frame": {
+            "x": 1559,
+            "y": 8,
+            "w": 380,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "rematada-crouch-5",
+          "frame": {
+            "x": 8,
+            "y": 423,
+            "w": 379,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "rematada-crouch-6",
+          "frame": {
+            "x": 403,
+            "y": 423,
+            "w": 377,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "rematada-crouch-7",
+          "frame": {
+            "x": 796,
+            "y": 423,
+            "w": 379,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "rematada-crouch",
+          "frame": {
+            "x": 391,
+            "y": 8,
+            "w": 374,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1671,
+        "h": 868
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-crouchBlock-0",
+          "frame": {
+            "x": 430,
+            "y": 8,
+            "w": 399,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-crouchBlock-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 406,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 406,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 406,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-crouchBlock-2",
+          "frame": {
+            "x": 843,
+            "y": 448,
+            "w": 405,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "rematada-crouchBlock-3",
+          "frame": {
+            "x": 421,
+            "y": 448,
+            "w": 406,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 406,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 406,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "rematada-crouchBlock-4",
+          "frame": {
+            "x": 1259,
+            "y": 8,
+            "w": 397,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "rematada-crouchBlock-5",
+          "frame": {
+            "x": 8,
+            "y": 448,
+            "w": 397,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "rematada-crouchBlock-6",
+          "frame": {
+            "x": 1264,
+            "y": 448,
+            "w": 399,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "rematada-crouchBlock-7",
+          "frame": {
+            "x": 845,
+            "y": 8,
+            "w": 398,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 398,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 398,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "rematada-crouchBlock",
+          "frame": {
+            "x": 430,
+            "y": 8,
+            "w": 399,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1985,
+        "h": 802
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-crouchHurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 366,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.49863387978142076,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "rematada-crouchHurt-1",
+          "frame": {
+            "x": 8,
+            "y": 424,
+            "w": 394,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "rematada-crouchHurt-2",
+          "frame": {
+            "x": 808,
+            "y": 424,
+            "w": 387,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "rematada-crouchHurt-3",
+          "frame": {
+            "x": 418,
+            "y": 424,
+            "w": 374,
+            "h": 357
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 357
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 357
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915966386554622
+          }
+        },
+        {
+          "filename": "rematada-crouchHurt-4",
+          "frame": {
+            "x": 390,
+            "y": 8,
+            "w": 381,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "rematada-crouchHurt-5",
+          "frame": {
+            "x": 787,
+            "y": 8,
+            "w": 392,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "rematada-crouchHurt-6",
+          "frame": {
+            "x": 1195,
+            "y": 8,
+            "w": 390,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "rematada-crouchHurt-7",
+          "frame": {
+            "x": 1601,
+            "y": 8,
+            "w": 376,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "rematada-crouchHurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 366,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.49863387978142076,
+            "y": 0.9925
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1736,
+        "h": 834
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-crouchPunch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 390,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "rematada-crouchPunch-1",
+          "frame": {
+            "x": 414,
+            "y": 8,
+            "w": 408,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 408,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 408,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.47549019607843135,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "rematada-crouchPunch-2",
+          "frame": {
+            "x": 420,
+            "y": 433,
+            "w": 458,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 458,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 458,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.4334061135371179,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "rematada-crouchPunch-3",
+          "frame": {
+            "x": 1313,
+            "y": 433,
+            "w": 415,
+            "h": 380
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 415,
+            "h": 380
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 415,
+            "h": 380
+          },
+          "pivot": {
+            "x": 0.472289156626506,
+            "y": 0.9921052631578947
+          }
+        },
+        {
+          "filename": "rematada-crouchPunch-4",
+          "frame": {
+            "x": 894,
+            "y": 433,
+            "w": 403,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 403,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 403,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.4826302729528536,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "rematada-crouchPunch-5",
+          "frame": {
+            "x": 8,
+            "y": 433,
+            "w": 396,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 396,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 396,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "rematada-crouchPunch-6",
+          "frame": {
+            "x": 838,
+            "y": 8,
+            "w": 389,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "rematada-crouchPunch-7",
+          "frame": {
+            "x": 1243,
+            "y": 8,
+            "w": 393,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "rematada-crouchPunch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 390,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1889,
+        "h": 848
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-dash-0",
+          "frame": {
+            "x": 377,
+            "y": 8,
+            "w": 352,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-dash-1",
+          "frame": {
+            "x": 944,
+            "y": 449,
+            "w": 359,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.4958217270194986,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "rematada-dash-2",
+          "frame": {
+            "x": 513,
+            "y": 449,
+            "w": 415,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 415,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 415,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.4072289156626506,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "rematada-dash-3",
+          "frame": {
+            "x": 1482,
+            "y": 8,
+            "w": 399,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.40225563909774437,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "rematada-dash-4",
+          "frame": {
+            "x": 8,
+            "y": 449,
+            "w": 489,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 489,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 489,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.48261758691206547,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "rematada-dash-5",
+          "frame": {
+            "x": 1107,
+            "y": 8,
+            "w": 359,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.48746518105849584,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "rematada-dash-6",
+          "frame": {
+            "x": 745,
+            "y": 8,
+            "w": 346,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "rematada-dash-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 353,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "rematada-dash",
+          "frame": {
+            "x": 377,
+            "y": 8,
+            "w": 352,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2035,
+        "h": 738
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 362,
+            "h": 492
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 492
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 492
+          },
+          "pivot": {
+            "x": 0.4903314917127072,
+            "y": 0.9939024390243902
+          }
+        },
+        {
+          "filename": "rematada-ko-1",
+          "frame": {
+            "x": 386,
+            "y": 8,
+            "w": 356,
+            "h": 452
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 452
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 452
+          },
+          "pivot": {
+            "x": 0.42134831460674155,
+            "y": 0.9933628318584071
+          }
+        },
+        {
+          "filename": "rematada-ko-2",
+          "frame": {
+            "x": 758,
+            "y": 8,
+            "w": 391,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.4629156010230179,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "rematada-ko-3",
+          "frame": {
+            "x": 1165,
+            "y": 8,
+            "w": 384,
+            "h": 338
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 338
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 338
+          },
+          "pivot": {
+            "x": 0.4921875,
+            "y": 0.9911242603550295
+          }
+        },
+        {
+          "filename": "rematada-ko-4",
+          "frame": {
+            "x": 1565,
+            "y": 8,
+            "w": 462,
+            "h": 285
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 462,
+            "h": 285
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 462,
+            "h": 285
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9894736842105263
+          }
+        },
+        {
+          "filename": "rematada-ko-5",
+          "frame": {
+            "x": 8,
+            "y": 516,
+            "w": 438,
+            "h": 214
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 438,
+            "h": 214
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 438,
+            "h": 214
+          },
+          "pivot": {
+            "x": 0.5285388127853882,
+            "y": 0.985981308411215
+          }
+        },
+        {
+          "filename": "rematada-ko-6",
+          "frame": {
+            "x": 835,
+            "y": 516,
+            "w": 406,
+            "h": 179
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 406,
+            "h": 179
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 406,
+            "h": 179
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9832402234636871
+          }
+        },
+        {
+          "filename": "rematada-ko-7",
+          "frame": {
+            "x": 462,
+            "y": 516,
+            "w": 357,
+            "h": 183
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 183
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 183
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9836065573770492
+          }
+        },
+        {
+          "filename": "rematada-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 362,
+            "h": 492
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 492
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 492
+          },
+          "pivot": {
+            "x": 0.4903314917127072,
+            "y": 0.9939024390243902
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1801,
+        "h": 491
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-down-0",
+          "frame": {
+            "x": 459,
+            "y": 8,
+            "w": 434,
+            "h": 228
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 434,
+            "h": 228
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 434,
+            "h": 228
+          },
+          "pivot": {
+            "x": 0.39976958525345624,
+            "y": 0.9868421052631579
+          }
+        },
+        {
+          "filename": "rematada-down-1",
+          "frame": {
+            "x": 1355,
+            "y": 8,
+            "w": 438,
+            "h": 225
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 438,
+            "h": 225
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 438,
+            "h": 225
+          },
+          "pivot": {
+            "x": 0.408675799086758,
+            "y": 0.9866666666666667
+          }
+        },
+        {
+          "filename": "rematada-down-2",
+          "frame": {
+            "x": 8,
+            "y": 264,
+            "w": 433,
+            "h": 219
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 433,
+            "h": 219
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 433,
+            "h": 219
+          },
+          "pivot": {
+            "x": 0.4064665127020785,
+            "y": 0.9863013698630136
+          }
+        },
+        {
+          "filename": "rematada-down-3",
+          "frame": {
+            "x": 909,
+            "y": 8,
+            "w": 430,
+            "h": 227
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 227
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 227
+          },
+          "pivot": {
+            "x": 0.4,
+            "y": 0.986784140969163
+          }
+        },
+        {
+          "filename": "rematada-down-4",
+          "frame": {
+            "x": 1357,
+            "y": 264,
+            "w": 428,
+            "h": 210
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 210
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 210
+          },
+          "pivot": {
+            "x": 0.4077102803738318,
+            "y": 0.9857142857142858
+          }
+        },
+        {
+          "filename": "rematada-down-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 435,
+            "h": 240
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 435,
+            "h": 240
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 435,
+            "h": 240
+          },
+          "pivot": {
+            "x": 0.4057471264367816,
+            "y": 0.9875
+          }
+        },
+        {
+          "filename": "rematada-down-6",
+          "frame": {
+            "x": 457,
+            "y": 264,
+            "w": 437,
+            "h": 219
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 437,
+            "h": 219
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 437,
+            "h": 219
+          },
+          "pivot": {
+            "x": 0.40274599542334094,
+            "y": 0.9863013698630136
+          }
+        },
+        {
+          "filename": "rematada-down-7",
+          "frame": {
+            "x": 910,
+            "y": 264,
+            "w": 431,
+            "h": 215
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 431,
+            "h": 215
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 431,
+            "h": 215
+          },
+          "pivot": {
+            "x": 0.4060324825986079,
+            "y": 0.986046511627907
+          }
+        },
+        {
+          "filename": "rematada-down",
+          "frame": {
+            "x": 459,
+            "y": 8,
+            "w": 434,
+            "h": 228
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 434,
+            "h": 228
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 434,
+            "h": 228
+          },
+          "pivot": {
+            "x": 0.39976958525345624,
+            "y": 0.9868421052631579
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1680,
+        "h": 937
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-fall-0",
+          "frame": {
+            "x": 1079,
+            "y": 8,
+            "w": 285,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 285,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 285,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5333333333333333,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "rematada-fall-1",
+          "frame": {
+            "x": 705,
+            "y": 8,
+            "w": 358,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.6703910614525139,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "rematada-fall-2",
+          "frame": {
+            "x": 346,
+            "y": 8,
+            "w": 343,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.6836734693877551,
+            "y": 0.9936575052854123
+          }
+        },
+        {
+          "filename": "rematada-fall-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 322,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.6459627329192547,
+            "y": 0.9938271604938271
+          }
+        },
+        {
+          "filename": "rematada-fall-4",
+          "frame": {
+            "x": 1380,
+            "y": 8,
+            "w": 292,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5291095890410958,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "rematada-fall-5",
+          "frame": {
+            "x": 746,
+            "y": 510,
+            "w": 352,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "rematada-fall-6",
+          "frame": {
+            "x": 8,
+            "y": 510,
+            "w": 356,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "rematada-fall-7",
+          "frame": {
+            "x": 380,
+            "y": 510,
+            "w": 350,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "rematada-fall",
+          "frame": {
+            "x": 1079,
+            "y": 8,
+            "w": 285,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 285,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 285,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5333333333333333,
+            "y": 0.9928571428571429
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1802,
+        "h": 819
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-getup-0",
+          "frame": {
+            "x": 834,
+            "y": 453,
+            "w": 484,
+            "h": 230
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 484,
+            "h": 230
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 484,
+            "h": 230
+          },
+          "pivot": {
+            "x": 0.47210743801652894,
+            "y": 0.9869565217391304
+          }
+        },
+        {
+          "filename": "rematada-getup-1",
+          "frame": {
+            "x": 394,
+            "y": 453,
+            "w": 424,
+            "h": 272
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 424,
+            "h": 272
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 424,
+            "h": 272
+          },
+          "pivot": {
+            "x": 0.4693396226415094,
+            "y": 0.9889705882352942
+          }
+        },
+        {
+          "filename": "rematada-getup-2",
+          "frame": {
+            "x": 8,
+            "y": 453,
+            "w": 370,
+            "h": 358
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 358
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 358
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916201117318436
+          }
+        },
+        {
+          "filename": "rematada-getup-3",
+          "frame": {
+            "x": 1451,
+            "y": 8,
+            "w": 343,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.47959183673469385,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "rematada-getup-4",
+          "frame": {
+            "x": 1067,
+            "y": 8,
+            "w": 368,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.46059782608695654,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "rematada-getup-5",
+          "frame": {
+            "x": 710,
+            "y": 8,
+            "w": 341,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.49560117302052786,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "rematada-getup-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 341,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-getup-7",
+          "frame": {
+            "x": 365,
+            "y": 8,
+            "w": 329,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-getup",
+          "frame": {
+            "x": 834,
+            "y": 453,
+            "w": 484,
+            "h": 230
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 484,
+            "h": 230
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 484,
+            "h": 230
+          },
+          "pivot": {
+            "x": 0.47210743801652894,
+            "y": 0.9869565217391304
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1835,
+        "h": 866
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-hurt-0",
+          "frame": {
+            "x": 374,
+            "y": 8,
+            "w": 346,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-hurt-1",
+          "frame": {
+            "x": 8,
+            "y": 451,
+            "w": 384,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5325520833333334,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "rematada-hurt-2",
+          "frame": {
+            "x": 408,
+            "y": 451,
+            "w": 350,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "rematada-hurt-3",
+          "frame": {
+            "x": 774,
+            "y": 451,
+            "w": 348,
+            "h": 361
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 361
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 361
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916897506925207
+          }
+        },
+        {
+          "filename": "rematada-hurt-4",
+          "frame": {
+            "x": 1474,
+            "y": 8,
+            "w": 353,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "rematada-hurt-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 350,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "rematada-hurt-6",
+          "frame": {
+            "x": 736,
+            "y": 8,
+            "w": 353,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-hurt-7",
+          "frame": {
+            "x": 1105,
+            "y": 8,
+            "w": 353,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-hurt",
+          "frame": {
+            "x": 374,
+            "y": 8,
+            "w": 346,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1818,
+        "h": 882
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-idle-0",
+          "frame": {
+            "x": 737,
+            "y": 8,
+            "w": 344,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-idle-1",
+          "frame": {
+            "x": 374,
+            "y": 8,
+            "w": 347,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "rematada-idle-2",
+          "frame": {
+            "x": 1097,
+            "y": 8,
+            "w": 349,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-idle-3",
+          "frame": {
+            "x": 739,
+            "y": 451,
+            "w": 351,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "rematada-idle-4",
+          "frame": {
+            "x": 1462,
+            "y": 8,
+            "w": 348,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-idle-5",
+          "frame": {
+            "x": 8,
+            "y": 451,
+            "w": 349,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-idle-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 350,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "rematada-idle-7",
+          "frame": {
+            "x": 373,
+            "y": 451,
+            "w": 350,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "rematada-idle",
+          "frame": {
+            "x": 737,
+            "y": 8,
+            "w": 344,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1747,
+        "h": 899
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-intro-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 325,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932279909706546
+          }
+        },
+        {
+          "filename": "rematada-intro-1",
+          "frame": {
+            "x": 349,
+            "y": 8,
+            "w": 326,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.5138036809815951,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "rematada-intro-2",
+          "frame": {
+            "x": 691,
+            "y": 8,
+            "w": 324,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.5108024691358025,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "rematada-intro-3",
+          "frame": {
+            "x": 731,
+            "y": 467,
+            "w": 341,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "rematada-intro-4",
+          "frame": {
+            "x": 1031,
+            "y": 8,
+            "w": 348,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-intro-5",
+          "frame": {
+            "x": 1395,
+            "y": 8,
+            "w": 344,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-intro-6",
+          "frame": {
+            "x": 8,
+            "y": 467,
+            "w": 345,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-intro-7",
+          "frame": {
+            "x": 369,
+            "y": 467,
+            "w": 346,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-intro",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 325,
+            "h": 443
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 443
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 443
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932279909706546
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1788,
+        "h": 861
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-jump-0",
+          "frame": {
+            "x": 347,
+            "y": 8,
+            "w": 345,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "rematada-jump-1",
+          "frame": {
+            "x": 642,
+            "y": 462,
+            "w": 318,
+            "h": 356
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 356
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 356
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915730337078652
+          }
+        },
+        {
+          "filename": "rematada-jump-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 323,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.43808049535603716,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "rematada-jump-3",
+          "frame": {
+            "x": 8,
+            "y": 462,
+            "w": 264,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 264,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 264,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.5189393939393939,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "rematada-jump-4",
+          "frame": {
+            "x": 1067,
+            "y": 8,
+            "w": 366,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.35655737704918034,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "rematada-jump-5",
+          "frame": {
+            "x": 1449,
+            "y": 8,
+            "w": 331,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.6117824773413897,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "rematada-jump-6",
+          "frame": {
+            "x": 288,
+            "y": 462,
+            "w": 338,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "rematada-jump-7",
+          "frame": {
+            "x": 708,
+            "y": 8,
+            "w": 343,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "rematada-jump",
+          "frame": {
+            "x": 347,
+            "y": 8,
+            "w": 345,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1922,
+        "h": 896
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-kick-0",
+          "frame": {
+            "x": 1622,
+            "y": 8,
+            "w": 292,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "rematada-kick-1",
+          "frame": {
+            "x": 1293,
+            "y": 8,
+            "w": 313,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.2747603833865815,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "rematada-kick-2",
+          "frame": {
+            "x": 476,
+            "y": 461,
+            "w": 405,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.25308641975308643,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-kick-3",
+          "frame": {
+            "x": 8,
+            "y": 461,
+            "w": 452,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 452,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 452,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.24446902654867256,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "rematada-kick-4",
+          "frame": {
+            "x": 998,
+            "y": 8,
+            "w": 279,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 279,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 279,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.3207885304659498,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "rematada-kick-5",
+          "frame": {
+            "x": 346,
+            "y": 8,
+            "w": 292,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.351027397260274,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "rematada-kick-6",
+          "frame": {
+            "x": 654,
+            "y": 8,
+            "w": 328,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5320121951219512,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "rematada-kick-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 322,
+            "h": 437
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 437
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 437
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931350114416476
+          }
+        },
+        {
+          "filename": "rematada-kick",
+          "frame": {
+            "x": 1622,
+            "y": 8,
+            "w": 292,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1760,
+        "h": 733
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-knockdown-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 354,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "rematada-knockdown-1",
+          "frame": {
+            "x": 378,
+            "y": 8,
+            "w": 408,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 408,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 408,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5808823529411765,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "rematada-knockdown-2",
+          "frame": {
+            "x": 802,
+            "y": 8,
+            "w": 443,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 443,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 443,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.5474040632054176,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "rematada-knockdown-3",
+          "frame": {
+            "x": 1261,
+            "y": 8,
+            "w": 491,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 491,
+            "h": 288
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 491,
+            "h": 288
+          },
+          "pivot": {
+            "x": 0.59979633401222,
+            "y": 0.9895833333333334
+          }
+        },
+        {
+          "filename": "rematada-knockdown-4",
+          "frame": {
+            "x": 8,
+            "y": 457,
+            "w": 408,
+            "h": 268
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 408,
+            "h": 268
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 408,
+            "h": 268
+          },
+          "pivot": {
+            "x": 0.47794117647058826,
+            "y": 0.9888059701492538
+          }
+        },
+        {
+          "filename": "rematada-knockdown-5",
+          "frame": {
+            "x": 432,
+            "y": 457,
+            "w": 370,
+            "h": 230
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 230
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 230
+          },
+          "pivot": {
+            "x": 0.5202702702702703,
+            "y": 0.9869565217391304
+          }
+        },
+        {
+          "filename": "rematada-knockdown-6",
+          "frame": {
+            "x": 1301,
+            "y": 457,
+            "w": 427,
+            "h": 194
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 427,
+            "h": 194
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 427,
+            "h": 194
+          },
+          "pivot": {
+            "x": 0.5163934426229508,
+            "y": 0.9845360824742269
+          }
+        },
+        {
+          "filename": "rematada-knockdown-7",
+          "frame": {
+            "x": 818,
+            "y": 457,
+            "w": 467,
+            "h": 199
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 467,
+            "h": 199
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 467,
+            "h": 199
+          },
+          "pivot": {
+            "x": 0.5214132762312634,
+            "y": 0.9849246231155779
+          }
+        },
+        {
+          "filename": "rematada-knockdown",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 354,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1852,
+        "h": 879
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-punch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 341,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "rematada-punch-1",
+          "frame": {
+            "x": 365,
+            "y": 8,
+            "w": 344,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-punch-2",
+          "frame": {
+            "x": 725,
+            "y": 8,
+            "w": 338,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-punch-3",
+          "frame": {
+            "x": 729,
+            "y": 448,
+            "w": 393,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.4669211195928753,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "rematada-punch-4",
+          "frame": {
+            "x": 1079,
+            "y": 8,
+            "w": 395,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.4582278481012658,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-punch-5",
+          "frame": {
+            "x": 1490,
+            "y": 8,
+            "w": 354,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-punch-6",
+          "frame": {
+            "x": 8,
+            "y": 448,
+            "w": 347,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-punch-7",
+          "frame": {
+            "x": 371,
+            "y": 448,
+            "w": 342,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-punch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 341,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1833,
+        "h": 888
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-super-0",
+          "frame": {
+            "x": 1476,
+            "y": 8,
+            "w": 349,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "rematada-super-1",
+          "frame": {
+            "x": 8,
+            "y": 453,
+            "w": 352,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "rematada-super-2",
+          "frame": {
+            "x": 376,
+            "y": 453,
+            "w": 352,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "rematada-super-3",
+          "frame": {
+            "x": 744,
+            "y": 453,
+            "w": 353,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-super-4",
+          "frame": {
+            "x": 375,
+            "y": 8,
+            "w": 349,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "rematada-super-5",
+          "frame": {
+            "x": 740,
+            "y": 8,
+            "w": 351,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "rematada-super-6",
+          "frame": {
+            "x": 1107,
+            "y": 8,
+            "w": 353,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "rematada-super-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 351,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-super",
+          "frame": {
+            "x": 1476,
+            "y": 8,
+            "w": 349,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2010,
+        "h": 788
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-sweep-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 361,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "rematada-sweep-1",
+          "frame": {
+            "x": 1549,
+            "y": 8,
+            "w": 453,
+            "h": 346
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 453,
+            "h": 346
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 453,
+            "h": 346
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9913294797687862
+          }
+        },
+        {
+          "filename": "rematada-sweep-2",
+          "frame": {
+            "x": 486,
+            "y": 446,
+            "w": 485,
+            "h": 314
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 485,
+            "h": 314
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 485,
+            "h": 314
+          },
+          "pivot": {
+            "x": 0.5051546391752577,
+            "y": 0.9904458598726115
+          }
+        },
+        {
+          "filename": "rematada-sweep-3",
+          "frame": {
+            "x": 987,
+            "y": 446,
+            "w": 387,
+            "h": 312
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 312
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.3785529715762274,
+            "y": 0.9903846153846154
+          }
+        },
+        {
+          "filename": "rematada-sweep-4",
+          "frame": {
+            "x": 8,
+            "y": 446,
+            "w": 462,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 462,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 462,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.45454545454545453,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "rematada-sweep-5",
+          "frame": {
+            "x": 1159,
+            "y": 8,
+            "w": 374,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "rematada-sweep-6",
+          "frame": {
+            "x": 385,
+            "y": 8,
+            "w": 369,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "rematada-sweep-7",
+          "frame": {
+            "x": 770,
+            "y": 8,
+            "w": 373,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "rematada-sweep",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 361,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2047,
+        "h": 862
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-uppercut-0",
+          "frame": {
+            "x": 600,
+            "y": 8,
+            "w": 346,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-uppercut-1",
+          "frame": {
+            "x": 373,
+            "y": 460,
+            "w": 359,
+            "h": 355
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 355
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 355
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9915492957746479
+          }
+        },
+        {
+          "filename": "rematada-uppercut-2",
+          "frame": {
+            "x": 1688,
+            "y": 8,
+            "w": 351,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "rematada-uppercut-3",
+          "frame": {
+            "x": 305,
+            "y": 8,
+            "w": 279,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 279,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 279,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "rematada-uppercut-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 281,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.48576512455516013,
+            "y": 0.9931192660550459
+          }
+        },
+        {
+          "filename": "rematada-uppercut-5",
+          "frame": {
+            "x": 1324,
+            "y": 8,
+            "w": 348,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "rematada-uppercut-6",
+          "frame": {
+            "x": 8,
+            "y": 460,
+            "w": 349,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "rematada-uppercut-7",
+          "frame": {
+            "x": 962,
+            "y": 8,
+            "w": 346,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "rematada-uppercut",
+          "frame": {
+            "x": 600,
+            "y": 8,
+            "w": 346,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1844,
+        "h": 885
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-win-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 328,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "rematada-win-1",
+          "frame": {
+            "x": 352,
+            "y": 8,
+            "w": 331,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-win-2",
+          "frame": {
+            "x": 699,
+            "y": 8,
+            "w": 335,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-win-3",
+          "frame": {
+            "x": 1050,
+            "y": 8,
+            "w": 344,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5058139534883721,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "rematada-win-4",
+          "frame": {
+            "x": 1410,
+            "y": 8,
+            "w": 426,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 426,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 426,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5164319248826291,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "rematada-win-5",
+          "frame": {
+            "x": 8,
+            "y": 454,
+            "w": 433,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 433,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 433,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5161662817551963,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-win-6",
+          "frame": {
+            "x": 457,
+            "y": 454,
+            "w": 428,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5163551401869159,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "rematada-win-7",
+          "frame": {
+            "x": 901,
+            "y": 454,
+            "w": 421,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 421,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 421,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5106888361045131,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "rematada-win",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 328,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1866,
+        "h": 895
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-walk-0",
+          "frame": {
+            "x": 388,
+            "y": 457,
+            "w": 343,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "rematada-walk-1",
+          "frame": {
+            "x": 382,
+            "y": 8,
+            "w": 343,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "rematada-walk-2",
+          "frame": {
+            "x": 1492,
+            "y": 8,
+            "w": 366,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "rematada-walk-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 358,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "rematada-walk-4",
+          "frame": {
+            "x": 747,
+            "y": 457,
+            "w": 343,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "rematada-walk-5",
+          "frame": {
+            "x": 8,
+            "y": 457,
+            "w": 364,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "rematada-walk-6",
+          "frame": {
+            "x": 741,
+            "y": 8,
+            "w": 365,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "rematada-walk-7",
+          "frame": {
+            "x": 1122,
+            "y": 8,
+            "w": 354,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "rematada-walk",
+          "frame": {
+            "x": 388,
+            "y": 457,
+            "w": 343,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993006993006993
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1835,
+        "h": 894
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "rematada-walkBack-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 354,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "rematada-walkBack-1",
+          "frame": {
+            "x": 1464,
+            "y": 8,
+            "w": 363,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "rematada-walkBack-2",
+          "frame": {
+            "x": 738,
+            "y": 456,
+            "w": 335,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.5029850746268657,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "rematada-walkBack-3",
+          "frame": {
+            "x": 745,
+            "y": 8,
+            "w": 329,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "rematada-walkBack-4",
+          "frame": {
+            "x": 8,
+            "y": 456,
+            "w": 345,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5057971014492754,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "rematada-walkBack-5",
+          "frame": {
+            "x": 378,
+            "y": 8,
+            "w": 351,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 351,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 351,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "rematada-walkBack-6",
+          "frame": {
+            "x": 1090,
+            "y": 8,
+            "w": 358,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "rematada-walkBack-7",
+          "frame": {
+            "x": 369,
+            "y": 456,
+            "w": 353,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "rematada-walkBack",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 354,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

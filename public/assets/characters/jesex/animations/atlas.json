@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1852,
+        "h": 771
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-airKick-0",
+          "frame": {
+            "x": 1042,
+            "y": 8,
+            "w": 262,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 262,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 262,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.4312977099236641,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "jesex-airKick-1",
+          "frame": {
+            "x": 363,
+            "y": 8,
+            "w": 253,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 253,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 253,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.4525691699604743,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "jesex-airKick-2",
+          "frame": {
+            "x": 632,
+            "y": 8,
+            "w": 394,
+            "h": 374
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 374
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 374
+          },
+          "pivot": {
+            "x": 0.2614213197969543,
+            "y": 0.9919786096256684
+          }
+        },
+        {
+          "filename": "jesex-airKick-3",
+          "frame": {
+            "x": 435,
+            "y": 424,
+            "w": 422,
+            "h": 337
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 422,
+            "h": 337
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 337
+          },
+          "pivot": {
+            "x": 0.27606635071090047,
+            "y": 0.9910979228486647
+          }
+        },
+        {
+          "filename": "jesex-airKick-4",
+          "frame": {
+            "x": 8,
+            "y": 424,
+            "w": 411,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.3333333333333333,
+            "y": 0.9911504424778761
+          }
+        },
+        {
+          "filename": "jesex-airKick-5",
+          "frame": {
+            "x": 1320,
+            "y": 8,
+            "w": 253,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 253,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 253,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.4624505928853755,
+            "y": 0.991869918699187
+          }
+        },
+        {
+          "filename": "jesex-airKick-6",
+          "frame": {
+            "x": 1589,
+            "y": 8,
+            "w": 255,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 255,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 255,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5235294117647059,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "jesex-airKick-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 339,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.640117994100295,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "jesex-airKick",
+          "frame": {
+            "x": 1042,
+            "y": 8,
+            "w": 262,
+            "h": 369
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 262,
+            "h": 369
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 262,
+            "h": 369
+          },
+          "pivot": {
+            "x": 0.4312977099236641,
+            "y": 0.991869918699187
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1820,
+        "h": 833
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-airPunch-0",
+          "frame": {
+            "x": 308,
+            "y": 428,
+            "w": 264,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 264,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 264,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.3712121212121212,
+            "y": 0.9922680412371134
+          }
+        },
+        {
+          "filename": "jesex-airPunch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 296,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.3530405405405405,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "jesex-airPunch-2",
+          "frame": {
+            "x": 320,
+            "y": 8,
+            "w": 369,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.2940379403794038,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "jesex-airPunch-3",
+          "frame": {
+            "x": 705,
+            "y": 8,
+            "w": 393,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.29770992366412213,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "jesex-airPunch-4",
+          "frame": {
+            "x": 1449,
+            "y": 8,
+            "w": 363,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.2837465564738292,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "jesex-airPunch-5",
+          "frame": {
+            "x": 8,
+            "y": 428,
+            "w": 284,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 284,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 284,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.36971830985915494,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "jesex-airPunch-6",
+          "frame": {
+            "x": 588,
+            "y": 428,
+            "w": 250,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 250,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 250,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.382,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "jesex-airPunch-7",
+          "frame": {
+            "x": 1114,
+            "y": 8,
+            "w": 319,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.6128526645768025,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "jesex-airPunch",
+          "frame": {
+            "x": 308,
+            "y": 428,
+            "w": 264,
+            "h": 388
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 264,
+            "h": 388
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 264,
+            "h": 388
+          },
+          "pivot": {
+            "x": 0.3712121212121212,
+            "y": 0.9922680412371134
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1790,
+        "h": 800
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-backdash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 306,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 306,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 306,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "jesex-backdash-1",
+          "frame": {
+            "x": 345,
+            "y": 421,
+            "w": 228,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 228,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 228,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.41885964912280704,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "jesex-backdash-2",
+          "frame": {
+            "x": 1402,
+            "y": 8,
+            "w": 380,
+            "h": 372
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 372
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 372
+          },
+          "pivot": {
+            "x": 0.4131578947368421,
+            "y": 0.9919354838709677
+          }
+        },
+        {
+          "filename": "jesex-backdash-3",
+          "frame": {
+            "x": 657,
+            "y": 8,
+            "w": 380,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.35526315789473684,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "jesex-backdash-4",
+          "frame": {
+            "x": 1053,
+            "y": 8,
+            "w": 333,
+            "h": 378
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 378
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 378
+          },
+          "pivot": {
+            "x": 0.3303303303303303,
+            "y": 0.9920634920634921
+          }
+        },
+        {
+          "filename": "jesex-backdash-5",
+          "frame": {
+            "x": 8,
+            "y": 421,
+            "w": 321,
+            "h": 371
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 371
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 371
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9919137466307277
+          }
+        },
+        {
+          "filename": "jesex-backdash-6",
+          "frame": {
+            "x": 589,
+            "y": 421,
+            "w": 301,
+            "h": 323
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 301,
+            "h": 323
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 301,
+            "h": 323
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9907120743034056
+          }
+        },
+        {
+          "filename": "jesex-backdash-7",
+          "frame": {
+            "x": 330,
+            "y": 8,
+            "w": 311,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "jesex-backdash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 306,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 306,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 306,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924433249370277
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1662,
+        "h": 850
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-special-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 378,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "jesex-special-1",
+          "frame": {
+            "x": 432,
+            "y": 451,
+            "w": 380,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "jesex-special-2",
+          "frame": {
+            "x": 8,
+            "y": 451,
+            "w": 408,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 408,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 408,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "jesex-special-3",
+          "frame": {
+            "x": 1221,
+            "y": 451,
+            "w": 418,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 418,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 418,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.47607655502392343,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "jesex-special-4",
+          "frame": {
+            "x": 1213,
+            "y": 8,
+            "w": 441,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 441,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 441,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.4603174603174603,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "jesex-special-5",
+          "frame": {
+            "x": 803,
+            "y": 8,
+            "w": 394,
+            "h": 394
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 394
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 394
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923857868020305
+          }
+        },
+        {
+          "filename": "jesex-special-6",
+          "frame": {
+            "x": 828,
+            "y": 451,
+            "w": 377,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 377,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 377,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "jesex-special-7",
+          "frame": {
+            "x": 402,
+            "y": 8,
+            "w": 385,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "jesex-special",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 378,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 378,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 378,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1720,
+        "h": 829
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-block-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 344,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "jesex-block-1",
+          "frame": {
+            "x": 368,
+            "y": 8,
+            "w": 323,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "jesex-block-2",
+          "frame": {
+            "x": 1058,
+            "y": 8,
+            "w": 317,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "jesex-block-3",
+          "frame": {
+            "x": 1391,
+            "y": 8,
+            "w": 321,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 321,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 321,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "jesex-block-4",
+          "frame": {
+            "x": 710,
+            "y": 439,
+            "w": 335,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "jesex-block-5",
+          "frame": {
+            "x": 356,
+            "y": 439,
+            "w": 338,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "jesex-block-6",
+          "frame": {
+            "x": 8,
+            "y": 439,
+            "w": 332,
+            "h": 382
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 382
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 382
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921465968586387
+          }
+        },
+        {
+          "filename": "jesex-block-7",
+          "frame": {
+            "x": 707,
+            "y": 8,
+            "w": 335,
+            "h": 392
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 392
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 392
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923469387755102
+          }
+        },
+        {
+          "filename": "jesex-block",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 344,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927710843373494
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1813,
+        "h": 755
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-crouch-0",
+          "frame": {
+            "x": 1463,
+            "y": 8,
+            "w": 342,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.45321637426900585,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "jesex-crouch-1",
+          "frame": {
+            "x": 8,
+            "y": 394,
+            "w": 342,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.45760233918128657,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "jesex-crouch-2",
+          "frame": {
+            "x": 719,
+            "y": 394,
+            "w": 342,
+            "h": 349
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 349
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 349
+          },
+          "pivot": {
+            "x": 0.46345029239766083,
+            "y": 0.9914040114613181
+          }
+        },
+        {
+          "filename": "jesex-crouch-3",
+          "frame": {
+            "x": 366,
+            "y": 394,
+            "w": 337,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.4688427299703264,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "jesex-crouch-4",
+          "frame": {
+            "x": 373,
+            "y": 8,
+            "w": 342,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.4692982456140351,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "jesex-crouch-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 349,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.46131805157593125,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "jesex-crouch-6",
+          "frame": {
+            "x": 1100,
+            "y": 8,
+            "w": 347,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.46829971181556196,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "jesex-crouch-7",
+          "frame": {
+            "x": 731,
+            "y": 8,
+            "w": 353,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.4801699716713881,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "jesex-crouch",
+          "frame": {
+            "x": 1463,
+            "y": 8,
+            "w": 342,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.45321637426900585,
+            "y": 0.9916434540389972
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1751,
+        "h": 731
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-crouchBlock-0",
+          "frame": {
+            "x": 1405,
+            "y": 8,
+            "w": 338,
+            "h": 346
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 346
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 346
+          },
+          "pivot": {
+            "x": 0.4289940828402367,
+            "y": 0.9913294797687862
+          }
+        },
+        {
+          "filename": "jesex-crouchBlock-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 323,
+            "h": 353
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 353
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 353
+          },
+          "pivot": {
+            "x": 0.4520123839009288,
+            "y": 0.9915014164305949
+          }
+        },
+        {
+          "filename": "jesex-crouchBlock-2",
+          "frame": {
+            "x": 698,
+            "y": 377,
+            "w": 322,
+            "h": 314
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 314
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 314
+          },
+          "pivot": {
+            "x": 0.4798136645962733,
+            "y": 0.9904458598726115
+          }
+        },
+        {
+          "filename": "jesex-crouchBlock-3",
+          "frame": {
+            "x": 352,
+            "y": 377,
+            "w": 330,
+            "h": 334
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 334
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 334
+          },
+          "pivot": {
+            "x": 0.4666666666666667,
+            "y": 0.9910179640718563
+          }
+        },
+        {
+          "filename": "jesex-crouchBlock-4",
+          "frame": {
+            "x": 347,
+            "y": 8,
+            "w": 338,
+            "h": 349
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 349
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 349
+          },
+          "pivot": {
+            "x": 0.46745562130177515,
+            "y": 0.9914040114613181
+          }
+        },
+        {
+          "filename": "jesex-crouchBlock-5",
+          "frame": {
+            "x": 701,
+            "y": 8,
+            "w": 332,
+            "h": 349
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 349
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 349
+          },
+          "pivot": {
+            "x": 0.45331325301204817,
+            "y": 0.9914040114613181
+          }
+        },
+        {
+          "filename": "jesex-crouchBlock-6",
+          "frame": {
+            "x": 8,
+            "y": 377,
+            "w": 328,
+            "h": 346
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 346
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 346
+          },
+          "pivot": {
+            "x": 0.4725609756097561,
+            "y": 0.9913294797687862
+          }
+        },
+        {
+          "filename": "jesex-crouchBlock-7",
+          "frame": {
+            "x": 1049,
+            "y": 8,
+            "w": 340,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.45294117647058824,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "jesex-crouchBlock",
+          "frame": {
+            "x": 1405,
+            "y": 8,
+            "w": 338,
+            "h": 346
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 346
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 346
+          },
+          "pivot": {
+            "x": 0.4289940828402367,
+            "y": 0.9913294797687862
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1820,
+        "h": 756
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-crouchHurt-0",
+          "frame": {
+            "x": 723,
+            "y": 8,
+            "w": 349,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911504424778761
+          }
+        },
+        {
+          "filename": "jesex-crouchHurt-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 347,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5144092219020173,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "jesex-crouchHurt-2",
+          "frame": {
+            "x": 8,
+            "y": 424,
+            "w": 342,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "jesex-crouchHurt-3",
+          "frame": {
+            "x": 366,
+            "y": 424,
+            "w": 359,
+            "h": 315
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 315
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 315
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9904761904761905
+          }
+        },
+        {
+          "filename": "jesex-crouchHurt-4",
+          "frame": {
+            "x": 741,
+            "y": 424,
+            "w": 357,
+            "h": 311
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 311
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 311
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9903536977491961
+          }
+        },
+        {
+          "filename": "jesex-crouchHurt-5",
+          "frame": {
+            "x": 371,
+            "y": 8,
+            "w": 336,
+            "h": 340
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 340
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 340
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911764705882353
+          }
+        },
+        {
+          "filename": "jesex-crouchHurt-6",
+          "frame": {
+            "x": 1088,
+            "y": 8,
+            "w": 353,
+            "h": 338
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 338
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 338
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911242603550295
+          }
+        },
+        {
+          "filename": "jesex-crouchHurt-7",
+          "frame": {
+            "x": 1457,
+            "y": 8,
+            "w": 355,
+            "h": 338
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 355,
+            "h": 338
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 338
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911242603550295
+          }
+        },
+        {
+          "filename": "jesex-crouchHurt",
+          "frame": {
+            "x": 723,
+            "y": 8,
+            "w": 349,
+            "h": 339
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 339
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 339
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9911504424778761
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1951,
+        "h": 624
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-crouchPunch-0",
+          "frame": {
+            "x": 732,
+            "y": 8,
+            "w": 281,
+            "h": 301
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 301
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 301
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9900332225913622
+          }
+        },
+        {
+          "filename": "jesex-crouchPunch-1",
+          "frame": {
+            "x": 1654,
+            "y": 8,
+            "w": 289,
+            "h": 299
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 289,
+            "h": 299
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 289,
+            "h": 299
+          },
+          "pivot": {
+            "x": 0.4913494809688581,
+            "y": 0.9899665551839465
+          }
+        },
+        {
+          "filename": "jesex-crouchPunch-2",
+          "frame": {
+            "x": 8,
+            "y": 327,
+            "w": 344,
+            "h": 289
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 289
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 289
+          },
+          "pivot": {
+            "x": 0.4316860465116279,
+            "y": 0.9896193771626297
+          }
+        },
+        {
+          "filename": "jesex-crouchPunch-3",
+          "frame": {
+            "x": 368,
+            "y": 327,
+            "w": 382,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 288
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 288
+          },
+          "pivot": {
+            "x": 0.38612565445026176,
+            "y": 0.9895833333333334
+          }
+        },
+        {
+          "filename": "jesex-crouchPunch-4",
+          "frame": {
+            "x": 317,
+            "y": 8,
+            "w": 399,
+            "h": 302
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 302
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 302
+          },
+          "pivot": {
+            "x": 0.37719298245614036,
+            "y": 0.9900662251655629
+          }
+        },
+        {
+          "filename": "jesex-crouchPunch-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 293,
+            "h": 303
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 293,
+            "h": 303
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 293,
+            "h": 303
+          },
+          "pivot": {
+            "x": 0.4948805460750853,
+            "y": 0.9900990099009901
+          }
+        },
+        {
+          "filename": "jesex-crouchPunch-6",
+          "frame": {
+            "x": 1029,
+            "y": 8,
+            "w": 296,
+            "h": 300
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 300
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99
+          }
+        },
+        {
+          "filename": "jesex-crouchPunch-7",
+          "frame": {
+            "x": 1341,
+            "y": 8,
+            "w": 297,
+            "h": 300
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 297,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 297,
+            "h": 300
+          },
+          "pivot": {
+            "x": 0.4983164983164983,
+            "y": 0.99
+          }
+        },
+        {
+          "filename": "jesex-crouchPunch",
+          "frame": {
+            "x": 732,
+            "y": 8,
+            "w": 281,
+            "h": 301
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 301
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 301
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9900332225913622
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1948,
+        "h": 754
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-dash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 322,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "jesex-dash-1",
+          "frame": {
+            "x": 305,
+            "y": 400,
+            "w": 289,
+            "h": 331
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 289,
+            "h": 331
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 289,
+            "h": 331
+          },
+          "pivot": {
+            "x": 0.43252595155709345,
+            "y": 0.9909365558912386
+          }
+        },
+        {
+          "filename": "jesex-dash-2",
+          "frame": {
+            "x": 610,
+            "y": 400,
+            "w": 365,
+            "h": 326
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 326
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 326
+          },
+          "pivot": {
+            "x": 0.426027397260274,
+            "y": 0.99079754601227
+          }
+        },
+        {
+          "filename": "jesex-dash-3",
+          "frame": {
+            "x": 686,
+            "y": 8,
+            "w": 441,
+            "h": 357
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 441,
+            "h": 357
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 441,
+            "h": 357
+          },
+          "pivot": {
+            "x": 0.5022675736961452,
+            "y": 0.9915966386554622
+          }
+        },
+        {
+          "filename": "jesex-dash-4",
+          "frame": {
+            "x": 1143,
+            "y": 8,
+            "w": 434,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 434,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 434,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5034562211981567,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "jesex-dash-5",
+          "frame": {
+            "x": 8,
+            "y": 400,
+            "w": 281,
+            "h": 346
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 346
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 346
+          },
+          "pivot": {
+            "x": 0.4928825622775801,
+            "y": 0.9913294797687862
+          }
+        },
+        {
+          "filename": "jesex-dash-6",
+          "frame": {
+            "x": 1593,
+            "y": 8,
+            "w": 347,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "jesex-dash-7",
+          "frame": {
+            "x": 346,
+            "y": 8,
+            "w": 324,
+            "h": 363
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 363
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 363
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917355371900827
+          }
+        },
+        {
+          "filename": "jesex-dash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 322,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1910,
+        "h": 791
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 310,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "jesex-ko-1",
+          "frame": {
+            "x": 334,
+            "y": 8,
+            "w": 286,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "jesex-ko-2",
+          "frame": {
+            "x": 636,
+            "y": 8,
+            "w": 282,
+            "h": 419
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 282,
+            "h": 419
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 282,
+            "h": 419
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928400954653938
+          }
+        },
+        {
+          "filename": "jesex-ko-3",
+          "frame": {
+            "x": 934,
+            "y": 8,
+            "w": 308,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 308,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 308,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "jesex-ko-4",
+          "frame": {
+            "x": 1258,
+            "y": 8,
+            "w": 315,
+            "h": 350
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 315,
+            "h": 350
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 315,
+            "h": 350
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914285714285714
+          }
+        },
+        {
+          "filename": "jesex-ko-5",
+          "frame": {
+            "x": 1589,
+            "y": 8,
+            "w": 313,
+            "h": 330
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 330
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 330
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.990909090909091
+          }
+        },
+        {
+          "filename": "jesex-ko-6",
+          "frame": {
+            "x": 8,
+            "y": 456,
+            "w": 319,
+            "h": 327
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 327
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 327
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9908256880733946
+          }
+        },
+        {
+          "filename": "jesex-ko-7",
+          "frame": {
+            "x": 343,
+            "y": 456,
+            "w": 326,
+            "h": 297
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 297
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 297
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.98989898989899
+          }
+        },
+        {
+          "filename": "jesex-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 310,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1786,
+        "h": 335
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-down-0",
+          "frame": {
+            "x": 8,
+            "y": 177,
+            "w": 430,
+            "h": 150
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 150
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 150
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.98
+          }
+        },
+        {
+          "filename": "jesex-down-1",
+          "frame": {
+            "x": 454,
+            "y": 177,
+            "w": 430,
+            "h": 149
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 149
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 149
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9798657718120806
+          }
+        },
+        {
+          "filename": "jesex-down-2",
+          "frame": {
+            "x": 900,
+            "y": 177,
+            "w": 432,
+            "h": 149
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 432,
+            "h": 149
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 432,
+            "h": 149
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9798657718120806
+          }
+        },
+        {
+          "filename": "jesex-down-3",
+          "frame": {
+            "x": 1348,
+            "y": 177,
+            "w": 430,
+            "h": 149
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 149
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 149
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9798657718120806
+          }
+        },
+        {
+          "filename": "jesex-down-4",
+          "frame": {
+            "x": 454,
+            "y": 8,
+            "w": 430,
+            "h": 152
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 152
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 152
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9802631578947368
+          }
+        },
+        {
+          "filename": "jesex-down-5",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 430,
+            "h": 153
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 153
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 153
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9803921568627451
+          }
+        },
+        {
+          "filename": "jesex-down-6",
+          "frame": {
+            "x": 900,
+            "y": 8,
+            "w": 431,
+            "h": 152
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 431,
+            "h": 152
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 431,
+            "h": 152
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9802631578947368
+          }
+        },
+        {
+          "filename": "jesex-down-7",
+          "frame": {
+            "x": 1347,
+            "y": 8,
+            "w": 430,
+            "h": 152
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 152
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 152
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9802631578947368
+          }
+        },
+        {
+          "filename": "jesex-down",
+          "frame": {
+            "x": 8,
+            "y": 177,
+            "w": 430,
+            "h": 150
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 150
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 150
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.98
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1995,
+        "h": 769
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-fall-0",
+          "frame": {
+            "x": 8,
+            "y": 434,
+            "w": 245,
+            "h": 327
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 245,
+            "h": 327
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 245,
+            "h": 327
+          },
+          "pivot": {
+            "x": 0.45102040816326533,
+            "y": 0.9908256880733946
+          }
+        },
+        {
+          "filename": "jesex-fall-1",
+          "frame": {
+            "x": 1739,
+            "y": 8,
+            "w": 248,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 248,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 248,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.45564516129032256,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "jesex-fall-2",
+          "frame": {
+            "x": 1168,
+            "y": 8,
+            "w": 241,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 241,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 241,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.44398340248962653,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "jesex-fall-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 241,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 241,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 241,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.43983402489626555,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "jesex-fall-4",
+          "frame": {
+            "x": 1425,
+            "y": 8,
+            "w": 298,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 298,
+            "h": 385
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 298,
+            "h": 385
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922077922077922
+          }
+        },
+        {
+          "filename": "jesex-fall-5",
+          "frame": {
+            "x": 866,
+            "y": 8,
+            "w": 286,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5192307692307693,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "jesex-fall-6",
+          "frame": {
+            "x": 265,
+            "y": 8,
+            "w": 277,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 277,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 277,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "jesex-fall-7",
+          "frame": {
+            "x": 558,
+            "y": 8,
+            "w": 292,
+            "h": 404
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 404
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 404
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925742574257426
+          }
+        },
+        {
+          "filename": "jesex-fall",
+          "frame": {
+            "x": 8,
+            "y": 434,
+            "w": 245,
+            "h": 327
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 245,
+            "h": 327
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 245,
+            "h": 327
+          },
+          "pivot": {
+            "x": 0.45102040816326533,
+            "y": 0.9908256880733946
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1756,
+        "h": 660
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-getup-0",
+          "frame": {
+            "x": 861,
+            "y": 417,
+            "w": 446,
+            "h": 131
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 446,
+            "h": 131
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 446,
+            "h": 131
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9770992366412213
+          }
+        },
+        {
+          "filename": "jesex-getup-1",
+          "frame": {
+            "x": 8,
+            "y": 417,
+            "w": 410,
+            "h": 235
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 410,
+            "h": 235
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 410,
+            "h": 235
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9872340425531915
+          }
+        },
+        {
+          "filename": "jesex-getup-2",
+          "frame": {
+            "x": 434,
+            "y": 417,
+            "w": 411,
+            "h": 235
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 411,
+            "h": 235
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 411,
+            "h": 235
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9872340425531915
+          }
+        },
+        {
+          "filename": "jesex-getup-3",
+          "frame": {
+            "x": 1021,
+            "y": 8,
+            "w": 329,
+            "h": 312
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 312
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 312
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9903846153846154
+          }
+        },
+        {
+          "filename": "jesex-getup-4",
+          "frame": {
+            "x": 1366,
+            "y": 8,
+            "w": 382,
+            "h": 299
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 299
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 299
+          },
+          "pivot": {
+            "x": 0.4973821989528796,
+            "y": 0.9899665551839465
+          }
+        },
+        {
+          "filename": "jesex-getup-5",
+          "frame": {
+            "x": 360,
+            "y": 8,
+            "w": 310,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 310,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 310,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.4967741935483871,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "jesex-getup-6",
+          "frame": {
+            "x": 686,
+            "y": 8,
+            "w": 319,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "jesex-getup-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 336,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "jesex-getup",
+          "frame": {
+            "x": 861,
+            "y": 417,
+            "w": 446,
+            "h": 131
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 446,
+            "h": 131
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 446,
+            "h": 131
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9770992366412213
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1751,
+        "h": 835
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-hurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 338,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "jesex-hurt-1",
+          "frame": {
+            "x": 1410,
+            "y": 8,
+            "w": 333,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "jesex-hurt-2",
+          "frame": {
+            "x": 1066,
+            "y": 8,
+            "w": 328,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5320121951219512,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "jesex-hurt-3",
+          "frame": {
+            "x": 348,
+            "y": 440,
+            "w": 324,
+            "h": 386
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 386
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 386
+          },
+          "pivot": {
+            "x": 0.5277777777777778,
+            "y": 0.9922279792746114
+          }
+        },
+        {
+          "filename": "jesex-hurt-4",
+          "frame": {
+            "x": 688,
+            "y": 440,
+            "w": 314,
+            "h": 362
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 362
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 362
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9917127071823204
+          }
+        },
+        {
+          "filename": "jesex-hurt-5",
+          "frame": {
+            "x": 8,
+            "y": 440,
+            "w": 324,
+            "h": 387
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 324,
+            "h": 387
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 324,
+            "h": 387
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922480620155039
+          }
+        },
+        {
+          "filename": "jesex-hurt-6",
+          "frame": {
+            "x": 716,
+            "y": 8,
+            "w": 334,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "jesex-hurt-7",
+          "frame": {
+            "x": 362,
+            "y": 8,
+            "w": 338,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "jesex-hurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 338,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927884615384616
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1742,
+        "h": 869
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-idle-0",
+          "frame": {
+            "x": 359,
+            "y": 8,
+            "w": 331,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "jesex-idle-1",
+          "frame": {
+            "x": 706,
+            "y": 8,
+            "w": 333,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "jesex-idle-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 335,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "jesex-idle-3",
+          "frame": {
+            "x": 1055,
+            "y": 8,
+            "w": 330,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "jesex-idle-4",
+          "frame": {
+            "x": 356,
+            "y": 450,
+            "w": 336,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "jesex-idle-5",
+          "frame": {
+            "x": 1401,
+            "y": 8,
+            "w": 333,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "jesex-idle-6",
+          "frame": {
+            "x": 708,
+            "y": 450,
+            "w": 332,
+            "h": 403
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 403
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 403
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925558312655087
+          }
+        },
+        {
+          "filename": "jesex-idle-7",
+          "frame": {
+            "x": 8,
+            "y": 450,
+            "w": 332,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "jesex-idle",
+          "frame": {
+            "x": 359,
+            "y": 8,
+            "w": 331,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 331,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 331,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1948,
+        "h": 875
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-intro-0",
+          "frame": {
+            "x": 255,
+            "y": 8,
+            "w": 209,
+            "h": 440
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 209,
+            "h": 440
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 209,
+            "h": 440
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931818181818182
+          }
+        },
+        {
+          "filename": "jesex-intro-1",
+          "frame": {
+            "x": 480,
+            "y": 8,
+            "w": 217,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 217,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 217,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "jesex-intro-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 231,
+            "h": 444
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 231,
+            "h": 444
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 231,
+            "h": 444
+          },
+          "pivot": {
+            "x": 0.5151515151515151,
+            "y": 0.9932432432432432
+          }
+        },
+        {
+          "filename": "jesex-intro-3",
+          "frame": {
+            "x": 713,
+            "y": 8,
+            "w": 243,
+            "h": 435
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 243,
+            "h": 435
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 243,
+            "h": 435
+          },
+          "pivot": {
+            "x": 0.4670781893004115,
+            "y": 0.993103448275862
+          }
+        },
+        {
+          "filename": "jesex-intro-4",
+          "frame": {
+            "x": 972,
+            "y": 8,
+            "w": 245,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 245,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 245,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "jesex-intro-5",
+          "frame": {
+            "x": 1588,
+            "y": 8,
+            "w": 352,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "jesex-intro-6",
+          "frame": {
+            "x": 8,
+            "y": 468,
+            "w": 337,
+            "h": 399
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 399
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 399
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924812030075187
+          }
+        },
+        {
+          "filename": "jesex-intro-7",
+          "frame": {
+            "x": 1233,
+            "y": 8,
+            "w": 339,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "jesex-intro",
+          "frame": {
+            "x": 255,
+            "y": 8,
+            "w": 209,
+            "h": 440
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 209,
+            "h": 440
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 209,
+            "h": 440
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931818181818182
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1779,
+        "h": 818
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-jump-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 325,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "jesex-jump-1",
+          "frame": {
+            "x": 1520,
+            "y": 8,
+            "w": 251,
+            "h": 352
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 251,
+            "h": 352
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 251,
+            "h": 352
+          },
+          "pivot": {
+            "x": 0.45219123505976094,
+            "y": 0.9914772727272727
+          }
+        },
+        {
+          "filename": "jesex-jump-2",
+          "frame": {
+            "x": 949,
+            "y": 8,
+            "w": 304,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.3618421052631579,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "jesex-jump-3",
+          "frame": {
+            "x": 1269,
+            "y": 8,
+            "w": 235,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 235,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 235,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.4106382978723404,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "jesex-jump-4",
+          "frame": {
+            "x": 299,
+            "y": 462,
+            "w": 232,
+            "h": 321
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 232,
+            "h": 321
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 232,
+            "h": 321
+          },
+          "pivot": {
+            "x": 0.41594827586206895,
+            "y": 0.9906542056074766
+          }
+        },
+        {
+          "filename": "jesex-jump-5",
+          "frame": {
+            "x": 349,
+            "y": 8,
+            "w": 245,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 245,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 245,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.47959183673469385,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "jesex-jump-6",
+          "frame": {
+            "x": 8,
+            "y": 462,
+            "w": 275,
+            "h": 348
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 275,
+            "h": 348
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 275,
+            "h": 348
+          },
+          "pivot": {
+            "x": 0.4581818181818182,
+            "y": 0.9913793103448276
+          }
+        },
+        {
+          "filename": "jesex-jump-7",
+          "frame": {
+            "x": 610,
+            "y": 8,
+            "w": 323,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 432
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 432
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930555555555556
+          }
+        },
+        {
+          "filename": "jesex-jump",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 325,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931506849315068
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1844,
+        "h": 859
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-kick-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 336,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "jesex-kick-1",
+          "frame": {
+            "x": 737,
+            "y": 8,
+            "w": 240,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 240,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 240,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.47708333333333336,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "jesex-kick-2",
+          "frame": {
+            "x": 360,
+            "y": 8,
+            "w": 361,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 361,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 361,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.16620498614958448,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "jesex-kick-3",
+          "frame": {
+            "x": 1419,
+            "y": 8,
+            "w": 417,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 417,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 417,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.16666666666666666,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "jesex-kick-4",
+          "frame": {
+            "x": 993,
+            "y": 8,
+            "w": 410,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 410,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 410,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.12682926829268293,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "jesex-kick-5",
+          "frame": {
+            "x": 283,
+            "y": 442,
+            "w": 237,
+            "h": 408
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 237,
+            "h": 408
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 237,
+            "h": 408
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926470588235294
+          }
+        },
+        {
+          "filename": "jesex-kick-6",
+          "frame": {
+            "x": 8,
+            "y": 442,
+            "w": 259,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 259,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 259,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.49034749034749037,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "jesex-kick-7",
+          "frame": {
+            "x": 536,
+            "y": 442,
+            "w": 346,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "jesex-kick",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 336,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2045,
+        "h": 599
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-knockdown-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 302,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        },
+        {
+          "filename": "jesex-knockdown-1",
+          "frame": {
+            "x": 326,
+            "y": 8,
+            "w": 368,
+            "h": 370
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 370
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 370
+          },
+          "pivot": {
+            "x": 0.6331521739130435,
+            "y": 0.9918918918918919
+          }
+        },
+        {
+          "filename": "jesex-knockdown-2",
+          "frame": {
+            "x": 710,
+            "y": 8,
+            "w": 444,
+            "h": 367
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 444,
+            "h": 367
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 444,
+            "h": 367
+          },
+          "pivot": {
+            "x": 0.7364864864864865,
+            "y": 0.9918256130790191
+          }
+        },
+        {
+          "filename": "jesex-knockdown-3",
+          "frame": {
+            "x": 1170,
+            "y": 8,
+            "w": 415,
+            "h": 273
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 415,
+            "h": 273
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 415,
+            "h": 273
+          },
+          "pivot": {
+            "x": 0.5650602409638554,
+            "y": 0.989010989010989
+          }
+        },
+        {
+          "filename": "jesex-knockdown-4",
+          "frame": {
+            "x": 1601,
+            "y": 8,
+            "w": 436,
+            "h": 202
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 436,
+            "h": 202
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 436,
+            "h": 202
+          },
+          "pivot": {
+            "x": 0.5217889908256881,
+            "y": 0.9851485148514851
+          }
+        },
+        {
+          "filename": "jesex-knockdown-5",
+          "frame": {
+            "x": 8,
+            "y": 413,
+            "w": 437,
+            "h": 178
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 437,
+            "h": 178
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 437,
+            "h": 178
+          },
+          "pivot": {
+            "x": 0.4919908466819222,
+            "y": 0.9831460674157303
+          }
+        },
+        {
+          "filename": "jesex-knockdown-6",
+          "frame": {
+            "x": 461,
+            "y": 413,
+            "w": 408,
+            "h": 167
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 408,
+            "h": 167
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 408,
+            "h": 167
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9820359281437125
+          }
+        },
+        {
+          "filename": "jesex-knockdown-7",
+          "frame": {
+            "x": 885,
+            "y": 413,
+            "w": 425,
+            "h": 104
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 425,
+            "h": 104
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 425,
+            "h": 104
+          },
+          "pivot": {
+            "x": 0.4976470588235294,
+            "y": 0.9711538461538461
+          }
+        },
+        {
+          "filename": "jesex-knockdown",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 302,
+            "h": 389
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 389
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 389
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9922879177377892
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1915,
+        "h": 870
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-punch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 344,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "jesex-punch-1",
+          "frame": {
+            "x": 759,
+            "y": 8,
+            "w": 372,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "jesex-punch-2",
+          "frame": {
+            "x": 368,
+            "y": 8,
+            "w": 375,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.48133333333333334,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "jesex-punch-3",
+          "frame": {
+            "x": 1147,
+            "y": 8,
+            "w": 391,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.489769820971867,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "jesex-punch-4",
+          "frame": {
+            "x": 736,
+            "y": 448,
+            "w": 386,
+            "h": 410
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 386,
+            "h": 410
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 386,
+            "h": 410
+          },
+          "pivot": {
+            "x": 0.46243523316062174,
+            "y": 0.9926829268292683
+          }
+        },
+        {
+          "filename": "jesex-punch-5",
+          "frame": {
+            "x": 1554,
+            "y": 8,
+            "w": 353,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "jesex-punch-6",
+          "frame": {
+            "x": 371,
+            "y": 448,
+            "w": 349,
+            "h": 413
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 413
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 413
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927360774818402
+          }
+        },
+        {
+          "filename": "jesex-punch-7",
+          "frame": {
+            "x": 8,
+            "y": 448,
+            "w": 347,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "jesex-punch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 344,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929245283018868
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1826,
+        "h": 849
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-super-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 336,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "jesex-super-1",
+          "frame": {
+            "x": 360,
+            "y": 8,
+            "w": 338,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "jesex-super-2",
+          "frame": {
+            "x": 714,
+            "y": 8,
+            "w": 345,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "jesex-super-3",
+          "frame": {
+            "x": 1075,
+            "y": 8,
+            "w": 358,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.4888268156424581,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "jesex-super-4",
+          "frame": {
+            "x": 8,
+            "y": 444,
+            "w": 369,
+            "h": 397
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 397
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 397
+          },
+          "pivot": {
+            "x": 0.47696476964769646,
+            "y": 0.9924433249370277
+          }
+        },
+        {
+          "filename": "jesex-super-5",
+          "frame": {
+            "x": 1449,
+            "y": 8,
+            "w": 369,
+            "h": 400
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 400
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 400
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925
+          }
+        },
+        {
+          "filename": "jesex-super-6",
+          "frame": {
+            "x": 784,
+            "y": 444,
+            "w": 407,
+            "h": 384
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 407,
+            "h": 384
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 407,
+            "h": 384
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9921875
+          }
+        },
+        {
+          "filename": "jesex-super-7",
+          "frame": {
+            "x": 393,
+            "y": 444,
+            "w": 375,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 375,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.49066666666666664,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "jesex-super",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 336,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1829,
+        "h": 671
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-sweep-0",
+          "frame": {
+            "x": 338,
+            "y": 8,
+            "w": 309,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        },
+        {
+          "filename": "jesex-sweep-1",
+          "frame": {
+            "x": 1269,
+            "y": 8,
+            "w": 234,
+            "h": 303
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 234,
+            "h": 303
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 234,
+            "h": 303
+          },
+          "pivot": {
+            "x": 0.49572649572649574,
+            "y": 0.9900990099009901
+          }
+        },
+        {
+          "filename": "jesex-sweep-2",
+          "frame": {
+            "x": 423,
+            "y": 401,
+            "w": 368,
+            "h": 256
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 256
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 256
+          },
+          "pivot": {
+            "x": 0.5163043478260869,
+            "y": 0.98828125
+          }
+        },
+        {
+          "filename": "jesex-sweep-3",
+          "frame": {
+            "x": 8,
+            "y": 401,
+            "w": 399,
+            "h": 262
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 399,
+            "h": 262
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 399,
+            "h": 262
+          },
+          "pivot": {
+            "x": 0.5213032581453634,
+            "y": 0.9885496183206107
+          }
+        },
+        {
+          "filename": "jesex-sweep-4",
+          "frame": {
+            "x": 1519,
+            "y": 8,
+            "w": 302,
+            "h": 280
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 280
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 280
+          },
+          "pivot": {
+            "x": 0.5562913907284768,
+            "y": 0.9892857142857143
+          }
+        },
+        {
+          "filename": "jesex-sweep-5",
+          "frame": {
+            "x": 997,
+            "y": 8,
+            "w": 256,
+            "h": 322
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 322
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 322
+          },
+          "pivot": {
+            "x": 0.560546875,
+            "y": 0.9906832298136646
+          }
+        },
+        {
+          "filename": "jesex-sweep-6",
+          "frame": {
+            "x": 663,
+            "y": 8,
+            "w": 318,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "jesex-sweep-7",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 314,
+            "h": 377
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 377
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 377
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920424403183024
+          }
+        },
+        {
+          "filename": "jesex-sweep",
+          "frame": {
+            "x": 338,
+            "y": 8,
+            "w": 309,
+            "h": 376
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 376
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 376
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920212765957447
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1756,
+        "h": 825
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-uppercut-0",
+          "frame": {
+            "x": 591,
+            "y": 8,
+            "w": 311,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9918478260869565
+          }
+        },
+        {
+          "filename": "jesex-uppercut-1",
+          "frame": {
+            "x": 8,
+            "y": 516,
+            "w": 286,
+            "h": 301
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 301
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 301
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9900332225913622
+          }
+        },
+        {
+          "filename": "jesex-uppercut-2",
+          "frame": {
+            "x": 241,
+            "y": 8,
+            "w": 334,
+            "h": 375
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 375
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 375
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992
+          }
+        },
+        {
+          "filename": "jesex-uppercut-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 217,
+            "h": 492
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 217,
+            "h": 492
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 217,
+            "h": 492
+          },
+          "pivot": {
+            "x": 0.29493087557603687,
+            "y": 0.9939024390243902
+          }
+        },
+        {
+          "filename": "jesex-uppercut-4",
+          "frame": {
+            "x": 918,
+            "y": 8,
+            "w": 237,
+            "h": 358
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 237,
+            "h": 358
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 237,
+            "h": 358
+          },
+          "pivot": {
+            "x": 0.3987341772151899,
+            "y": 0.9916201117318436
+          }
+        },
+        {
+          "filename": "jesex-uppercut-5",
+          "frame": {
+            "x": 1486,
+            "y": 8,
+            "w": 262,
+            "h": 310
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 262,
+            "h": 310
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 262,
+            "h": 310
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9903225806451613
+          }
+        },
+        {
+          "filename": "jesex-uppercut-6",
+          "frame": {
+            "x": 310,
+            "y": 516,
+            "w": 296,
+            "h": 292
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 296,
+            "h": 292
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 296,
+            "h": 292
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9897260273972602
+          }
+        },
+        {
+          "filename": "jesex-uppercut-7",
+          "frame": {
+            "x": 1171,
+            "y": 8,
+            "w": 299,
+            "h": 317
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 299,
+            "h": 317
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 299,
+            "h": 317
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9905362776025236
+          }
+        },
+        {
+          "filename": "jesex-uppercut",
+          "frame": {
+            "x": 591,
+            "y": 8,
+            "w": 311,
+            "h": 368
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 368
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 368
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9918478260869565
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1766,
+        "h": 834
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-win-0",
+          "frame": {
+            "x": 886,
+            "y": 8,
+            "w": 281,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        },
+        {
+          "filename": "jesex-win-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 266,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 266,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 266,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "jesex-win-2",
+          "frame": {
+            "x": 290,
+            "y": 8,
+            "w": 281,
+            "h": 407
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 407
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 407
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9926289926289926
+          }
+        },
+        {
+          "filename": "jesex-win-3",
+          "frame": {
+            "x": 1183,
+            "y": 8,
+            "w": 293,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 293,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 293,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "jesex-win-4",
+          "frame": {
+            "x": 8,
+            "y": 433,
+            "w": 282,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 282,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 282,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "jesex-win-5",
+          "frame": {
+            "x": 1492,
+            "y": 8,
+            "w": 266,
+            "h": 395
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 266,
+            "h": 395
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 266,
+            "h": 395
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924050632911392
+          }
+        },
+        {
+          "filename": "jesex-win-6",
+          "frame": {
+            "x": 306,
+            "y": 433,
+            "w": 277,
+            "h": 393
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 277,
+            "h": 393
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 277,
+            "h": 393
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923664122137404
+          }
+        },
+        {
+          "filename": "jesex-win-7",
+          "frame": {
+            "x": 587,
+            "y": 8,
+            "w": 283,
+            "h": 406
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 283,
+            "h": 406
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 283,
+            "h": 406
+          },
+          "pivot": {
+            "x": 0.5053003533568905,
+            "y": 0.9926108374384236
+          }
+        },
+        {
+          "filename": "jesex-win",
+          "frame": {
+            "x": 886,
+            "y": 8,
+            "w": 281,
+            "h": 402
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 402
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 402
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925373134328358
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2042,
+        "h": 950
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-walk-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 337,
+            "h": 469
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 469
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 469
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936034115138592
+          }
+        },
+        {
+          "filename": "jesex-walk-1",
+          "frame": {
+            "x": 704,
+            "y": 8,
+            "w": 243,
+            "h": 465
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 243,
+            "h": 465
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 243,
+            "h": 465
+          },
+          "pivot": {
+            "x": 0.3950617283950617,
+            "y": 0.9935483870967742
+          }
+        },
+        {
+          "filename": "jesex-walk-2",
+          "frame": {
+            "x": 963,
+            "y": 8,
+            "w": 222,
+            "h": 465
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 222,
+            "h": 465
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 222,
+            "h": 465
+          },
+          "pivot": {
+            "x": 0.44144144144144143,
+            "y": 0.9935483870967742
+          }
+        },
+        {
+          "filename": "jesex-walk-3",
+          "frame": {
+            "x": 361,
+            "y": 8,
+            "w": 327,
+            "h": 466
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 327,
+            "h": 466
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 327,
+            "h": 466
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935622317596566
+          }
+        },
+        {
+          "filename": "jesex-walk-4",
+          "frame": {
+            "x": 8,
+            "y": 493,
+            "w": 363,
+            "h": 449
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 363,
+            "h": 449
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 363,
+            "h": 449
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933184855233853
+          }
+        },
+        {
+          "filename": "jesex-walk-5",
+          "frame": {
+            "x": 1561,
+            "y": 8,
+            "w": 232,
+            "h": 451
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 232,
+            "h": 451
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 232,
+            "h": 451
+          },
+          "pivot": {
+            "x": 0.40086206896551724,
+            "y": 0.9933481152993349
+          }
+        },
+        {
+          "filename": "jesex-walk-6",
+          "frame": {
+            "x": 1809,
+            "y": 8,
+            "w": 225,
+            "h": 451
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 225,
+            "h": 451
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 225,
+            "h": 451
+          },
+          "pivot": {
+            "x": 0.4066666666666667,
+            "y": 0.9933481152993349
+          }
+        },
+        {
+          "filename": "jesex-walk-7",
+          "frame": {
+            "x": 1201,
+            "y": 8,
+            "w": 344,
+            "h": 455
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 455
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 455
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934065934065934
+          }
+        },
+        {
+          "filename": "jesex-walk",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 337,
+            "h": 469
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 469
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 469
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936034115138592
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1884,
+        "h": 891
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "jesex-walkBack-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 332,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931192660550459
+          }
+        },
+        {
+          "filename": "jesex-walkBack-1",
+          "frame": {
+            "x": 356,
+            "y": 8,
+            "w": 334,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.5014970059880239,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "jesex-walkBack-2",
+          "frame": {
+            "x": 1196,
+            "y": 8,
+            "w": 382,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "jesex-walkBack-3",
+          "frame": {
+            "x": 706,
+            "y": 8,
+            "w": 228,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 228,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 228,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.4583333333333333,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "jesex-walkBack-4",
+          "frame": {
+            "x": 1594,
+            "y": 8,
+            "w": 282,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 282,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 282,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "jesex-walkBack-5",
+          "frame": {
+            "x": 344,
+            "y": 460,
+            "w": 360,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "jesex-walkBack-6",
+          "frame": {
+            "x": 950,
+            "y": 8,
+            "w": 230,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 230,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 230,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.4934782608695652,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "jesex-walkBack-7",
+          "frame": {
+            "x": 8,
+            "y": 460,
+            "w": 320,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "jesex-walkBack",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 332,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9931192660550459
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}
