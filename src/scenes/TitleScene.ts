@@ -1,14 +1,19 @@
 import Phaser from 'phaser';
 import { COLORS, CSS, GAME_HEIGHT, GAME_WIDTH, SCENES } from '../config';
 import { CHANGELOG, changelogUnseen } from '../data/changelog';
-import { FIGHTERS, ROSTER } from '../data/fighters';
+import { FIGHTERS } from '../data/fighters';
+import { STAGES, type StageDef } from '../data/stages';
+import { preloadStages } from '../systems/StageArt';
 import { Audio, MUSIC } from '../systems/Audio';
 import { artScale } from '../systems/FighterArt';
-import { devText, Input, onDevice, onPadChange, padConnected, padName } from '../systems/Input';
+import { connectedPads, devText, Input, onDevice, onPadChange, padConnected, padName } from '../systems/Input';
+import { Versus } from '../systems/Versus';
 import { Ranking } from '../systems/Ranking';
 import { StoryRun } from '../systems/StoryRun';
 import { Profile, connectProfile } from './LoginScene';
-import { Menu, type MenuItem, footer, fullscreenItem, goTo, logo, scanlines, speedStripes, stageBackdrop, text } from '../ui/ui';
+import { Menu, MenuBackdrop, type MenuItem, footer, fullscreenItem, goTo, logo, scanlines, speedStripes, stageBackdrop, text } from '../ui/ui';
+
+let backdropPicked = false;
 
 /** Pantalla de título: "PRESIONA ENTER" y luego el menú principal. */
 export class TitleScene extends Phaser.Scene {
@@ -22,13 +27,28 @@ export class TitleScene extends Phaser.Scene {
   private desc!: Phaser.GameObjects.Text;
   private help: Phaser.GameObjects.Container | null = null;
   private descs: string[] = [];
+  /** Submenú VERSUS abierto (VS CPU / VS JUGADOR). */
+  private inVersus = false;
 
   constructor() {
     super(SCENES.Title);
   }
 
+  /** Fondo de todos los menús: un escenario al azar, una vez por sesión (el del jefe no está en la lista). */
+  preload() {
+    if (backdropPicked) return;
+    backdropPicked = true;
+    const pool = Object.values(STAGES).filter((s) => s.image);
+    if (!pool.length) return;
+    const stage: StageDef = Phaser.Utils.Array.GetRandom(pool);
+    MenuBackdrop.texture = stage.texture;
+    preloadStages(this, [stage]);
+  }
+
   create(data: { skipPress?: boolean }) {
     this.menu = null;
+    // De vuelta en el menú principal: se acaba el VS JUGADOR y los menús vuelven a responder a cualquier control.
+    Versus.reset();
     this.intro = { logo: [], extra: [] };
     this.leaving = false;
     // Se carga Firebase de fondo mientras se ve el título (la conexión de la cuenta va antes del menú).
@@ -70,7 +90,7 @@ export class TitleScene extends Phaser.Scene {
     this.intro.extra.push(vol);
 
     this.press = text(this, GAME_WIDTH / 2, 800, 'PRESIONA  ENTER', { size: 56, italic: true, weight: '900', color: CSS.lime, origin: [0.5, 0.5], spacing: 4, shadow: true });
-    onDevice(this, () => this.press.setText(`PRESIONA  ${devText('ENTER')}`));
+    onDevice(this, () => this.press.active && this.press.setText(`PRESIONA  ${devText('ENTER')}`));
     this.tweens.add({ targets: this.press, alpha: 0.15, duration: 520, yoyo: true, repeat: -1 });
     // Debajo, más discreto: invita a usar el mando o confirma que ya está listo.
     const padHint = text(this, GAME_WIDTH / 2, 870, '', { size: 26, weight: '700', color: CSS.grey, origin: [0.5, 0.5], spacing: 2 });
@@ -117,18 +137,20 @@ export class TitleScene extends Phaser.Scene {
     const gone = [...this.intro.logo, ...this.intro.extra];
     this.tweens.add({ targets: gone, alpha: 0, duration: ms * 0.6, onComplete: () => gone.forEach((o) => o !== pg && o.destroy()) });
 
-    // Columna izquierda, sin caja: el fondo oscurece hacia ese lado para que se lea.
+    // Columna izquierda, sin caja: el escenario de fondo oscurece hacia ese lado para que se lea.
     const shade = this.add.graphics();
     shade.fillGradientStyle(COLORS.bg, COLORS.bg, COLORS.bg, COLORS.bg, 0.85, 0, 0.85, 0).fillRect(0, 0, GAME_WIDTH * 0.6, GAME_HEIGHT);
     this.children.moveBelow(shade as never, pg as never);
-    this.showcase(instant);
 
     this.desc = text(this, 110, 975, '', { size: 28, font: 'body', color: '#d8d5c8', origin: [0, 0.5] });
     this.showMenu();
+    // Si aparece un mando con el submenú VERSUS abierto, se habilita VS JUGADOR.
+    onPadChange(this, () => this.inVersus && this.versus());
   }
 
   /** Una sola lista ordenada por secciones; abajo, la descripción de la opción elegida. */
   private showMenu(): void {
+    this.inVersus = false;
     this.menu?.destroy();
     this.help?.destroy();
     const saved = StoryRun.ready && StoryRun.saved.length > 0;
@@ -136,6 +158,7 @@ export class TitleScene extends Phaser.Scene {
     // elige luchador y queda deshabilitada con todos los espacios ocupados.
     const story = (resume: boolean) => () => {
       if (!StoryRun.ready) return connectProfile(this);
+      Versus.reset();
       if (resume) return goTo(this, SCENES.Saves);
       goTo(this, SCENES.Select, { mode: 'story', last: StoryRun.saved[0]?.player });
     };
@@ -149,8 +172,8 @@ export class TitleScene extends Phaser.Scene {
         enabled: !full,
         desc: full ? 'Tus espacios de partida están llenos: borra una para empezar otra.' : 'Pelea contra todo el barrio hasta llegar al jefe.',
       },
-      { label: 'VS CPU', onSelect: () => goTo(this, SCENES.Select), desc: 'Pelea contra la CPU con cualquier luchador.' },
-      { label: 'ENTRENAMIENTO', onSelect: () => goTo(this, SCENES.Select, { mode: 'training' }), desc: 'Practica combos y poderes sin presión.' },
+      { label: 'VERSUS', onSelect: () => this.versus(), desc: 'Contra la CPU o contra un amigo.' },
+      { label: 'ENTRENAMIENTO', onSelect: () => (Versus.reset(), goTo(this, SCENES.Select, { mode: 'training' })), desc: 'Practica combos y poderes sin presión.' },
       { header: 'COMUNIDAD', label: 'RANKING', onSelect: () => goTo(this, SCENES.Ranking), desc: 'Los mejores del barrio.' },
       { label: changelogUnseen() ? 'NOVEDADES  ●' : 'NOVEDADES', onSelect: () => goTo(this, SCENES.Changelog), desc: `Qué cambió en la versión ${CHANGELOG[0].version}.` },
       { header: 'OPCIONES', label: 'CONTROLES', onSelect: () => goTo(this, SCENES.Controls), desc: 'Teclado y mando: todos los movimientos.' },
@@ -162,36 +185,24 @@ export class TitleScene extends Phaser.Scene {
     this.help = footer(this, 'W S  ELEGIR      A D  CAMBIAR      ENTER  CONFIRMAR');
   }
 
-  /** Derecha: un luchador del roster en guardia que va cambiando solo. */
-  private showcase(instant: boolean): void {
-    const ids = Phaser.Utils.Array.Shuffle([...ROSTER]);
-    let n = 0;
-    let current: Phaser.GameObjects.GameObject[] = [];
-    const x = GAME_WIDTH * 0.73;
-    const show = () => {
-      const def = FIGHTERS[ids[n++ % ids.length]];
-      for (const o of current) {
-        this.tweens.add({ targets: o, alpha: 0, x: '+=120', duration: 300, onComplete: () => o.destroy() });
-      }
-      const s = artScale(this, def) * 1.7;
-      const frame = `${def.art.prefix}idle`;
-      const glow = this.add.image(x, GAME_HEIGHT + 40, def.art.texture, frame).setScale(s * 1.03).setFlipX(true).setOrigin(0.5, 1);
-      glow.setTint(def.color).setTintMode(Phaser.TintModes.FILL).setAlpha(0.5).setBlendMode(Phaser.BlendModes.ADD);
-      const fig = this.add.image(x, GAME_HEIGHT + 40, def.art.texture, frame).setScale(s).setFlipX(true).setOrigin(0.5, 1);
-      const name = text(this, GAME_WIDTH - 110, GAME_HEIGHT - 190, def.name, { size: 64, italic: true, weight: '900', color: def.css, origin: [1, 0.5], stroke: '#000000' });
-      current = [glow, fig, name];
-      for (const o of current) {
-        const t = o as Phaser.GameObjects.Image;
-        t.setAlpha(0);
-        // Entre el fondo y el logo, para que el menú quede siempre encima.
-        this.children.moveBelow(t as never, this.intro.logo[0] as never);
-        t.x -= 120;
-        this.tweens.add({ targets: t, alpha: t === glow ? 0.5 : 1, x: t.x + 120, duration: 380, ease: 'Cubic.easeOut' });
-      }
-    };
-    if (instant) show();
-    else this.time.delayedCall(250, show);
-    this.time.addEvent({ delay: 4000, loop: true, callback: show });
+  /** VERSUS: con algún mando a la vista se eligen lados (P1 / P2 / CPU); solo con teclado, directo contra la CPU. */
+  private versus(): void {
+    this.menu?.destroy();
+    this.help?.destroy();
+    this.inVersus = true;
+    const pads = connectedPads().length > 0;
+    const items: (MenuItem & { desc: string })[] = [
+      { header: 'VERSUS', label: 'VS CPU', onSelect: () => (Versus.reset(), goTo(this, SCENES.Select)), desc: 'Pelea contra la CPU con cualquier luchador.' },
+      {
+        label: 'VS JUGADOR',
+        onSelect: () => goTo(this, SCENES.Sides),
+        enabled: pads,
+        desc: pads ? 'Contra un amigo: cada uno con su control (teclado o mando).' : 'Conecta un mando y pulsa un botón para jugar de a dos.',
+      },
+    ];
+    this.descs = items.map((it) => it.desc);
+    this.menu = new Menu(this, items, 140, 270, 60, 40, 'left');
+    this.help = footer(this, 'W S  ELEGIR      ENTER  CONFIRMAR      ESC  VOLVER');
   }
 
   /** Abajo a la derecha: la versión, que abre las novedades (clic o N). El punto avisa si hay algo sin ver. */
@@ -315,6 +326,10 @@ export class TitleScene extends Phaser.Scene {
     if (i.justDown('left')) this.menu.side(-1);
     if (i.justDown('right')) this.menu.side(1);
     if (i.justDown('confirm')) this.menu.select();
+    else if (i.justDown('back') && this.inVersus) {
+      Audio.blip(this, true);
+      this.showMenu();
+    }
     this.desc?.setText(this.descs[this.menu.index] ?? '');
   }
 }

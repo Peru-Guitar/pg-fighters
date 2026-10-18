@@ -266,7 +266,8 @@ export class EndingScene extends Phaser.Scene {
     this.leaving = true;
     StoryRun.clear();
     if (this.lab) return goTo(this, SCENES.Fight, this.lab, 500);
-    goTo(this, StoryRun.saved.length ? SCENES.Saves : SCENES.Title, { skipPress: true }, 600);
+    // Después del final, los créditos (y, la primera vez, el aviso de Acople desbloqueado).
+    goTo(this, SCENES.Credits, { fromEnding: true }, 600);
   }
 
   update() {

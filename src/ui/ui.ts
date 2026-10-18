@@ -68,7 +68,10 @@ export const fitText = (t: Phaser.GameObjects.Text, maxW: number, minSize: numbe
 };
 
 /** Fondo del bar a pantalla completa, oscurecido. */
-export const stageBackdrop = (scene: Phaser.Scene, shade = 0.55, texture = 'bar') => {
+/** Fondo de los menús en esta sesión: un escenario al azar que elige el título (si no, el Barrio). */
+export const MenuBackdrop = { texture: 'bar' };
+
+export const stageBackdrop = (scene: Phaser.Scene, shade = 0.55, texture = scene.textures.exists(MenuBackdrop.texture) ? MenuBackdrop.texture : 'bar') => {
   const art = scene.add.image(GAME_WIDTH / 2, GAME_HEIGHT / 2, texture);
   art.setScale(Math.max(GAME_WIDTH / art.width, GAME_HEIGHT / art.height));
   scene.add.rectangle(0, 0, GAME_WIDTH, GAME_HEIGHT, COLORS.bg, shade).setOrigin(0);
@@ -161,7 +164,10 @@ export class Menu {
     this.refresh();
   }
 
+  private destroyed = false;
+
   destroy(): void {
+    this.destroyed = true;
     for (const t of [...this.texts, ...this.headers]) t.destroy();
     this.marker.destroy();
   }
@@ -197,6 +203,8 @@ export class Menu {
   }
 
   refresh(): void {
+    // Una opción puede reemplazar el menú al elegirse (submenú): el viejo ya no se redibuja.
+    if (this.destroyed) return;
     this.marker.clear();
     this.texts.forEach((t, i) => {
       const it = this.items[i];
@@ -240,6 +248,8 @@ export const keycap = (scene: Phaser.Scene, x: number, y: number, key: string, s
 export const footer = (scene: Phaser.Scene, str: string, y = GAME_HEIGHT - 48) => {
   const row = scene.add.container(0, y).setDepth(900);
   onDevice(scene, (d) => {
+    // Una barra reemplazada (otro menú) ya no se redibuja.
+    if (!row.active) return;
     row.removeAll(true);
     let x = 0;
     for (const group of str.trim().split(/\s{4,}/)) {
@@ -284,6 +294,17 @@ export const logo = (scene: Phaser.Scene, x: number, y: number, scale = 1) => {
   const fighters = text(scene, x, y - 30 * scale, 'FIGHTERS', { size: 190 * scale, italic: true, weight: '900', color: CSS.lime, origin: [0.5, 0], glow: '#dfff0066' });
   return [pg, fighters];
 };
+
+/**
+ * En pantalla completa, ESC queda para el juego (pausa / volver) y no saca de ella: hay que mantenerlo
+ * presionado (Keyboard Lock; Chrome y Edge). En Safari y Firefox no existe y ESC sigue saliendo.
+ */
+type KeyboardLock = { lock?: (keys: string[]) => Promise<void>; unlock?: () => void };
+document.addEventListener('fullscreenchange', () => {
+  const kb = (navigator as Navigator & { keyboard?: KeyboardLock }).keyboard;
+  if (document.fullscreenElement) kb?.lock?.(['Escape']).catch(() => undefined);
+  else kb?.unlock?.();
+});
 
 /** Opción "PANTALLA COMPLETA: SÍ/NO" (ENTER, A D o clic). Se usa en el título y en la pausa. */
 export const fullscreenItem = (scene: Phaser.Scene, menu: () => Menu | null): MenuItem => {

@@ -209,6 +209,22 @@ export const Ranking = {
     }
   },
 
+  /** ¿Alguna fila propia del ranking dice COMPLETADO? (Recupera el desbloqueo del jefe de historias que ya no están en el perfil.) */
+  async anyCompleted(fighters: FighterId[]): Promise<boolean> {
+    try {
+      const { fs, db } = await connect();
+      if (!(await this.init())) return false;
+      const snaps = await Promise.all(fighters.map((f) => fs.getDoc(fs.doc(db, COLLECTION, rowId(user!.uid, f)))));
+      return snaps.some((s) => {
+        const e = s.exists() ? (s.data() as Partial<RankEntry>) : null;
+        return !!e && typeof e.level === 'number' && typeof e.total === 'number' && e.level >= e.total;
+      });
+    } catch (e) {
+      console.warn('[ranking] no se pudo revisar el ranking', e);
+      return false;
+    }
+  },
+
   /** La fila es de la cuenta conectada. */
   isMine(id: string): boolean {
     const uid = user?.uid;

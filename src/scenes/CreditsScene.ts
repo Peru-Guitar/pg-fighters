@@ -2,6 +2,10 @@ import Phaser from 'phaser';
 import { COLORS, CSS, GAME_HEIGHT, GAME_WIDTH, SCENES } from '../config';
 import { Audio, MUSIC } from '../systems/Audio';
 import { Input } from '../systems/Input';
+import { StoryRun } from '../systems/StoryRun';
+import { bustKey } from '../systems/FighterArt';
+import { FIGHTERS } from '../data/fighters';
+import { bossAnnounced, markBossAnnounced } from '../data/bonus';
 import { footer, goTo, logo, scanlines, speedStripes, stageBackdrop, text } from '../ui/ui';
 import { DISCLAIMER } from './DisclaimerScene';
 
@@ -46,12 +50,18 @@ export class CreditsScene extends Phaser.Scene {
   private input2!: Input;
   private roll!: Phaser.GameObjects.Container;
   private height = 0;
+  /** Viene del final de la historia: al salir va a las partidas guardadas (o al menú) y no a los créditos del menú. */
+  private fromEnding = false;
+  /** Aviso de "nuevo luchador" en pantalla: el siguiente ENTER sale. */
+  private unlockShown = false;
 
   constructor() {
     super(SCENES.Credits);
   }
 
-  create() {
+  create(data?: { fromEnding?: boolean }) {
+    this.fromEnding = !!data?.fromEnding;
+    this.unlockShown = false;
     this.cameras.main.fadeIn(300, 11, 10, 14);
     Audio.music(this, MUSIC.menu, 0.35);
     stageBackdrop(this, 0.78, 'game-cover');
@@ -86,17 +96,50 @@ export class CreditsScene extends Phaser.Scene {
     scanlines(this, 0.06);
   }
 
+  /** Sale de los créditos; tras el final de la historia, antes muestra el aviso de Acople (solo la primera vez). */
+  private leave(): void {
+    Audio.blip(this, true);
+    if (this.fromEnding && !this.unlockShown && this.showUnlock()) return;
+    if (this.unlockShown) markBossAnnounced();
+    if (this.fromEnding) goTo(this, StoryRun.saved.length ? SCENES.Saves : SCENES.Title, { skipPress: true });
+    else goTo(this, SCENES.Title, { skipPress: true });
+  }
+
+  /** "¡NUEVO LUCHADOR DESBLOQUEADO!": solo si la historia está terminada y todavía no se avisó. */
+  private showUnlock(): boolean {
+    if (this.unlockShown || !StoryRun.bossUnlocked || bossAnnounced()) return false;
+    this.unlockShown = true;
+    this.roll.setVisible(false);
+    const cx = GAME_WIDTH / 2;
+    const def = FIGHTERS.acople;
+    const box = this.add.container(0, 0).setDepth(800);
+    box.add(this.add.rectangle(0, 0, GAME_WIDTH, GAME_HEIGHT, COLORS.bg, 0.6).setOrigin(0));
+    const bust = bustKey(this, def);
+    if (bust) {
+      const img = this.add.image(cx, 760, bust).setOrigin(0.5, 1);
+      img.setScale(460 / img.frame.realHeight).setAlpha(0);
+      box.add(img);
+      this.tweens.add({ targets: img, alpha: 1, duration: 500 });
+    }
+    box.add(text(this, cx, 170, '¡NUEVO LUCHADOR DESBLOQUEADO!', { size: 76, italic: true, weight: '900', color: CSS.lime, origin: [0.5, 0.5], shadow: true }));
+    box.add(text(this, cx, 830, def.name, { size: 96, italic: true, weight: '900', color: def.css, origin: [0.5, 0.5], stroke: '#000000' }));
+    box.add(text(this, cx, 920, 'Tu recompensa por terminar la historia. Búscalo en BONUS al elegir luchador.', { size: 30, font: 'body', weight: '600', color: CSS.cream, origin: [0.5, 0.5] }));
+    this.cameras.main.flash(300, 125, 249, 255);
+    Audio.tone(this, 880, 0.35, 'sawtooth', 0.06);
+    return true;
+  }
+
   update(_: number, delta: number) {
     const i = this.input2;
-    if (i.justDown('back') || i.justDown('confirm')) {
-      Audio.blip(this, true);
-      goTo(this, SCENES.Title, { skipPress: true });
-      return;
-    }
+    if (i.justDown('back') || i.justDown('confirm')) return this.leave();
+    if (this.unlockShown) return;
     const speed = i.isDown('down') ? 420 : i.isDown('up') ? -300 : 70;
     this.roll.y -= (speed * delta) / 1000;
-    // Al terminar, vuelve a empezar desde abajo.
-    if (this.roll.y < -this.height) this.roll.y = GAME_HEIGHT * 0.6;
+    // Al terminar, vuelve a empezar desde abajo (después del final de la historia, primero el aviso de Acople).
+    if (this.roll.y < -this.height) {
+      if (this.fromEnding && this.showUnlock()) return;
+      this.roll.y = GAME_HEIGHT * 0.6;
+    }
     if (this.roll.y > 0) this.roll.y = 0;
   }
 }

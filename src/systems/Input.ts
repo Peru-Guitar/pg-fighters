@@ -127,29 +127,49 @@ window.addEventListener('gamepaddisconnected', () => {
   toast('🎮  MANDO DESCONECTADO');
 });
 
-const heldPad = new Set<PadButton>();
-const padPressListeners = new Set<(b: PadButton) => void>();
+/** Botones apretados ahora mismo, por mando (`Gamepad.index`). */
+const heldPad = new Map<number, Set<PadButton>>();
+const padPressListeners = new Set<(b: PadButton, pad: number) => void>();
 
 const pollPads = () => {
   requestAnimationFrame(pollPads);
-  const now = new Set<PadButton>();
   let kind: Device | null = null;
+  const seen = new Set<number>();
   for (const pad of navigator.getGamepads?.() ?? []) {
     if (!pad) continue;
-    const before = now.size;
+    seen.add(pad.index);
+    const now = new Set<PadButton>();
     for (const [i, b] of PAD_INDEX) if (pad.buttons[i]?.pressed) now.add(b);
     const [ax = 0, ay = 0] = pad.axes;
     if (ax < -0.5) now.add('left');
     if (ax > 0.5) now.add('right');
     if (ay < -0.5) now.add('up');
     if (ay > 0.5) now.add('down');
-    if (now.size > before) kind = padKind(pad.id);
+    const before = heldPad.get(pad.index);
+    for (const b of now) if (!before?.has(b)) for (const fn of padPressListeners) fn(b, pad.index);
+    heldPad.set(pad.index, now);
+    if (now.size) kind = padKind(pad.id);
   }
-  for (const b of now) if (!heldPad.has(b)) for (const fn of padPressListeners) fn(b);
-  heldPad.clear();
-  for (const b of now) heldPad.add(b);
-  if (kind && now.size) setDevice(kind);
+  for (const i of heldPad.keys()) if (!seen.has(i)) heldPad.delete(i);
+  if (kind) setDevice(kind);
 };
+
+/** Quién manda una entrada: todos (menús de un jugador), solo teclado + ratón, o un mando concreto. */
+export type Source = 'any' | 'keys' | number;
+
+/** Nombre para mostrar de un control ("TECLADO", "MANDO XBOX", "MANDO XBOX 2" si hay dos iguales). */
+export const sourceName = (source: Source): string => {
+  if (source === 'any' || source === 'keys') return 'TECLADO';
+  const pads = connectedPads();
+  const me = pads.find((p) => p.index === source);
+  if (!me) return 'MANDO';
+  const same = pads.filter((p) => p.kind === me.kind);
+  return `MANDO ${padName(me.kind)}${same.length > 1 ? ` ${same.indexOf(me) + 1}` : ''}`;
+};
+
+/** Mandos a la vista ahora: índice y tipo. */
+export const connectedPads = (): { index: number; kind: PadDevice }[] =>
+  [...(navigator.getGamepads?.() ?? [])].filter((p): p is Gamepad => !!p).map((p) => ({ index: p.index, kind: padKind(p.id) }));
 requestAnimationFrame(pollPads);
 
 /**
@@ -160,23 +180,29 @@ export class Input {
   private pressed = new Set<Action>();
   private bindings: Record<string, Action[]>;
   private pad: Partial<Record<PadButton, Action[]>>;
+  private keys: boolean;
 
-  /** `mouseAttacks`: la pelea (clic = puño / patada, sin flechas). Si no, un menú (también con flechas). */
-  constructor(scene: Phaser.Scene, mouseAttacks = false) {
+  /**
+   * `mouseAttacks`: la pelea (clic = puño / patada, sin flechas). Si no, un menú (también con flechas).
+   * `source`: de quién escucha (en 2 jugadores, cada uno tiene el suyo).
+   */
+  constructor(scene: Phaser.Scene, mouseAttacks = false, readonly source: Source = 'any') {
     const bindings = (this.bindings = mouseAttacks ? BINDINGS : MENU_BINDINGS);
+    const keys = (this.keys = source === 'any' || source === 'keys');
     const down = (e: KeyboardEvent) => {
-      if (e.repeat) return;
+      if (e.repeat || !keys) return;
       for (const a of bindings[e.code] ?? []) this.pressed.add(a);
     };
     window.addEventListener('keydown', down);
     const pad = (this.pad = mouseAttacks ? PAD_FIGHT : PAD_MENU);
-    const padDown = (b: PadButton) => {
+    const padDown = (b: PadButton, index: number) => {
+      if (source !== 'any' && source !== index) return;
       for (const a of pad[b] ?? []) this.pressed.add(a);
     };
     padPressListeners.add(padDown);
 
     const pointer = (p: Phaser.Input.Pointer) => {
-      if (!mouseAttacks) return;
+      if (!mouseAttacks || !keys) return;
       this.pressed.add(p.rightButtonDown() ? 'kick' : 'punch');
     };
     scene.input.mouse?.disableContextMenu();
@@ -193,8 +219,11 @@ export class Input {
   }
 
   isDown(a: Action): boolean {
-    for (const code of heldCodes) if (this.bindings[code]?.includes(a)) return true;
-    for (const b of heldPad) if (this.pad[b]?.includes(a)) return true;
+    if (this.keys) for (const code of heldCodes) if (this.bindings[code]?.includes(a)) return true;
+    for (const [index, held] of heldPad) {
+      if (this.source !== 'any' && this.source !== index) continue;
+      for (const b of held) if (this.pad[b]?.includes(a)) return true;
+    }
     return false;
   }
 

@@ -64,6 +64,7 @@ export const SCENES = {
   Ending: 'Ending',
   Credits: 'Credits',
   Changelog: 'Changelog',
+  Sides: 'Sides',
   Disclaimer: 'Disclaimer',
   LabPick: 'LabPick',
   LabInfo: 'LabInfo',

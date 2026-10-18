@@ -5,7 +5,7 @@ import { GROUND_Y, STAGE_LEFT, STAGE_RIGHT } from '../config';
 import { tintOf, type FighterDef } from '../data/fighters';
 import { CHAIN_FINISHER_BONUS, MOVES, comboScale, type MoveDef, type MoveId } from '../data/moves';
 import { chainOf, kitOf, moveFor } from '../data/moveset';
-import { POWERS, powerFist } from '../data/powers';
+import { ACOPLE_PULL_COOLDOWN, POWERS, powerFist } from '../data/powers';
 import { SOLOS } from '../data/solos';
 import { superMotion } from '../visuals/supers/choreography';
 import { artScale, poseFrames, resolvePose, type Pose } from '../systems/FighterArt';
@@ -124,9 +124,23 @@ export class Fighter {
   facing: 1 | -1;
   hp = MAX_HP;
   /** Vida máxima (el jefe de la historia tiene más). */
-  readonly maxHp: number = MAX_HP;
+  maxHp: number = MAX_HP;
   /** Jefe enfurecido (segunda fase): más rápido y pega más. */
   rage = false;
+  /** Pelea como jefe (vida extra, defensa y modo furioso). Fuera de la historia, el jefe pelea como uno más. */
+  bossMode = false;
+
+  /** El jefe como luchador normal (recompensa por terminar la historia): vida y defensa de cualquier otro. */
+  asRegular(): void {
+    this.bossMode = false;
+    this.maxHp = MAX_HP;
+    this.hp = Math.min(this.hp, this.maxHp);
+  }
+
+  /** Defensa contra el daño recibido; el jefe solo la tiene peleando como jefe. */
+  get defense(): number {
+    return this.def.boss && !this.bossMode ? 1 : this.def.stats.defense;
+  }
   /** Reloj real del solo del jefe: su movimiento no se congela con el hitstop. */
   soloVisualTime: number | null = null;
   soloFinalAt: number | null = null;
@@ -174,6 +188,8 @@ export class Fighter {
   airSafe = false;
   /** Momento desde el que se puede volver a lanzar el poder básico. */
   powerReadyAt = 0;
+  /** Botón con que lanzó el último poder (El Acople tiene uno distinto con puño y con patada). */
+  powerButton: 'punch' | 'kick' = 'punch';
   /**
    * Bloqueo trabado: se activa cuando el rival lanza su ultimate. Mantener ATRÁS durante el retrato no
    * cuenta; hay que soltar y volver a presionar para bloquear.
@@ -231,6 +247,7 @@ export class Fighter {
     this.facing = facing;
     this.maxHp = def.boss?.hp ?? MAX_HP;
     this.hp = this.maxHp;
+    this.bossMode = !!def.boss;
     this.scale = artScale(scene, def);
     this.shadow = scene.add.image(x, GROUND_Y, 'shadow').setDepth(15);
     this.sprite = scene.add.sprite(x, GROUND_Y, def.art.texture, `${def.art.prefix}idle`).setDepth(20);
@@ -255,6 +272,7 @@ export class Fighter {
 
   /** Recarga del poder básico de este luchador (ms). */
   get powerCooldown(): number {
+    if (this.def.id === 'acople' && this.powerButton === 'kick') return ACOPLE_PULL_COOLDOWN;
     return kitOf(this.def.id).powerCooldown ?? POWER_COOLDOWN;
   }
 
@@ -479,8 +497,10 @@ export class Fighter {
       id = btn === 'kick' ? 'airKick' : 'airPunch';
     } else if (btn !== 'kick' && this.matches('uppercut')) {
       id = 'uppercut';
-    } else if (btn !== 'kick' && this.matches('special') && (kitOf(this.def.id).multi || !this.arena.hasProjectile(this)) && !this.gold && this.now >= this.powerReadyAt && !this.silenced) {
+    } else if ((btn !== 'kick' || this.def.id === 'acople') && this.matches('special') && (kitOf(this.def.id).multi || !this.arena.hasProjectile(this)) && !this.gold && this.now >= this.powerReadyAt && !this.silenced) {
       id = 'special';
+      // El Acople tiene un poder por botón (puño / patada).
+      this.powerButton = btn;
     } else if (this.intent.down) {
       id = btn === 'kick' ? 'sweep' : 'crouchJab';
     } else {
@@ -553,7 +573,7 @@ export class Fighter {
   damageAgainst(target: Fighter, move: MoveDef, hitNumber: number): number {
     const bonus = this.finisher && this.move === move ? CHAIN_FINISHER_BONUS : 1;
     const gold = this.gold && isNormal(move) ? this.gold : 1;
-    return Math.round(move.damage * this.def.stats.damage * (this.rage ? 1.15 : 1) * target.def.stats.defense * comboScale(hitNumber) * bonus * gold);
+    return Math.round(move.damage * this.def.stats.damage * (this.rage ? 1.15 : 1) * target.defense * comboScale(hitNumber) * bonus * gold);
   }
 
   /** ¿Está bloqueando un golpe de `level` que viene desde `fromX`? */
@@ -571,8 +591,9 @@ export class Fighter {
    * Recibe un golpe. `dir` = sentido del empuje. `chip` = fracción del daño que pasa al bloquear.
    * Devuelve el resultado y el daño aplicado.
    */
-  receive(attacker: Fighter, move: MoveDef, opts: { dir: 1 | -1; chip?: number; fromX: number; finisher?: boolean; damage?: number; unblockable?: boolean }): { result: HitResult; damage: number } {
-    if (this.invulnerable) return { result: 'whiff', damage: 0 };
+  /** `pierce`: ignora la invulnerabilidad (notas del ultimate que ya engancharon al rival). */
+  receive(attacker: Fighter, move: MoveDef, opts: { dir: 1 | -1; chip?: number; fromX: number; finisher?: boolean; damage?: number; unblockable?: boolean; pierce?: boolean }): { result: HitResult; damage: number } {
+    if (this.state === 'ko' || (this.invulnerable && !opts.pierce)) return { result: 'whiff', damage: 0 };
     const armored = this.absorb(attacker, move, opts.damage);
     if (armored) return armored;
     // Contraataque: no recibe daño, no se corta y devuelve el golpe.

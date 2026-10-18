@@ -54,7 +54,8 @@ const F = 34; // ~2 frames por dirección en los movimientos de palanca
 
 /** Secuencias reutilizables (también las usan los combos de demostración del entrenamiento). */
 export const SEQ = {
-  special: (): Step[] => [{ dirs: ['down'], ms: F }, { dirs: ['down', 'fwd'], ms: F }, { dirs: ['fwd'], ms: F }, { dirs: ['fwd'], punch: true, ms: 60 }],
+  /** `kick`: el poder con patada (solo El Acople lo tiene distinto: el orbe que atrae). */
+  special: (kick = false): Step[] => [{ dirs: ['down'], ms: F }, { dirs: ['down', 'fwd'], ms: F }, { dirs: ['fwd'], ms: F }, { dirs: ['fwd'], ...(kick ? { kick: true } : { punch: true }), ms: 60 }],
   uppercut: (): Step[] => [{ dirs: ['fwd'], ms: F }, { dirs: ['down'], ms: F }, { dirs: ['down', 'fwd'], punch: true, ms: 60 }],
   /** Botón de súper (E). */
   super: (): Step[] => [{ dirs: [], super: true, ms: 80 }],
@@ -241,7 +242,9 @@ export class Cpu {
     }
 
     if (dist > 640) {
-      if (r < this.p.special && !this.projectiles().some((p) => p.owner === me)) this.plan(SEQ.special(), now);
+      // De lejos, El Acople a veces usa el orbe para traer al rival.
+      const pull = me.def.id === 'acople' && Math.random() < 0.45;
+      if (r < this.p.special && !this.projectiles().some((p) => p.owner === me)) this.plan(SEQ.special(pull), now);
       else if (r < this.p.special + 0.2 * aggro) this.plan([{ dirs: ['fwd'], dash: true, ms: 260 }], now);
       else if (r < this.p.special + 0.3 * aggro) this.plan(this.jumpIn(), now);
       else this.plan(SEQ.hold(['fwd'], rand(250, 520)), now);

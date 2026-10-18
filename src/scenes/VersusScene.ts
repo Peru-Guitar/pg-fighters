@@ -7,6 +7,7 @@ import { STAGES, type StageId } from '../data/stages';
 import { Audio, preloadMusic } from '../systems/Audio';
 import { artScale } from '../systems/FighterArt';
 import { Input } from '../systems/Input';
+import { Versus } from '../systems/Versus';
 import type { CpuLevel } from '../systems/Settings';
 import { buildStage, preloadStages } from '../systems/StageArt';
 import { fitText, goTo, pts, scanlines, text } from '../ui/ui';
@@ -53,7 +54,7 @@ export class VersusScene extends Phaser.Scene {
     const stage = STAGES[data.stage ?? 'barrio'];
     buildStage(this, stage, false);
     this.add.rectangle(0, 0, GAME_WIDTH, GAME_HEIGHT, 0x0b0a0e, 0.85).setOrigin(0);
-    this.input2 = new Input(this);
+    this.input2 = new Input(this, false, Versus.lead);
 
     const defs = [FIGHTERS[data.p1], FIGHTERS[data.p2]];
     // Dos mitades en diagonal con el color de cada luchador.

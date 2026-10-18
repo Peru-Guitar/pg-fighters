@@ -27,13 +27,19 @@ Formato de la respuesta:
 
 > Cambios: <resumen corto>
 > Versión: **minor** — 1.4.2 → 1.5.0 (motivo en una línea)
+> Novedades: · <nota 1> · <nota 2>
 > ¿Subo con esa versión?
 
-Espera la confirmación (el usuario puede elegir otro tipo).
+Espera la confirmación (el usuario puede elegir otro tipo o cambiar las notas).
 
 ## 3. Al confirmar
 
 1. Actualiza `"version"` en `package.json` (y `package-lock.json` si existe) con `npm version <tipo> --no-git-tag-version`.
-2. Corre la build (`npm run build`) y, si existen, los tests. Si fallan, para y avisa.
-3. Haz commit (incluye el cambio de versión; mensaje en español).
-4. `git push` como **último paso, separado**, nunca encadenado con el commit: el usuario puede escribir "espera" a último momento.
+2. Agrega la versión a las **Novedades** del juego (`src/data/changelog.ts`), arriba de todo:
+   - `version` (la nueva), `date` (hoy, `AAAA-MM-DD`; la pantalla junta solas las versiones del mismo día) y `notes`.
+   - Notas **muy breves**, una por mejora, en palabras del jugador: "Se juega con mando.", no detalles técnicos.
+   - **Nunca datos sensibles**: nada de claves, tokens, correos, URLs internas, nombres de archivos o servicios, datos de cuentas o de jugadores, ni nombres o apodos de personas reales. Los arreglos de seguridad se anotan genéricos ("Arreglos de estabilidad.").
+   - Si el pase no tiene nada visible para el jugador, una sola nota genérica ("Mejoras y arreglos.").
+3. Corre la build (`npm run build`) y, si existen, los tests. Si fallan, para y avisa.
+4. Haz commit (incluye el cambio de versión y las novedades; mensaje en español).
+5. `git push` como **último paso, separado**, nunca encadenado con el commit: el usuario puede escribir "espera" a último momento.

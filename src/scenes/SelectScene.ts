@@ -4,6 +4,7 @@ import { FIGHTERS, ROSTER, tintOf, type FighterDef, type FighterId } from '../da
 import { Audio, MUSIC } from '../systems/Audio';
 import { addPortrait, artScale, bustKey } from '../systems/FighterArt';
 import { Input } from '../systems/Input';
+import { Versus } from '../systems/Versus';
 import { levelLabel } from '../systems/Ranking';
 import { DIFFICULTY_LABEL, Settings, type Difficulty } from '../systems/Settings';
 import { StoryRun, isDone } from '../systems/StoryRun';
@@ -18,6 +19,10 @@ const SKEW = 0;
 const RANDOM = 'random';
 type Slot = FighterId | typeof RANDOM;
 const SLOTS: Slot[] = [...ROSTER, RANDOM];
+/** Recompensa por terminar la historia: el jefe, aparte del roster (fuera del modo historia). */
+const BONUS: FighterId = 'acople';
+/** Separación extra entre el roster y la fila BONUS (deja lugar a su título). */
+const BONUS_GAP = 44;
 const COLS = 5;
 /** Centro de la primera fila de la cuadrícula. */
 const GRID_TOP = 262;
@@ -74,6 +79,11 @@ interface Side {
  */
 export class SelectScene extends Phaser.Scene {
   private input2!: Input;
+  /** Control de P2 (en VERSUS entre dos); si no, el mismo de P1. */
+  private inputP2!: Input;
+  private pvp = false;
+  /** Casillas de esta selección: el roster, el aleatorio y, fuera de la historia, la fila BONUS. */
+  private slots: Slot[] = SLOTS;
   private index = 0;
   private locked = false;
   private phase: Phase = 'p1';
@@ -104,6 +114,8 @@ export class SelectScene extends Phaser.Scene {
     this.story = data?.mode === 'story';
     this.locked = false;
     this.phase = 'p1';
+    // La fila BONUS solo existe con la historia terminada; si no, el roster queda como siempre.
+    this.slots = !this.story && StoryRun.bossUnlocked ? [...SLOTS, BONUS] : SLOTS;
     this.dims = [];
     this.diff = null;
     this.footerRow = null;
@@ -111,14 +123,16 @@ export class SelectScene extends Phaser.Scene {
     Audio.music(this, MUSIC.menu, 0.35);
     stageBackdrop(this, 0.8);
     speedStripes(this, COLORS.lime, 0.03);
-    this.input2 = new Input(this);
+    this.pvp = !this.story && !this.training && Versus.pvp;
+    this.input2 = new Input(this, false, this.pvp ? Versus.p1 : 'any');
+    this.inputP2 = this.pvp ? new Input(this, false, Versus.p2!) : this.input2;
 
     this.title = text(this, GAME_WIDTH / 2, 62, 'ELIGE TU LUCHADOR', { size: 84, italic: true, weight: '900', color: CSS.lime, origin: [0.5, 0.5], shadow: true });
-    text(this, GAME_WIDTH / 2, 128, this.story ? 'MODO HISTORIA  ·  LIBERA A LA ESCENA DEL ODIO' : this.training ? 'MODO ENTRENAMIENTO  ·  SIN TIEMPO NI K.O.' : 'VS CPU  ·  MEJOR DE 3', { size: 24, weight: '700', origin: [0.5, 0.5], spacing: 5 });
+    text(this, GAME_WIDTH / 2, 128, this.story ? 'MODO HISTORIA  ·  LIBERA A LA ESCENA DEL ODIO' : this.training ? 'MODO ENTRENAMIENTO  ·  SIN TIEMPO NI K.O.' : this.pvp ? 'VERSUS  ·  P1 VS P2  ·  MEJOR DE 3' : 'VERSUS  ·  CONTRA LA CPU  ·  MEJOR DE 3', { size: 24, weight: '700', origin: [0.5, 0.5], spacing: 5 });
 
     // Los dos lados: tú a la izquierda, el rival a la derecha.
-    this.p1Side = this.makeSide(P1_X, false, 'P1', COLORS.lime);
-    this.cpuSide = this.makeSide(CPU_X, true, 'CPU', COLORS.red);
+    this.p1Side = this.makeSide(P1_X, false, this.pvp ? Versus.tag(0) : 'P1', COLORS.lime);
+    this.cpuSide = this.makeSide(CPU_X, true, this.pvp ? Versus.tag(1) : 'CPU', COLORS.red);
     this.cpuMystery = text(this, CPU_X, FIG_Y - BUST_H / 2, '?', { size: 280, italic: true, weight: '900', color: '#2b2a30', origin: [0.5, 0.5] });
     this.p1Mystery = text(this, P1_X, FIG_Y - BUST_H / 2, '?', { size: 280, italic: true, weight: '900', color: '#2b2a30', origin: [0.5, 0.5] }).setVisible(false);
     this.pending = text(this, P1_X, FIG_Y - 20, 'ARTE PENDIENTE', { size: 22, weight: '800', color: CSS.rust, origin: [0.5, 0.5], spacing: 3, shadow: true });
@@ -128,11 +142,14 @@ export class SelectScene extends Phaser.Scene {
     this.p1Side.box.add(this.pending);
 
     // Roster en cuadrícula por filas
-    SLOTS.forEach((id, i) => {
+    this.slots.forEach((id, i) => {
       const { x, y } = this.slotPos(i);
       const g = this.add.graphics();
       g.fillStyle(COLORS.panel, 1).fillPoints(pts(this.slotRect(i, 0)), true);
       const frame = this.add.graphics();
+      if (id === BONUS) {
+        text(this, x, y - SLOT / 2 - 22, 'BONUS  ·  RECOMPENSA DEL MODO HISTORIA', { size: 18, weight: '900', color: CSS.lime, origin: [0.5, 0.5], spacing: 3 });
+      }
       if (id === RANDOM) {
         text(this, x, y - 12, '?', { size: 80, italic: true, weight: '900', color: CSS.grey, origin: [0.5, 0.5] });
         text(this, x, y + SLOT / 2 - 18, 'ALEATORIO', { size: 18, weight: '900', color: CSS.grey, origin: [0.5, 0.5], spacing: 2 });
@@ -140,10 +157,15 @@ export class SelectScene extends Phaser.Scene {
       } else {
         const def = FIGHTERS[id];
         g.fillStyle(def.color, 0.35).fillPoints(pts(this.slotRect(i, 0)), true);
-        addPortrait(this, def, x, y, SLOT - 2 * SKEW - 4);
+        // BONUS: tarjeta ancha con el retrato a la izquierda y el nombre al lado.
+        const big = id === BONUS;
+        addPortrait(this, def, big ? x - SLOT - SLOT_GAP : x, y, SLOT - 2 * SKEW - 4);
+        if (big) text(this, x - SLOT / 2 + 4, y, def.name, { size: 34, italic: true, weight: '900', color: def.css, origin: [0, 0.5], stroke: '#000000' });
         frame.lineStyle(3, def.color, 0.9).strokePoints(pts(this.slotRect(i, 0)), true);
-        frame.fillStyle(0x000000, 0.8).fillRect(x - SLOT / 2 + SKEW, y + SLOT / 2 - 20, 30, 18);
-        text(this, x - SLOT / 2 + SKEW + 15, y + SLOT / 2 - 11, def.number, { size: 14, weight: '800', color: def.css, origin: [0.5, 0.5] });
+        if (!big) {
+          frame.fillStyle(0x000000, 0.8).fillRect(x - SLOT / 2 + SKEW, y + SLOT / 2 - 20, 30, 18);
+          text(this, x - SLOT / 2 + SKEW + 15, y + SLOT / 2 - 11, def.number, { size: 14, weight: '800', color: def.css, origin: [0.5, 0.5] });
+        }
         // Historia: cada personaje con historia guardada muestra en qué pelea va (o que la completó).
         const run = this.story ? StoryRun.runOf(id) : undefined;
         if (run) {
@@ -180,7 +202,7 @@ export class SelectScene extends Phaser.Scene {
 
   /** Casilla que no se puede elegir: tu propio luchador al elegir el rival. */
   private disabled(i: number): boolean {
-    return this.phase !== 'p1' && SLOTS[i] === this.p1;
+    return this.phase !== 'p1' && this.slots[i] === this.p1;
   }
 
   private refreshDims(): void {
@@ -198,15 +220,15 @@ export class SelectScene extends Phaser.Scene {
   /** Fila y columna de cada casilla: filas de COLS centradas en la pantalla; el aleatorio es la última casilla. */
   private slotPos(i: number): { x: number; y: number; row: number } {
     const row = Math.floor(i / COLS);
-    const count = Math.min(COLS, SLOTS.length - row * COLS);
+    const count = Math.min(COLS, this.slots.length - row * COLS);
     const col = i - row * COLS;
     const x = GAME_WIDTH / 2 + (col - (count - 1) / 2) * (SLOT + SLOT_GAP);
-    return { x, y: GRID_TOP + row * (SLOT + SLOT_GAP), row };
+    return { x, y: GRID_TOP + row * (SLOT + SLOT_GAP) + (this.slots[i] === BONUS ? BONUS_GAP : 0), row };
   }
 
-  /** Tamaño de la casilla `i` (todas iguales, también el aleatorio). */
-  private slotSize(_i: number): { w: number; h: number } {
-    return { w: SLOT, h: SLOT };
+  /** Tamaño de la casilla `i`: todas iguales, menos la de BONUS, que es una tarjeta ancha. */
+  private slotSize(i: number): { w: number; h: number } {
+    return this.slots[i] === BONUS ? { w: SLOT * 3 + SLOT_GAP * 2, h: SLOT } : { w: SLOT, h: SLOT };
   }
 
   /** Casilla `i` (paralelogramo si SKEW > 0), agrandada `pad` px. */
@@ -293,7 +315,7 @@ export class SelectScene extends Phaser.Scene {
     this.cpuSide.figure.glow.setVisible(false);
     this.cpuMystery.setVisible(true);
     // Mientras no hay rival, una pista de qué toca (para que el lado no quede vacío).
-    this.showText(this.cpuSide, '???', CSS.grey, this.phase === 'cpu' ? 'ELIGE A TU RIVAL' : 'TU RIVAL VA DESPUÉS', CSS.grey, '');
+    this.showText(this.cpuSide, '???', CSS.grey, this.phase === 'cpu' ? (this.pvp ? 'P2 ELIGE' : 'ELIGE A TU RIVAL') : this.pvp ? 'P2 ELIGE DESPUÉS' : 'TU RIVAL VA DESPUÉS', CSS.grey, '');
   }
 
   /** Muestra al rival de la CPU (con un pequeño desliz al cambiar). */
@@ -321,14 +343,14 @@ export class SelectScene extends Phaser.Scene {
     const ly = y - size.h / 2;
     g.fillStyle(color, 1).fillRect(lx, ly, w, 22);
     this.children.getByName(name)?.destroy();
-    text(this, lx + w / 2, ly + 11, cpu ? 'CPU' : 'P1', { size: 17, weight: '900', color: CSS.dark, origin: [0.5, 0.5] }).setName(name).setDepth(6);
+    text(this, lx + w / 2, ly + 11, cpu ? (this.pvp ? Versus.tag(1) : 'CPU') : this.pvp ? Versus.tag(0) : 'P1', { size: 17, weight: '900', color: CSS.dark, origin: [0.5, 0.5] }).setName(name).setDepth(6);
   }
 
   private pick(i: number, silent = false): void {
     if (this.locked || this.phase === 'difficulty' || this.phase === 'run') return;
     if (i !== this.index && !silent) Audio.blip(this);
     this.index = i;
-    const slot = SLOTS[i];
+    const slot = this.slots[i];
     if (this.phase === 'cpu') {
       if (slot === RANDOM) {
         this.hideCpu();
@@ -363,19 +385,19 @@ export class SelectScene extends Phaser.Scene {
   /** A D: siguiente casilla elegible. */
   private move(dir: number): void {
     let i = this.index;
-    do i = (i + dir + SLOTS.length) % SLOTS.length;
+    do i = (i + dir + this.slots.length) % this.slots.length;
     while (this.disabled(i));
     this.pick(i);
   }
 
   /** W S: salta a la casilla elegible más cercana de la fila de arriba o de abajo. */
   private moveRow(dir: number): void {
-    const rows = Math.ceil(SLOTS.length / COLS);
+    const rows = Math.ceil(this.slots.length / COLS);
     const cur = this.slotPos(this.index);
     const target = (cur.row + dir + rows) % rows;
     let best = this.index;
     let bestDx = Infinity;
-    SLOTS.forEach((_, i) => {
+    this.slots.forEach((_, i) => {
       const p = this.slotPos(i);
       if (p.row === target && !this.disabled(i) && Math.abs(p.x - cur.x) < bestDx) {
         bestDx = Math.abs(p.x - cur.x);
@@ -393,7 +415,7 @@ export class SelectScene extends Phaser.Scene {
   }
 
   private confirmP1(): void {
-    const slot = SLOTS[this.index];
+    const slot = this.slots[this.index];
     if (slot !== RANDOM) return this.lockP1(slot);
     // Aleatorio: sortea, muestra cuál tocó (el cursor salta a su casilla) y sigue tras una pausa.
     const pool = ROSTER.filter((f) => f !== lastRandomP1);
@@ -420,7 +442,7 @@ export class SelectScene extends Phaser.Scene {
     }
     // Ahora toca elegir al rival de la CPU: tu casilla queda marcada y el cursor pasa a la CPU.
     this.phase = 'cpu';
-    this.title.setText('ELIGE AL RIVAL').setColor(CSS.red);
+    this.title.setText(this.pvp ? `${Versus.tag(1)}: ELIGE TU LUCHADOR` : 'ELIGE AL RIVAL').setColor(CSS.red);
     this.drawCursor(this.p1Mark, this.index, false);
     this.children.getByName('cursor-1p')?.setName('mark-1p');
     this.refreshDims();
@@ -455,7 +477,7 @@ export class SelectScene extends Phaser.Scene {
   }
 
   private confirmCpu(): void {
-    const slot = SLOTS[this.index];
+    const slot = this.slots[this.index];
     if (slot === this.p1) return;
     this.locked = true;
     const random = slot === RANDOM;
@@ -471,6 +493,11 @@ export class SelectScene extends Phaser.Scene {
     // En entrenamiento la CPU no pelea: no hay dificultad que elegir.
     if (this.training) {
       this.time.delayedCall(700, () => goTo(this, SCENES.StageSelect, { p1: this.p1, p2: this.p2, training: true }, 300));
+      return;
+    }
+    // Entre dos personas no hay CPU: no hay dificultad.
+    if (this.pvp) {
+      this.time.delayedCall(random ? 900 : 600, () => goTo(this, SCENES.StageSelect, { p1: this.p1, p2: this.p2 }, 300));
       return;
     }
     this.time.delayedCall(random ? 900 : 450, () => {
@@ -579,7 +606,7 @@ export class SelectScene extends Phaser.Scene {
   }
 
   update() {
-    const i = this.input2;
+    const i = this.phase === 'cpu' ? this.inputP2 : this.input2;
     if (this.locked) return;
     if (i.justDown('back')) return this.back();
     if (this.phase === 'difficulty' || this.phase === 'run') {

@@ -20,6 +20,7 @@ import { Audio, preloadMusic } from '../systems/Audio';
 import { Fx } from '../systems/Fx';
 import { buildStage, preloadStages } from '../systems/StageArt';
 import { Input, onPadChange, padConnected } from '../systems/Input';
+import { Versus } from '../systems/Versus';
 import { Settings, type CpuLevel } from '../systems/Settings';
 import { StoryRun } from '../systems/StoryRun';
 import { Training, type DemoCombo } from '../systems/Training';
@@ -130,6 +131,9 @@ export class FightScene extends Phaser.Scene implements Arena {
   private hitstopUntil = 0;
   private timeScale = 1;
   private pending = { punch: false, kick: false, super: false };
+  /** VERSUS entre dos: control y pulsaciones pendientes de P2 (si no, P2 es la CPU). */
+  private inputP2: Input | null = null;
+  private pendingP2 = { punch: false, kick: false, super: false };
   private dim!: Phaser.GameObjects.Rectangle;
   private neon!: Phaser.GameObjects.Rectangle;
   private matchStart = 0;
@@ -138,6 +142,8 @@ export class FightScene extends Phaser.Scene implements Arena {
   /** Choque de ultimates en curso: apretadas de cada lado y barra de tira y afloja. */
   /** Solo de guitarra del súper en curso. */
   private solo: GuitarSolo | null = null;
+  /** Una nota del ultimate ya le pegó al rival: rompió su defensa y las demás también le pegan (aunque esté tumbado en el aire). */
+  private soloHooked = false;
   /** Estado del modo entrenamiento (null en arcade). */
   training: Training | null = null;
   /** Teclas del laboratorio (C luchador, F escenario). */
@@ -147,6 +153,8 @@ export class FightScene extends Phaser.Scene implements Arena {
   private auraAt = [0, 0, 0];
   /** Etiqueta del rival en el HUD. */
   cpuBadge = 'CPU';
+  /** Insignia del lado izquierdo: 1P, o P1 / P2 en VS JUGADOR. */
+  p1Badge = '1P';
 
   constructor() {
     super(SCENES.Fight);
@@ -195,11 +203,19 @@ export class FightScene extends Phaser.Scene implements Arena {
     this.p2 = new Fighter(this, this, FIGHTERS[this.data0.p2], START_X[1], -1, 1);
     this.p1.opponent = this.p2;
     this.p2.opponent = this.p1;
+    // El jefe solo pelea como jefe en la historia; desbloqueado (VERSUS, entrenamiento) es uno más.
+    if (!this.data0.story) for (const f of [this.p1, this.p2]) if (f.def.boss) f.asRegular();
     this.cpu = new Cpu(this.p2, () => this.projectiles, this.data0.difficulty ?? Settings.data.difficulty);
     // Historia: el rival es un amigo en "modo hater" o el jefe.
-    this.cpuBadge = this.data0.story ? (this.p2.def.boss ? 'JEFE' : 'HATER') : 'CPU';
-    this.input2 = new Input(this, true);
-    this.events.on(Phaser.Scenes.Events.RESUME, () => this.input2.reset());
+    const pvp = Versus.pvp && !this.data0.story && !this.data0.training && !this.data0.lab;
+    this.p1Badge = pvp ? Versus.tag(0) : '1P';
+    this.cpuBadge = pvp ? Versus.tag(1) : this.data0.story ? (this.p2.def.boss ? 'JEFE' : 'HATER') : 'CPU';
+    this.input2 = new Input(this, true, pvp ? Versus.p1 : 'any');
+    this.inputP2 = pvp ? new Input(this, true, Versus.p2!) : null;
+    this.events.on(Phaser.Scenes.Events.RESUME, () => {
+      this.input2.reset();
+      this.inputP2?.reset();
+    });
     // Si se desconecta el mando en plena pelea, se pausa (como en consola).
     let hadPad = padConnected();
     onPadChange(this, () => {
@@ -378,10 +394,10 @@ export class FightScene extends Phaser.Scene implements Arena {
   // ───────────────────────────── Arena (servicios a luchadores) ─────────────────────────────
 
   spawnProjectile(owner: Fighter): void {
-    // Cada uno tiene su poder (data/powers.ts): Mimético copia el del rival y El Acople elige uno de sus tres.
+    // Cada uno tiene su poder (data/powers.ts): Mimético copia el del rival y El Acople usa uno u otro según el botón.
     const color = owner.def.id === 'mimetico' ? 0x4dff88 : owner.def.color;
     // Golpe de oro (Slandor): no lanza nada, carga su próximo golpe normal.
-    const empower = powerFor(owner.def.id).find((s) => s.empower)?.empower;
+    const empower = powerFor(owner.def.id, owner.powerButton).find((s) => s.empower)?.empower;
     if (empower) {
       owner.chargeGold(empower, GOLD_MS);
       const cy = GROUND_Y - owner.z - owner.def.art.height * 0.55;
@@ -389,7 +405,7 @@ export class FightScene extends Phaser.Scene implements Arena {
       Audio.tone(this, 990, 0.25, 'triangle', 0.06);
       return;
     }
-    const shots = powerFor(owner.def.id);
+    const shots = powerFor(owner.def.id, owner.powerButton);
     // Tempo imposible (Turboshred): no lanza nada, se acelera.
     const haste = shots.find((s) => s.haste)?.haste;
     if (haste) {
@@ -438,7 +454,7 @@ export class FightScene extends Phaser.Scene implements Arena {
     owner.playCounterStrike();
     const dir = owner.facing;
     const res = attacker.receive(owner, { ...moveFor(owner.def.id, 'special'), counter: false, knockdown: true, damage: 115, push: 520, hitstop: 160 }, {
-      dir, fromX: owner.x, unblockable: true, damage: Math.round(115 * owner.def.stats.damage * attacker.def.stats.defense),
+      dir, fromX: owner.x, unblockable: true, damage: Math.round(115 * owner.def.stats.damage * attacker.defense),
     });
     const hx = attacker.x - dir * 40;
     const hy = GROUND_Y - attacker.z - attacker.def.art.height * 0.55;
@@ -531,6 +547,7 @@ export class FightScene extends Phaser.Scene implements Arena {
   /** Súper, paso 2: escenario en penumbra y solo de guitarra. */
   startSolo(owner: Fighter): void {
     this.endSolo();
+    this.soloHooked = false;
     this.solo = new GuitarSolo(this, this.fx, owner, (o, x, y, damage, final) => this.noteStrike(o, x, y, damage, final));
     this.tweens.killTweensOf(this.dim);
     this.tweens.add({ targets: this.dim, alpha: 0.55, duration: 200 });
@@ -556,7 +573,7 @@ export class FightScene extends Phaser.Scene implements Arena {
   private drawAuras(time: number): void {
     if (this.solo || this.phase === 'over') return;
     // Aura de la entidad jefe (cian; roja al enfurecerse). Los amigos hater pelean sin efectos extra.
-    if (this.p2.def.boss) {
+    if (this.p2.bossMode) {
       const f = this.p2;
       const color = f.rage ? 0xff4d6d : f.def.color;
       if (Math.random() < 0.8) this.fx.rise(f.x + (Math.random() - 0.5) * 150, GROUND_Y - f.z - Math.random() * f.def.art.height * 0.9, color);
@@ -580,7 +597,7 @@ export class FightScene extends Phaser.Scene implements Arena {
   /** Una nota del solo alcanza al rival. */
   private noteStrike(owner: Fighter, x: number, y: number, damage: number, final: boolean): NoteResult {
     const target = owner.opponent;
-    if (target.invulnerable) return 'miss';
+    if (target.invulnerable && !this.soloHooked) return 'miss';
     const dir = (target.x >= owner.x ? 1 : -1) as 1 | -1;
     const move = MOVES.superNote;
     const res = target.receive(owner, move, {
@@ -588,9 +605,11 @@ export class FightScene extends Phaser.Scene implements Arena {
       fromX: owner.x,
       chip: 0.25,
       finisher: final,
-      damage: Math.round(damage * owner.def.stats.damage * target.def.stats.defense),
+      damage: Math.round(damage * owner.def.stats.damage * target.defense),
+      pierce: this.soloHooked,
     });
     if (res.result === 'whiff') return 'miss';
+    if (res.result === 'hit') this.soloHooked = true;
     this.impact(owner, target, move, res.result, res.damage, x, y, { projectile: true, heavy: final });
     // Sin guitarra sintetizada: cada nota que pega suma un golpe grave para que pese.
     Audio.sfx(this, 'kick', final ? 0.8 : 0.45, final ? 0.6 : 0.75);
@@ -606,34 +625,44 @@ export class FightScene extends Phaser.Scene implements Arena {
   onAttack(owner: Fighter, move: MoveDef): void {
     this.training?.onAttack(owner, move);
     if (move.id === 'special' || move.id === 'super') return;
-    Audio.sfx(this, 'swing', 0.4, move.sfx === 'kick' ? 0.85 : 1.15);
+    // Golpe al aire: el puño corta corto y agudo; la patada, más larga y grave.
+    if (move.sfx === 'kick') Audio.whoosh(this, 0.19, 450, 1700, 0.24);
+    else Audio.whoosh(this, 0.12, 800, 3000, 0.2);
   }
 
   // ───────────────────────────── Bucle ─────────────────────────────
 
-  private playerIntent(): Intent {
-    const i = this.input2;
+  /** Intención de un jugador humano: su control y sus pulsaciones acumuladas (el clic mantenido solo cuenta para el teclado). */
+  private playerIntent(i = this.input2, pending = this.pending): Intent {
+    const mouse = i.source === 'any' || i.source === 'keys';
     return {
       left: i.isDown('left'),
       right: i.isDown('right'),
       up: i.isDown('up'),
       down: i.isDown('down'),
-      punch: this.pending.punch,
-      punchHeld: this.input.activePointer.leftButtonDown() || i.isDown('punch'),
-      kick: this.pending.kick,
+      punch: pending.punch,
+      punchHeld: (mouse && this.input.activePointer.leftButtonDown()) || i.isDown('punch'),
+      kick: pending.kick,
       dash: false,
-      super: this.pending.super,
+      super: pending.super,
     };
+  }
+
+  /** Diálogos: los maneja P1. */
+  private anyDown(a: 'confirm' | 'back'): boolean {
+    const lead = this.inputP2 && Versus.leader === Versus.p2 ? this.inputP2 : this.input2;
+    return lead.justDown(a);
   }
 
   update(time: number, delta: number) {
     // Diálogo previo: ENTER avanza, ESC lo salta.
     if (this.hud?.dialogActive) {
-      if (this.input2.justDown('confirm')) this.hud.dialogAdvance();
-      else if (this.input2.justDown('back')) this.hud.dialogSkip();
-    } else if (this.input2.justDown('pause') && !this.solo && (this.phase === 'fight' || this.phase === 'intro')) {
+      if (this.anyDown('confirm')) this.hud.dialogAdvance();
+      else if (this.anyDown('back')) this.hud.dialogSkip();
+    } else if ((this.input2.justDown('pause') || this.inputP2?.justDown('pause')) && !this.solo && (this.phase === 'fight' || this.phase === 'intro')) {
+      // Pausa cualquiera de los dos: quien pausa maneja el menú y ve los movimientos de su luchador.
       if (this.data0.lab) this.openLabInfo();
-      else this.openPause();
+      else this.openPause(this.input2.justDown('pause') ? 0 : 1);
       return;
     }
 
@@ -648,6 +677,11 @@ export class FightScene extends Phaser.Scene implements Arena {
     this.pending.punch ||= this.input2.justDown('punch');
     this.pending.kick ||= this.input2.justDown('kick');
     this.pending.super ||= this.input2.justDown('super');
+    if (this.inputP2) {
+      this.pendingP2.punch ||= this.inputP2.justDown('punch');
+      this.pendingP2.kick ||= this.inputP2.justDown('kick');
+      this.pendingP2.super ||= this.inputP2.justDown('super');
+    }
 
     const realDt = Math.min(delta, 40) / 1000;
     const frozen = time < this.hitstopUntil;
@@ -662,13 +696,14 @@ export class FightScene extends Phaser.Scene implements Arena {
         this.p2.control(this.training.dummyIntent(this.now));
       } else if (this.phase === 'fight') {
         this.p1.control(this.playerIntent());
-        this.p2.control(this.cpu.intent(this.now));
+        this.p2.control(this.inputP2 ? this.playerIntent(this.inputP2, this.pendingP2) : this.cpu.intent(this.now));
         this.timer = Math.max(0, this.timer - dt);
       } else {
         this.p1.control(NO_INTENT);
         this.p2.control(NO_INTENT);
       }
       this.pending = { punch: false, kick: false, super: false };
+      this.pendingP2 = { punch: false, kick: false, super: false };
     }
 
     this.p1.update(dt);
@@ -697,7 +732,7 @@ export class FightScene extends Phaser.Scene implements Arena {
       this.drawBoxes();
     } else if (this.phase === 'fight') {
       // Segunda fase del jefe al quedar con la mitad de la vida.
-      const boss = this.p2.def.boss ? this.p2 : null;
+      const boss = this.p2.bossMode ? this.p2 : null;
       if (boss && !boss.rage && boss.hp > 0 && boss.hp <= boss.maxHp / 2) {
         boss.rage = true;
         this.hud.announce('¡EL ACOPLE SE ENFURECE!', { size: 120, ms: 1300, color: '#ff4d6d' });
@@ -1015,7 +1050,7 @@ export class FightScene extends Phaser.Scene implements Arena {
         fromX: p.x - dir * 10,
         chip: 0.2,
         finisher: !!p.spec.knockdown,
-        damage: Math.round(p.damage * target.def.stats.defense),
+        damage: Math.round(p.damage * target.defense),
       });
       if (result === 'whiff') continue;
       if (result === 'hit') this.showPowerQuip(p.owner);
@@ -1073,7 +1108,7 @@ export class FightScene extends Phaser.Scene implements Arena {
         dir,
         fromX: owner.x,
         unblockable: true,
-        damage: Math.round(base * spec.damage * target.def.stats.defense),
+        damage: Math.round(base * spec.damage * target.defense),
       });
       if (res.result === 'whiff') return;
       target.poisonUntil = target.now + 220;
@@ -1198,10 +1233,10 @@ export class FightScene extends Phaser.Scene implements Arena {
     this.scene.launch(SCENES.LabInfo, { fight: this.data0 });
   }
 
-  private openPause(): void {
+  private openPause(by: 0 | 1 = 0): void {
     this.scene.pause();
     this.scene.pause(SCENES.Hud);
     if (this.training) this.scene.pause(SCENES.TrainingHud);
-    this.scene.launch(SCENES.Pause, { fight: this.data0 });
+    this.scene.launch(SCENES.Pause, { fight: this.data0, by });
   }
 }

@@ -150,6 +150,37 @@ export const Audio = {
     o.stop(t + duration);
   },
 
+  /**
+   * Golpe al aire: ruido filtrado que barre de grave a agudo, como viento cortado.
+   * `from` / `to`: frecuencias del barrido (Hz); `duration` en segundos.
+   */
+  whoosh(scene: Phaser.Scene, duration = 0.14, from = 700, to = 2600, vol = 0.22): void {
+    const ctx = (scene.sound as Phaser.Sound.WebAudioSoundManager).context;
+    if (!ctx || scene.sound.mute || ctx.state !== 'running') return;
+    const len = Math.floor(ctx.sampleRate * duration);
+    const buffer = ctx.createBuffer(1, len, ctx.sampleRate);
+    const data = buffer.getChannelData(0);
+    for (let i = 0; i < len; i++) data[i] = Math.random() * 2 - 1;
+    const src = ctx.createBufferSource();
+    src.buffer = buffer;
+    const band = ctx.createBiquadFilter();
+    band.type = 'bandpass';
+    band.Q.value = 1.4;
+    const g = ctx.createGain();
+    const t = ctx.currentTime;
+    band.frequency.setValueAtTime(from, t);
+    band.frequency.exponentialRampToValueAtTime(to, t + duration * 0.7);
+    // Entra rápido, se va suave: el "fsh" del aire.
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(vol, t + duration * 0.25);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + duration);
+    src.connect(band);
+    band.connect(g);
+    g.connect(ctx.destination);
+    src.start(t);
+    src.stop(t + duration);
+  },
+
   /** Estática de TV (ruido blanco filtrado que se corta a ratos), para la señal fuera del aire de Tevi. */
   tvStatic(scene: Phaser.Scene, duration = 0.5, vol = 0.09): void {
     const ctx = (scene.sound as Phaser.Sound.WebAudioSoundManager).context;

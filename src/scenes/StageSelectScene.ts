@@ -5,6 +5,7 @@ import { STAGES, STAGE_ORDER, type StageId } from '../data/stages';
 import { Audio, MUSIC } from '../systems/Audio';
 import type { Difficulty } from '../systems/Settings';
 import { Input } from '../systems/Input';
+import { Versus } from '../systems/Versus';
 import { buildStage, hasStageArt, preloadStages } from '../systems/StageArt';
 import { fitText, footer, goTo, scanlines, text } from '../ui/ui';
 
@@ -56,13 +57,14 @@ export class StageSelectScene extends Phaser.Scene {
     this.preview = null;
     this.cameras.main.fadeIn(250, 11, 10, 14);
     Audio.music(this, MUSIC.menu, 0.35);
-    this.input2 = new Input(this);
+    this.input2 = new Input(this, false, Versus.lead);
 
     this.shade = this.add.rectangle(0, 0, GAME_WIDTH, GAME_HEIGHT, COLORS.bg, 0.35).setOrigin(0).setDepth(1);
     const top = this.add.graphics().setDepth(2);
     top.fillGradientStyle(0x000000, 0x000000, 0x000000, 0x000000, 0.85, 0.85, 0, 0).fillRect(0, 0, GAME_WIDTH, 360);
     top.fillGradientStyle(0x000000, 0x000000, 0x000000, 0x000000, 0, 0, 0.9, 0.9).fillRect(0, 560, GAME_WIDTH, GAME_HEIGHT - 560);
-    text(this, GAME_WIDTH / 2, 70, 'ELIGE ESCENARIO', { size: 92, italic: true, weight: '900', color: CSS.lime, origin: [0.5, 0.5], shadow: true }).setDepth(3);
+    // VS JUGADOR: el escenario lo elige P1.
+    text(this, GAME_WIDTH / 2, 70, Versus.pvp ? 'P1 ELIGE ESCENARIO' : 'ELIGE ESCENARIO', { size: 92, italic: true, weight: '900', color: CSS.lime, origin: [0.5, 0.5], shadow: true }).setDepth(3);
     this.number = text(this, 80, 300, '', { size: 34, weight: '800', origin: [0, 0.5], spacing: 6 }).setDepth(3);
     this.name = text(this, 80, 380, '', { size: 120, italic: true, weight: '900', origin: [0, 0.5], stroke: '#000000' }).setDepth(3);
     this.place = text(this, 80, 470, '', { size: 34, weight: '700', origin: [0, 0.5], spacing: 5, shadow: true }).setDepth(3);

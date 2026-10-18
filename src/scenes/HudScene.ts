@@ -91,7 +91,7 @@ export class HudScene extends Phaser.Scene {
       border.lineStyle(3, fighter.def.color, 1).strokeRect(px - PORTRAIT / 2, PORTRAIT_Y, PORTRAIT, PORTRAIT);
       // Insignia 1P / CPU sobre el borde inferior del retrato.
       border.fillStyle(left ? COLORS.lime : COLORS.grey, 1).fillRect(px - 30, PORTRAIT_Y + PORTRAIT - 12, 60, 24);
-      text(this, px, PORTRAIT_Y + PORTRAIT, left ? '1P' : this.fight.cpuBadge, { size: 20, weight: '900', color: CSS.dark, origin: [0.5, 0.5], spacing: 1 });
+      text(this, px, PORTRAIT_Y + PORTRAIT, left ? this.fight.p1Badge : this.fight.cpuBadge, { size: 20, weight: '900', color: CSS.dark, origin: [0.5, 0.5], spacing: 1 });
       const nameX = left ? BAR_X + 4 : GAME_WIDTH - BAR_X - 4;
       text(this, nameX, NAME_Y, fighter.def.name, { size: 38, italic: true, weight: '900', origin: [left ? 0 : 1, 0.5], shadow: true });
       this.meterLabels.push(text(this, left ? 60 : GAME_WIDTH - 60, METER_Y - 34, 'ULTIMATE', { size: 24, weight: '800', italic: true, origin: [left ? 0 : 1, 0.5], spacing: 2, shadow: true }));

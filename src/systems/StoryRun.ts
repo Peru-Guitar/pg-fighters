@@ -35,7 +35,8 @@ export interface StoryState {
 /** Valida una partida guardada. */
 const restore = (raw: StoryState | null): StoryState | null => {
   if (!raw || typeof raw !== 'object' || !Array.isArray(raw.rivals)) return null;
-  if (!ROSTER.includes(raw.player) || !(raw.index >= 0 && raw.index <= raw.rivals.length)) return null;
+  // index va de 0 (primer rival) a rivals.length (el jefe); rivals.length + 1 = historia terminada.
+  if (!ROSTER.includes(raw.player) || !(raw.index >= 0 && raw.index <= raw.rivals.length + 1)) return null;
   raw.score ??= 0;
   // Rivales que ya no están en el roster (personaje renombrado o quitado): se cambian por otro, también en `freed`.
   const lost = raw.rivals.filter((id) => !ROSTER.includes(id));
@@ -44,7 +45,7 @@ const restore = (raw: StoryState | null): StoryState | null => {
     const swap = new Map(lost.map((id, i) => [id, fresh[i]]));
     raw.rivals = raw.rivals.map((id) => swap.get(id) ?? id).filter((id): id is FighterId => !!id);
     raw.freed = (raw.freed ?? []).map((id) => swap.get(id) ?? id).filter((id): id is FighterId => ROSTER.includes(id));
-    raw.index = Math.min(raw.index, raw.rivals.length);
+    raw.index = Math.min(raw.index, raw.rivals.length + 1);
   }
   return raw;
 };
@@ -55,6 +56,8 @@ type Runs = Partial<Record<FighterId, StoryState>>;
 interface Profile {
   name?: string;
   runs?: Runs;
+  /** Terminó la historia alguna vez: el jefe queda desbloqueado aunque después se borre esa partida. */
+  bonus?: boolean;
   /** Formato anterior: una sola partida. */
   run?: StoryState | null;
 }
@@ -63,13 +66,13 @@ interface Profile {
 export const isDone = (r: StoryState): boolean => r.index >= r.rivals.length + 1;
 
 /** Lee el perfil. De los formatos viejos (partida suelta o `run`) queda esa partida en su personaje. */
-const readProfile = (raw: (Profile & Partial<StoryState>) | null): { name: string; runs: Runs } => {
+const readProfile = (raw: (Profile & Partial<StoryState>) | null): { name: string; runs: Runs; bonus: boolean } => {
   const list = [...Object.values(raw?.runs ?? {}), raw?.run, raw?.player ? (raw as StoryState) : null];
   const runs: Runs = {};
   for (const r of list.map((x) => restore(x ?? null))) {
     if (r && (runs[r.player]?.updatedAt ?? -1) < (r.updatedAt ?? 0)) runs[r.player] = r;
   }
-  return { name: (raw?.name ?? '').trim(), runs };
+  return { name: (raw?.name ?? '').trim(), runs, bonus: raw?.bonus === true };
 };
 
 /** Sorteo de amigos para una partida nueva: STORY_RIVALS del roster, sin el elegido ni repetidos. */
@@ -94,6 +97,8 @@ export const StoryRun = {
   name: '',
   /** Historias guardadas de la cuenta, una por personaje (las completadas quedan para su fila del ranking). */
   runs: {} as Runs,
+  /** Terminó la historia alguna vez (se guarda en el perfil). */
+  bonus: false,
   /** Ya se trajo el perfil de la cuenta en esta sesión. */
   loaded: false,
 
@@ -119,6 +124,11 @@ export const StoryRun = {
     return Object.values(this.runs)
       .filter((r): r is StoryState => !!r)
       .sort((a, b) => (b.updatedAt ?? 0) - (a.updatedAt ?? 0));
+  },
+
+  /** Recompensa: con la historia terminada (con cualquier luchador) se puede usar al jefe fuera de ella. */
+  get bossUnlocked(): boolean {
+    return this.ready && (this.bonus || Object.values(this.runs).some((r) => !!r && isDone(r)));
   },
 
   /** Ya se usaron todos los espacios: una historia nueva tiene que reemplazar otra. */
@@ -192,6 +202,7 @@ export const StoryRun = {
     s.stats.maxCombo = Math.max(s.stats.maxCombo, match.maxCombo);
     s.stats.perfects += match.perfects;
     s.index++;
+    if (isDone(s)) this.bonus = true;
     this.save();
     this.submit();
   },
@@ -231,7 +242,7 @@ export const StoryRun = {
     // Sin el desglose de la última pelea: solo se muestra al ganarla, y sus renglones son listas dentro de
     // una lista, que Firestore rechaza (con eso no se guardaba el avance después de la primera victoria).
     const runs = Object.fromEntries(Object.entries(this.runs).map(([id, r]) => [id, { ...r, lastFight: undefined }]));
-    void Ranking.saveProgress({ name: this.name, runs });
+    void Ranking.saveProgress({ name: this.name, runs, bonus: this.bonus });
   },
 
   /** Trae el perfil de la cuenta conectada. Falla (lanza) si no se pudo leer Firestore, para no pisar lo guardado. */
@@ -240,8 +251,17 @@ export const StoryRun = {
     const profile = readProfile(await Ranking.loadProgress<Profile & Partial<StoryState>>());
     this.name = profile.name;
     this.runs = profile.runs;
+    this.bonus = profile.bonus || Object.values(profile.runs).some((r) => !!r && isDone(r));
     if (this.state?.name) this.state = this.runs[this.state.player] ?? null;
     this.loaded = true;
+    // Historias terminadas que se perdieron del perfil (bug viejo): si el ranking dice COMPLETADO, se recupera el desbloqueo.
+    if (!this.bonus && this.name) {
+      void Ranking.anyCompleted(ROSTER).then((done) => {
+        if (!done || this.bonus) return;
+        this.bonus = true;
+        this.persist();
+      });
+    }
   },
 
   /** Historia terminada: sale de la partida en juego. Queda cerrada en el perfil (su fila del ranking sigue). */
@@ -254,6 +274,7 @@ export const StoryRun = {
     this.state = null;
     this.name = '';
     this.runs = {};
+    this.bonus = false;
     this.loaded = false;
   },
 };

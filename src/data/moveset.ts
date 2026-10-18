@@ -47,7 +47,7 @@ const POWER_INFO: Partial<Record<FighterId, string>> = {
   nosu: 'Jaula: una esfera enrejada que, si pega, encierra al rival un momento (no se mueve ni bloquea). Tu primer golpe la rompe. Se gasta al salir y tarda 5 s en volver (mientras, sale una esfera lisa que solo pega); cuando está lista, flota una esferita junto a NOSU.',
   virrey: 'Corte en X: dos tajos de luz cruzados que crecen hasta llegar al rival. Tributo: al tercer acierto, el corte vuelve a ti con su tributo y te cura.',
   tevi: '¡CORTE!: un orbe negro recto. Si pega, el rival queda congelado y su silueta sale como estática de TV: fuera del aire. Cada 3 aciertos, ¡OTRA TOMA!: la recarga del poder del rival vuelve a empezar.',
-  acople: 'Uno de sus tres poderes robados, al azar.',
+  acople: 'Tres bolas de feedback que salen rápido, cada una ondulando distinto. Con patada: el orbe de arrastre.',
 };
 
 /** Sin poder propio todavía se usa el de Escalas (data/powers.ts), y también su descripción. */

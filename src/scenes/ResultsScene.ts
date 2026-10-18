@@ -5,6 +5,7 @@ import type { StageId } from '../data/stages';
 import { Audio, MUSIC } from '../systems/Audio';
 import { artScale } from '../systems/FighterArt';
 import { Input } from '../systems/Input';
+import { Versus } from '../systems/Versus';
 import type { CpuLevel } from '../systems/Settings';
 import { Menu, fitText, footer, goTo, scanlines, speedStripes, stageBackdrop, text } from '../ui/ui';
 import type { MatchStats } from './FightScene';
@@ -22,6 +23,8 @@ interface ResultsData {
 export class ResultsScene extends Phaser.Scene {
   private input2!: Input;
   private menu!: Menu;
+  /** VS JUGADOR: P2 también puede elegir (por ejemplo, la revancha). */
+  private inputP2: Input | null = null;
 
   constructor() {
     super(SCENES.Results);
@@ -32,7 +35,8 @@ export class ResultsScene extends Phaser.Scene {
     Audio.music(this, MUSIC.menu, 0.35);
     stageBackdrop(this, 0.75);
     speedStripes(this, data.playerWon ? COLORS.lime : COLORS.red, 0.04);
-    this.input2 = new Input(this);
+    this.input2 = new Input(this, false, Versus.lead);
+    this.inputP2 = Versus.p2 !== null ? new Input(this, false, Versus.p2) : null;
 
     const winner = FIGHTERS[data.playerWon ? data.p1 : data.p2];
     const fig = this.add.image(560, GAME_HEIGHT + 20, winner.art.texture, `${winner.art.prefix}idle`).setScale(artScale(this, winner) * 1.8).setTint(tintOf(winner));
@@ -40,7 +44,7 @@ export class ResultsScene extends Phaser.Scene {
     this.tweens.add({ targets: fig, x: 560, alpha: 1, duration: 500, ease: 'Cubic.easeOut' });
 
     const x = 1040;
-    text(this, x, 150, data.playerWon ? '¡GANASTE!' : 'TE NOQUEARON', { size: 150, italic: true, weight: '900', color: data.playerWon ? CSS.lime : CSS.red, origin: [0, 0.5], stroke: '#000000' });
+    text(this, x, 150, Versus.pvp ? `GANA ${Versus.tag(data.playerWon ? 0 : 1)}` : data.playerWon ? '¡GANASTE!' : 'TE NOQUEARON', { size: 150, italic: true, weight: '900', color: data.playerWon ? CSS.lime : CSS.red, origin: [0, 0.5], stroke: '#000000' });
     fitText(text(this, x, 270, `${winner.name} GANA LA PELEA`, { size: 44, italic: true, weight: '900', origin: [0, 0.5], shadow: true }), 800, 26);
     fitText(text(this, x, 312, `"${winner.win}"`, { size: 34, font: 'body', weight: '600', color: winner.css, origin: [0, 0], shadow: true, wrap: 800 }), 800, 24, 80);
 
@@ -69,9 +73,11 @@ export class ResultsScene extends Phaser.Scene {
   }
 
   update() {
-    const i = this.input2;
-    if (i.justDown('up')) this.menu.move(-1);
-    if (i.justDown('down')) this.menu.move(1);
-    if (i.justDown('confirm')) this.menu.select();
+    for (const i of [this.input2, this.inputP2]) {
+      if (!i) continue;
+      if (i.justDown('up')) this.menu.move(-1);
+      if (i.justDown('down')) this.menu.move(1);
+      if (i.justDown('confirm')) this.menu.select();
+    }
   }
 }

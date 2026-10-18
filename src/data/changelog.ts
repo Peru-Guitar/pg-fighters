@@ -10,6 +10,21 @@ export interface ChangelogEntry {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    version: '1.7.0',
+    date: '2026-10-17',
+    notes: [
+      'Nuevo VS JUGADOR: dos jugadores en la misma compu.',
+      'Termina la historia y desbloquea a El Acople.',
+      'El Acople: un poder con puño y otro con patada.',
+      'Créditos al final de la historia.',
+      'El ultimate pega completo si ya te alcanzó.',
+      'Nuevo sonido para los golpes al aire.',
+      'En pantalla completa, ESC ya no te saca.',
+      'Fondo de menú distinto en cada partida.',
+      'Las historias terminadas ya no se pierden.',
+    ],
+  },
+  {
     version: '1.6.0',
     date: '2026-10-17',
     notes: [

@@ -193,15 +193,19 @@ export const POWERS: Partial<Record<FighterId, ShotSpec[]>> = {
   virrey: [{ look: 'xslash', size: 0.48, damage: 0.9, speed: 1.5, tall: 240, grow: 1.5, tribute: { every: 3, drain: 0.8 } }],
 };
 
-/** Los tres poderes de El Acople (sale uno al azar cada vez). */
-export const ACOPLE_POWERS: ShotSpec[][] = [
-  // Orbe de energía oscura, pesado.
-  [{ look: 'darkOrb', speed: 0.8, size: 1.3, damage: 1.3 }],
-  // Bola de feedback que se carga en la mano y sale disparada hacia el rival con una cola de láser.
-  [{ look: 'feedback', size: 0.7, damage: 0.95, dart: 260, speed: 3.2 }],
-  // Chillido que persigue al rival.
-  [{ look: 'shriek', speed: 0.85, size: 0.9, damage: 0.9, homing: 2.2, life: 2.8 }],
-];
+/** Los dos poderes robados de El Acople: con puño, tres bolas de feedback que ondulan; con patada, el orbe que atrae. */
+export const ACOPLE_POWERS: Record<'punch' | 'kick', ShotSpec[]> = {
+  // Tres bolas de feedback chicas, con su cola de láser, una tras otra desde el puño; cada una ondula distinto.
+  punch: [
+    { delay: 0, wave: { amp: 45, freq: 9 } },
+    { delay: 80, wave: { amp: -70, freq: 6.5 } },
+    { delay: 160, wave: { amp: 30, freq: 13 } },
+  ].map((shot) => ({ look: 'feedback' as const, size: 0.75, damage: 0.38, speed: 3, ...shot })),
+  // Hace poco daño: su valor es traer al rival a distancia de golpe.
+  kick: [{ look: 'darkOrb', speed: 1, size: 1.1, damage: 0.5, pull: true }],
+};
+/** Recarga del orbe que atrae (más larga que la de las bolas). */
+export const ACOPLE_PULL_COOLDOWN = 2000;
 
 /**
  * De dónde sale el poder: puño en la pose del poder, como fracción de la altura del luchador
@@ -215,9 +219,9 @@ const FIST: Partial<Record<FighterId, [number, number]>> = {
 };
 export const powerFist = (id: FighterId): [number, number] => FIST[id] ?? [0.34, 0.58];
 
-/** Disparos del poder de `id` (El Acople elige uno de los suyos). */
-export const powerFor = (id: FighterId): ShotSpec[] => {
-  if (id === 'acople') return ACOPLE_POWERS[Math.floor(Math.random() * ACOPLE_POWERS.length)];
+/** Disparos del poder de `id` (El Acople: según el botón con que lo lanzó). */
+export const powerFor = (id: FighterId, button: 'punch' | 'kick' = 'punch'): ShotSpec[] => {
+  if (id === 'acople') return ACOPLE_POWERS[button];
   // Clavito: caos, cada vez distinto.
   return POWERS[id] ?? POWERS.escalas!;
 };
