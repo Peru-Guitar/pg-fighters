@@ -8,6 +8,8 @@ import { resolvePose } from '../systems/FighterArt';
 import { buildLook, type LookObj } from '../visuals/powers';
 import type { Fighter } from './Fighter';
 
+/** Lo que tarda en formarse un rayo lanzado saltando (ms). */
+const AIR_BEAM_MS = 50;
 const BASE_RADIUS = 52;
 /** Alto del libro-muro de Escalas plantado (px). */
 const WALL_H = 380;
@@ -85,6 +87,10 @@ export class Projectile {
   connected = false;
   /** Jaula de NOSU: encierra si pega. Mientras se recarga, sale la esfera lisa (solo pega). */
   readonly caging: boolean;
+  /** Se lanzó saltando (la sombra de Mimético sale a la altura del salto). */
+  private readonly aerial: boolean;
+  /** El clic seguía apretado al salir (látigo largo de Rematada). */
+  private readonly held: boolean;
   /** Carga con la que salió (0–1), para los poderes que se cargan. */
   private readonly charge: number;
   /** Arranque lento (`windup`): ya salió disparado. */
@@ -118,6 +124,8 @@ export class Projectile {
     this.z = this.baseZ = fist.z;
     this.vx = this.dir * (spec.beam ? 1 : this.speed);
     this.hitsLeft = spec.hits ?? 1;
+    this.aerial = !owner.grounded;
+    this.held = !!spec.holdRange && !!owner.intent.punchHeld;
     this.caging = !!spec.cage && owner.now >= owner.cageReadyAt;
     if (this.caging) owner.cageReadyAt = owner.now + CAGE_RECHARGE_MS;
     // La esfera con rejas es el doble de grande que la lisa (dibujo y zona de golpe).
@@ -133,7 +141,8 @@ export class Projectile {
    */
   private buildShadow(): LookObj {
     const s = this.owner.sprite;
-    const body = this.scene.add.image(0, this.z, s.texture.key, s.frame.name)
+    // Pies al nivel de los de Mimético: en el piso, o a la altura del salto si la lanzó saltando.
+    const body = this.scene.add.image(0, this.z - (this.aerial ? this.owner.z : 0), s.texture.key, s.frame.name)
       .setOrigin(s.originX, s.originY).setScale(Math.abs(s.scaleX), s.scaleY).setFlipX(this.dir < 0)
       .setTint(this.color).setTintMode(Phaser.TintModes.FILL).setBlendMode(Phaser.BlendModes.ADD).setAlpha(0.85);
     return { obj: this.scene.add.container(this.x, this.y, [body]), spin: 0, aim: false };
@@ -212,11 +221,6 @@ export class Projectile {
     }
     this.look = this.spec.look === 'shadow' ? this.buildShadow() : buildLook(this.scene, this.spec.look, this.color, this.radius, this.x, this.y);
     this.look.obj.setDepth(31);
-    if (this.spec.level !== undefined && this.look.obj instanceof Phaser.GameObjects.Container) {
-      // Lick de Pentalick: muestra su nivel.
-      const label = this.look.obj.list.find((c) => c instanceof Phaser.GameObjects.Text) as Phaser.GameObjects.Text | undefined;
-      label?.setText(`♪ ${this.spec.level + 1}`);
-    }
     if (!this.dormant) this.fx.ring(this.x, this.y, this.color, this.radius * 1.6, 0.22);
   }
 
@@ -302,7 +306,8 @@ export class Projectile {
 
   /** Largo del rayo encendido. */
   private get reach(): number {
-    if (this.spec.range) return this.spec.range;
+    // Látigo de Rematada con el clic apretado: llega más lejos.
+    if (this.spec.range) return this.spec.range * (this.held ? this.spec.holdRange ?? 1 : 1);
     return this.dir > 0 ? GAME_WIDTH + 200 - this.x0 : this.x0 + 200;
   }
 
@@ -673,7 +678,8 @@ export class Projectile {
     if (this.beamAt < 0) {
       this.x = fist.x;
       this.z = this.baseZ = fist.z;
-      const k = Math.min(1, t / ((s.beam ?? 200) / 1000));
+      // Saltando, el rayo se forma casi al instante.
+      const k = Math.min(1, t / ((this.owner.grounded ? s.beam ?? 200 : AIR_BEAM_MS) / 1000));
       g.fillStyle(this.color, 0.25 + k * 0.4).fillCircle(this.x, this.y, this.radius * (0.4 + k * 0.6));
       g.fillStyle(0xffffff, 0.8).fillCircle(this.x, this.y, this.radius * 0.35 * k);
       if (k >= 1) {
@@ -695,27 +701,36 @@ export class Projectile {
     const len = reach * (s.look === 'lash' ? Math.min(1, on / 0.06) : 1);
     const x1 = this.x0 + this.dir * len;
     const h = this.radius * 1.4;
+    // Látigo: el punto A sigue la mano de Rematada (si cae del salto, la cuerda la sigue); la punta queda donde llegó.
+    const ax = fist.x;
+    const ay = GROUND_Y - fist.z;
     if (s.look === 'laser') {
-      // Barras de ecualizador formando el rayo.
-      for (let x = 0; x < len; x += 34) {
-        const bar = h * (0.5 + 0.5 * Math.abs(Math.sin(x * 0.05 + this.age * 40)));
-        const c = x / len < 0.6 ? 0x4dff88 : x / len < 0.85 ? 0xffe14d : 0xff3b3b;
-        g.fillStyle(c, 0.85 * fade).fillRect(this.x0 + this.dir * x - 13, this.y - bar / 2, 26, bar);
+      // Rayo óptico del color del luchador: grueso, con núcleo casi blanco que tiembla.
+      const left = Math.min(this.x0, x1);
+      const flick = 1 + Math.sin(this.age * 90) * 0.06;
+      // Con la carga, el color se intensifica: más saturado y más opaco, con un halo más ancho.
+      const q = this.charge;
+      const base = Phaser.Display.Color.ValueToColor(this.color).saturate(45 * q).color;
+      const light = Phaser.Display.Color.ValueToColor(base).lighten(25 - 10 * q).color;
+      for (const [w, c, a] of [[h * (2.2 + 0.6 * q), base, 0.22 + 0.3 * q], [h * 1.5, base, 0.55 + 0.35 * q], [h * 0.95, light, 0.9], [h * 0.4, 0xf2fffd, 1]] as const) {
+        g.fillStyle(c, Math.min(1, a) * fade).fillRect(left, this.y - (w * flick) / 2, len, w * flick);
       }
-      g.fillStyle(0xffffff, 0.6 * fade).fillRect(Math.min(this.x0, x1), this.y - 4, len, 8);
+      // Destello donde nace el rayo.
+      g.fillStyle(base, (0.5 + 0.3 * q) * fade).fillCircle(this.x0, this.y, h * 1.3 * flick);
+      g.fillStyle(0xffffff, 0.95 * fade).fillCircle(this.x0, this.y, h * 0.55);
     } else if (s.look === 'lash' && this.hookedAt >= 0) {
       // Enganchado: cuerda de guitarra tensa hasta el rival, vibrando como recién pulsada.
       const ty = GROUND_Y - rival.z - rival.def.art.height * 0.55;
       const tx = this.x0 + this.dir * len;
       const vib = 16 * Math.max(0, 1 - (this.age - this.hookedAt) / 0.8);
-      g.lineStyle(12, this.color, 0.3 * fade).lineBetween(this.x0, this.y, tx, ty);
+      g.lineStyle(12, this.color, 0.3 * fade).lineBetween(ax, ay, tx, ty);
       for (let n = 0; n < 3; n++) {
         g.lineStyle(n === 1 ? 4 : 2, n === 1 ? 0xffffff : 0xf2d0a0, fade * (n === 1 ? 1 : 0.7));
         g.beginPath();
         for (let i = 0; i <= 30; i++) {
           const k = i / 30;
           const wave = Math.sin(k * Math.PI) * Math.sin(this.age * 90 + n * 2.1) * vib * (n === 1 ? 1 : 0.6);
-          g.lineTo(Phaser.Math.Linear(this.x0, tx, k), Phaser.Math.Linear(this.y, ty, k) + wave);
+          g.lineTo(Phaser.Math.Linear(ax, tx, k), Phaser.Math.Linear(ay, ty, k) + wave);
         }
         g.strokePath();
       }
@@ -728,10 +743,10 @@ export class Projectile {
       g.beginPath();
       for (let i = 0; i <= 24; i++) {
         const k = i / 24;
-        g.lineTo(this.x0 + this.dir * len * k, this.y + Math.sin(k * Math.PI * 3 + this.age * 60) * 14 * (1 - k));
+        g.lineTo(Phaser.Math.Linear(ax, x1, k), Phaser.Math.Linear(ay, this.y, k) + Math.sin(k * Math.PI * 3 + this.age * 60) * 14 * (1 - k));
       }
       g.strokePath();
-      g.lineStyle(4, 0xf2d0a0, fade).lineBetween(this.x0, this.y, x1, this.y);
+      g.lineStyle(4, 0xf2d0a0, fade).lineBetween(ax, ay, x1, this.y);
       g.fillStyle(0xffffff, fade).fillCircle(x1, this.y, 12);
     } else {
       // Feedback: rayo rojo y violeta vibrando.
@@ -759,7 +774,6 @@ export class Projectile {
 
   destroy(): void {
     // Lick que no pegó (se perdió o lo destruyeron): Pentalick vuelve al nivel 1.
-    if (this.spec.levels && this.alive && !this.connected) this.owner.lickLevel = 0;
     this.alive = false;
     this.g.destroy();
     this.look?.obj.destroy();

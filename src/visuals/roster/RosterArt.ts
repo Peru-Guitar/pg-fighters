@@ -12,12 +12,31 @@ export const ROSTER_ART_IDS = [
   'markus', 'jesex', 'escalas', 'tayloy', 'platanero', 'kimberly', 'ricardo', 'nosu', 'virrey', 'tevi',
 ] as const;
 
-/** Recorte cuadrado [x, y, lado] de la cara en el portrait de 512 px; por defecto [100, 0, 340]. */
+/** Recorte cuadrado [x, y, lado] en píxeles del retrato original; por defecto [100, 0, 340]. */
 const FACE_CROPS: Partial<Record<string, [number, number, number]>> = {
-  acople: [0, 0, 512],
-  rematada: [0, 0, 512],
-  kimberly: [160, 70, 350],
-  platanero: [140, 30, 360],
+  acople: [141, 141, 1254],
+  chantal: [386, 141, 833],
+  clavito: [386, 141, 833],
+  escalas: [386, 141, 833],
+  ferdex: [386, 141, 833],
+  george: [386, 141, 833],
+  jeanpierre: [386, 141, 833],
+  jesex: [386, 141, 833],
+  kimberly: [360, 0, 700],
+  markus: [386, 141, 833],
+  mimetico: [386, 141, 833],
+  nosu: [386, 141, 833],
+  pentalick: [386, 141, 833],
+  pepper: [386, 141, 833],
+  platanero: [484, 214, 882],
+  rematada: [141, 141, 1254],
+  ricardo: [386, 141, 833],
+  slandor: [386, 141, 833],
+  tayloy: [386, 141, 833],
+  tevi: [386, 141, 833],
+  toxicity: [386, 141, 833],
+  turboshred: [386, 141, 833],
+  virrey: [386, 141, 833],
 };
 
 /**
@@ -32,7 +51,6 @@ const WIN_FIT: Partial<Record<string, number>> = {
   pepper: 0.86,
   ferdex: 0.94,
   turboshred: 1.01,
-  kimberly: 1.03,
   markus: 1.05,
   escalas: 1.06,
   tayloy: 1.06,

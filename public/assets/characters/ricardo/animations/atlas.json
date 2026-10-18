@@ -1,0 +1,6381 @@
+{
+  "textures": [
+    {
+      "image": "atlas-airKick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1837,
+        "h": 972
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-airKick-0",
+          "frame": {
+            "x": 669,
+            "y": 8,
+            "w": 299,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 299,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 299,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.32608695652173914,
+            "y": 0.9936575052854123
+          }
+        },
+        {
+          "filename": "ricardo-airKick-1",
+          "frame": {
+            "x": 984,
+            "y": 8,
+            "w": 381,
+            "h": 466
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 466
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 466
+          },
+          "pivot": {
+            "x": 0.2204724409448819,
+            "y": 0.9935622317596566
+          }
+        },
+        {
+          "filename": "ricardo-airKick-2",
+          "frame": {
+            "x": 8,
+            "y": 513,
+            "w": 464,
+            "h": 451
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 464,
+            "h": 451
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 464,
+            "h": 451
+          },
+          "pivot": {
+            "x": 0.4989224137931034,
+            "y": 0.9933481152993349
+          }
+        },
+        {
+          "filename": "ricardo-airKick-3",
+          "frame": {
+            "x": 841,
+            "y": 513,
+            "w": 465,
+            "h": 433
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 465,
+            "h": 433
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 465,
+            "h": 433
+          },
+          "pivot": {
+            "x": 0.4752688172043011,
+            "y": 0.9930715935334873
+          }
+        },
+        {
+          "filename": "ricardo-airKick-4",
+          "frame": {
+            "x": 1381,
+            "y": 8,
+            "w": 448,
+            "h": 463
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 448,
+            "h": 463
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 448,
+            "h": 463
+          },
+          "pivot": {
+            "x": 0.28125,
+            "y": 0.9935205183585313
+          }
+        },
+        {
+          "filename": "ricardo-airKick-5",
+          "frame": {
+            "x": 488,
+            "y": 513,
+            "w": 337,
+            "h": 444
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 444
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 444
+          },
+          "pivot": {
+            "x": 0.5756676557863502,
+            "y": 0.9932432432432432
+          }
+        },
+        {
+          "filename": "ricardo-airKick-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 316,
+            "h": 489
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 489
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 489
+          },
+          "pivot": {
+            "x": 0.33860759493670883,
+            "y": 0.9938650306748467
+          }
+        },
+        {
+          "filename": "ricardo-airKick-7",
+          "frame": {
+            "x": 340,
+            "y": 8,
+            "w": 313,
+            "h": 475
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 313,
+            "h": 475
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 475
+          },
+          "pivot": {
+            "x": 0.43610223642172524,
+            "y": 0.9936842105263158
+          }
+        },
+        {
+          "filename": "ricardo-airKick",
+          "frame": {
+            "x": 669,
+            "y": 8,
+            "w": 299,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 299,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 299,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.32608695652173914,
+            "y": 0.9936575052854123
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-airPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1946,
+        "h": 967
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-airPunch-0",
+          "frame": {
+            "x": 775,
+            "y": 503,
+            "w": 322,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.2857142857142857,
+            "y": 0.9931972789115646
+          }
+        },
+        {
+          "filename": "ricardo-airPunch-1",
+          "frame": {
+            "x": 8,
+            "y": 503,
+            "w": 333,
+            "h": 456
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 456
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 456
+          },
+          "pivot": {
+            "x": 0.2927927927927928,
+            "y": 0.993421052631579
+          }
+        },
+        {
+          "filename": "ricardo-airPunch-2",
+          "frame": {
+            "x": 716,
+            "y": 8,
+            "w": 478,
+            "h": 467
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 478,
+            "h": 467
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 478,
+            "h": 467
+          },
+          "pivot": {
+            "x": 0.20711297071129708,
+            "y": 0.9935760171306209
+          }
+        },
+        {
+          "filename": "ricardo-airPunch-3",
+          "frame": {
+            "x": 357,
+            "y": 503,
+            "w": 402,
+            "h": 452
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 402,
+            "h": 452
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 402,
+            "h": 452
+          },
+          "pivot": {
+            "x": 0.22139303482587064,
+            "y": 0.9933628318584071
+          }
+        },
+        {
+          "filename": "ricardo-airPunch-4",
+          "frame": {
+            "x": 1559,
+            "y": 8,
+            "w": 379,
+            "h": 459
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 459
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 459
+          },
+          "pivot": {
+            "x": 0.25065963060686014,
+            "y": 0.9934640522875817
+          }
+        },
+        {
+          "filename": "ricardo-airPunch-5",
+          "frame": {
+            "x": 1210,
+            "y": 8,
+            "w": 333,
+            "h": 462
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 462
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 462
+          },
+          "pivot": {
+            "x": 0.3303303303303303,
+            "y": 0.9935064935064936
+          }
+        },
+        {
+          "filename": "ricardo-airPunch-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 347,
+            "h": 479
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 479
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 479
+          },
+          "pivot": {
+            "x": 0.44812680115273773,
+            "y": 0.9937369519832986
+          }
+        },
+        {
+          "filename": "ricardo-airPunch-7",
+          "frame": {
+            "x": 371,
+            "y": 8,
+            "w": 329,
+            "h": 469
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 469
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 469
+          },
+          "pivot": {
+            "x": 0.3404255319148936,
+            "y": 0.9936034115138592
+          }
+        },
+        {
+          "filename": "ricardo-airPunch",
+          "frame": {
+            "x": 775,
+            "y": 503,
+            "w": 322,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 322,
+            "h": 441
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 322,
+            "h": 441
+          },
+          "pivot": {
+            "x": 0.2857142857142857,
+            "y": 0.9931972789115646
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-backdash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1801,
+        "h": 982
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-backdash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 356,
+            "h": 519
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 519
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 519
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9942196531791907
+          }
+        },
+        {
+          "filename": "ricardo-backdash-1",
+          "frame": {
+            "x": 1124,
+            "y": 8,
+            "w": 281,
+            "h": 451
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 451
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 451
+          },
+          "pivot": {
+            "x": 0.5391459074733096,
+            "y": 0.9933481152993349
+          }
+        },
+        {
+          "filename": "ricardo-backdash-2",
+          "frame": {
+            "x": 708,
+            "y": 8,
+            "w": 400,
+            "h": 459
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 400,
+            "h": 459
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 459
+          },
+          "pivot": {
+            "x": 0.48875,
+            "y": 0.9934640522875817
+          }
+        },
+        {
+          "filename": "ricardo-backdash-3",
+          "frame": {
+            "x": 8,
+            "y": 543,
+            "w": 368,
+            "h": 431
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 431
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 431
+          },
+          "pivot": {
+            "x": 0.3070652173913043,
+            "y": 0.9930394431554525
+          }
+        },
+        {
+          "filename": "ricardo-backdash-4",
+          "frame": {
+            "x": 392,
+            "y": 543,
+            "w": 464,
+            "h": 428
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 464,
+            "h": 428
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 464,
+            "h": 428
+          },
+          "pivot": {
+            "x": 0.48814655172413796,
+            "y": 0.9929906542056075
+          }
+        },
+        {
+          "filename": "ricardo-backdash-5",
+          "frame": {
+            "x": 1421,
+            "y": 8,
+            "w": 372,
+            "h": 436
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 372,
+            "h": 436
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 372,
+            "h": 436
+          },
+          "pivot": {
+            "x": 0.5685483870967742,
+            "y": 0.9931192660550459
+          }
+        },
+        {
+          "filename": "ricardo-backdash-6",
+          "frame": {
+            "x": 872,
+            "y": 543,
+            "w": 338,
+            "h": 415
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 415
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 415
+          },
+          "pivot": {
+            "x": 0.5414201183431953,
+            "y": 0.9927710843373494
+          }
+        },
+        {
+          "filename": "ricardo-backdash-7",
+          "frame": {
+            "x": 380,
+            "y": 8,
+            "w": 312,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 312,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99375
+          }
+        },
+        {
+          "filename": "ricardo-backdash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 356,
+            "h": 519
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 519
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 519
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9942196531791907
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-basic-power.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1726,
+        "h": 909
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-special-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 393,
+            "h": 455
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 455
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 455
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934065934065934
+          }
+        },
+        {
+          "filename": "ricardo-special-1",
+          "frame": {
+            "x": 846,
+            "y": 479,
+            "w": 389,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "ricardo-special-2",
+          "frame": {
+            "x": 1251,
+            "y": 479,
+            "w": 392,
+            "h": 421
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 392,
+            "h": 421
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 421
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928741092636579
+          }
+        },
+        {
+          "filename": "ricardo-special-3",
+          "frame": {
+            "x": 417,
+            "y": 8,
+            "w": 409,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 409,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 409,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.4938875305623472,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "ricardo-special-4",
+          "frame": {
+            "x": 1240,
+            "y": 8,
+            "w": 478,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 478,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 478,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.4372384937238494,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "ricardo-special-5",
+          "frame": {
+            "x": 8,
+            "y": 479,
+            "w": 405,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.4925925925925926,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "ricardo-special-6",
+          "frame": {
+            "x": 429,
+            "y": 479,
+            "w": 401,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 401,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 401,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "ricardo-special-7",
+          "frame": {
+            "x": 842,
+            "y": 8,
+            "w": 382,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "ricardo-special",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 393,
+            "h": 455
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 455
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 455
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934065934065934
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-block.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1764,
+        "h": 1034
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-block-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 338,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 512
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.994140625
+          }
+        },
+        {
+          "filename": "ricardo-block-1",
+          "frame": {
+            "x": 362,
+            "y": 8,
+            "w": 332,
+            "h": 499
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 332,
+            "h": 499
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 332,
+            "h": 499
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939879759519038
+          }
+        },
+        {
+          "filename": "ricardo-block-2",
+          "frame": {
+            "x": 710,
+            "y": 8,
+            "w": 335,
+            "h": 495
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 495
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 495
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939393939393939
+          }
+        },
+        {
+          "filename": "ricardo-block-3",
+          "frame": {
+            "x": 728,
+            "y": 536,
+            "w": 341,
+            "h": 461
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 461
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 461
+          },
+          "pivot": {
+            "x": 0.5351906158357771,
+            "y": 0.9934924078091106
+          }
+        },
+        {
+          "filename": "ricardo-block-4",
+          "frame": {
+            "x": 8,
+            "y": 536,
+            "w": 343,
+            "h": 490
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 490
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 490
+          },
+          "pivot": {
+            "x": 0.5072886297376094,
+            "y": 0.9938775510204082
+          }
+        },
+        {
+          "filename": "ricardo-block-5",
+          "frame": {
+            "x": 367,
+            "y": 536,
+            "w": 345,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.5144927536231884,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "ricardo-block-6",
+          "frame": {
+            "x": 1410,
+            "y": 8,
+            "w": 346,
+            "h": 491
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 491
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 491
+          },
+          "pivot": {
+            "x": 0.5101156069364162,
+            "y": 0.9938900203665988
+          }
+        },
+        {
+          "filename": "ricardo-block-7",
+          "frame": {
+            "x": 1061,
+            "y": 8,
+            "w": 333,
+            "h": 494
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 333,
+            "h": 494
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 494
+          },
+          "pivot": {
+            "x": 0.509009009009009,
+            "y": 0.9939271255060729
+          }
+        },
+        {
+          "filename": "ricardo-block",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 338,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 338,
+            "h": 512
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 338,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.994140625
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1851,
+        "h": 914
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-crouch-0",
+          "frame": {
+            "x": 8,
+            "y": 477,
+            "w": 353,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5070821529745042,
+            "y": 0.993006993006993
+          }
+        },
+        {
+          "filename": "ricardo-crouch-1",
+          "frame": {
+            "x": 383,
+            "y": 8,
+            "w": 348,
+            "h": 451
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 451
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 451
+          },
+          "pivot": {
+            "x": 0.5014367816091954,
+            "y": 0.9933481152993349
+          }
+        },
+        {
+          "filename": "ricardo-crouch-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 359,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.5153203342618384,
+            "y": 0.9933774834437086
+          }
+        },
+        {
+          "filename": "ricardo-crouch-3",
+          "frame": {
+            "x": 1495,
+            "y": 8,
+            "w": 348,
+            "h": 444
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 444
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 444
+          },
+          "pivot": {
+            "x": 0.5272988505747126,
+            "y": 0.9932432432432432
+          }
+        },
+        {
+          "filename": "ricardo-crouch-4",
+          "frame": {
+            "x": 377,
+            "y": 477,
+            "w": 360,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 360,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5166666666666667,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "ricardo-crouch-5",
+          "frame": {
+            "x": 1125,
+            "y": 8,
+            "w": 354,
+            "h": 445
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 354,
+            "h": 445
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 354,
+            "h": 445
+          },
+          "pivot": {
+            "x": 0.5070621468926554,
+            "y": 0.9932584269662922
+          }
+        },
+        {
+          "filename": "ricardo-crouch-6",
+          "frame": {
+            "x": 747,
+            "y": 8,
+            "w": 362,
+            "h": 447
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 447
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 447
+          },
+          "pivot": {
+            "x": 0.5193370165745856,
+            "y": 0.9932885906040269
+          }
+        },
+        {
+          "filename": "ricardo-crouch-7",
+          "frame": {
+            "x": 753,
+            "y": 477,
+            "w": 349,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5286532951289399,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "ricardo-crouch",
+          "frame": {
+            "x": 8,
+            "y": 477,
+            "w": 353,
+            "h": 429
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 429
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 429
+          },
+          "pivot": {
+            "x": 0.5070821529745042,
+            "y": 0.993006993006993
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchBlock.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1835,
+        "h": 907
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-crouchBlock-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 350,
+            "h": 450
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 450
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 450
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933333333333333
+          }
+        },
+        {
+          "filename": "ricardo-crouchBlock-1",
+          "frame": {
+            "x": 374,
+            "y": 8,
+            "w": 358,
+            "h": 450
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 450
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 450
+          },
+          "pivot": {
+            "x": 0.48463687150837986,
+            "y": 0.9933333333333333
+          }
+        },
+        {
+          "filename": "ricardo-crouchBlock-2",
+          "frame": {
+            "x": 748,
+            "y": 8,
+            "w": 346,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "ricardo-crouchBlock-3",
+          "frame": {
+            "x": 370,
+            "y": 474,
+            "w": 350,
+            "h": 414
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 414
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 414
+          },
+          "pivot": {
+            "x": 0.5042857142857143,
+            "y": 0.9927536231884058
+          }
+        },
+        {
+          "filename": "ricardo-crouchBlock-4",
+          "frame": {
+            "x": 736,
+            "y": 474,
+            "w": 352,
+            "h": 411
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 411
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 411
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9927007299270073
+          }
+        },
+        {
+          "filename": "ricardo-crouchBlock-5",
+          "frame": {
+            "x": 8,
+            "y": 474,
+            "w": 346,
+            "h": 425
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 425
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 425
+          },
+          "pivot": {
+            "x": 0.5043352601156069,
+            "y": 0.9929411764705882
+          }
+        },
+        {
+          "filename": "ricardo-crouchBlock-6",
+          "frame": {
+            "x": 1110,
+            "y": 8,
+            "w": 352,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5056818181818182,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "ricardo-crouchBlock-7",
+          "frame": {
+            "x": 1478,
+            "y": 8,
+            "w": 349,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 349,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 349,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5143266475644699,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "ricardo-crouchBlock",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 350,
+            "h": 450
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 450
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 450
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933333333333333
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchHurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1928,
+        "h": 938
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-crouchHurt-0",
+          "frame": {
+            "x": 421,
+            "y": 8,
+            "w": 341,
+            "h": 447
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 447
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 447
+          },
+          "pivot": {
+            "x": 0.5102639296187683,
+            "y": 0.9932885906040269
+          }
+        },
+        {
+          "filename": "ricardo-crouchHurt-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 397,
+            "h": 472
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 472
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 472
+          },
+          "pivot": {
+            "x": 0.575566750629723,
+            "y": 0.9936440677966102
+          }
+        },
+        {
+          "filename": "ricardo-crouchHurt-2",
+          "frame": {
+            "x": 1142,
+            "y": 8,
+            "w": 405,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.5037037037037037,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "ricardo-crouchHurt-3",
+          "frame": {
+            "x": 366,
+            "y": 496,
+            "w": 328,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 328,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 328,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.5320121951219512,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "ricardo-crouchHurt-4",
+          "frame": {
+            "x": 710,
+            "y": 496,
+            "w": 346,
+            "h": 424
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 424
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 424
+          },
+          "pivot": {
+            "x": 0.5303468208092486,
+            "y": 0.9929245283018868
+          }
+        },
+        {
+          "filename": "ricardo-crouchHurt-5",
+          "frame": {
+            "x": 778,
+            "y": 8,
+            "w": 348,
+            "h": 447
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 447
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 447
+          },
+          "pivot": {
+            "x": 0.5258620689655172,
+            "y": 0.9932885906040269
+          }
+        },
+        {
+          "filename": "ricardo-crouchHurt-6",
+          "frame": {
+            "x": 1563,
+            "y": 8,
+            "w": 357,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5350140056022409,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "ricardo-crouchHurt-7",
+          "frame": {
+            "x": 8,
+            "y": 496,
+            "w": 342,
+            "h": 434
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 434
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 434
+          },
+          "pivot": {
+            "x": 0.5277777777777778,
+            "y": 0.9930875576036866
+          }
+        },
+        {
+          "filename": "ricardo-crouchHurt",
+          "frame": {
+            "x": 421,
+            "y": 8,
+            "w": 341,
+            "h": 447
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 341,
+            "h": 447
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 447
+          },
+          "pivot": {
+            "x": 0.5102639296187683,
+            "y": 0.9932885906040269
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-crouchPunch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1979,
+        "h": 940
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-crouchPunch-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 374,
+            "h": 462
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 462
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 462
+          },
+          "pivot": {
+            "x": 0.5147058823529411,
+            "y": 0.9935064935064936
+          }
+        },
+        {
+          "filename": "ricardo-crouchPunch-1",
+          "frame": {
+            "x": 398,
+            "y": 8,
+            "w": 362,
+            "h": 458
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 458
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 458
+          },
+          "pivot": {
+            "x": 0.5096685082872928,
+            "y": 0.9934497816593887
+          }
+        },
+        {
+          "filename": "ricardo-crouchPunch-2",
+          "frame": {
+            "x": 1171,
+            "y": 8,
+            "w": 387,
+            "h": 451
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 451
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 451
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9933481152993349
+          }
+        },
+        {
+          "filename": "ricardo-crouchPunch-3",
+          "frame": {
+            "x": 391,
+            "y": 486,
+            "w": 370,
+            "h": 445
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 370,
+            "h": 445
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 370,
+            "h": 445
+          },
+          "pivot": {
+            "x": 0.5054054054054054,
+            "y": 0.9932584269662922
+          }
+        },
+        {
+          "filename": "ricardo-crouchPunch-4",
+          "frame": {
+            "x": 1574,
+            "y": 8,
+            "w": 397,
+            "h": 446
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 397,
+            "h": 446
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 397,
+            "h": 446
+          },
+          "pivot": {
+            "x": 0.4899244332493703,
+            "y": 0.9932735426008968
+          }
+        },
+        {
+          "filename": "ricardo-crouchPunch-5",
+          "frame": {
+            "x": 776,
+            "y": 8,
+            "w": 379,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 379,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 379,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.5131926121372031,
+            "y": 0.9933774834437086
+          }
+        },
+        {
+          "filename": "ricardo-crouchPunch-6",
+          "frame": {
+            "x": 777,
+            "y": 486,
+            "w": 369,
+            "h": 444
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 369,
+            "h": 444
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 369,
+            "h": 444
+          },
+          "pivot": {
+            "x": 0.516260162601626,
+            "y": 0.9932432432432432
+          }
+        },
+        {
+          "filename": "ricardo-crouchPunch-7",
+          "frame": {
+            "x": 8,
+            "y": 486,
+            "w": 367,
+            "h": 446
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 446
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 446
+          },
+          "pivot": {
+            "x": 0.5190735694822888,
+            "y": 0.9932735426008968
+          }
+        },
+        {
+          "filename": "ricardo-crouchPunch",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 374,
+            "h": 462
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 462
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 462
+          },
+          "pivot": {
+            "x": 0.5147058823529411,
+            "y": 0.9935064935064936
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-dash.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1646,
+        "h": 877
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-dash-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 330,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.47424242424242424,
+            "y": 0.9929742388758782
+          }
+        },
+        {
+          "filename": "ricardo-dash-1",
+          "frame": {
+            "x": 454,
+            "y": 451,
+            "w": 373,
+            "h": 401
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 401
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 401
+          },
+          "pivot": {
+            "x": 0.4008042895442359,
+            "y": 0.9925187032418953
+          }
+        },
+        {
+          "filename": "ricardo-dash-2",
+          "frame": {
+            "x": 843,
+            "y": 451,
+            "w": 405,
+            "h": 398
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 405,
+            "h": 398
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 405,
+            "h": 398
+          },
+          "pivot": {
+            "x": 0.49753086419753084,
+            "y": 0.992462311557789
+          }
+        },
+        {
+          "filename": "ricardo-dash-3",
+          "frame": {
+            "x": 354,
+            "y": 8,
+            "w": 443,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 443,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 443,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.37020316027088035,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "ricardo-dash-4",
+          "frame": {
+            "x": 813,
+            "y": 8,
+            "w": 493,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 493,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 493,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.4908722109533469,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "ricardo-dash-5",
+          "frame": {
+            "x": 8,
+            "y": 451,
+            "w": 430,
+            "h": 418
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 418
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 418
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.992822966507177
+          }
+        },
+        {
+          "filename": "ricardo-dash-6",
+          "frame": {
+            "x": 1264,
+            "y": 451,
+            "w": 358,
+            "h": 390
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 358,
+            "h": 390
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 358,
+            "h": 390
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9923076923076923
+          }
+        },
+        {
+          "filename": "ricardo-dash-7",
+          "frame": {
+            "x": 1322,
+            "y": 8,
+            "w": 316,
+            "h": 422
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 422
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 422
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928909952606635
+          }
+        },
+        {
+          "filename": "ricardo-dash",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 330,
+            "h": 427
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 427
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 427
+          },
+          "pivot": {
+            "x": 0.47424242424242424,
+            "y": 0.9929742388758782
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-defeat.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1918,
+        "h": 690
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-ko-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 247,
+            "h": 492
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 247,
+            "h": 492
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 247,
+            "h": 492
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939024390243902
+          }
+        },
+        {
+          "filename": "ricardo-ko-1",
+          "frame": {
+            "x": 271,
+            "y": 8,
+            "w": 244,
+            "h": 454
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 244,
+            "h": 454
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 244,
+            "h": 454
+          },
+          "pivot": {
+            "x": 0.5266393442622951,
+            "y": 0.9933920704845814
+          }
+        },
+        {
+          "filename": "ricardo-ko-2",
+          "frame": {
+            "x": 531,
+            "y": 8,
+            "w": 261,
+            "h": 381
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 261,
+            "h": 381
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 261,
+            "h": 381
+          },
+          "pivot": {
+            "x": 0.4846743295019157,
+            "y": 0.9921259842519685
+          }
+        },
+        {
+          "filename": "ricardo-ko-3",
+          "frame": {
+            "x": 808,
+            "y": 8,
+            "w": 344,
+            "h": 302
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 302
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 302
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9900662251655629
+          }
+        },
+        {
+          "filename": "ricardo-ko-4",
+          "frame": {
+            "x": 1168,
+            "y": 8,
+            "w": 376,
+            "h": 287
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 376,
+            "h": 287
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 376,
+            "h": 287
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9895470383275261
+          }
+        },
+        {
+          "filename": "ricardo-ko-5",
+          "frame": {
+            "x": 1560,
+            "y": 8,
+            "w": 350,
+            "h": 214
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 214
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 214
+          },
+          "pivot": {
+            "x": 0.5471428571428572,
+            "y": 0.985981308411215
+          }
+        },
+        {
+          "filename": "ricardo-ko-6",
+          "frame": {
+            "x": 8,
+            "y": 516,
+            "w": 345,
+            "h": 166
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 166
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 166
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9819277108433735
+          }
+        },
+        {
+          "filename": "ricardo-ko-7",
+          "frame": {
+            "x": 369,
+            "y": 516,
+            "w": 340,
+            "h": 135
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 340,
+            "h": 135
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 340,
+            "h": 135
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9777777777777777
+          }
+        },
+        {
+          "filename": "ricardo-ko",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 247,
+            "h": 492
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 247,
+            "h": 492
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 247,
+            "h": 492
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939024390243902
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-down.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2017,
+        "h": 605
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-down-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 393,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 288
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 288
+          },
+          "pivot": {
+            "x": 0.3931297709923664,
+            "y": 0.9895833333333334
+          }
+        },
+        {
+          "filename": "ricardo-down-1",
+          "frame": {
+            "x": 826,
+            "y": 8,
+            "w": 390,
+            "h": 287
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 390,
+            "h": 287
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 390,
+            "h": 287
+          },
+          "pivot": {
+            "x": 0.3858974358974359,
+            "y": 0.9895470383275261
+          }
+        },
+        {
+          "filename": "ricardo-down-2",
+          "frame": {
+            "x": 417,
+            "y": 8,
+            "w": 393,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 288
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 288
+          },
+          "pivot": {
+            "x": 0.3880407124681934,
+            "y": 0.9895833333333334
+          }
+        },
+        {
+          "filename": "ricardo-down-3",
+          "frame": {
+            "x": 1635,
+            "y": 8,
+            "w": 374,
+            "h": 285
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 374,
+            "h": 285
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 374,
+            "h": 285
+          },
+          "pivot": {
+            "x": 0.42513368983957217,
+            "y": 0.9894736842105263
+          }
+        },
+        {
+          "filename": "ricardo-down-4",
+          "frame": {
+            "x": 1232,
+            "y": 8,
+            "w": 387,
+            "h": 286
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 387,
+            "h": 286
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 387,
+            "h": 286
+          },
+          "pivot": {
+            "x": 0.4043927648578811,
+            "y": 0.9895104895104895
+          }
+        },
+        {
+          "filename": "ricardo-down-5",
+          "frame": {
+            "x": 8,
+            "y": 312,
+            "w": 391,
+            "h": 285
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 285
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 285
+          },
+          "pivot": {
+            "x": 0.3976982097186701,
+            "y": 0.9894736842105263
+          }
+        },
+        {
+          "filename": "ricardo-down-6",
+          "frame": {
+            "x": 811,
+            "y": 312,
+            "w": 389,
+            "h": 284
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 284
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 284
+          },
+          "pivot": {
+            "x": 0.40102827763496146,
+            "y": 0.9894366197183099
+          }
+        },
+        {
+          "filename": "ricardo-down-7",
+          "frame": {
+            "x": 415,
+            "y": 312,
+            "w": 380,
+            "h": 285
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 285
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 285
+          },
+          "pivot": {
+            "x": 0.4052631578947368,
+            "y": 0.9894736842105263
+          }
+        },
+        {
+          "filename": "ricardo-down",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 393,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 393,
+            "h": 288
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 288
+          },
+          "pivot": {
+            "x": 0.3931297709923664,
+            "y": 0.9895833333333334
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-fall.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1800,
+        "h": 965
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-fall-0",
+          "frame": {
+            "x": 306,
+            "y": 519,
+            "w": 302,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.4205298013245033,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "ricardo-fall-1",
+          "frame": {
+            "x": 624,
+            "y": 519,
+            "w": 302,
+            "h": 366
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 366
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 366
+          },
+          "pivot": {
+            "x": 0.5099337748344371,
+            "y": 0.9918032786885246
+          }
+        },
+        {
+          "filename": "ricardo-fall-2",
+          "frame": {
+            "x": 8,
+            "y": 519,
+            "w": 282,
+            "h": 438
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 282,
+            "h": 438
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 282,
+            "h": 438
+          },
+          "pivot": {
+            "x": 0.46099290780141844,
+            "y": 0.9931506849315068
+          }
+        },
+        {
+          "filename": "ricardo-fall-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 329,
+            "h": 495
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 495
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 495
+          },
+          "pivot": {
+            "x": 0.8328267477203647,
+            "y": 0.9939393939393939
+          }
+        },
+        {
+          "filename": "ricardo-fall-4",
+          "frame": {
+            "x": 749,
+            "y": 8,
+            "w": 395,
+            "h": 463
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 395,
+            "h": 463
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 395,
+            "h": 463
+          },
+          "pivot": {
+            "x": 0.6139240506329114,
+            "y": 0.9935205183585313
+          }
+        },
+        {
+          "filename": "ricardo-fall-5",
+          "frame": {
+            "x": 353,
+            "y": 8,
+            "w": 380,
+            "h": 472
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 380,
+            "h": 472
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 380,
+            "h": 472
+          },
+          "pivot": {
+            "x": 0.6302631578947369,
+            "y": 0.9936440677966102
+          }
+        },
+        {
+          "filename": "ricardo-fall-6",
+          "frame": {
+            "x": 1483,
+            "y": 8,
+            "w": 309,
+            "h": 442
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 442
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 442
+          },
+          "pivot": {
+            "x": 0.540453074433657,
+            "y": 0.9932126696832579
+          }
+        },
+        {
+          "filename": "ricardo-fall-7",
+          "frame": {
+            "x": 1160,
+            "y": 8,
+            "w": 307,
+            "h": 448
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 448
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 448
+          },
+          "pivot": {
+            "x": 0.5195439739413681,
+            "y": 0.9933035714285714
+          }
+        },
+        {
+          "filename": "ricardo-fall",
+          "frame": {
+            "x": 306,
+            "y": 519,
+            "w": 302,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 302,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 302,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.4205298013245033,
+            "y": 0.9919571045576407
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-get-up.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1769,
+        "h": 834
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-getup-0",
+          "frame": {
+            "x": 780,
+            "y": 513,
+            "w": 416,
+            "h": 184
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 416,
+            "h": 184
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 416,
+            "h": 184
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9836956521739131
+          }
+        },
+        {
+          "filename": "ricardo-getup-1",
+          "frame": {
+            "x": 383,
+            "y": 513,
+            "w": 381,
+            "h": 277
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 277
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 277
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9891696750902527
+          }
+        },
+        {
+          "filename": "ricardo-getup-2",
+          "frame": {
+            "x": 8,
+            "y": 513,
+            "w": 359,
+            "h": 313
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 313
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 313
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9904153354632588
+          }
+        },
+        {
+          "filename": "ricardo-getup-3",
+          "frame": {
+            "x": 1427,
+            "y": 8,
+            "w": 334,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "ricardo-getup-4",
+          "frame": {
+            "x": 1085,
+            "y": 8,
+            "w": 326,
+            "h": 430
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 430
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 430
+          },
+          "pivot": {
+            "x": 0.38190184049079756,
+            "y": 0.9930232558139535
+          }
+        },
+        {
+          "filename": "ricardo-getup-5",
+          "frame": {
+            "x": 730,
+            "y": 8,
+            "w": 339,
+            "h": 465
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 339,
+            "h": 465
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 465
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935483870967742
+          }
+        },
+        {
+          "filename": "ricardo-getup-6",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 353,
+            "h": 489
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 489
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 489
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938650306748467
+          }
+        },
+        {
+          "filename": "ricardo-getup-7",
+          "frame": {
+            "x": 377,
+            "y": 8,
+            "w": 337,
+            "h": 487
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 337,
+            "h": 487
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 487
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938398357289527
+          }
+        },
+        {
+          "filename": "ricardo-getup",
+          "frame": {
+            "x": 780,
+            "y": 513,
+            "w": 416,
+            "h": 184
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 416,
+            "h": 184
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 416,
+            "h": 184
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9836956521739131
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-hurt.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1760,
+        "h": 1035
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-hurt-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 342,
+            "h": 522
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 522
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 522
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9942528735632183
+          }
+        },
+        {
+          "filename": "ricardo-hurt-1",
+          "frame": {
+            "x": 366,
+            "y": 8,
+            "w": 350,
+            "h": 505
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 505
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 505
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.994059405940594
+          }
+        },
+        {
+          "filename": "ricardo-hurt-2",
+          "frame": {
+            "x": 732,
+            "y": 8,
+            "w": 315,
+            "h": 490
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 315,
+            "h": 490
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 315,
+            "h": 490
+          },
+          "pivot": {
+            "x": 0.5222222222222223,
+            "y": 0.9938775510204082
+          }
+        },
+        {
+          "filename": "ricardo-hurt-3",
+          "frame": {
+            "x": 728,
+            "y": 546,
+            "w": 353,
+            "h": 440
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 353,
+            "h": 440
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 353,
+            "h": 440
+          },
+          "pivot": {
+            "x": 0.5779036827195467,
+            "y": 0.9931818181818182
+          }
+        },
+        {
+          "filename": "ricardo-hurt-4",
+          "frame": {
+            "x": 8,
+            "y": 546,
+            "w": 345,
+            "h": 481
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 481
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 481
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937629937629938
+          }
+        },
+        {
+          "filename": "ricardo-hurt-5",
+          "frame": {
+            "x": 1063,
+            "y": 8,
+            "w": 344,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938271604938271
+          }
+        },
+        {
+          "filename": "ricardo-hurt-6",
+          "frame": {
+            "x": 369,
+            "y": 546,
+            "w": 343,
+            "h": 471
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 343,
+            "h": 471
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 343,
+            "h": 471
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936305732484076
+          }
+        },
+        {
+          "filename": "ricardo-hurt-7",
+          "frame": {
+            "x": 1423,
+            "y": 8,
+            "w": 329,
+            "h": 483
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 483
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 483
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937888198757764
+          }
+        },
+        {
+          "filename": "ricardo-hurt",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 342,
+            "h": 522
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 522
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 522
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9942528735632183
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1808,
+        "h": 1013
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-idle-0",
+          "frame": {
+            "x": 1093,
+            "y": 8,
+            "w": 347,
+            "h": 494
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 494
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 494
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939271255060729
+          }
+        },
+        {
+          "filename": "ricardo-idle-1",
+          "frame": {
+            "x": 372,
+            "y": 8,
+            "w": 347,
+            "h": 498
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 498
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 498
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939759036144579
+          }
+        },
+        {
+          "filename": "ricardo-idle-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 348,
+            "h": 502
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 502
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 502
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9940239043824701
+          }
+        },
+        {
+          "filename": "ricardo-idle-3",
+          "frame": {
+            "x": 735,
+            "y": 8,
+            "w": 342,
+            "h": 498
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 498
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 498
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939759036144579
+          }
+        },
+        {
+          "filename": "ricardo-idle-4",
+          "frame": {
+            "x": 1456,
+            "y": 8,
+            "w": 344,
+            "h": 482
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 344,
+            "h": 482
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 344,
+            "h": 482
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937759336099585
+          }
+        },
+        {
+          "filename": "ricardo-idle-5",
+          "frame": {
+            "x": 8,
+            "y": 526,
+            "w": 348,
+            "h": 479
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 479
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 479
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937369519832986
+          }
+        },
+        {
+          "filename": "ricardo-idle-6",
+          "frame": {
+            "x": 372,
+            "y": 526,
+            "w": 350,
+            "h": 479
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 479
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 479
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937369519832986
+          }
+        },
+        {
+          "filename": "ricardo-idle-7",
+          "frame": {
+            "x": 738,
+            "y": 526,
+            "w": 335,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 335,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 335,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937238493723849
+          }
+        },
+        {
+          "filename": "ricardo-idle",
+          "frame": {
+            "x": 1093,
+            "y": 8,
+            "w": 347,
+            "h": 494
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 494
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 494
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939271255060729
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-intro.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2023,
+        "h": 1016
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-intro-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 273,
+            "h": 531
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 273,
+            "h": 531
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 273,
+            "h": 531
+          },
+          "pivot": {
+            "x": 0.532967032967033,
+            "y": 0.9943502824858758
+          }
+        },
+        {
+          "filename": "ricardo-intro-1",
+          "frame": {
+            "x": 695,
+            "y": 8,
+            "w": 290,
+            "h": 525
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 290,
+            "h": 525
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 290,
+            "h": 525
+          },
+          "pivot": {
+            "x": 0.4879310344827586,
+            "y": 0.9942857142857143
+          }
+        },
+        {
+          "filename": "ricardo-intro-2",
+          "frame": {
+            "x": 297,
+            "y": 8,
+            "w": 382,
+            "h": 526
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 382,
+            "h": 526
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 382,
+            "h": 526
+          },
+          "pivot": {
+            "x": 0.42408376963350786,
+            "y": 0.9942965779467681
+          }
+        },
+        {
+          "filename": "ricardo-intro-3",
+          "frame": {
+            "x": 1001,
+            "y": 8,
+            "w": 362,
+            "h": 516
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 362,
+            "h": 516
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 362,
+            "h": 516
+          },
+          "pivot": {
+            "x": 0.5607734806629834,
+            "y": 0.9941860465116279
+          }
+        },
+        {
+          "filename": "ricardo-intro-4",
+          "frame": {
+            "x": 1379,
+            "y": 8,
+            "w": 304,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936575052854123
+          }
+        },
+        {
+          "filename": "ricardo-intro-5",
+          "frame": {
+            "x": 8,
+            "y": 555,
+            "w": 320,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 320,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.4671875,
+            "y": 0.9933774834437086
+          }
+        },
+        {
+          "filename": "ricardo-intro-6",
+          "frame": {
+            "x": 1699,
+            "y": 8,
+            "w": 316,
+            "h": 470
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 316,
+            "h": 470
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 316,
+            "h": 470
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936170212765958
+          }
+        },
+        {
+          "filename": "ricardo-intro-7",
+          "frame": {
+            "x": 344,
+            "y": 555,
+            "w": 345,
+            "h": 423
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 345,
+            "h": 423
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 345,
+            "h": 423
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9929078014184397
+          }
+        },
+        {
+          "filename": "ricardo-intro",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 273,
+            "h": 531
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 273,
+            "h": 531
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 273,
+            "h": 531
+          },
+          "pivot": {
+            "x": 0.532967032967033,
+            "y": 0.9943502824858758
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-jump.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1925,
+        "h": 949
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-jump-0",
+          "frame": {
+            "x": 303,
+            "y": 8,
+            "w": 347,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99375
+          }
+        },
+        {
+          "filename": "ricardo-jump-1",
+          "frame": {
+            "x": 8,
+            "y": 550,
+            "w": 286,
+            "h": 391
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 391
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 391
+          },
+          "pivot": {
+            "x": 0.5244755244755245,
+            "y": 0.9923273657289002
+          }
+        },
+        {
+          "filename": "ricardo-jump-2",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 279,
+            "h": 526
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 279,
+            "h": 526
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 279,
+            "h": 526
+          },
+          "pivot": {
+            "x": 0.2974910394265233,
+            "y": 0.9942965779467681
+          }
+        },
+        {
+          "filename": "ricardo-jump-3",
+          "frame": {
+            "x": 1327,
+            "y": 8,
+            "w": 281,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 281,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 281,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.4626334519572954,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "ricardo-jump-4",
+          "frame": {
+            "x": 310,
+            "y": 550,
+            "w": 292,
+            "h": 383
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 383
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 383
+          },
+          "pivot": {
+            "x": 0.4383561643835616,
+            "y": 0.9921671018276762
+          }
+        },
+        {
+          "filename": "ricardo-jump-5",
+          "frame": {
+            "x": 1024,
+            "y": 8,
+            "w": 287,
+            "h": 464
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 287,
+            "h": 464
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 287,
+            "h": 464
+          },
+          "pivot": {
+            "x": 0.5644599303135889,
+            "y": 0.9935344827586207
+          }
+        },
+        {
+          "filename": "ricardo-jump-6",
+          "frame": {
+            "x": 1624,
+            "y": 8,
+            "w": 293,
+            "h": 409
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 293,
+            "h": 409
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 293,
+            "h": 409
+          },
+          "pivot": {
+            "x": 0.4812286689419795,
+            "y": 0.9926650366748166
+          }
+        },
+        {
+          "filename": "ricardo-jump-7",
+          "frame": {
+            "x": 666,
+            "y": 8,
+            "w": 342,
+            "h": 476
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 342,
+            "h": 476
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 342,
+            "h": 476
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936974789915967
+          }
+        },
+        {
+          "filename": "ricardo-jump",
+          "frame": {
+            "x": 303,
+            "y": 8,
+            "w": 347,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 347,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 347,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.99375
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-kick.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1639,
+        "h": 1010
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-kick-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 301,
+            "h": 496
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 301,
+            "h": 496
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 301,
+            "h": 496
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939516129032258
+          }
+        },
+        {
+          "filename": "ricardo-kick-1",
+          "frame": {
+            "x": 325,
+            "y": 8,
+            "w": 269,
+            "h": 494
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 269,
+            "h": 494
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 269,
+            "h": 494
+          },
+          "pivot": {
+            "x": 0.5297397769516728,
+            "y": 0.9939271255060729
+          }
+        },
+        {
+          "filename": "ricardo-kick-2",
+          "frame": {
+            "x": 932,
+            "y": 8,
+            "w": 413,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 413,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 413,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.3135593220338983,
+            "y": 0.9938271604938271
+          }
+        },
+        {
+          "filename": "ricardo-kick-3",
+          "frame": {
+            "x": 824,
+            "y": 520,
+            "w": 430,
+            "h": 479
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 430,
+            "h": 479
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 430,
+            "h": 479
+          },
+          "pivot": {
+            "x": 0.3686046511627907,
+            "y": 0.9937369519832986
+          }
+        },
+        {
+          "filename": "ricardo-kick-4",
+          "frame": {
+            "x": 8,
+            "y": 520,
+            "w": 467,
+            "h": 482
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 467,
+            "h": 482
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 467,
+            "h": 482
+          },
+          "pivot": {
+            "x": 0.30728051391862954,
+            "y": 0.9937759336099585
+          }
+        },
+        {
+          "filename": "ricardo-kick-5",
+          "frame": {
+            "x": 1361,
+            "y": 8,
+            "w": 270,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 270,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 270,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.5314814814814814,
+            "y": 0.9938271604938271
+          }
+        },
+        {
+          "filename": "ricardo-kick-6",
+          "frame": {
+            "x": 491,
+            "y": 520,
+            "w": 317,
+            "h": 482
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 317,
+            "h": 482
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 317,
+            "h": 482
+          },
+          "pivot": {
+            "x": 0.3643533123028391,
+            "y": 0.9937759336099585
+          }
+        },
+        {
+          "filename": "ricardo-kick-7",
+          "frame": {
+            "x": 610,
+            "y": 8,
+            "w": 306,
+            "h": 491
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 306,
+            "h": 491
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 306,
+            "h": 491
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938900203665988
+          }
+        },
+        {
+          "filename": "ricardo-kick",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 301,
+            "h": 496
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 301,
+            "h": 496
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 301,
+            "h": 496
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939516129032258
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-knockdown.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1992,
+        "h": 660
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-knockdown-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 295,
+            "h": 446
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 446
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 446
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932735426008968
+          }
+        },
+        {
+          "filename": "ricardo-knockdown-1",
+          "frame": {
+            "x": 319,
+            "y": 8,
+            "w": 366,
+            "h": 426
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 366,
+            "h": 426
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 366,
+            "h": 426
+          },
+          "pivot": {
+            "x": 0.6325136612021858,
+            "y": 0.9929577464788732
+          }
+        },
+        {
+          "filename": "ricardo-knockdown-2",
+          "frame": {
+            "x": 701,
+            "y": 8,
+            "w": 407,
+            "h": 412
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 407,
+            "h": 412
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 407,
+            "h": 412
+          },
+          "pivot": {
+            "x": 0.6572481572481572,
+            "y": 0.9927184466019418
+          }
+        },
+        {
+          "filename": "ricardo-knockdown-3",
+          "frame": {
+            "x": 1124,
+            "y": 8,
+            "w": 437,
+            "h": 345
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 437,
+            "h": 345
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 437,
+            "h": 345
+          },
+          "pivot": {
+            "x": 0.6521739130434783,
+            "y": 0.991304347826087
+          }
+        },
+        {
+          "filename": "ricardo-knockdown-4",
+          "frame": {
+            "x": 1577,
+            "y": 8,
+            "w": 407,
+            "h": 213
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 407,
+            "h": 213
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 407,
+            "h": 213
+          },
+          "pivot": {
+            "x": 0.4987714987714988,
+            "y": 0.9859154929577465
+          }
+        },
+        {
+          "filename": "ricardo-knockdown-5",
+          "frame": {
+            "x": 8,
+            "y": 470,
+            "w": 398,
+            "h": 182
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 398,
+            "h": 182
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 398,
+            "h": 182
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9835164835164835
+          }
+        },
+        {
+          "filename": "ricardo-knockdown-6",
+          "frame": {
+            "x": 422,
+            "y": 470,
+            "w": 309,
+            "h": 164
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 309,
+            "h": 164
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 309,
+            "h": 164
+          },
+          "pivot": {
+            "x": 0.5210355987055016,
+            "y": 0.9817073170731707
+          }
+        },
+        {
+          "filename": "ricardo-knockdown-7",
+          "frame": {
+            "x": 747,
+            "y": 470,
+            "w": 414,
+            "h": 118
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 414,
+            "h": 118
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 414,
+            "h": 118
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9745762711864406
+          }
+        },
+        {
+          "filename": "ricardo-knockdown",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 295,
+            "h": 446
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 446
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 446
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9932735426008968
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-punch.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1867,
+        "h": 1022
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-punch-0",
+          "frame": {
+            "x": 374,
+            "y": 8,
+            "w": 329,
+            "h": 500
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 500
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 500
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.994
+          }
+        },
+        {
+          "filename": "ricardo-punch-1",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 350,
+            "h": 502
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 350,
+            "h": 502
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 350,
+            "h": 502
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9940239043824701
+          }
+        },
+        {
+          "filename": "ricardo-punch-2",
+          "frame": {
+            "x": 719,
+            "y": 8,
+            "w": 381,
+            "h": 499
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 499
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 499
+          },
+          "pivot": {
+            "x": 0.463254593175853,
+            "y": 0.9939879759519038
+          }
+        },
+        {
+          "filename": "ricardo-punch-3",
+          "frame": {
+            "x": 1116,
+            "y": 8,
+            "w": 391,
+            "h": 497
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 391,
+            "h": 497
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 391,
+            "h": 497
+          },
+          "pivot": {
+            "x": 0.4744245524296675,
+            "y": 0.993963782696177
+          }
+        },
+        {
+          "filename": "ricardo-punch-4",
+          "frame": {
+            "x": 1523,
+            "y": 8,
+            "w": 336,
+            "h": 488
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 336,
+            "h": 488
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 488
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938524590163934
+          }
+        },
+        {
+          "filename": "ricardo-punch-5",
+          "frame": {
+            "x": 8,
+            "y": 526,
+            "w": 346,
+            "h": 488
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 346,
+            "h": 488
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 346,
+            "h": 488
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938524590163934
+          }
+        },
+        {
+          "filename": "ricardo-punch-6",
+          "frame": {
+            "x": 370,
+            "y": 526,
+            "w": 334,
+            "h": 488
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 334,
+            "h": 488
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 334,
+            "h": 488
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938524590163934
+          }
+        },
+        {
+          "filename": "ricardo-punch-7",
+          "frame": {
+            "x": 720,
+            "y": 526,
+            "w": 329,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "ricardo-punch",
+          "frame": {
+            "x": 374,
+            "y": 8,
+            "w": 329,
+            "h": 500
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 329,
+            "h": 500
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 329,
+            "h": 500
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.994
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-special-attack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1906,
+        "h": 996
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-super-0",
+          "frame": {
+            "x": 8,
+            "y": 511,
+            "w": 389,
+            "h": 477
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 477
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 477
+          },
+          "pivot": {
+            "x": 0.461439588688946,
+            "y": 0.9937106918238994
+          }
+        },
+        {
+          "filename": "ricardo-super-1",
+          "frame": {
+            "x": 761,
+            "y": 8,
+            "w": 367,
+            "h": 484
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 367,
+            "h": 484
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 367,
+            "h": 484
+          },
+          "pivot": {
+            "x": 0.4782016348773842,
+            "y": 0.993801652892562
+          }
+        },
+        {
+          "filename": "ricardo-super-2",
+          "frame": {
+            "x": 1144,
+            "y": 8,
+            "w": 381,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 381,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 381,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.48556430446194226,
+            "y": 0.9937238493723849
+          }
+        },
+        {
+          "filename": "ricardo-super-3",
+          "frame": {
+            "x": 413,
+            "y": 511,
+            "w": 365,
+            "h": 476
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 365,
+            "h": 476
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 365,
+            "h": 476
+          },
+          "pivot": {
+            "x": 0.5136986301369864,
+            "y": 0.9936974789915967
+          }
+        },
+        {
+          "filename": "ricardo-super-4",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 373,
+            "h": 487
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 373,
+            "h": 487
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 373,
+            "h": 487
+          },
+          "pivot": {
+            "x": 0.49865951742627346,
+            "y": 0.9938398357289527
+          }
+        },
+        {
+          "filename": "ricardo-super-5",
+          "frame": {
+            "x": 397,
+            "y": 8,
+            "w": 348,
+            "h": 487
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 348,
+            "h": 487
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 348,
+            "h": 487
+          },
+          "pivot": {
+            "x": 0.1824712643678161,
+            "y": 0.9938398357289527
+          }
+        },
+        {
+          "filename": "ricardo-super-6",
+          "frame": {
+            "x": 794,
+            "y": 511,
+            "w": 394,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 394,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 394,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.4682741116751269,
+            "y": 0.9936575052854123
+          }
+        },
+        {
+          "filename": "ricardo-super-7",
+          "frame": {
+            "x": 1541,
+            "y": 8,
+            "w": 357,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 357,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 357,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.4887955182072829,
+            "y": 0.9937238493723849
+          }
+        },
+        {
+          "filename": "ricardo-super",
+          "frame": {
+            "x": 8,
+            "y": 511,
+            "w": 389,
+            "h": 477
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 389,
+            "h": 477
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 389,
+            "h": 477
+          },
+          "pivot": {
+            "x": 0.461439588688946,
+            "y": 0.9937106918238994
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-sweep.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1705,
+        "h": 705
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-sweep-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 311,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5112540192926045,
+            "y": 0.9919571045576407
+          }
+        },
+        {
+          "filename": "ricardo-sweep-1",
+          "frame": {
+            "x": 1411,
+            "y": 8,
+            "w": 286,
+            "h": 321
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 321
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 321
+          },
+          "pivot": {
+            "x": 0.5367132867132867,
+            "y": 0.9906542056074766
+          }
+        },
+        {
+          "filename": "ricardo-sweep-2",
+          "frame": {
+            "x": 760,
+            "y": 397,
+            "w": 479,
+            "h": 297
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 479,
+            "h": 297
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 479,
+            "h": 297
+          },
+          "pivot": {
+            "x": 0.2881002087682672,
+            "y": 0.98989898989899
+          }
+        },
+        {
+          "filename": "ricardo-sweep-3",
+          "frame": {
+            "x": 8,
+            "y": 397,
+            "w": 428,
+            "h": 300
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 428,
+            "h": 300
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 428,
+            "h": 300
+          },
+          "pivot": {
+            "x": 0.4264018691588785,
+            "y": 0.99
+          }
+        },
+        {
+          "filename": "ricardo-sweep-4",
+          "frame": {
+            "x": 1010,
+            "y": 8,
+            "w": 385,
+            "h": 324
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 385,
+            "h": 324
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 385,
+            "h": 324
+          },
+          "pivot": {
+            "x": 0.3987012987012987,
+            "y": 0.9907407407407407
+          }
+        },
+        {
+          "filename": "ricardo-sweep-5",
+          "frame": {
+            "x": 452,
+            "y": 397,
+            "w": 292,
+            "h": 299
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 299
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 299
+          },
+          "pivot": {
+            "x": 0.4982876712328767,
+            "y": 0.9899665551839465
+          }
+        },
+        {
+          "filename": "ricardo-sweep-6",
+          "frame": {
+            "x": 676,
+            "y": 8,
+            "w": 318,
+            "h": 359
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 318,
+            "h": 359
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 318,
+            "h": 359
+          },
+          "pivot": {
+            "x": 0.5707547169811321,
+            "y": 0.9916434540389972
+          }
+        },
+        {
+          "filename": "ricardo-sweep-7",
+          "frame": {
+            "x": 335,
+            "y": 8,
+            "w": 325,
+            "h": 365
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 325,
+            "h": 365
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 325,
+            "h": 365
+          },
+          "pivot": {
+            "x": 0.5046153846153846,
+            "y": 0.9917808219178083
+          }
+        },
+        {
+          "filename": "ricardo-sweep",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 311,
+            "h": 373
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 311,
+            "h": 373
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 311,
+            "h": 373
+          },
+          "pivot": {
+            "x": 0.5112540192926045,
+            "y": 0.9919571045576407
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-uppercut.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1824,
+        "h": 851
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-uppercut-0",
+          "frame": {
+            "x": 576,
+            "y": 8,
+            "w": 307,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925925925925926
+          }
+        },
+        {
+          "filename": "ricardo-uppercut-1",
+          "frame": {
+            "x": 8,
+            "y": 492,
+            "w": 293,
+            "h": 351
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 293,
+            "h": 351
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 293,
+            "h": 351
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9914529914529915
+          }
+        },
+        {
+          "filename": "ricardo-uppercut-2",
+          "frame": {
+            "x": 899,
+            "y": 8,
+            "w": 304,
+            "h": 396
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 304,
+            "h": 396
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 304,
+            "h": 396
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9924242424242424
+          }
+        },
+        {
+          "filename": "ricardo-uppercut-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 280,
+            "h": 468
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 280,
+            "h": 468
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 280,
+            "h": 468
+          },
+          "pivot": {
+            "x": 0.5267857142857143,
+            "y": 0.9935897435897436
+          }
+        },
+        {
+          "filename": "ricardo-uppercut-4",
+          "frame": {
+            "x": 304,
+            "y": 8,
+            "w": 256,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 256,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 256,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.548828125,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "ricardo-uppercut-5",
+          "frame": {
+            "x": 1526,
+            "y": 8,
+            "w": 290,
+            "h": 360
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 290,
+            "h": 360
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 290,
+            "h": 360
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9916666666666667
+          }
+        },
+        {
+          "filename": "ricardo-uppercut-6",
+          "frame": {
+            "x": 317,
+            "y": 492,
+            "w": 294,
+            "h": 331
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 294,
+            "h": 331
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 294,
+            "h": 331
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9909365558912386
+          }
+        },
+        {
+          "filename": "ricardo-uppercut-7",
+          "frame": {
+            "x": 1219,
+            "y": 8,
+            "w": 291,
+            "h": 379
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 291,
+            "h": 379
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 291,
+            "h": 379
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9920844327176781
+          }
+        },
+        {
+          "filename": "ricardo-uppercut",
+          "frame": {
+            "x": 576,
+            "y": 8,
+            "w": 307,
+            "h": 405
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 307,
+            "h": 405
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 307,
+            "h": 405
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9925925925925926
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-victory.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1971,
+        "h": 999
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-win-0",
+          "frame": {
+            "x": 1637,
+            "y": 8,
+            "w": 326,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936575052854123
+          }
+        },
+        {
+          "filename": "ricardo-win-1",
+          "frame": {
+            "x": 1005,
+            "y": 8,
+            "w": 286,
+            "h": 481
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 286,
+            "h": 481
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 286,
+            "h": 481
+          },
+          "pivot": {
+            "x": 0.5034965034965035,
+            "y": 0.9937629937629938
+          }
+        },
+        {
+          "filename": "ricardo-win-2",
+          "frame": {
+            "x": 1307,
+            "y": 8,
+            "w": 314,
+            "h": 477
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 314,
+            "h": 477
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 314,
+            "h": 477
+          },
+          "pivot": {
+            "x": 0.535031847133758,
+            "y": 0.9937106918238994
+          }
+        },
+        {
+          "filename": "ricardo-win-3",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 319,
+            "h": 501
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 501
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 501
+          },
+          "pivot": {
+            "x": 0.5047021943573667,
+            "y": 0.9940119760479041
+          }
+        },
+        {
+          "filename": "ricardo-win-4",
+          "frame": {
+            "x": 343,
+            "y": 8,
+            "w": 330,
+            "h": 486
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 486
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 486
+          },
+          "pivot": {
+            "x": 0.5287878787878788,
+            "y": 0.9938271604938271
+          }
+        },
+        {
+          "filename": "ricardo-win-5",
+          "frame": {
+            "x": 325,
+            "y": 525,
+            "w": 384,
+            "h": 453
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 384,
+            "h": 453
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 384,
+            "h": 453
+          },
+          "pivot": {
+            "x": 0.4322916666666667,
+            "y": 0.9933774834437086
+          }
+        },
+        {
+          "filename": "ricardo-win-6",
+          "frame": {
+            "x": 8,
+            "y": 525,
+            "w": 301,
+            "h": 466
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 301,
+            "h": 466
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 301,
+            "h": 466
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9935622317596566
+          }
+        },
+        {
+          "filename": "ricardo-win-7",
+          "frame": {
+            "x": 689,
+            "y": 8,
+            "w": 300,
+            "h": 484
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 300,
+            "h": 484
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 484
+          },
+          "pivot": {
+            "x": 0.5066666666666667,
+            "y": 0.993801652892562
+          }
+        },
+        {
+          "filename": "ricardo-win",
+          "frame": {
+            "x": 1637,
+            "y": 8,
+            "w": 326,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 326,
+            "h": 473
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 326,
+            "h": 473
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9936575052854123
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walk.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1964,
+        "h": 906
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-walk-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 359,
+            "h": 457
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 457
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 457
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934354485776805
+          }
+        },
+        {
+          "filename": "ricardo-walk-1",
+          "frame": {
+            "x": 1027,
+            "y": 8,
+            "w": 241,
+            "h": 455
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 241,
+            "h": 455
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 241,
+            "h": 455
+          },
+          "pivot": {
+            "x": 0.45850622406639,
+            "y": 0.9934065934065934
+          }
+        },
+        {
+          "filename": "ricardo-walk-2",
+          "frame": {
+            "x": 383,
+            "y": 8,
+            "w": 244,
+            "h": 456
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 244,
+            "h": 456
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 244,
+            "h": 456
+          },
+          "pivot": {
+            "x": 0.4610655737704918,
+            "y": 0.993421052631579
+          }
+        },
+        {
+          "filename": "ricardo-walk-3",
+          "frame": {
+            "x": 643,
+            "y": 8,
+            "w": 368,
+            "h": 456
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 368,
+            "h": 456
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 368,
+            "h": 456
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.993421052631579
+          }
+        },
+        {
+          "filename": "ricardo-walk-4",
+          "frame": {
+            "x": 1284,
+            "y": 8,
+            "w": 292,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 292,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 292,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "ricardo-walk-5",
+          "frame": {
+            "x": 347,
+            "y": 481,
+            "w": 254,
+            "h": 416
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 254,
+            "h": 416
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 254,
+            "h": 416
+          },
+          "pivot": {
+            "x": 0.41732283464566927,
+            "y": 0.9927884615384616
+          }
+        },
+        {
+          "filename": "ricardo-walk-6",
+          "frame": {
+            "x": 8,
+            "y": 481,
+            "w": 323,
+            "h": 417
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 323,
+            "h": 417
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 323,
+            "h": 417
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928057553956835
+          }
+        },
+        {
+          "filename": "ricardo-walk-7",
+          "frame": {
+            "x": 1592,
+            "y": 8,
+            "w": 364,
+            "h": 420
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 364,
+            "h": 420
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 364,
+            "h": 420
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9928571428571429
+          }
+        },
+        {
+          "filename": "ricardo-walk",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 359,
+            "h": 457
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 359,
+            "h": 457
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 359,
+            "h": 457
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9934354485776805
+          }
+        }
+      ]
+    },
+    {
+      "image": "atlas-walkBack.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1757,
+        "h": 1024
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "ricardo-walkBack-0",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 356,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 512
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.994140625
+          }
+        },
+        {
+          "filename": "ricardo-walkBack-1",
+          "frame": {
+            "x": 1034,
+            "y": 8,
+            "w": 404,
+            "h": 496
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 404,
+            "h": 496
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 404,
+            "h": 496
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9939516129032258
+          }
+        },
+        {
+          "filename": "ricardo-walkBack-2",
+          "frame": {
+            "x": 380,
+            "y": 8,
+            "w": 319,
+            "h": 501
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 319,
+            "h": 501
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 319,
+            "h": 501
+          },
+          "pivot": {
+            "x": 0.5313479623824452,
+            "y": 0.9940119760479041
+          }
+        },
+        {
+          "filename": "ricardo-walkBack-3",
+          "frame": {
+            "x": 715,
+            "y": 8,
+            "w": 303,
+            "h": 499
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 303,
+            "h": 499
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 303,
+            "h": 499
+          },
+          "pivot": {
+            "x": 0.5297029702970297,
+            "y": 0.9939879759519038
+          }
+        },
+        {
+          "filename": "ricardo-walkBack-4",
+          "frame": {
+            "x": 1454,
+            "y": 8,
+            "w": 295,
+            "h": 485
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 295,
+            "h": 485
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 295,
+            "h": 485
+          },
+          "pivot": {
+            "x": 0.488135593220339,
+            "y": 0.9938144329896907
+          }
+        },
+        {
+          "filename": "ricardo-walkBack-5",
+          "frame": {
+            "x": 8,
+            "y": 536,
+            "w": 352,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 352,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 480
+          },
+          "pivot": {
+            "x": 0.5042613636363636,
+            "y": 0.99375
+          }
+        },
+        {
+          "filename": "ricardo-walkBack-6",
+          "frame": {
+            "x": 722,
+            "y": 536,
+            "w": 293,
+            "h": 477
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 293,
+            "h": 477
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 293,
+            "h": 477
+          },
+          "pivot": {
+            "x": 0.4539249146757679,
+            "y": 0.9937106918238994
+          }
+        },
+        {
+          "filename": "ricardo-walkBack-7",
+          "frame": {
+            "x": 376,
+            "y": 536,
+            "w": 330,
+            "h": 478
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 330,
+            "h": 478
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 330,
+            "h": 478
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.9937238493723849
+          }
+        },
+        {
+          "filename": "ricardo-walkBack",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 356,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 356,
+            "h": 512
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 356,
+            "h": 512
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.994140625
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "PG Fighters animation packaging",
+    "version": "2",
+    "description": "One independent page per movement"
+  }
+}

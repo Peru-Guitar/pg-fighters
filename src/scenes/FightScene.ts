@@ -73,6 +73,8 @@ const SPARK_HEIGHT: Record<string, number> = {
 /** La pelea: rondas, colisiones, impacto (hitstop, chispas, sacudida), KO y cámara lenta. */
 /** Duración del golpe de oro de Slandor sin usarlo (ms). */
 const GOLD_MS = 5000;
+/** Las marcas del lick de Pentalick se apagan si no vuelve a pegar en este tiempo. */
+const LICK_MARK_MS = 5000;
 /** Radio de la esferita que avisa que la jaula de NOSU está lista (px). */
 const CAGE_ICON_R = 26;
 /** La esfera que pegó tarda esto en crecer hasta envolver al rival (s). */
@@ -419,9 +421,7 @@ export class FightScene extends Phaser.Scene implements Arena {
     }
     owner.powerCasts++;
     for (const base of shots) {
-      // Lick de Pentalick: cada nivel sale más grande y pega más.
-      const lvl = base.levels ? owner.lickLevel : 0;
-      let spec = base.levels ? { ...base, level: lvl, size: (base.size ?? 1) * (1 + 0.3 * lvl), damage: (base.damage ?? 1) * (1 + 0.5 * lvl) } : base;
+      let spec = base;
       // Velocidad en ciclo (monedas de Jesex): cada lanzamiento un poco más rápido, y vuelve a empezar.
       if (spec.speedCycle) spec = { ...spec, speed: (spec.speed ?? 1) * spec.speedCycle[(owner.powerCasts - 1) % spec.speedCycle.length] };
       this.projectiles.push(new Projectile(this, this.fx, owner, spec, spec.color ?? color));
@@ -1045,12 +1045,14 @@ export class FightScene extends Phaser.Scene implements Arena {
         continue;
       }
       const dir = (p.vx > 0 ? 1 : -1) as 1 | -1;
+      // Lick de Pentalick: este acierto revienta las marcas si completa las `marks`.
+      const burst = !!p.spec.marks && target.lickMarks + 1 >= p.spec.marks;
       const { result, damage } = target.receive(p.owner, p.move, {
         dir,
         fromX: p.x - dir * 10,
         chip: 0.2,
-        finisher: !!p.spec.knockdown,
-        damage: Math.round(p.damage * target.defense),
+        finisher: !!p.spec.knockdown || burst,
+        damage: Math.round(p.damage * target.defense * (burst ? 2 : 1)),
       });
       if (result === 'whiff') continue;
       if (result === 'hit') this.showPowerQuip(p.owner);
@@ -1070,8 +1072,16 @@ export class FightScene extends Phaser.Scene implements Arena {
       if (result === 'hit' && p.spec.silence && !target.silenced) this.silence(p.owner, target, p.spec.silence);
       const hx = p.spec.beam ? target.x - dir * 40 : p.x;
       if (result === 'hit' && p.spec.poison) this.poison(p.owner, target, p.move, p.spec.poison, p.damage);
-      // Lick de Pentalick: sube de nivel si pega; si se lo bloquean, vuelve al 1.
-      if (p.spec.levels) p.owner.lickLevel = result === 'hit' ? Math.min(p.spec.levels - 1, p.owner.lickLevel + 1) : 0;
+      // Lick de Pentalick: si pega, marca al rival (5 s); el tercero las revienta. Bloquearlo no suma ni borra.
+      if (result === 'hit' && p.spec.marks) {
+        if (burst) {
+          target.lickMarks = 0;
+          this.lickBurst(target);
+        } else {
+          target.lickMarks++;
+          target.lickMarksUntil = target.now + LICK_MARK_MS;
+        }
+      }
       if (result === 'hit' && p.spec.tug) {
         // Tornado de Markus: jala un poco al rival hacia él (el rozamiento lo frena tras unos `tug` px).
         target.vx = -Math.sign(target.x - p.owner.x) * p.spec.tug * 9;
@@ -1092,6 +1102,15 @@ export class FightScene extends Phaser.Scene implements Arena {
       if (result === 'hit' && p.spec.retake && ++p.owner.retakeHits % p.spec.retake === 0) this.retake(target);
       if (result === 'hit' && p.caging) this.cage(target, p.color, p.spec.cage!, p.radius * 1.15);
     }
+  }
+
+  /** Las marcas del lick revientan sobre el rival: anillos de los colores de los licks y estallido. */
+  private lickBurst(target: Fighter): void {
+    const x = target.x;
+    const y = GROUND_Y - target.z - target.def.art.height * 0.6;
+    [0xff7a2b, 0xffd23f, 0x4dff88].forEach((c, i) => this.time.delayedCall(i * 50, () => this.fx.ring(x, y, c, 160 + i * 90, 0.4)));
+    this.fx.hit(x, y, 0xff7a2b, true);
+    this.cameras.main.shake(200, 0.01);
   }
 
     /** Veneno: burbujas verdes sobre el rival y, al rato, un golpe extra que no se bloquea. */

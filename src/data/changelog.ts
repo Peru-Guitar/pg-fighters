@@ -10,6 +10,17 @@ export interface ChangelogEntry {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    version: '1.10.0',
+    date: '2026-10-18',
+    notes: [
+      'Ahora puedes lanzar tu poder saltando.',
+      'Los poderes van de frente: ya no persiguen al rival.',
+      'Diálogos únicos antes de cada pelea.',
+      'Animaciones nuevas de Kimberly y Ricardo, y retratos en alta resolución.',
+      'Poderes y ultimates renovados para varios luchadores.',
+    ],
+  },
+  {
     version: '1.9.0',
     date: '2026-10-18',
     notes: [

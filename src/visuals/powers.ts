@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import type { PowerLook } from '../data/powers';
 import { tex } from './supers/kit';
+import { coreTex, glowTex } from './supers/energy';
 
 /** Dibujo de un proyectil: el objeto, cuánto gira (grados/s) y si apunta hacia donde va. */
 export interface LookObj {
@@ -411,10 +412,16 @@ export const buildLook = (scene: Phaser.Scene, look: PowerLook, color: number, r
     }).setOrigin(0.5).setStroke('#ff2d45', 6).setShadow(0, 0, '#ff2d45', 18, true, true);
     return { obj: t, spin: 0, aim: false };
   }
-  if (look === 'lick' || look === 'cheque') {
-    const label = look === 'lick' ? '♪ 1' : '$ 1 000 000';
-    const bg = look === 'lick' ? 0xff7a2b : 0x2f7a4f;
-    const t = scene.add.text(0, 0, label, { fontFamily: 'Barlow Condensed, sans-serif', fontSize: `${Math.round(r * (look === 'lick' ? 0.9 : 0.55))}px`, fontStyle: 'italic 900', color: look === 'lick' ? '#111111' : '#ecd08a' }).setOrigin(0.5);
+  if (look === 'lick') {
+    // Orbe de luz de su ultimate.
+    const glow = scene.add.image(0, 0, glowTex(scene)).setTint(color).setScale((r * 3) / 32).setBlendMode(Phaser.BlendModes.ADD);
+    const core = scene.add.image(0, 0, coreTex(scene)).setTint(0xffffff).setScale(r / 30).setBlendMode(Phaser.BlendModes.ADD);
+    return { obj: scene.add.container(x, y, [glow, core]), spin: 0, aim: false };
+  }
+  if (look === 'cheque') {
+    const label = '$ 1 000 000';
+    const bg = 0x2f7a4f;
+    const t = scene.add.text(0, 0, label, { fontFamily: 'Barlow Condensed, sans-serif', fontSize: `${Math.round(r * 0.55)}px`, fontStyle: 'italic 900', color: '#ecd08a' }).setOrigin(0.5);
     const g = scene.add.graphics();
     const w = t.width + 18;
     const h = t.height + 6;

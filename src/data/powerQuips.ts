@@ -3,8 +3,8 @@ import type { FighterId } from './fighters';
 /** Comentarios del poder básico: diez frases originales de hasta cuatro palabras por luchador. */
 export const POWER_QUIPS = {
   erp: [
-    'Eso es lenguaje.', 'Menos notas, pues.', 'Una toma y listo.', 'Quedó brutal.', '¡Compiló!',
-    'Vieja escuela, papá.', 'El vecino se queja.', 'Frasea, no corras.', 'Desde mi cuarto.', 'Sin tanto shred.',
+    'Seguro fue un zurdo.', 'Bug de zurdos.', 'Con la derecha, papá.', 'Compila a la derecha.', 'Cuerdas al derecho.',
+    'Eso es lenguaje.', 'Mano derecha, código limpio.', 'Ese commit era zurdo.', 'Desde mi cuarto.', 'Revertido por zurdo.',
   ],
   mayin: [
     'Con cinco alcanza.', 'Esto es barrio.', 'Blues con panza.', 'Siente esas cinco.', 'Sin sexta, papá.',
@@ -63,8 +63,8 @@ export const POWER_QUIPS = {
     'Lección bien aprendida.', 'Con fundamento teórico.', 'Mi libro me respalda.', 'Te falta lectura.', 'La púa definitiva.',
   ],
   tayloy: [
-    'La Púa de Jade.', 'El clan responde.', 'Honor en cada nota.', 'Tu curso mentía.', 'Shred sin falsos profetas.',
-    'Respeta nuestro legado.', 'Técnica milenaria.', 'Ese secreto era nuestro.', 'Una semicorchea basta.', 'La verdad corta.',
+    'Quien corre, desafina.', 'La púa recuerda.', 'Mil escalas, un camino.', 'El metrónomo no miente.', 'Afina antes de hablar.',
+    'El silencio también suena.', 'Dedo paciente, nota exacta.', 'Cuerda tensa, mente serena.', 'Bambú dobla, cuerda canta.', 'Sin raíz no hay bend.',
   ],
   jesex: [
     'Yo invito, amigo.', 'Cárgalo a mi cuenta.', 'Puro vacilón.', 'La revancha también pago.', 'Abro otra sede.',

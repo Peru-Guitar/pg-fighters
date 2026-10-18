@@ -35,7 +35,7 @@ const padBasics = (d: PadDevice): [string, string][] => [
 ];
 
 const SPECIALS: [string, string, string][] = [
-  ['PODER', 'S → D + CLIC IZQ', 'Propio de cada luchador: disparo, embestida, trampa… (ver Pausa).'],
+  ['PODER', 'S → D + CLIC IZQ', 'Propio de cada luchador (ver Pausa). También saltando: uno por salto.'],
   ['UPPERCUT', 'D → S → S+D + CLIC IZQ', 'Antiaéreo invulnerable al arrancar.'],
   ['ULTIMATE', 'E', 'Barra llena. El remate solo sale si el último golpe acierta.'],
   ['BARRIDA', 'S + CLIC DER', 'Tumba. Solo se bloquea agachado.'],

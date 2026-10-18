@@ -60,6 +60,12 @@ const JUMP_VX = 430;
 /** Uppercut: sube ~360 px en arco y vuelve al suelo en ~0,6 s (gravedad propia, más rápida que el salto). */
 const UPPERCUT_VZ = 2400;
 const UPPERCUT_VX = 380;
+/** Embestida lanzada saltando: bajada mínima de la picada (px/s). */
+const AIR_RUSH_MIN_DROP = 250;
+/** Colores de las marcas del lick de Pentalick (los de sus licks). */
+const LICK_MARK_COLORS = [0xff7a2b, 0xffd23f];
+/** Parte del recorrido de la embestida de pie que hace la picada antes de tocar el piso. */
+const AIR_RUSH_SHARE = 0.6;
 const UPPERCUT_GRAVITY = 8000;
 const MAX_HP = 1000;
 export const MAX_METER = 100;
@@ -181,6 +187,8 @@ export class Fighter {
   /** El golpe actual es el remate de una cadena (tumba y pega más). */
   finisher = false;
   private airAttackUsed = false;
+  /** El poder actual se lanzó saltando: sale recto desde esa altura, con la pose de puño aéreo. */
+  private airPower = false;
   /** El golpe actual ya aguantó su impacto (armadura). */
   private armorUsed = false;
   invulnUntil = 0;
@@ -199,8 +207,11 @@ export class Fighter {
   /** Arrastrado por el orbe de El Acople: cuerpo y aura en rojo y morado. */
   dragUntil = 0;
   private lastDragGlow = 0;
-  /** Nivel del lick de Pentalick (0 = primero): sube con cada lick que pega. */
-  lickLevel = 0;
+  /** Marcas del lick de Pentalick sobre este luchador; se apagan solas en `lickMarksUntil`. */
+  lickMarks = 0;
+  lickMarksUntil = 0;
+  /** Notas que muestran las marcas sobre la cabeza. */
+  private marksView: Phaser.GameObjects.Graphics;
   /** Aciertos acumulados del poder con tributo (El Virrey): cada tercero roba vida. */
   tributeHits = 0;
   /** Aciertos del ¡CORTE! de Tevi (cada `retake`, el rival vuelve a cargar su poder). */
@@ -254,6 +265,7 @@ export class Fighter {
     this.scale = artScale(scene, def);
     this.shadow = scene.add.image(x, GROUND_Y, 'shadow').setDepth(15);
     this.sprite = scene.add.sprite(x, GROUND_Y, def.art.texture, `${def.art.prefix}idle`).setDepth(20);
+    this.marksView = scene.add.graphics().setDepth(23);
     this.sync();
   }
 
@@ -364,7 +376,7 @@ export class Fighter {
     this.poisonUntil = 0;
     this.staticUntil = 0;
     this.gold = 0;
-    this.lickLevel = 0;
+    this.lickMarks = 0;
     this.tributeHits = 0;
     this.retakeHits = 0;
     this.powerCasts = 0;
@@ -497,10 +509,21 @@ export class Fighter {
     const air = this.state === 'jump' || !this.grounded;
     if (air) {
       if (this.airAttackUsed || cancel) return false;
+      // Poder saltando (igual que en el piso, uno por salto).
+      if (this.canPower(btn)) {
+        this.powerButton = btn;
+        const base = moveFor(this.def.id, 'special');
+        // Lanza con el puño aéreo. Embestidas (MayinBlues, Ferdex): en picada hacia adelante y abajo; termina al caer.
+        // La guardia de George conserva su pose de guardia.
+        const pose = base.counter ? base.pose : base.rush && this.def.id === 'mayin' ? 'airKick' : 'airPunch';
+        this.airPower = true;
+        this.startMove({ ...base, pose, air: true, startup: Math.min(base.startup, 120) }, false);
+        return true;
+      }
       id = btn === 'kick' ? 'airKick' : 'airPunch';
     } else if (btn !== 'kick' && this.matches('uppercut')) {
       id = 'uppercut';
-    } else if ((btn !== 'kick' || this.def.id === 'acople') && this.matches('special') && (kitOf(this.def.id).multi || !this.arena.hasProjectile(this)) && !this.gold && this.now >= this.powerReadyAt && !this.silenced) {
+    } else if (this.canPower(btn)) {
       id = 'special';
       // El Acople tiene un poder por botón (puño / patada).
       this.powerButton = btn;
@@ -517,6 +540,11 @@ export class Fighter {
     }
     this.startMove(moveFor(this.def.id, id), cancel && !special);
     return true;
+  }
+
+  /** Hizo el comando del poder y puede lanzarlo (recarga, sin silencio, sin otro en pantalla). */
+  private canPower(btn: 'punch' | 'kick'): boolean {
+    return (btn !== 'kick' || this.def.id === 'acople') && this.matches('special') && (kitOf(this.def.id).multi || !this.arena.hasProjectile(this)) && !this.gold && this.now >= this.powerReadyAt && !this.silenced;
   }
 
   /** Golpe del contraataque (FightScene.counter): pose de puño, sin zona de golpe propia (el daño ya lo aplica la escena). */
@@ -542,6 +570,7 @@ export class Fighter {
     this.chargeFrom = -1;
     this.chargeStep = 0;
     this.shotCharge = 0;
+    if (!this.airPower || move.id !== 'special') this.airPower = false;
     if (move.air) this.airAttackUsed = true;
     if (!move.air) this.vx = this.grounded ? this.facing * (move.lunge ?? 0) : this.vx;
     if (move.invuln) this.invulnUntil = this.now + move.invuln;
@@ -618,6 +647,8 @@ export class Fighter {
 
     // Golpe de oro: se pierde si le pegan limpio.
     if (this.gold) this.loseGold();
+    // Le pegaron: se borran las marcas que había dejado en el rival.
+    this.opponent.lickMarks = 0;
     const juggling = this.state === 'hurt' || this.state === 'knockdown';
     this.comboTaken = juggling ? this.comboTaken + 1 : 1;
     const damage = Math.round(opts.damage !== undefined
@@ -745,7 +776,7 @@ export class Fighter {
     if (this.state === 'attack' && this.move) {
       const m = this.move;
       const e = now - this.moveStart;
-      if (!this.moveSpawned && e >= m.startup && m.id === 'special' && this.chargeable && this.holdCharge(now)) {
+      if (!this.moveSpawned && e >= m.startup && m.id === 'special' && this.chargeable && !this.airPower && this.holdCharge(now)) {
         // Cargando: el golpe se queda en su pose hasta soltar el clic.
         this.moveStart = now - m.startup;
       } else if (!this.moveSpawned && e >= m.startup) {
@@ -790,6 +821,11 @@ export class Fighter {
       if (m.rush && this.moveSpawned && !this.rushStopped) {
         if (this.phase === 'active' && !this.moveDone) {
           this.vx = this.facing * m.rush.speed;
+          // En el aire, la embestida baja en picada y toca el piso a una parte del recorrido de la del piso.
+          if (this.airPower) {
+            const left = (this.moveStart + m.startup + m.active * AIR_RUSH_SHARE - now) / 1000;
+            this.vz = left > 0.02 ? -Math.max(AIR_RUSH_MIN_DROP, this.z / left) : Math.min(this.vz, -AIR_RUSH_MIN_DROP);
+          }
           if (now - this.lastGhost > 28) {
             this.lastGhost = now;
             // Estela detrás, aura encendida alrededor del cuerpo y chispas en el frente del golpe.
@@ -867,7 +903,9 @@ export class Fighter {
     if (this.state === 'walk' && this.grounded) this.strideDist += Math.abs(this.vx * dt);
     this.x += this.vx * dt;
     if (this.z > 0 || this.vz > 0) {
-      this.vz -= (this.state === 'attack' && this.move?.id === 'uppercut' ? UPPERCUT_GRAVITY : GRAVITY) * dt;
+      // La picada (embestida saltando) ya fija su bajada: sin gravedad mientras dura.
+      const diving = this.airPower && this.state === 'attack' && !!this.move?.rush && this.phase === 'active' && !this.moveDone;
+      if (!diving) this.vz -= (this.state === 'attack' && this.move?.id === 'uppercut' ? UPPERCUT_GRAVITY : GRAVITY) * dt;
       this.z += this.vz * dt;
       if (this.z <= 0) this.land();
     } else if (this.state !== 'walk') {
@@ -1106,12 +1144,36 @@ export class Fighter {
     const blink = this.state === 'getup' && Math.floor(now / 70) % 2 === 0;
     this.sprite.setAlpha(noisy ? 1 : fp?.alpha ?? (blink ? 0.5 : this.def.boss && this.def.art.placeholder ? 0.86 : 1));
 
+    this.drawMarks(now);
+
     const k = Phaser.Math.Clamp(1 - this.z / 600, 0.45, 1);
     this.shadow.setPosition(this.x, GROUND_Y + 6).setScale(k * (pose === 'down' || pose === 'ko' ? 1.8 : 1.1), k).setAlpha(0.75 * k);
+  }
+
+  /** Marcas del lick de Pentalick: notas de color que giran como una aureola sobre la cabeza; parpadean antes de apagarse. */
+  private drawMarks(now: number): void {
+    const g = this.marksView.clear();
+    if (this.lickMarks && now >= this.lickMarksUntil) this.lickMarks = 0;
+    if (!this.lickMarks || (this.lickMarksUntil - now < 1000 && Math.floor(now / 90) % 2 === 0)) return;
+    const cx = this.x;
+    const cy = GROUND_Y - this.z - this.def.art.height - 10;
+    for (let i = 0; i < this.lickMarks; i++) {
+      const a = now / 320 + (i / this.lickMarks) * Math.PI * 2;
+      // Adelante (sin > 0) más grande y brillante; atrás, más chica y tenue.
+      const front = Math.sin(a);
+      const k = 0.8 + 0.2 * front;
+      const alpha = 0.55 + 0.45 * Math.max(0, front);
+      const x = cx + Math.cos(a) * 75;
+      const y = cy + front * 17;
+      const color = LICK_MARK_COLORS[i % LICK_MARK_COLORS.length];
+      g.fillStyle(color, alpha).fillEllipse(x - 5 * k, y + 2, 22 * k, 16 * k).fillRect(x + 3 * k, y - 26 * k, 5 * k, 28 * k);
+      g.fillStyle(0xffffff, 0.8 * alpha).fillCircle(x - 9 * k, y - 1, 3 * k);
+    }
   }
 
   destroy(): void {
     this.sprite.destroy();
     this.shadow.destroy();
+    this.marksView.destroy();
   }
 }

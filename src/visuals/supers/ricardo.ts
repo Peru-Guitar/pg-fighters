@@ -5,11 +5,13 @@ import { buildLook } from '../powers';
 
 const SKY = 0xb04dff;
 const PINK = 0xff5fc8;
+// Los seis colores de la bandera del orgullo, para el remate.
+const RAINBOW = [0xe40303, 0xff8c00, 0xffed00, 0x008026, 0x24408e, 0x732982];
 
 /**
  * RICARDO · MI PROPIO SONIDO: todo empieza apagado y gris (las canciones ajenas) y cada golpe le devuelve
  * color a la pantalla. Lanza ondas moradas cada vez más fuertes; el rival se queda gris, sin color.
- * Remate: un corazón de luz gigante se enciende sobre el rival y explota devolviendo todo el color.
+ * Remate: un corazón de luz gigante se enciende sobre el rival y explota en arcoíris (orgullo) devolviendo todo el color.
  */
 export const ricardo: SuperShow = {
   start(c: ShowCtx) {
@@ -67,17 +69,26 @@ export const ricardo: SuperShow = {
     scene.tweens.add({
       targets: st, r: 260, duration: 380, ease: 'Back.easeOut', onUpdate: draw,
       onComplete: () => {
-        // …y explota: partículas que salen con forma de corazón.
+        // …y explota en arcoíris: corazones concéntricos, uno por cada color de la bandera.
         heart.destroy();
-        for (let i = 0; i < 90; i++) {
-          const p = heartAt(i / 90, 1);
-          const sp = rand(900, 1300);
-          emit(c, glowTex(scene), t.x + p.x * 200, t.y + p.y * 200, { vx: p.x * sp, vy: p.y * sp, life: 0.8, scale: rand(0.6, 1.2), grow: -0.9, tint: i % 3 ? SKY : PINK, add: true });
+        RAINBOW.forEach((tint, band) => {
+          const k = 1 - band * 0.12;
+          for (let i = 0; i < 40; i++) {
+            const p = heartAt(i / 40, 1);
+            const sp = rand(1000, 1250) * k;
+            emit(c, glowTex(scene), t.x + p.x * 200 * k, t.y + p.y * 200 * k, { vx: p.x * sp, vy: p.y * sp, life: 0.9, scale: rand(0.6, 1.1), grow: -0.8, tint, add: true });
+          }
+        });
+        // Chispas arcoíris en todas direcciones.
+        for (let i = 0; i < 60; i++) {
+          const a = rand(0, Math.PI * 2);
+          const sp = rand(500, 1400);
+          emit(c, glowTex(scene), t.x, t.y, { vx: Math.cos(a) * sp, vy: Math.sin(a) * sp, life: rand(0.6, 1.1), scale: rand(0.4, 0.9), grow: -0.9, tint: RAINBOW[i % RAINBOW.length], add: true });
         }
         colorFlash(scene, 'saturate', 1000);
         veil(scene, PINK, 0.5, 100, 20, 500, 48);
         shockwave(scene, 0.7, 900);
-        for (let k = 0; k < 6; k++) c.fx.ring(t.x, t.y, k % 2 ? PINK : SKY, 240 + k * 170, 0.5 + k * 0.08);
+        RAINBOW.forEach((col, k) => c.fx.ring(t.x, t.y, col, 240 + k * 170, 0.5 + k * 0.08));
         c.fx.hit(t.x, t.y, SKY, true);
         scene.cameras.main.shake(600, 0.026);
         finale(scene, 'ESTA CANCIÓN ES|MÍA', '#c77dff');

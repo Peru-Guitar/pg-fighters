@@ -74,7 +74,7 @@ export class GuitarSolo {
 
   get finished(): boolean {
     // Tras el remate, el show sigue un momento para que su estallido se vea completo.
-    const finale = this.owner.soloFinalAt === null || !this.show || this.t - this.owner.soloFinalAt >= FINALE_MS;
+    const finale = this.owner.soloFinalAt === null || !this.show || this.t - this.owner.soloFinalAt >= (this.show.finaleMs ?? FINALE_MS);
     return this.t >= this.solo.duration && finale && !this.notes.some((n) => n.hit && !n.spent);
   }
 

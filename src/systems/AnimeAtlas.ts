@@ -20,10 +20,9 @@ export function registerAnimeAtlases(scene: Phaser.Scene): void {
     const fighterId=id==='pata'?'mayin':'erp';
     const superSheet=scene.textures.get(`super-sheet-${fighterId}`).getSourceImage() as HTMLImageElement;
     const portrait=scene.textures.get(`super-cutin-${fighterId}`);
-    const portraitSource=portrait.getSourceImage() as HTMLImageElement;
     // The full bust is shared with the cut-in; icons use a dedicated face crop.
-    const faceSize=Math.round(portraitSource.height*(id==='pata'?.46:.49));
-    portrait.add('face',0,Math.round(portraitSource.width*.29),Math.round(portraitSource.height*(id==='pata'?.035:0)),faceSize,faceSize);
+    const [faceX,faceY,faceSize]=fighterId==='mayin'?[500,180,680]:[500,210,660];
+    portrait.add('face',0,faceX,faceY,faceSize,faceSize);
     // Isolate the two touching silhouettes before registering rectangular frames.
     const lowSweep=document.createElement('canvas');
     const lowRecovery=document.createElement('canvas');

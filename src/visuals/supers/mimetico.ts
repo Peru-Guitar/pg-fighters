@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { GAME_HEIGHT, GAME_WIDTH } from '../../config';
+import { GAME_HEIGHT, GAME_WIDTH, GROUND_Y } from '../../config';
 import { chest, rand, finale, veil, type ShowCtx, type SuperShow } from './kit';
 import { ADD, burst, colorFlash, echo, every, lensBarrel, markHit, shockwave, spark, victim } from './energy';
 
@@ -15,12 +15,17 @@ const silhouette = (c: ShowCtx, x: number, y: number, scale: number) => {
 /**
  * MIMÉTICO · COPIA EXACTA: una barra de luz verde escanea la pantalla y todo deja copias fantasma;
  * dispara siluetas verdes de sí mismo. El rival deja copias que lo imitan con retraso.
- * Remate: decenas de copias verdes de Mimético convergen sobre el rival.
+ * De fondo, un ejército de copias avanza hacia el rival sin tocarlo.
+ * Remate: una copia de su tamaño corre por el piso hasta el rival y estalla en verde.
  */
 export const mimetico: SuperShow = {
   aim: false,
+  // La copia grande tarda en llegar y el estallido va después: que se vea entero.
+  finaleMs: 1300,
   start(c: ShowCtx) {
     const scan = c.scene.add.graphics().setBlendMode(ADD);
+    // Filtro verde suave de fondo, detrás de los luchadores (como el fondo de los demás ultimates).
+    c.back.add(c.scene.add.rectangle(0, 0, GAME_WIDTH, GAME_HEIGHT, GREEN, 0.1).setOrigin(0));
     c.front.add(scan);
     Object.assign(c.data, { scan });
   },
@@ -37,6 +42,19 @@ export const mimetico: SuperShow = {
     if (every(c, 'copyAt', 120)) {
       echo(c.scene, c.owner.sprite, { dx: rand(-160, 160), color: GREEN, alpha: 0.35, ms: 380 });
       if (c.data.hits) for (let i = 1; i <= 3; i++) echo(c.scene, c.target.sprite, { dx: c.owner.facing * i * 40, color: GREEN, alpha: 0.4 - i * 0.1, ms: 160 + i * 80 });
+    }
+    // De fondo: copias que cruzan toda la pantalla de frente, a todas las alturas, sin tocar a nadie.
+    if (!c.data.done && every(c, 'marchAt', 120)) {
+      const s = c.owner.sprite;
+      const dir = c.owner.facing;
+      const far = rand(0.25, 0.55);
+      const copy = c.scene.add.image(0, 0, s.texture.key, s.frame.name)
+        .setScale(s.scaleX * far).setFlipX(s.flipX).setTint(GREEN).setTintMode(Phaser.TintModes.FILL).setBlendMode(ADD).setAlpha(far * 0.6);
+      const half = copy.displayWidth / 2;
+      copy.setPosition(dir > 0 ? -half : GAME_WIDTH + half, rand(0, GAME_HEIGHT));
+      c.back.add(copy);
+      (c.data.marchers ??= new Set()).add(copy);
+      c.scene.tweens.add({ targets: copy, x: dir > 0 ? GAME_WIDTH + half : -half, duration: rand(900, 1500), onComplete: () => { c.data.marchers.delete(copy); copy.destroy(); } });
     }
     const since = c.t - (c.data.hitAt ?? -9999);
     victim(c, { tint: since < 150 ? GREEN : 0xc8ffd8, fill: since < 150, x: since < 200 ? rand(-6, 6) : 0 });
@@ -58,16 +76,25 @@ export const mimetico: SuperShow = {
     burst(c, x, y, GREEN, 12, 600);
     if (!final) return;
     const scene = c.scene;
+    // Tras el remate, el ejército de fondo se esfuma.
+    c.data.done = true;
+    for (const copy of c.data.marchers ?? []) scene.tweens.add({ targets: copy, alpha: 0, duration: 250 });
     const t = chest(c.target);
-    // Decenas de copias convergen desde todos lados.
+    // Remate: una copia de su mismo tamaño sale desde el piso a su lado, corre hacia el rival y estalla.
     const s = c.owner.sprite;
-    for (let i = 0; i < 24; i++) {
-      const a = (i / 24) * Math.PI * 2;
-      const copy = scene.add.image(t.x + Math.cos(a) * 1100, t.y + Math.sin(a) * 700, s.texture.key, s.frame.name)
-        .setScale(s.scaleX * 0.6).setFlipX(Math.cos(a) > 0).setTint(GREEN).setTintMode(Phaser.TintModes.FILL).setBlendMode(ADD).setAlpha(0.7).setDepth(47);
-      scene.tweens.add({ targets: copy, x: t.x, y: t.y, alpha: 0.2, delay: i * 12, duration: 340, ease: 'Cubic.easeIn', onComplete: () => copy.destroy() });
+    const FLIGHT = 260;
+    const big = scene.add.image(c.owner.x, GROUND_Y, s.texture.key, s.frame.name).setOrigin(0.5, 1)
+      .setScale(s.scaleX).setFlipX(s.flipX).setTint(GREEN).setTintMode(Phaser.TintModes.FILL).setBlendMode(ADD).setAlpha(0.95).setDepth(47);
+    scene.tweens.add({ targets: big, x: t.x, duration: FLIGHT, ease: 'Cubic.easeIn', onComplete: () => big.destroy() });
+    // Estela: fantasmas que deja al pasar.
+    for (let k = 1; k <= 5; k++) {
+      scene.time.delayedCall(k * (FLIGHT / 6), () => {
+        const ghost = scene.add.image(big.x, big.y, s.texture.key, s.frame.name).setOrigin(0.5, 1).setScale(big.scaleX).setFlipX(s.flipX)
+          .setTint(GREEN).setTintMode(Phaser.TintModes.FILL).setBlendMode(ADD).setAlpha(0.4).setDepth(46);
+        scene.tweens.add({ targets: ghost, alpha: 0, duration: 260, onComplete: () => ghost.destroy() });
+      });
     }
-    scene.time.delayedCall(380, () => {
+    scene.time.delayedCall(FLIGHT, () => {
       colorFlash(scene, 'negative', 300, 0.6);
       veil(scene, GREEN, 0.4, 80, 20, 400, 48);
       shockwave(scene, 0.6, 800);

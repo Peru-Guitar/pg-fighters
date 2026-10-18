@@ -51,6 +51,8 @@ export interface SuperShow {
   aim?: boolean;
   /** Cuánto se abren al salir (1 = normal): más alto, curvas más amplias antes de buscar al rival. */
   spread?: number;
+  /** Cuánto sigue el show tras el remate antes de volver a la pelea (ms). Por defecto 850. */
+  finaleMs?: number;
   start?(c: ShowCtx): void;
   update?(c: ShowCtx, dt: number): void;
   /** Proyectil de cada nota (`hit` = la que golpea). null = nota musical por defecto. */

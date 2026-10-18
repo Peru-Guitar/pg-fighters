@@ -16,7 +16,7 @@ const totalHits = (c: ShowCtx) => SOLOS[c.owner.def.superMove.solo].notes.filter
 const FIXES = ['cuantizando el ritmo', 'afinando a 440 Hz', 'quitando el feeling', 'borrando notas fuera de escala', 'comprimiendo la dinámica', 'alineando a la grilla', 'subiendo el volumen'];
 
 /**
- * NOSU · LARGA VIDA AL CÓDIGO: una grilla de neón cubre la pantalla y todo se mueve a saltos exactos;
+ * NOSU · CORRECCIÓN TOTAL: una grilla de neón cubre la pantalla y todo se mueve a saltos exactos;
  * dispara cubos de luz que avanzan casilla por casilla. El rival se "cuantiza": se mueve a saltos y la
  * pantalla se va pixelando. Remate: el rival se desarma en cuadrados que se ordenan en la grilla.
  */
@@ -98,6 +98,8 @@ export const nosu: SuperShow = {
     c.fx.hit(t.x, t.y, MAGENTA, true);
     scene.cameras.main.shake(500, 0.022);
     const hits = c.data.hits ?? 0;
+    // La barra de carga ya cumplió: se va para que no choque con la frase final.
+    scene.tweens.add({ targets: [c.data.bar, c.data.label, c.data.pct, c.data.status], alpha: 0, duration: 200 });
     if (hits >= totalHits(c)) finale(scene, 'CERO ERRORES, HIT|LISTO', '#ff2ba6');
     else slam(scene, GAME_WIDTH / 2, 420, `CORREGIDO AL ${Math.round((hits / totalHits(c)) * 100)}%`, '#ff2ba6', 120);
   },
