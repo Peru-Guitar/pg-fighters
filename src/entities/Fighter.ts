@@ -196,6 +196,9 @@ export class Fighter {
    */
   blockLocked = false;
   flashUntil = 0;
+  /** Arrastrado por el orbe de El Acople: cuerpo y aura en rojo y morado. */
+  dragUntil = 0;
+  private lastDragGlow = 0;
   /** Nivel del lick de Pentalick (0 = primero): sube con cada lick que pega. */
   lickLevel = 0;
   /** Aciertos acumulados del poder con tributo (El Virrey): cada tercero roba vida. */
@@ -1080,7 +1083,14 @@ export class Fighter {
       if (Math.random() < 0.25) this.sprite.setScale(this.sprite.scaleX * 1.06, this.sprite.scaleY * 0.97);
     }
 
-    if (now < this.flashUntil) this.sprite.setTint(0xffffff).setTintMode(Phaser.TintModes.FILL);
+    // Arrastrado por el orbe de El Acople: aura con los colores del orbe (rojo y violeta).
+    if (now < this.dragUntil && now - this.lastDragGlow > 60) {
+      this.lastDragGlow = now;
+      this.arena.fx.ghost(this.sprite, Math.floor(now / 120) % 2 ? 0x6a00ff : 0xff173d, 0.55, 280, 0.08);
+    }
+    // …y el cuerpo parpadea rojo y morado, como el orbe.
+    if (now < this.dragUntil) this.sprite.setTint(Math.floor(now / 80) % 2 ? 0xff2a3d : 0x9b4dff).setTintMode(Phaser.TintModes.MULTIPLY);
+    else if (now < this.flashUntil) this.sprite.setTint(0xffffff).setTintMode(Phaser.TintModes.FILL);
     else if (now < this.poisonUntil) this.sprite.setTint(0x9dff6a).setTintMode(Phaser.TintModes.MULTIPLY);
     else if (this.state === 'block') this.sprite.setTint(0x9cc8ff).setTintMode(Phaser.TintModes.MULTIPLY);
     // Golpe de oro: dorado, y parpadea el último segundo antes de apagarse.

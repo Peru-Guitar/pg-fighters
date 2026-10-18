@@ -1082,6 +1082,8 @@ export class FightScene extends Phaser.Scene implements Arena {
         const gap = target.x - p.owner.x;
         target.vx = -Math.sign(gap) * Math.max(0, Math.abs(gap) - 230) * 9;
         p.hook();
+        // Orbe de arrastre de El Acople: mientras lo trae, el rival lleva un aura con los colores del orbe.
+        if (p.owner.def.id === 'acople') target.dragUntil = target.now + 550;
         Audio.tone(this, 196, 0.35, 'sawtooth', 0.05);
       }
       if (!p.onHit()) p.destroy();
