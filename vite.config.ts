@@ -51,7 +51,14 @@ export default defineConfig({
   // Versión del juego (package.json), visible en la pantalla principal.
   define: { __APP_VERSION__: JSON.stringify(pkg.version) },
   // Dos páginas: el juego y el dashboard de estadísticas (solo lo lee el administrador).
-  build: { chunkSizeWarningLimit: 2000, rollupOptions: { input: { main: 'index.html', dashboard: 'dashboard.html' } } },
+  build: {
+    chunkSizeWarningLimit: 2000,
+    rollupOptions: {
+      input: { main: 'index.html', dashboard: 'dashboard.html' },
+      // Firebase en su propio archivo: si quedara dentro del dashboard, el juego ejecutaría el dashboard al conectarse.
+      output: { manualChunks: (id) => (/node_modules\/(@?firebase)\//.test(id) ? 'firebase' : undefined) },
+    },
+  },
   // El orden importa: primero se quita el material de trabajo y después se arma el manifiesto.
   plugins: [stripWorkFiles(), serviceWorker()],
 });
