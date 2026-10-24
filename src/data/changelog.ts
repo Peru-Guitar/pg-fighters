@@ -10,6 +10,14 @@ export interface ChangelogEntry {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    version: '1.11.0',
+    date: '2026-10-23',
+    notes: [
+      '¿Ya tienes cuenta? Entra con Google antes de elegir nickname y recupera tu progreso.',
+      'Aviso para guardar tu cuenta con Google y no perderla.',
+    ],
+  },
+  {
     version: '1.10.1',
     date: '2026-10-18',
     notes: ['Al salir una versión nueva ya no se queda el arte antiguo.'],

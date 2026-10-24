@@ -130,6 +130,15 @@ export const Ranking = {
     }
   },
 
+  /**
+   * "Ya tengo cuenta": si ese Google ya tenía cuenta, entra a ella (la anónima de este navegador se abandona); si no,
+   * la anónima queda guardada en Google. Llamar dentro del gesto del jugador (tecla o clic).
+   */
+  async enterWithGoogle(): Promise<Player> {
+    if ((await this.linkGoogle()) === 'taken') return this.useGoogle();
+    return user!;
+  },
+
   /** Cierra la sesión del navegador (la cuenta y su progreso quedan en Firebase). La próxima conexión crea una anónima nueva. */
   async signOut(): Promise<void> {
     const { am, auth } = await connect();

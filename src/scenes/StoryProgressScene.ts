@@ -6,6 +6,7 @@ import { CLUES } from '../data/story';
 import { Audio, MUSIC } from '../systems/Audio';
 import { addPortrait, bustKey } from '../systems/FighterArt';
 import { Input } from '../systems/Input';
+import { Ranking } from '../systems/Ranking';
 import { BOSS, StoryRun } from '../systems/StoryRun';
 import { bottomOf, fitText, footer, goTo, scanlines, speedStripes, stageBackdrop, text } from '../ui/ui';
 
@@ -106,6 +107,10 @@ export class StoryProgressScene extends Phaser.Scene {
     const line = this.add2(text(this, cx + 80, 500, `«${def.freed}»`, { size: 40, weight: '800', origin: [0, 0], wrap: 780 }));
     fitText(line, 780, 26, 160);
     this.showFightScore(cx + 40, 710, 860);
+    // Cuenta anónima: vive solo en este navegador (si lo cambia o borra sus datos, la pierde).
+    if (Ranking.user && !Ranking.user.google) {
+      fitText(this.add2(text(this, cx + 470, 340, '☁ GUARDA TU CUENTA CON GOOGLE DESDE EL MENÚ  [G]', { size: 24, weight: '900', color: CSS.lime, origin: [0.5, 0.5], spacing: 2 })), 860, 16);
+    }
     // Si ya se pasó a la siguiente pantalla, el texto ya no existe.
     this.time.delayedCall(700, () => { if (line.active && this.step === 'liberation') this.type(line, `«${def.freed}»`); });
   }
