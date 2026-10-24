@@ -10,11 +10,17 @@ export interface ChangelogEntry {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    version: '1.11.1',
+    date: '2026-10-23',
+    notes: ['El menú de conexión se elige con las flechas y ENTER.', 'ESC en la pantalla de nickname vuelve a elegir cómo conectarte.'],
+  },
+  {
     version: '1.11.0',
     date: '2026-10-23',
     notes: [
-      '¿Ya tienes cuenta? Entra con Google antes de elegir nickname y recupera tu progreso.',
-      'Aviso para guardar tu cuenta con Google y no perderla.',
+      'Al entrar eliges cómo conectarte: con Google o como invitado.',
+      'Con Google recuperas tu progreso en cualquier navegador.',
+      'Como invitado, sincroniza con Google desde el menú para no perder tus datos.',
     ],
   },
   {

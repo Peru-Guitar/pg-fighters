@@ -7,7 +7,7 @@ import { StoryRun } from '../systems/StoryRun';
 import { footer, goTo, logo, scanlines, speedStripes, stageBackdrop, text } from '../ui/ui';
 
 export const Profile = {
-  /** Se saltó la conexión (sin internet o sin nickname): el menú no la vuelve a pedir; la historia sí. */
+  /** Se saltó la conexión (sin internet): el menú no la vuelve a pedir; la historia sí. */
   guest: false,
 };
 
@@ -27,17 +27,27 @@ export const enterWithGoogle = async (): Promise<boolean> => {
 /** El jugador cerró el popup de Google (no es un error que mostrar). */
 export const popupClosed = (e: unknown) => /popup-closed|cancelled-popup/.test((e as { code?: string }).code ?? '');
 
+/** Opciones de una cuenta nueva: su Google (o una cuenta nueva guardada en Google) o invitado (anónima, con nickname, solo en este navegador). */
+const CHOICES = [
+  { label: 'CON GOOGLE', hint: 'Tu progreso queda guardado en tu cuenta de Google' },
+  { label: 'COMO INVITADO', hint: 'Eliges un nickname  ·  Tu progreso vive solo en este navegador' },
+] as const;
+
 /**
  * Conexión de la cuenta: entra con la sesión del navegador o crea una cuenta anónima, y trae su perfil. Una cuenta nueva
- * elige: entrar con su Google (ya tiene cuenta), elegir un nickname (nuevo) o jugar sin conexión.
+ * elige cómo conectarse: con Google o como invitado.
  */
 export class LoginScene extends Phaser.Scene {
   private input2!: Input;
   private status!: Phaser.GameObjects.Text;
   private busy = false;
   private leaving = false;
-  /** Cuenta nueva sin nickname: esperando que elija Google, nickname o sin conexión. */
+  /** Cuenta nueva sin nickname: esperando que elija Google o invitado. */
   private choosing = false;
+  private choice = 0;
+  private options: Phaser.GameObjects.Text[] = [];
+  private hint!: Phaser.GameObjects.Text;
+  private bar!: Phaser.GameObjects.Container;
 
   constructor() {
     super(SCENES.Login);
@@ -47,6 +57,8 @@ export class LoginScene extends Phaser.Scene {
     this.busy = false;
     this.leaving = false;
     this.choosing = false;
+    this.choice = 0;
+    this.options = [];
   }
 
   create() {
@@ -59,10 +71,10 @@ export class LoginScene extends Phaser.Scene {
     logo(this, cx, 300, 0.7);
     text(this, cx, 500, 'TU CUENTA', { size: 72, italic: true, weight: '900', color: CSS.lime, origin: [0.5, 0.5], shadow: true });
     this.status = text(this, cx, 640, 'CONECTANDO…', { size: 40, italic: true, weight: '900', color: CSS.grey, origin: [0.5, 0.5], spacing: 2 });
-    footer(this, 'ENTER  REINTENTAR      ESC  JUGAR SIN CONEXIÓN');
+    this.bar = footer(this, 'ENTER  REINTENTAR      ESC  JUGAR SIN CONEXIÓN');
     scanlines(this, 0.06);
     // La tecla se escucha en el DOM (Phaser la procesa un frame después, fuera del gesto, y Safari bloquearía el popup).
-    const onKey = (e: KeyboardEvent) => e.code === 'KeyG' && !e.repeat && this.google();
+    const onKey = (e: KeyboardEvent) => this.choosing && e.key === 'Enter' && !e.repeat && this.pick();
     window.addEventListener('keydown', onKey);
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => window.removeEventListener('keydown', onKey));
     this.connect();
@@ -110,20 +122,34 @@ export class LoginScene extends Phaser.Scene {
     this.leaving = false;
     this.busy = false;
     this.choosing = true;
-    this.status.setText('¿YA TIENES CUENTA?').setColor(CSS.cream);
+    this.status.setText('¿CÓMO QUIERES CONECTARTE?').setColor(CSS.cream);
     const cx = GAME_WIDTH / 2;
-    const option = (y: number, str: string, color: string, go: () => void) =>
-      text(this, cx, y, str, { size: 34, weight: '900', italic: true, color, origin: [0.5, 0.5], spacing: 2 })
+    this.options = CHOICES.map((c, i) =>
+      text(this, cx, 740 + i * 70, c.label, { size: 44, weight: '900', italic: true, origin: [0.5, 0.5], spacing: 3 })
         .setInteractive({ useHandCursor: true })
-        .on(Phaser.Input.Events.POINTER_DOWN, go);
-    option(730, '[G]  SÍ · ENTRAR CON GOOGLE', CSS.lime, () => this.google());
-    option(790, '[ENTER]  SOY NUEVO · ELEGIR NICKNAME', CSS.cream, () => this.leave(SCENES.NameEntry));
-    footer(this, 'G  ENTRAR CON GOOGLE      ENTER  SOY NUEVO      ESC  JUGAR SIN CONEXIÓN');
+        .on(Phaser.Input.Events.POINTER_OVER, () => this.select(i))
+        .on(Phaser.Input.Events.POINTER_DOWN, () => (this.select(i), this.pick())),
+    );
+    this.hint = text(this, cx, 900, '', { size: 26, weight: '700', color: CSS.grey, origin: [0.5, 0.5], spacing: 2 });
+    this.select(0);
+    this.bar.destroy();
+    this.bar = footer(this, '↑↓  ELEGIR      ENTER  CONFIRMAR');
   }
 
-  /** Se llama desde el evento de la tecla o del clic: el popup tiene que abrirse dentro del gesto. */
-  private google(): void {
+  private select(i: number): void {
+    if (i !== this.choice) Audio.blip(this);
+    this.choice = i;
+    this.options.forEach((t, j) => t.setText(j === i ? `▶  ${CHOICES[j].label}  ◀` : CHOICES[j].label).setColor(j === i ? CSS.lime : CSS.grey));
+    this.hint.setText(CHOICES[i].hint);
+  }
+
+  /** Se llama desde el evento de la tecla o del clic: el popup de Google tiene que abrirse dentro del gesto. */
+  private pick(): void {
     if (!this.choosing || this.busy || this.leaving) return;
+    if (this.choice === 1) {
+      Audio.blip(this, true);
+      return this.leave(SCENES.NameEntry);
+    }
     this.busy = true;
     Audio.blip(this, true);
     this.status.setText('CONECTANDO CON GOOGLE…').setColor(CSS.grey);
@@ -133,7 +159,7 @@ export class LoginScene extends Phaser.Scene {
         console.warn('[cuenta] google', e);
         this.busy = false;
         if (!this.sys.isActive()) return;
-        this.status.setText(popupClosed(e) ? '¿YA TIENES CUENTA?' : 'NO SE PUDO CONECTAR · G PARA REINTENTAR').setColor(popupClosed(e) ? CSS.cream : CSS.red);
+        this.status.setText(popupClosed(e) ? '¿CÓMO QUIERES CONECTARTE?' : 'NO SE PUDO CONECTAR CON GOOGLE · ENTER PARA REINTENTAR').setColor(popupClosed(e) ? CSS.cream : CSS.red);
       },
     );
   }
@@ -147,11 +173,16 @@ export class LoginScene extends Phaser.Scene {
   update() {
     // Conectando la cuenta se puede salir sin conexión; con el popup de Google abierto, no.
     if (this.leaving || (this.busy && this.choosing)) return;
-    if (this.input2.justDown('confirm')) {
-      if (this.choosing) this.leave(SCENES.NameEntry);
-      else this.connect();
+    if (this.choosing) {
+      if (this.input2.justDown('up')) this.select((this.choice + CHOICES.length - 1) % CHOICES.length);
+      if (this.input2.justDown('down')) this.select((this.choice + 1) % CHOICES.length);
+      // El ENTER del teclado ya lo tomó el DOM (dentro del gesto); esto queda para el mando.
+      if (this.input2.justDown('confirm')) this.pick();
+    } else if (this.input2.justDown('confirm')) {
+      this.connect();
     }
-    if (this.input2.justDown('back')) {
+    // Sin conexión se puede jugar sin cuenta; con la pregunta en pantalla hay que elegir (el nickname es obligatorio).
+    if (!this.choosing && this.input2.justDown('back')) {
       Profile.guest = true;
       this.leave(SCENES.Title, { skipPress: true });
     }

@@ -214,7 +214,7 @@ export class TitleScene extends Phaser.Scene {
     this.input.keyboard?.on('keydown-N', open);
   }
 
-  /** Esquina superior: la cuenta. Anónima → "GUARDAR CON GOOGLE" (G o clic); con Google, solo la confirma. */
+  /** Esquina superior: la cuenta. Invitado → "SINCRONIZA CON GOOGLE" (G o clic); con Google, solo la confirma. */
   private account(): void {
     const x = GAME_WIDTH - 24;
     if (Ranking.user?.google) {
@@ -222,8 +222,8 @@ export class TitleScene extends Phaser.Scene {
       this.signOutButton(x, 66);
       return;
     }
-    text(this, x, 30, `JUGANDO COMO  ${StoryRun.name}`, { size: 24, weight: '800', color: CSS.lime, origin: [1, 0.5], spacing: 2 });
-    const idle = '☁ GUARDAR CON GOOGLE  [G]';
+    text(this, x, 30, `INVITADO  ·  ${StoryRun.name}`, { size: 24, weight: '800', color: CSS.lime, origin: [1, 0.5], spacing: 2 });
+    const idle = '☁ SINCRONIZAR CON GOOGLE  [G]';
     const link = text(this, x, 66, idle, { size: 24, weight: '800', color: CSS.cream, origin: [1, 0.5], spacing: 2 });
     const pulse = this.tweens.add({ targets: link, alpha: 0.45, duration: 700, yoyo: true, repeat: -1 });
     const say = (str: string, color: string = CSS.cream) => link.setText(str).setColor(color).setAlpha(1);
@@ -260,7 +260,7 @@ export class TitleScene extends Phaser.Scene {
         if (r === 'linked') {
           window.removeEventListener('keydown', onKey);
           link.disableInteractive();
-          say(`✓ GUARDADO EN GOOGLE`, CSS.lime);
+          say(`✓ SINCRONIZADO CON GOOGLE`, CSS.lime);
           return;
         }
         taken = true;

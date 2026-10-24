@@ -3,7 +3,7 @@ import { COLORS, CSS, GAME_WIDTH, SCENES } from '../config';
 import { Audio } from '../systems/Audio';
 import { NAME_MAX, Ranking } from '../systems/Ranking';
 import { StoryRun } from '../systems/StoryRun';
-import { Profile, enterWithGoogle, popupClosed } from './LoginScene';
+import { enterWithGoogle, popupClosed } from './LoginScene';
 import { footer, goTo, logo, scanlines, speedStripes, stageBackdrop, text } from '../ui/ui';
 
 /** Solo letras, números, Ñ, guion y guion bajo: sin espacios ni caracteres raros. */
@@ -46,10 +46,10 @@ export class NameEntryScene extends Phaser.Scene {
     this.field = text(this, cx, 680, '', { size: 104, italic: true, weight: '900', color: CSS.cream, origin: [0.5, 0.5], spacing: 6 });
     this.warn = text(this, cx, 810, `Hasta ${NAME_MAX} letras o números`, { size: 26, weight: '700', color: CSS.grey, origin: [0.5, 0.5], spacing: 2 });
     if (this.anonymous) {
-      text(this, cx, 870, 'Tu cuenta vive en este navegador  ·  Guárdala con Google para no perderla', { size: 24, weight: '700', color: CSS.grey, origin: [0.5, 0.5], spacing: 2 });
-      footer(this, 'A-Z  ESCRIBIR      ENTER  CONFIRMAR      TAB  YA TENGO CUENTA (GOOGLE)      ESC  JUGAR SIN NICKNAME');
+      text(this, cx, 870, 'Juegas como invitado  ·  Sincroniza con Google desde el menú para no perder tus datos', { size: 24, weight: '700', color: CSS.grey, origin: [0.5, 0.5], spacing: 2 });
+      footer(this, 'A-Z  ESCRIBIR      ENTER  CONFIRMAR      TAB  ENTRAR CON GOOGLE      ESC  VOLVER');
     } else {
-      footer(this, 'A-Z  ESCRIBIR      BACKSPACE  BORRAR      ENTER  CONFIRMAR      ESC  JUGAR SIN NICKNAME');
+      footer(this, 'A-Z  ESCRIBIR      BACKSPACE  BORRAR      ENTER  CONFIRMAR      ESC  VOLVER');
     }
     scanlines(this, 0.06);
     this.refresh();
@@ -78,10 +78,7 @@ export class NameEntryScene extends Phaser.Scene {
       if (this.anonymous && !e.repeat) this.google();
       return;
     }
-    if (e.key === 'Escape') {
-      Profile.guest = true;
-      return this.leave(SCENES.Title, { skipPress: true });
-    }
+    if (e.key === 'Escape') return this.back();
     if (e.key === 'Backspace') {
       e.preventDefault();
       this.name = this.name.slice(0, -1);
@@ -121,6 +118,27 @@ export class NameEntryScene extends Phaser.Scene {
     Ranking.savedName = name;
     StoryRun.setName(name);
     this.leave(SCENES.Title, { skipPress: true });
+  }
+
+  /**
+   * El nickname es obligatorio: ESC vuelve a elegir cómo conectarse. Si entró con un Google sin nickname, cierra esa
+   * sesión (la conexión crea una anónima nueva y vuelve a preguntar).
+   */
+  private back(): void {
+    if (!Ranking.user?.google) return this.leave(SCENES.Login);
+    this.checking = true;
+    Ranking.signOut().then(
+      () => {
+        StoryRun.reset();
+        this.checking = false;
+        if (this.sys.isActive()) this.leave(SCENES.Login);
+      },
+      (e) => {
+        console.warn('[cuenta] cerrar sesión', e);
+        this.checking = false;
+        if (this.sys.isActive()) this.reject('No se pudo volver. ESC para reintentar');
+      },
+    );
   }
 
   /** Se llama desde el evento de la tecla: el popup tiene que abrirse dentro del gesto. */

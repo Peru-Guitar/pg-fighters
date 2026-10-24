@@ -109,7 +109,7 @@ export class StoryProgressScene extends Phaser.Scene {
     this.showFightScore(cx + 40, 710, 860);
     // Cuenta anónima: vive solo en este navegador (si lo cambia o borra sus datos, la pierde).
     if (Ranking.user && !Ranking.user.google) {
-      fitText(this.add2(text(this, cx + 470, 340, '☁ GUARDA TU CUENTA CON GOOGLE DESDE EL MENÚ  [G]', { size: 24, weight: '900', color: CSS.lime, origin: [0.5, 0.5], spacing: 2 })), 860, 16);
+      fitText(this.add2(text(this, cx + 470, 340, '☁ SINCRONIZA CON GOOGLE DESDE EL MENÚ', { size: 24, weight: '900', color: CSS.lime, origin: [0.5, 0.5], spacing: 2 })), 860, 16);
     }
     // Si ya se pasó a la siguiente pantalla, el texto ya no existe.
     this.time.delayedCall(700, () => { if (line.active && this.step === 'liberation') this.type(line, `«${def.freed}»`); });
