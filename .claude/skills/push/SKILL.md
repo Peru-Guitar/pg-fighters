@@ -1,6 +1,6 @@
 ---
 name: push
-description: Reglas para hacer push en PG Fighters. Úsalo cuando el usuario pida "push", "sube los cambios", "publica" o similar, y también antes de cualquier git push. Nunca hagas push si el usuario no lo pidió explícitamente; al pedirlo, propone si la versión es patch, minor o major y actualiza package.json.
+description: Reglas para hacer push en PG Fighters. Úsalo cuando el usuario pida "push", "sube los cambios", o "sube a main", y también antes de cualquier git push. Nunca hagas push si el usuario no lo pidió explícitamente; al pedirlo, propone si la versión es patch, minor o major y actualiza package.json.
 ---
 
 # Push en PG Fighters
@@ -10,6 +10,8 @@ Hacer push a `main` publica el sitio en GitHub Pages. Por eso:
 ## 1. Nunca hagas push sin que te lo pidan
 
 - **No ejecutes `git push`** a menos que el usuario lo pida explícitamente en ese mensaje ("haz push", "sube", "publica"…).
+- Solo cuenta como pedido un mensaje que diga **push** o **sube a main** de forma explícita. "dale", "listo", "excelente", "hazlo", "adelante" o "publica el artículo" significan implementar, **no** subir. Si hay duda, pregunta.
+- Un push pedido en un mensaje anterior no autoriza los cambios que vengan después: cada push necesita su propio pedido.
 - Hacer commit no implica push. Terminar una tarea no implica push. Un push aprobado antes no autoriza el siguiente.
 - Si crees que convendría subir, dilo en una línea y espera.
 
