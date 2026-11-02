@@ -1,206 +1,209 @@
 # PG Fighters
 
-Juego de pelea 2D estilo arcade (Street Fighter) en **Phaser 4 + TypeScript + Vite**. Resolución nativa 1920×1080. Escenario: El Sótano, un bar de rock en Lima.
+Arcade-style 2D fighting game (Street Fighter) built with **Phaser 4 + TypeScript + Vite**. Native resolution 1920×1080. Setting: El Sótano, a rock bar in Lima. In-game text is in Spanish, so names of screens, stages and fighters are kept as they appear in the game.
 
 ```sh
 npm install
-npm run dev       # servidor de desarrollo
-npm run build     # typecheck + build de producción
+npm run dev       # development server
+npm run build     # typecheck + production build
 ```
 
-## Flujo de pantallas
+## Screen flow
 
-Boot → Carga → **Título** ("PRESIONA ENTER" → menú) → **Selección** (roster) → **Escenario** → **VS** → **Pelea** + HUD → **Resultados** (revancha / cambiar luchador / menú). Desde el título: Arcade, **Entrenamiento**, Controles y Dificultad (fácil, normal, difícil). ESC en la pelea abre la pausa con la lista de movimientos.
+Boot → Loading → **Title** ("PRESIONA ENTER" → menu) → **Select** (roster) → **Stage** → **VS** → **Fight** + HUD → **Results** (rematch / change fighter / menu). From the title: Arcade, **Training**, Controls and Difficulty (easy, normal, hard). ESC during a fight opens the pause screen with the move list.
 
-## Controles
+## Controls
 
-| Acción     | Tecla                                                                 |
-| ---------- | --------------------------------------------------------------------- |
-| Moverse    | A D / ← →                                                             |
-| Saltar     | W / ↑ (con dirección: salto diagonal)                                 |
-| Agacharse  | S / ↓                                                                 |
-| Bloquear   | mantener **atrás** (agachado para la barrida)                         |
-| Puño (P)   | J / clic izquierdo                                                    |
-| Patada (K) | K / clic derecho                                                      |
-| Dash       | Espacio (con atrás: backdash) o doble toque → → / ← ←                 |
-| Súper      | **E** con la barra SÚPER llena (también cancela un golpe que conecta) |
-| Pausa      | ESC                                                                   |
+| Action     | Key                                                                 |
+| ---------- | ------------------------------------------------------------------- |
+| Move       | A D / ← →                                                           |
+| Jump       | W / ↑ (with a direction: diagonal jump)                             |
+| Crouch     | S / ↓                                                               |
+| Block      | hold **back** (crouching for the sweep)                             |
+| Punch (P)  | J / left click                                                      |
+| Kick (K)   | K / right click                                                     |
+| Dash       | Space (with back: backdash) or double tap → → / ← ←                 |
+| Super      | **E** with the SÚPER bar full (also cancels a hit that connects)    |
+| Pause      | ESC                                                                 |
 
-## Movimientos (mirando a la derecha; a la izquierda se invierten)
+## Moves (facing right; reversed when facing left)
 
-| Movimiento        | Entrada                      | Notas                                                                                                                                                                                                                                                        |
-| ----------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Poder (proyectil) | ↓ ↘ → + P                    | Uno en pantalla por luchador. Se esquiva saltando.                                                                                                                                                                                                           |
-| Uppercut          | → ↓ ↘ + P                    | Antiaéreo, invulnerable al arrancar. Muy castigable si falla.                                                                                                                                                                                                |
-| Ultimate          | **E**                        | Requiere la barra ULTIMATE llena. Retrato a pantalla completa con frase (sin HUD) y luego un solo de guitarra: ERP hace shred, MayinBlues toca un blues con su guitarra de 5 cuerdas. Las notas golpean y la última tumba. Arte: `src/visuals/SUPER-ART.md`. |
-| Barrida           | ↓ + K                        | Tumba. Solo se bloquea agachado.                                                                                                                                                                                                                             |
-| Golpes aéreos     | P / K saltando               | Se bloquean de pie.                                                                                                                                                                                                                                          |
-| Cadena            | P P K                        | El tercer golpe tumba y pega un 30% más.                                                                                                                                                                                                                     |
-| Cancelar          | golpe que conecta → especial | Ej.: P, P, ↓ ↘ → + P.                                                                                                                                                                                                                                        |
+| Move               | Input                     | Notes                                                                                                                                                                                                                     |
+| ------------------ | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Power (projectile) | ↓ ↘ → + P                 | One on screen per fighter. Dodged by jumping.                                                                                                                                                                             |
+| Uppercut           | → ↓ ↘ + P                 | Anti-air, invulnerable on startup. Very punishable if it misses.                                                                                                                                                          |
+| Ultimate           | **E**                     | Requires a full ULTIMATE bar. Full-screen portrait with a quote (no HUD), then a guitar solo: ERP shreds, MayinBlues plays the blues on a 5-string guitar. The notes hit and the last one knocks down. Art: `src/visuals/SUPER-ART.md`. |
+| Sweep              | ↓ + K                     | Knocks down. Only blocked while crouching.                                                                                                                                                                                |
+| Air attacks        | P / K while jumping       | Blocked while standing.                                                                                                                                                                                                   |
+| Chain              | P P K                     | The third hit knocks down and deals 30% more.                                                                                                                                                                             |
+| Cancel             | connecting hit → special  | E.g.: P, P, ↓ ↘ → + P.                                                                                                                                                                                                    |
 
-Sensación arcade: hitstop en cada impacto, chispas, sacudida de cámara, combo counter, escalado de daño en combos, barra roja de daño reciente, empuje en la esquina, K.O. con cámara lenta, PERFECT y anunciador.
+Arcade feel: hitstop on every impact, sparks, camera shake, combo counter, combo damage scaling, red recent-damage bar, corner pushback, slow-motion K.O., PERFECT and an announcer.
 
-## Modo entrenamiento
+## Training mode
 
-Menú → ENTRENAMIENTO. Pelea sin tiempo ni K.O. contra un muñeco; la vida se recarga al terminar cada combo.
+Menu → ENTRENAMIENTO. Fight a dummy with no timer or K.O.; health refills after each combo.
 
-- **Q** muñeco: quieto, agachado, bloquea todo, bloqueo de pie, bloqueo agachado, salta, CPU.
-- **I** barra SÚPER infinita · **T** velocidad (100/50/25%) · **G** cajas de golpe · **R** reiniciar posición.
-- **1–9** combos de demostración (el juego los ejecuta solo).
-- En pantalla: historial de entradas, datos del último golpe (arranque/activo/recuperación en frames, resultado y daño) y combo actual/mejor.
+- **Q** dummy: idle, crouching, blocks everything, standing block, crouching block, jumps, CPU.
+- **I** infinite SÚPER bar · **T** speed (100/50/25%) · **G** hitboxes · **R** reset position.
+- **1–9** demo combos (the game performs them for you).
+- On screen: input history, last hit data (startup/active/recovery frames, result and damage) and current/best combo.
 
-## Laboratorio (`?lab`)
+## Lab (`?lab`)
 
-Abrir `http://localhost:5173/?lab` (o `?lab=<id>` para empezar con un luchador, p. ej. `?lab=toxicity`). Entra directo a la práctica: nadie muere, la vida se recarga al terminar cada combo y la barra ULTIMATE está siempre llena. Valen todas las teclas del modo entrenamiento.
+Open `http://localhost:5173/?lab` (or `?lab=<id>` to start with a fighter, e.g. `?lab=toxicity`). It goes straight to practice: nobody dies, health refills after each combo and the ULTIMATE bar is always full. All training mode keys work.
 
-- **ESC** abre el roster encima de la pelea (los 19 luchadores **y El Acople**, jugable para probarlo): flechas para elegir, **ENTER** o clic reinicia al instante con ese luchador, **TAB** alterna entre tu luchador y el rival, **F** cambia el escenario, **V** abre el laboratorio de sprites, **M** vuelve al menú y **ESC** regresa a la pelea.
+- **ESC** opens the roster over the fight (the 24 fighters **and El Acople**, playable for testing): arrows to choose, **ENTER** or click restarts instantly with that fighter, **TAB** switches between your fighter and the opponent, **F** changes the stage, **V** opens the sprite lab, **M** returns to the menu and **ESC** returns to the fight.
 
-## Laboratorio de sprites (`?sprites`)
+## Sprite lab (`?sprites`)
 
-Abrir `http://localhost:5173/?sprites` (o desde el laboratorio con **V**). Pensado para revisar el arte:
+Open `http://localhost:5173/?sprites` (or press **V** from the lab). Built for reviewing art:
 
-- **SPRITES**: las 28 poses de cada personaje, marcando **ARTE** (propio) o **SIMULADA ← base**, con suelo, ancla (cruz), altura de la guardia (línea punteada) y alcance del golpe (rojo).
-- **ANIMACIÓN**: reproductor con play/pausa, cuadro a cuadro (← →), velocidad (− +), voltear (F), fantasma (O), ver el retrato del súper (S) y datos del frame (tamaño, ancla, escala, alto en pantalla).
-- **ESPECIALES** (tecla 3): el luchador contra un muñeco, con botones para ver al instante su poder, uppercut, súper (retrato + solo con su melodía) y combo P·P·SÚPER. C pasa al siguiente luchador; ESC vuelve al laboratorio.
-- **ENTRENAMIENTO** (tecla 4): abre la práctica con el personaje elegido. C cambia de personaje, B muestra el escenario de fondo.
+- **SPRITES**: each character's 28 poses, marked **ARTE** (own art) or **SIMULADA ← base** (simulated), with ground, anchor (cross), guard height (dotted line) and hit reach (red).
+- **ANIMACIÓN**: player with play/pause, frame by frame (← →), speed (− +), flip (F), ghost (O), super portrait (S) and frame data (size, anchor, scale, on-screen height).
+- **ESPECIALES** (key 3): the fighter against a dummy, with buttons to instantly see their power, uppercut, super (portrait + solo with its melody) and the P·P·SÚPER combo. C moves to the next fighter; ESC returns to the lab.
+- **ENTRENAMIENTO** (key 4): opens practice with the chosen character. C changes character, B shows the stage background.
 
-## Escenarios
+## Stages
 
-Definidos en `src/data/stages.ts`; se eligen después del personaje (también hay ALEATORIO).
+Defined in `src/data/stages.ts`; chosen after the character (ALEATORIO, random, is also available).
 
-| #   | Escenario                                                                                                                                        | Arte                                                                                         |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
-| 01  | BARRIO BRAVO · Lima                                                                                                                              | `public/assets/barrio-anime.png`                                                             |
-| 02  | ESTACIÓN DEL METRO · andén con grafitis                                                                                                          | `public/assets/stages/metro.png`                                                             |
-| 03  | EL ÚLTIMO TRAGO · bar de mala muerte, mesas y banda en vivo                                                                                      | `public/assets/stages/bar.png`                                                               |
-| 04  | LA TIENDA DE INSTRUMENTOS · guitarras colgadas, amplis y el vendedor contando plata                                                              | `public/assets/stages/tienda.png`                                                            |
-| 05  | EL FESTIVAL DEL CERRO · escenario andino al aire libre, banderines y público                                                                     | `public/assets/stages/festival.png`                                                          |
-| 06  | LA AZOTEA DEL ENSAYO · Lima de noche, tanques, cables y un vecino furioso                                                                        | `public/assets/stages/azotea.png`                                                            |
-| 07  | LA FERIA DEL TOMATE · mercado de un pueblo de la sierra peruana                                                                                   | `public/assets/stages/tomate.png`                                                            |
-| 08  | LA BIBLIOTECA DEL ROCK · estanterías de libros y vinilos, vitral con guitarra, mesa de lectura                                                   | `public/assets/stages/biblioteca.png` |
-| 09  | EL BARRIO CHINO · Calle Capón de noche, portada roja, chifas y faroles                                                                           | `public/assets/stages/chino.png` |
-| 10  | EL MALL DEL ROCK · centro comercial donde todo es rock: tiendas de guitarras, vinilos y polos de banda, escalera mecánica y una guitarra gigante | `public/assets/stages/mall.png` |
-| 11  | EL ARENAL · desierto: cerros de arena, casas de ladrillo a medio hacer, cisterna y mototaxi                                                      | `public/assets/stages/arenal.png` |
+| #   | Stage                                                                                                                              | Art                                   |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| 01  | BARRIO BRAVO · Lima                                                                                                                | `public/assets/barrio-anime.png`      |
+| 02  | ESTACIÓN DEL METRO · platform with graffiti                                                                                        | `public/assets/stages/metro.png`      |
+| 03  | EL ÚLTIMO TRAGO · dive bar, tables and a live band                                                                                 | `public/assets/stages/bar.png`        |
+| 04  | LA TIENDA DE INSTRUMENTOS · hanging guitars, amps and the seller counting cash                                                     | `public/assets/stages/tienda.png`     |
+| 05  | EL FESTIVAL DEL CERRO · open-air Andean stage, pennants and a crowd                                                                | `public/assets/stages/festival.png`   |
+| 06  | LA AZOTEA DEL ENSAYO · Lima at night, water tanks, cables and a furious neighbor                                                   | `public/assets/stages/azotea.png`     |
+| 07  | LA FERIA DEL TOMATE · market in a town in the Peruvian highlands                                                                   | `public/assets/stages/tomate.png`     |
+| 08  | LA BIBLIOTECA DEL ROCK · shelves of books and vinyl, stained glass with a guitar, reading table                                    | `public/assets/stages/biblioteca.png` |
+| 09  | EL BARRIO CHINO · Calle Capón at night, red gate, chifas and lanterns                                                              | `public/assets/stages/chino.png`      |
+| 10  | EL MALL DEL ROCK · a mall where everything is rock: guitar, vinyl and band-shirt stores, an escalator and a giant guitar           | `public/assets/stages/mall.png`       |
+| 11  | EL ARENAL · desert: sand hills, half-built brick houses, a water tank and a mototaxi                                               | `public/assets/stages/arenal.png`     |
+| 12  | EL SALÓN DEL VIRREY · colonial mansion in downtown Lima                                                                            | `public/assets/stages/casona.png`     |
+| 13  | LA CIUDADELA DEL SOL · among the clouds, Cusco                                                                                     | `public/assets/stages/ciudadela.png`  |
+| 14  | LA JUNGLA · Amazon jungle                                                                                                          | `public/assets/stages/jungla.png`     |
+| 15  | EL LABORATORIO DEL ROCK · where NOSU was born                                                                                      | `public/assets/stages/laboratorio.png` |
+| 16  | EL SHOW EN VIVO · Tevi's set                                                                                                       | `public/assets/stages/estudio.png`    |
 
-**La Feria del Tomate:** cada semana, los productores de un pueblo de la sierra peruana llenan la plaza con tomates, canastas y pregones. Un reto entre guitarristas se volvió costumbre: los solos se disputan frente al mercado y los caseros ponen la bulla. Entre casas de adobe, tejidos y montañas, se pelea por el aplauso; los tomates se venden por kilo.
+The final fight against El Acople uses EL INTERIOR DEL AMPLI, which has no image yet and is drawn in code.
 
-Las imágenes se cargan desde el campo `image` de `data/stages.ts` y se comparten entre miniaturas, selección, VS y pelea. Para añadir otra imagen, guardarla en `public/assets/stages/<id>.png` y registrar su ruta en ese campo. El suelo de la pelea está en y = 940; los pies de los luchadores se apoyan ahí. Cada escenario tiene su música en el campo `music` (ver la tabla de Audio).
+**La Feria del Tomate:** every week, producers from a town in the Peruvian highlands fill the square with tomatoes, baskets and vendors' calls. A challenge between guitarists became a custom: solos are fought in front of the market while the regulars make noise. Among adobe houses, weavings and mountains, the fight is for applause; the tomatoes are sold by the kilo.
 
-## Personajes
+Images load from the `image` field in `data/stages.ts` and are shared by thumbnails, select, VS and fight. To add one, save it to `public/assets/stages/<id>.png` and register its path in that field. The fight ground is at y = 940, where the fighters' feet rest. Each stage has its music in the `music` field (see the Audio table).
 
-Roster centralizado en `src/data/fighters.ts` (21 luchadores y el jefe El Acople): nombre, título, biografía satírica, frase, estilo de combate, color, estadísticas, nombres de movimientos y solo del ultimate. Cada uno tiene su poder básico propio (`data/powers.ts`: dibujo y comportamiento) y su ultimate animado (`visuals/supers/`), con su melodía sintetizada (`data/solos.ts`) y el daño total parejo entre todos.
+## Characters
 
-| Nº | Luchador | Título | Poder (↓ ↘ → + P) |
+The roster is centralized in `src/data/fighters.ts` (24 fighters and the boss El Acople): name, title, satirical bio, quote, fighting style, color, stats, move names and ultimate solo. Each one has their own basic power (`data/powers.ts`: drawing and behavior) and animated ultimate (`visuals/supers/`), with a synthesized melody (`data/solos.ts`) and the same total damage for everyone.
+
+| No. | Fighter | Title | Power (↓ ↘ → + P) |
 | --- | --- | --- | --- |
-| 01 | ERP PROJECT | El músico de cuarto | Pulso negro |
-| 02 | MAYINBLUES | El peso pesado del blues | Onda blues |
-| 03 | GEORGE | El juez de la afinación | Onda desafinada |
-| 04 | PEPPER | La diva de la producción | Masterización pesada |
-| 05 | SLANDOR | El heredero dorado | Lluvia de guitarras doradas |
-| 06 | PENTALICK | La leyenda de los cinco licks | Lick número uno (otra vez) |
-| 07 | MIMÉTICO | El aprendiz del lick | Lick prestado |
-| 08 | CLAVITO | El profeta del metal urbano | Tormenta de arpegios |
-| 09 | CHANTAL | El mozo de los licks | Bandeja de acordes |
-| 10 | JEAN-PIERRE | Monsieur six strings | Bonjour express |
-| 11 | FERDEX | Discípulo de los sabios de curcuman | Acorde revolucionario |
-| 12 | TURBOSHRED | La máquina de shred | Ráfaga de mil notas |
-| 13 | TOXICITY | La monja del mal genio | Agua bendita hirviendo |
-| 14 | LA REMATADA | La guitarra de mayinblues | Oferta relámpago |
-| 15 | DOCTOR ESCALAS | El erudito de las seis cuerdas | Bestseller en tapa dura |
-| 16 | TAYLOY | Heredero del clan de la púa de jade | Secreto del shred |
-| 17 | JESEX | El magnate de la escuela del rock | Cheque en blanco |
-| 18 | MARKUS | El guardián de las escalas orientales | Segunda aumentada |
-| 19 | EL PLATANERO | El profesor del vhs | Plátano teledirigido |
-| 20 | RICARDO | El renacido del rock | Riff de raíz |
-| 21 | KIMBERLY | La influencer del mástil | Escudo de seguidores |
-| ?? | EL ACOPLE | La entidad del feedback | Poder robado |
+| 01 | ERP PROJECT | EL MÚSICO DE CUARTO | PULSO NEGRO |
+| 02 | MAYINBLUES | EL BLUESERO DEL BARRIO | PANZAZO BLUES |
+| 03 | GEORGE | EL JUEZ DE LA AFINACIÓN | CUIDADO ESE BEND |
+| 04 | PEPPER | LA DIVA DE LA PRODUCCIÓN | MASTERIZACIÓN PESADA |
+| 05 | SLANDOR | EL HEREDERO DORADO | LLUVIA DE GUITARRAS DORADAS |
+| 06 | PENTALICK | LA LEYENDA DE LOS CINCO LICKS | LICK NÚMERO UNO (OTRA VEZ) |
+| 07 | MIMÉTICO | EL APRENDIZ DEL LICK | LICK PRESTADO |
+| 08 | CLAVITO | EL PROFETA DEL METAL URBANO | TORMENTA DE ARPEGIOS |
+| 09 | CHANTAL | EL MOZO DE LOS LICKS | BANDEJA DE ACORDES |
+| 10 | JEAN-PIERRE | MONSIEUR SIX STRINGS | BONJOUR EXPRESS |
+| 11 | FERDEX | DISCÍPULO DE LOS SABIOS DE CURCUMAN | PUÑO REVOLUCIONARIO |
+| 12 | TURBOSHRED | LA MÁQUINA DE SHRED | TEMPO IMPOSIBLE |
+| 13 | TOXICITY | LA MONJA DEL MAL GENIO | AGUA BENDITA HIRVIENDO |
+| 14 | LA REMATADA | LA GUITARRA DE MAYINBLUES | OFERTA RELÁMPAGO |
+| 15 | ESCALAS | EL ERUDITO DE LAS SEIS CUERDAS | ESO ESTÁ EN EL CAPÍTULO TRES |
+| 16 | TAYLOY | HEREDERO DEL CLAN DE LA PÚA DE JADE | SECRETO DEL SHRED |
+| 17 | JESEX | EL MAGNATE DE LA ESCUELA DEL ROCK | COBRO AL INSTANTE |
+| 18 | MARKUS | EL GUARDIÁN DE LAS ESCALAS ORIENTALES | SEGUNDA AUMENTADA |
+| 19 | PLATANERO | EL PROFESOR DEL VHS | PLÁTANO TELEDIRIGIDO |
+| 20 | RICARDO | EL RENACIDO DEL ROCK | RIFF DE RAÍZ |
+| 21 | KIMBERLY | LA INFLUENCER DEL MÁSTIL | ESCUDO DE SEGUIDORES |
+| 22 | NOSU | EL PRODUCTOR AUTOMÁTICO | ONDA DE CORRECCIÓN |
+| 23 | EL VIRREY | EL DUEÑO DEL ESCENARIO | DECRETO REAL |
+| 24 | TEVI | EL ASISTENTE DEL SHOW | ¡CORTE! |
+| ?? | EL ACOPLE | LA ENTIDAD DEL FEEDBACK | BARRIDO |
 
-La CPU elige un rival al azar entre los demás. El diálogo antes del ROUND 1 está en `data/dialogs.ts`; si una pareja no tiene diálogo escrito, cada uno dice su frase de presentación. Arte de los luchadores: `src/visuals/ROSTER-ART.md`.
+The CPU picks a random opponent from the others. The dialogue before ROUND 1 is in `data/dialogs.ts`; if a pair has no written dialogue, each fighter says their intro quote. Fighter art: `src/visuals/ROSTER-ART.md`.
 
-## Arte de los luchadores (guía para assets)
+## Fighter art (asset guide)
 
-`src/systems/FighterArt.ts` resuelve cada **pose** a un frame del atlas del personaje (`art.texture` + `art.prefix` en `fighters.ts`):
+`src/systems/FighterArt.ts` resolves each **pose** to a frame in the character's atlas (`art.texture` + `art.prefix` in `fighters.ts`):
 
-- Frame único: `<prefijo><pose>`, por ejemplo `mayin-crouch`.
-- Animación: `<prefijo><pose>-0`, `-1`, … (12 fps).
-- Retrato opcional: `<prefijo>portrait`. Si no existe, se recorta la cara de `idle` (`art.face`).
-- El **pivot debe estar en los pies**. Los atlas JSON de TexturePacker con `pivot` lo aplican solos.
-- La escala se calcula para que `idle` mida `art.height` px.
+- Single frame: `<prefix><pose>`, for example `mayin-crouch`.
+- Animation: `<prefix><pose>-0`, `-1`, … (12 fps).
+- Optional portrait: `<prefix>portrait`. If missing, the face is cropped from `idle` (`art.face`).
+- The **pivot must be at the feet**. TexturePacker JSON atlases with `pivot` apply it automatically.
+- Scale is calculated so that `idle` measures `art.height` px.
 
 Poses: `idle walk walkBack crouch jump fall dash backdash punch kick crouchPunch sweep airPunch airKick special uppercut super hurt crouchHurt block crouchBlock knockdown down getup intro win ko`.
 
-El juego carga las hojas anime base y extra de cada personaje desde `public/assets/`, registradas en `src/systems/AnimeAtlas.ts`. Incluyen guardia, puño, patada, daño, pasos, salto, agachado, bloqueo, uppercut, patada aérea, victoria y caída. Las poses restantes usan la tabla `FALLBACK`.
+The game loads each character's base and extra anime sheets from `public/assets/`, registered in `src/systems/AnimeAtlas.ts`. They include guard, punch, kick, hurt, steps, jump, crouch, block, uppercut, air kick, win and fall. The remaining poses use the `FALLBACK` table.
 
-Para un atlas nuevo por personaje: cargarlo en `PreloadScene` (`this.load.atlas('mayin', ...)`) y cambiar `art: { texture: 'mayin', prefix: '' }`. Los proyectiles y efectos se dibujan por código (`entities/Projectile.ts`, `systems/Fx.ts`).
+For a new per-character atlas: load it in `PreloadScene` (`this.load.atlas('mayin', ...)`) and change to `art: { texture: 'mayin', prefix: '' }`. Projectiles and effects are drawn in code (`entities/Projectile.ts`, `systems/Fx.ts`).
 
 ## Audio
 
-| Archivo                                          | Uso                                                                                    |
-| ------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| `public/assets/audio/music/menu.mp3`             | Menús, selección de personaje y escenario, resultados e historia ("Instrumental Rock") |
-| `public/assets/audio/music/stage-sotano.mp3`     | El Último Trago ("Instrumental Blues")                                                 |
-| `public/assets/audio/music/stage-barrio.mp3`     | Barrio Bravo ("Midnight Rumble")                                                       |
-| `public/assets/audio/music/stage-festival.mp3`   | El Festival del Cerro                                                                  |
-| `public/assets/audio/music/stage-metro.mp3`      | Estación del Metro ("Neon Commuter")                                                   |
-| `public/assets/audio/music/stage-azotea.mp3`     | La Azotea del Ensayo ("Instrumental Rock")                                             |
-| `public/assets/audio/music/stage-tomate.mp3`     | La Feria del Tomate ("Andes de Piedra")                                                |
-| `public/assets/audio/music/stage-laboratorio.mp3` | El Laboratorio del Rock ("Neon Rocker")                                              |
-| `public/assets/audio/music/stage-tienda.mp3`     | La Tienda de Instrumentos ("Instrumental Box")                                         |
-| `public/assets/audio/music/boss-acople.mp3`      | Pelea final contra El Acople, en El Interior del Ampli ("Teeth in the Sink")           |
-| `public/assets/audio/music/stage-biblioteca.mp3` | La Biblioteca del Rock                                                                 |
-| `public/assets/audio/music/stage-arenal.mp3`     | El Arenal ("Oriental Rock")                                                            |
-| `public/assets/audio/music/stage-chino.mp3`      | El Barrio Chino ("Callejón del Club", de RockStreet)                                   |
-| `public/assets/audio/music/stage-mall.mp3`       | El Mall del Rock ("La Disquería", de RockStreet)                                       |
-| `public/assets/{punch,kick,swing}.wav`           | Efectos (generados por `scripts/audio.py`)                                             |
+| File                                              | Use                                                                         |
+| ------------------------------------------------- | --------------------------------------------------------------------------- |
+| `public/assets/audio/music/menu.mp3`              | Menus, character and stage select, results and story ("Instrumental Rock")  |
+| `public/assets/audio/music/stage-sotano.mp3`      | El Último Trago ("Instrumental Blues")                                      |
+| `public/assets/audio/music/stage-barrio.mp3`      | Barrio Bravo ("Midnight Rumble")                                            |
+| `public/assets/audio/music/stage-festival.mp3`    | El Festival del Cerro                                                       |
+| `public/assets/audio/music/stage-metro.mp3`       | Estación del Metro ("Neon Commuter")                                        |
+| `public/assets/audio/music/stage-azotea.mp3`      | La Azotea del Ensayo ("Instrumental Rock")                                  |
+| `public/assets/audio/music/stage-tomate.mp3`      | La Feria del Tomate ("Andes de Piedra")                                     |
+| `public/assets/audio/music/stage-laboratorio.mp3` | El Laboratorio del Rock ("Neon Rocker")                                     |
+| `public/assets/audio/music/stage-tienda.mp3`      | La Tienda de Instrumentos ("Instrumental Box")                              |
+| `public/assets/audio/music/boss-acople.mp3`       | Final fight against El Acople, in El Interior del Ampli ("Teeth in the Sink") |
+| `public/assets/audio/music/stage-biblioteca.mp3`  | La Biblioteca del Rock                                                      |
+| `public/assets/audio/music/stage-arenal.mp3`      | El Arenal ("Oriental Rock")                                                 |
+| `public/assets/audio/music/stage-chino.mp3`       | El Barrio Chino ("Callejón del Club", by RockStreet)                        |
+| `public/assets/audio/music/stage-mall.mp3`        | El Mall del Rock ("La Disquería", by RockStreet)                            |
+| `public/assets/audio/music/stage-casona.mp3`      | El Salón del Virrey ("La Coronación", by RockStreet)                        |
+| `public/assets/audio/music/stage-ciudadela.mp3`   | La Ciudadela del Sol ("Inca Rock Instrumental")                             |
+| `public/assets/audio/music/stage-jungla.mp3`      | La Jungla                                                                   |
+| `public/assets/audio/music/stage-estudio.mp3`     | El Show en Vivo                                                             |
+| `public/assets/{punch,kick,swing}.wav`            | Effects (generated by `scripts/audio.py`)                                   |
 
-Los tonos del anunciador e impactos se sintetizan con WebAudio (`systems/Audio.ts`).
+Announcer and impact tones are synthesized with WebAudio (`systems/Audio.ts`).
 
-## Aviso
+## Notice
 
-PG Fighters es una parodia hecha con cariño para la comunidad de Peru Guitar. Todos los personajes, nombres, historias y situaciones son ficticios. Cualquier parecido con personas reales, vivas o fallecidas, es pura coincidencia. Este juego no busca desprestigiar, ofender ni burlarse de nadie: es humor entre músicos, nada más. El aviso se muestra al abrir el juego (`scenes/DisclaimerScene.ts`) y en los créditos.
+PG Fighters is a parody made with love for the Peru Guitar community. All characters, names, stories and situations are fictional. Any resemblance to real people, living or dead, is pure coincidence. This game does not aim to discredit, offend or mock anyone: it is humor among musicians, nothing more. The notice is shown when the game opens (`scenes/DisclaimerScene.ts`) and in the credits.
 
-## Modo historia, cuenta y Firestore
+## Story mode, account and Firestore
 
-No hay login: al abrir el menú se conecta sola una cuenta anónima de Firebase Auth (proveedor _Anonymous_, activado en la consola) y la sesión queda en el navegador. La primera vez se pide el nickname, que es **único** (no lo puede tener otra cuenta) y **queda fijo para siempre**. Sin conexión (o con ESC) se juega arcade y entrenamiento; la historia vuelve a pedir la conexión. Cada partida (13 peleas: 12 amigos y El Acople) sortea 12 amigos al azar (sin repetir ni incluir al elegido) y termina con El Acople; el número está en `STORY_RIVALS` (`src/data/story.ts`), con una pista por amigo.
+A new account chooses how to connect in `scenes/LoginScene.ts`: **with Google** (progress stays in the Google account) or **as a guest** (a Firebase anonymous account whose progress lives only in that browser). A guest can later link Google and keep the same account (`systems/Ranking.ts`). An account then picks a nickname, which is mandatory, **unique** (no other account can have it) and **fixed forever**. Without a connection (or with ESC) you can play arcade and training; story mode asks for the connection again. Each run (13 fights: 12 friends and El Acople) draws 12 random friends (no repeats, excluding the chosen fighter) and ends with El Acople. The number is in `STORY_RIVALS` (`src/data/story.ts`), with one hint per friend.
 
-Cada cuenta guarda **una sola partida** de la historia: CONTINUAR HISTORIA la retoma directo, y NUEVA HISTORIA elige luchador y, si ya había partida, avisa que se borrará cualquier progreso actual.
+Each account keeps **one story run per fighter** (`systems/StoryRun.ts`).
 
-Firestore (proyecto `pg-fighters`) guarda tres colecciones:
+Firestore (project `pg-fighters`, rules in `firestore.rules`) keeps these collections:
 
-- `ranking/{uid}`: mejor puntaje de la cuenta (con el personaje con que lo hizo).
-- `progress/{uid}`: perfil de la cuenta, `{ name, run }`. La partida se borra al terminar la historia. Los formatos viejos (partida suelta o una por personaje) se convierten solos al leerlos: queda la última jugada. El desglose de la última pelea no se guarda (Firestore no acepta listas dentro de listas). Como la cuenta es anónima, borrar los datos del navegador o cambiar de equipo empieza una cuenta nueva. Si no se puede leer, la pantalla de conexión muestra el error y no deja seguir encima del perfil guardado.
-- `names/n_<NICKNAME>`: `{ uid, name }`, reserva del nickname (en mayúsculas). Se crea una vez y no se cambia ni se borra.
+- `ranking/<uid>_<fighter>`: one row per account and fighter, reflecting that fighter's story run.
+- `progress/{uid}`: account profile with the nickname and runs.
+- `names/n_<NICKNAME>`: `{ uid, name, createdAt }`, the nickname reservation. It is created once and never changed or deleted.
+- `analytics/{id}`: usage counters (`systems/Analytics.ts`), readable only by the admin in `dashboard.html`.
 
-Reglas necesarias (en la consola de Firebase, junto a las de `ranking`; sin ellas no se guarda el avance ni se puede elegir nickname):
-
-```
-match /progress/{uid} {
-  allow read, write: if request.auth != null && request.auth.uid == uid;
-}
-match /names/{name} {
-  allow read: if request.auth != null;
-  allow create: if request.auth != null && request.resource.data.uid == request.auth.uid;
-}
-```
-
-## Estructura
+## Structure
 
 ```
 src/
-  config.ts              resolución, suelo, paleta, fuentes, escenas, rondas
-  data/fighters.ts       roster y personajes
-  data/moves.ts          tiempos, daño, alcance, alturas y cadenas de cada golpe
-  entities/Fighter.ts    estados, física, lectura de movimientos (↓↘→), buffer, bloqueo, dash
-  entities/Cpu.ts        IA por dificultad (bloquea, antiaéreos, castiga, combos, súper)
-  entities/Projectile.ts poder
-  entities/GuitarSolo.ts solo de guitarra del súper (notas que golpean)
-  data/solos.ts          notas, tiempos y daño de cada solo
-  data/stages.ts         escenarios (nombre, imagen, música, color)
-  systems/StageArt.ts    fondo del escenario (imagen) o, si falta, uno dibujado por código
-  scenes/SuperCutInScene retrato del súper a pantalla completa
+  config.ts              resolution, ground, palette, fonts, scenes, rounds
+  data/fighters.ts       roster and characters
+  data/moves.ts          timing, damage, reach, heights and chains for each hit
+  entities/Fighter.ts    states, physics, motion input reading (↓↘→), buffer, block, dash
+  entities/Cpu.ts        AI by difficulty (blocks, anti-airs, punishes, combos, super)
+  entities/Projectile.ts power
+  entities/GuitarSolo.ts super's guitar solo (notes that hit)
+  data/solos.ts          notes, timing and damage for each solo
+  data/stages.ts         stages (name, image, music, color)
+  systems/StageArt.ts    stage background (image) or, if missing, one drawn in code
+  scenes/SuperCutInScene full-screen super portrait
   systems/               Input, Audio, Settings, FighterArt, Fx
-  scenes/                Boot, Preload, Title, Controls, Select, Versus, Fight, Hud, Pause, Results
-  ui/ui.ts               texto, menús, keycaps, fondos, transiciones
+  scenes/                Boot, Preload, Title, Login, NameEntry, Controls, Select, Versus, Fight, Hud, Pause, Results
+  ui/ui.ts               text, menus, keycaps, backgrounds, transitions
 ```
 
-En desarrollo, el juego queda en `window.game`.
+In development, the game is available at `window.game`.

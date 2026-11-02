@@ -1,15 +1,15 @@
-# Arte del roster: contrato para Claude
+# Roster art: contract for Claude
 
-Alcance: sólo recursos visuales, atlas y carga. ERP y Mayin conservan sus recursos originales. No editar combate, físicas, controles, hitboxes, daño, IA ni selección para incorporar este arte.
+Scope: visual resources, atlases and loading only. Don't edit combat, physics, controls, hitboxes, damage, AI or selection to incorporate this art.
 
-`RosterArt.ts` expone `preloadRosterArt(scene)` y `registerRosterArt(scene)`. La primera carga atlas y retratos. La segunda cambia únicamente `def.art.texture`, `prefix`, `placeholder` y `tint` para los personajes ya presentes. Conserva `art.height`, que también interviene en el combate actual.
+`RosterArt.ts` exposes `preloadRosterArt(scene)` and `registerRosterArt(scene)`. The first loads atlases and portraits. The second changes only `def.art.texture`, `prefix`, `placeholder` and `tint` for characters already present. It keeps `art.height`, which also affects current combat.
 
-Claves: `roster-<id>`, frames `<id>-<pose>` compatibles con `FighterArt.ts`, retratos `super-cutin-<id>` y frame `face`. Cada personaje vive en `public/assets/characters/<id>/`: fuentes generadas, atlas PNG/JSON, retrato RGBA 512×512 y metadatos de recorte/escala. `chantal` es el ID existente de Chantal.
+Keys: `roster-<id>`, frames `<id>-<pose>` compatible with `FighterArt.ts`, portraits `super-cutin-<id>` and frame `face`. Each character lives in `public/assets/characters/<id>/`: generated sources, PNG/JSON atlas, 512×512 RGBA portrait and crop/scale metadata. `chantal` is Chantal's existing ID.
 
-Las fuentes incluyen 20 figuras en la hoja principal: guardia, dos pasos, salto, agachado, puño, patada, especial, daño, bloqueo, puño agachado, barrida, puño aéreo, patada aérea, uppercut, caída, derrota, victoria, solo con guitarra y retrato. Una hoja complementaria aporta tres cuadros de dash, tres de backdash, levantarse, daño agachado y bloqueo agachado. Las poses de caminar atrás invierten los pasos existentes; caída aérea comparte salto; intro comparte guardia; suelo comparte derrota; agarre comparte el gesto de especial. Los ataques bajos conservan la secuencia visual guardia → golpe → guardia que utiliza el juego.
+The sources include 20 figures in the main sheet: guard, two steps, jump, crouch, punch, kick, special, hurt, block, crouching punch, sweep, air punch, air kick, uppercut, fall, defeat, victory, guitar solo and portrait. A supplemental sheet adds three dash frames, three backdash frames, get-up, crouching hurt and crouching block. Walk-back poses reverse the existing steps; air fall shares jump; intro shares guard; ground shares defeat; grab shares the special gesture. Low attacks keep the guard → hit → guard visual sequence the game uses.
 
-El empaquetador `scripts/package_roster_art.py` detecta las siluetas del alfa, extrae cada figura conservando sus píxeles, separa rectángulos contiguos y crea un atlas convencional de Phaser. No aplica eliminación de fondo, chroma key ni dibujos procedurales. Los pivotes se derivan de los pies. Los metadatos normalizan la resolución de las hojas de movimiento respecto a la guardia de cada personaje. Para regenerar: Python con Pillow, ejecutar el script con los IDs deseados.
+The packer `scripts/package_roster_art.py` detects silhouettes from alpha, extracts each figure keeping its pixels, separates contiguous rectangles and creates a conventional Phaser atlas. It applies no background removal, chroma key or procedural drawing. Pivots are derived from the feet. Metadata normalizes the resolution of movement sheets relative to each character's guard. To regenerate: Python with Pillow, run the script with the desired IDs.
 
-Las hojas son keyframes pintados para el sistema actual; no son animaciones dibujadas a 12 cuadros únicos por segundo. No cambiar sus duraciones ni mecánicas para utilizar este arte. Las estaturas jugables actuales se conservan; cualquier ajuste de `art.height` debe coordinarse con lógica porque afecta el alcance vertical actual.
+The sheets are keyframes painted for the current system; they are not animations drawn at 12 unique frames per second. Don't change their durations or mechanics to use this art. Current playable heights are kept; any `art.height` adjustment must be coordinated with logic because it affects the current vertical reach.
 
-Prompts y especificaciones de diseño: `public/assets/characters/generation-prompts.json`, `supplemental-prompts.json` y `repair-prompts.json`. Brief original: `BRIEF.md`. Estado de la entrega y verificaciones: `STATUS.md`.
+Design prompts and specs: `codex/assets/characters/` (for example `repair-prompts.json`).

@@ -139,7 +139,7 @@ export const artScale = (scene: Phaser.Scene, def: FighterDef) => {
   return def.art.height / (frame?.realHeight ?? 500);
 };
 
-/** Textura del retrato en busto (public/assets/portrait-<id>.png, mirando a la derecha), si existe. */
+/** Textura del retrato en busto (public/assets/characters/<id>/portrait.png, mirando a la derecha), si existe. */
 export const bustKey = (scene: Phaser.Scene, def: FighterDef): string | null => {
   const key = `super-cutin-${def.id}`;
   return scene.textures.exists(key) ? key : null;

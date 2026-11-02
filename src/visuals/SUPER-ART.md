@@ -1,39 +1,39 @@
-# Arte del súper (contrato para el agente de diseño)
+# Super art (contract for the design agent)
 
-## Assets integrados
+## Integrated assets
 
-- `public/assets/portrait-mayin.png` y `portrait-erp.png`: bustos transparentes compartidos entre la entrada del súper (imagen completa), el roster y el HUD (frame cuadrado `face`). Carga: `super-cutin-mayin` / `super-cutin-erp`.
-- `public/assets/super-mayin.png` y `super-erp.png`: cuatro sprites de cuerpo completo tocando guitarra, registrados como `mayin-super-0..3` / `erp-super-0..3`. Mayin lleva guitarra sunburst de cinco cuerdas; ERP guitarra negra con borde rojo. El renderer reproduce el blues a 6 fps y el shred a 12 fps. Cada frame se ancla al suelo y mantiene una escala corporal común. Tener estos frames desactiva automáticamente la guitarra provisional.
-- Generados con la herramienta integrada `imagegen`, usando las hojas base de cada personaje como referencia de diseño y estilo. Las notas y los efectos conservan su animación existente.
+- `public/assets/characters/<id>/portrait.png`: transparent busts shared by the super intro (full image), the roster and the HUD (square `face` frame). Load key: `super-cutin-<id>`.
+- `public/assets/super-mayin.png` and `super-erp.png`: four full-body sprites playing guitar, registered as `mayin-super-0..3` / `erp-super-0..3`. Mayin has a five-string sunburst guitar; ERP a black guitar with a red edge. The renderer plays the blues at 6 fps and the shred at 12 fps. Each frame anchors to the ground and keeps a common body scale. Having these frames automatically disables the placeholder guitar.
+- Generated with the built-in `imagegen` tool, using each character's base sheets as design and style reference. Notes and effects keep their existing animation.
 
-### Prompts de producción
+### Production prompts
 
-Portraits: un único busto hasta la cintura, tres cuartos mirando a la derecha, expresión segura, puños cerca del pecho, fondo transparente, contornos anime y sombreado cel. Conservar el diseño original del personaje (rostro, pelo, ropa y proporciones de su hoja base): Mayin gordito, lentes rectangulares, rulos cortos, barba corta y polo azul; ERP sin barba ni lentes, pelo castaño corto, polo negro y tatuaje ramificado en el antebrazo. Sin guitarra, texto, marco ni fondo. Usar el busto completo para el súper y recortar cabeza/hombros para iconos.
+Portraits: a single waist-up bust, three-quarter view facing right, confident expression, fists near the chest, transparent background, anime outlines and cel shading. Keep the character's original design (face, hair, clothes and proportions from the base sheet): Mayin chubby, rectangular glasses, short curls, short beard and blue polo; ERP with no beard or glasses, short brown hair, black polo and a branching forearm tattoo. No guitar, text, frame or background. Use the full bust for the super and crop head/shoulders for icons.
 
-Sprites: exactamente cuatro figuras de cuerpo completo en cuadrícula 2×2 transparente, mismo diseño y ropa de las hojas base, mirando a la derecha, guitarra completa dentro de cada celda, pies plantados y escala anatómica constante. Mayin toca guitarra eléctrica semi-hueca sunburst: preparación, rasgueo descendente, bend ascendente y acorde final. ERP toca guitarra eléctrica negra puntiaguda con borde rojo: preparación, downstroke rápido, tapping a dos manos y acorde final. Sin sombras de suelo, auras, texto ni paneles. Corrección de Mayin: cinco cuerdas y cinco clavijas en cada pose, tres arriba y dos abajo; conservar el resto de la hoja.
+Sprites: exactly four full-body figures in a transparent 2×2 grid, same design and clothes as the base sheets, facing right, full guitar inside each cell, feet planted and constant anatomical scale. Mayin plays a sunburst semi-hollow electric guitar: setup, downward strum, rising bend and final chord. ERP plays a pointy black electric guitar with a red edge: setup, fast downstroke, two-hand tapping and final chord. No ground shadows, auras, text or panels. Mayin correction: five strings and five tuning pegs in every pose, three on top and two below; keep the rest of the sheet.
 
-La lógica y las transiciones ya están hechas. Todo el arte de esta lista es **opcional**: mientras no exista, el juego usa marcadores dibujados por código. Basta con cargar cada archivo con la clave indicada; no hay que cambiar código de combate.
+Art under the keys below is optional: without it, the game uses markers drawn in code. Load each file with the given key; no combat code needs to change.
 
-## Secuencia
-1. **Retrato a pantalla completa** (`scenes/SuperCutInScene.ts`, unos 2,3 s): la pelea se congela, se oculta el HUD y entra el busto del personaje con el nombre del súper y su frase escribiéndose.
+## Sequence
+1. **Full-screen portrait** (`scenes/SuperCutInScene.ts`, about 2.3 s): the fight freezes, the HUD hides and the character's bust enters with the super's name and its quote typing out.
    - MAYINBLUES: "Hola amigo, ¿cómo estás?"
    - ERP: "Lenguaje mata shred."
-2. **Solo de guitarra** (`entities/GuitarSolo.ts`): se vuelve al escenario en penumbra con un foco. El personaje toca y las notas vuelan hacia el rival; algunas golpean y la última tumba.
-   - ERP: pasaje rápido de licks (shred), unos 2,5 s, con muchas notas pequeñas y veloces.
-   - MAYINBLUES: saca su guitarra de **5 cuerdas** y toca un blues, unos 2,5 s, con notas grandes y ondulantes.
+2. **Guitar solo** (`entities/GuitarSolo.ts`): back to the stage, dimmed, with a spotlight. The character plays and notes fly at the opponent; some hit and the last one knocks down.
+   - ERP: fast lick passage (shred), about 2.5 s, with many small, quick notes.
+   - MAYINBLUES: pulls out the **5-string** guitar and plays a blues, about 2.5 s, with big, wavy notes.
 
-## Claves de arte
-| Clave | Qué es | Notas |
+## Art keys
+| Key | What it is | Notes |
 |---|---|---|
-| `super-cutin-mayin`, `super-cutin-erp` | Busto/retrato para la pantalla completa | Textura suelta, fondo transparente, mirando a la derecha, unos 1000 px de alto. Se ancla abajo al centro. Para el lado derecho se refleja solo. |
-| `<prefijo>super` o `<prefijo>super-0..n` | Pose tocando la guitarra (cuerpo + guitarra) | Frames en el atlas del luchador (`pata-anime` / `edu-anime`, prefijos `mayin-` / `erp-`), pivot en los pies, 12 fps. **Si existe, no se dibuja la guitarra provisional.** |
-| `super-guitar-mayin`, `super-guitar-erp` | Guitarra sola (si no hay pose propia) | Textura suelta, mástil hacia la derecha, origen en el punto donde se sujeta. Mayin: 5 cuerdas, estilo blues. ERP: guitarra de shred. |
-| `super-note-mayin`, `super-note-erp` | Nota musical que vuela | Textura suelta de unos 64 px. Si no existe, se usan los caracteres ♪ ♫ ♬. |
+| `super-cutin-mayin`, `super-cutin-erp` | Bust/portrait for the full screen | Loose texture, transparent background, facing right, about 1000 px tall. Anchored bottom center. Mirrored automatically for the right side. |
+| `<prefix>super` or `<prefix>super-0..n` | Guitar-playing pose (body + guitar) | Frames in the fighter's atlas (`pata-anime` / `edu-anime`, prefixes `mayin-` / `erp-`), pivot at the feet, 12 fps. **If it exists, the placeholder guitar isn't drawn.** |
+| `super-guitar-mayin`, `super-guitar-erp` | Guitar alone (if there's no dedicated pose) | Loose texture, neck to the right, origin at the grip point. Mayin: 5 strings, blues style. ERP: shred guitar. |
+| `super-note-mayin`, `super-note-erp` | Flying musical note | Loose texture of about 64 px. If missing, the characters ♪ ♫ ♬ are used. |
 
-Los colores de acento salen de `color` en `data/fighters.ts` (Mayin azul, ERP rojo).
+Accent colors come from `color` in `data/fighters.ts` (Mayin blue, ERP red).
 
-## Cómo revisarlo
-Abre `/?sprites`: la pestaña SPRITES marca qué poses tienen arte propio, ANIMACIÓN → [S] muestra el retrato, y ENTRENAMIENTO → [8] lanza el súper completo.
+## How to review
+Open `/?sprites`: the SPRITES tab marks which poses have their own art, ANIMACIÓN → [S] shows the portrait, and ENTRENAMIENTO → [8] launches the full super.
 
-## Tiempos y daño
-Las notas del solo, cuáles golpean y su daño están en `data/solos.ts`. Una animación de `super-0..n` debería durar unos 2,5 s (lo que dura el solo) o hacer loop.
+## Timing and damage
+The solo's notes, which ones hit and their damage are in `data/solos.ts`. A `super-0..n` animation should last about 2.5 s (the length of the solo) or loop.

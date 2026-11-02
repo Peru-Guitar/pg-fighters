@@ -10,6 +10,11 @@ export interface ChangelogEntry {
 
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    version: '1.12.0',
+    date: '2026-11-02',
+    notes: ['Mejoras y arreglos.'],
+  },
+  {
     version: '1.11.1',
     date: '2026-10-23',
     notes: ['El menú de conexión se elige con las flechas y ENTER.', 'ESC en la pantalla de nickname vuelve a elegir cómo conectarte.'],
