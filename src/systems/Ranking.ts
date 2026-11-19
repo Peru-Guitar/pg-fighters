@@ -99,11 +99,13 @@ export const Ranking = {
   async signIn(): Promise<Player> {
     const { am, auth } = await connect();
     if (await this.init()) {
+      Analytics.identify(user!.uid);
       Analytics.visit();
       return user!;
     }
     const cred = await am.signInAnonymously(auth);
     user = toPlayer(cred.user);
+    Analytics.identify(user.uid);
     Analytics.newAccount();
     Analytics.visit();
     return user;
@@ -121,6 +123,7 @@ export const Ranking = {
       const cred = await am.linkWithPopup(current, new am.GoogleAuthProvider());
       await cred.user.reload();
       user = toPlayer(auth.currentUser ?? cred.user);
+      Analytics.login();
       return 'linked';
     } catch (e) {
       if ((e as { code?: string }).code !== 'auth/credential-already-in-use') throw e;
@@ -154,6 +157,8 @@ export const Ranking = {
     const cred = await am.signInWithCredential(auth, taken);
     taken = null;
     user = toPlayer(cred.user);
+    Analytics.identify(user.uid);
+    Analytics.login();
     return user;
   },
 

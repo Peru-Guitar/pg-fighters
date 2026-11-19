@@ -379,7 +379,7 @@ export class FightScene extends Phaser.Scene implements Arena {
     this.stats.hpLeft = this.p1.hp / this.p1.maxHp;
     this.scene.stop(SCENES.Hud);
     const d = this.data0;
-    if (!d.training && !d.lab) Analytics.fight(d.p1, d.p2, d.stage ?? 'barrio', d.story ? 'story' : 'versus');
+    if (!d.training && !d.lab) Analytics.fight(d.p1, d.p2, d.stage ?? 'barrio', d.story ? 'story' : 'versus', side === 0);
     if (this.data0.story) {
       // Historia: ganar libera al amigo (o derrota al jefe); perder lleva a ¿CONTINUAR?
       if (side === 0) {

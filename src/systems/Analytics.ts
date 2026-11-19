@@ -43,6 +43,10 @@ const today = () => {
   return { id: `day-${date}`, base: { type: 'day', date } };
 };
 
+/** Evento de Google Analytics (gtag solo existe en fighters.peruguitar.com; en local no hace nada). */
+const gtag = (...args: unknown[]) => (window as { gtag?: (...a: unknown[]) => void }).gtag?.(...args);
+const ga = (name: string, params: Record<string, string | number | boolean>) => gtag('event', name, params);
+
 const readSeen = (): { day?: string; week?: string; month?: string } => {
   try {
     return JSON.parse(localStorage.getItem(SEEN_KEY) ?? '{}');
@@ -77,8 +81,19 @@ export const Analytics = {
     }
   },
 
-  /** Pelea terminada: suma a los dos personajes, al escenario y al modo. */
-  fight(p1: FighterId, p2: FighterId, stage: StageId, mode: 'story' | 'versus'): void {
+  /** Jugador conectado: sus eventos en Google Analytics llevan su uid (`user_id`), así se ve quién jugó. */
+  identify(uid: string): void {
+    gtag('set', { user_id: uid });
+  },
+
+  /** Entró con su cuenta de Google (evento `login` en Google Analytics). */
+  login(): void {
+    ga('login', { method: 'Google' });
+  },
+
+  /** Pelea terminada: suma a los dos personajes, al escenario y al modo, y manda `fight_end` a Google Analytics. */
+  fight(p1: FighterId, p2: FighterId, stage: StageId, mode: 'story' | 'versus', won: boolean): void {
+    ga('fight_end', { fighter: p1, rival: p2, winner: won ? p1 : p2, stage, mode, won });
     const t = today();
     void add(t.id, t.base, (inc) => ({
       fights: inc(1),
