@@ -33,7 +33,19 @@
       html, body { margin: 0; height: 100%; background: #0b0a0e; overflow: hidden; }
       #game { width: 100%; height: 100%; }
     </style>
-    <!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "9df04bf0c026486795657225675fcfac"}'></script><!-- End Cloudflare Web Analytics -->
+    <!-- Google Analytics 4: only on the production domain. -->
+    <script>
+      if (location.hostname === "fighters.peruguitar.com") {
+        var ga = document.createElement("script");
+        ga.async = true;
+        ga.src = "https://www.googletagmanager.com/gtag/js?id=G-2XB9ZG878B";
+        document.head.appendChild(ga);
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { dataLayer.push(arguments); };
+        gtag("js", new Date());
+        gtag("config", "G-2XB9ZG878B");
+      }
+    </script>
   </head>
   <body>
     <div id="game"></div>
